@@ -138,7 +138,14 @@ Rule: The mech gains the skimmer special rule and gains +1 heat.
 Rule: Once per game, before rolling for heat effects, a mech with a coolant pod can reduce its total heat by 1d6.
 
 ## Weapon Profiles
-# Weapons
+
+### Mech Weapons
+
+### Vehicle Weapons
+
+### Infantry Weapons
+
+### Aerospace Weapons
 
 - [ ] AMS
 - [ ] ATM 12; Clan (Turret)
