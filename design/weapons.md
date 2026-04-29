@@ -1,0 +1,384 @@
+# Weapons
+
+_380 unique items_
+
+- [ ] AMS
+- [ ] ATM 12; Clan (Turret)
+- [ ] ATM 6; Clan (Turret)
+- [ ] Anti Missile System(ST)
+- [ ] Arrow IV; Inner Sphere (Split)
+- [ ] Auto Rifle
+- [ ] Auto-Rifle
+- [ ] Auto-Rifle (Modern, Generic)
+- [ ] Autocannon (Bearhunter Superheavy)
+- [ ] Autocannon (Semi-Portable)
+- [ ] Autocannon/10 Primitive
+- [ ] Autocannon/20 Primitive
+- [ ] Binary Laser (Blazer) Cannon
+- [ ] Bomb Bay
+- [ ] Bombast Laser; Inner Sphere (Turret)
+- [ ] CLAP Gauss Rifle(ST)
+- [ ] CLStreakSRM2 (IOS)
+- [ ] Chain Whip
+- [ ] Chainsaw
+- [ ] Clan AP Gauss Rifle
+- [ ] Clan ATM 12
+- [ ] Clan ATM 3
+- [ ] Clan ATM 6
+- [ ] Clan ATM 9
+- [ ] Clan Arrow IV
+- [ ] Clan ER Flamer
+- [ ] Clan ER Large Laser
+- [ ] Clan ER Large Pulse Laser
+- [ ] Clan ER Medium Laser
+- [ ] Clan ER Medium Pulse Laser
+- [ ] Clan ER Micro Laser
+- [ ] Clan ER PPC
+- [ ] Clan ER Small Laser
+- [ ] Clan ER Small Pulse Laser
+- [ ] Clan Flamer
+- [ ] Clan Gauss Rifle
+- [ ] Clan HAG/20
+- [ ] Clan HAG/30
+- [ ] Clan HAG/40
+- [ ] Clan Heavy Flamer
+- [ ] Clan Heavy Large Laser
+- [ ] Clan Heavy Machine Gun
+- [ ] Clan Heavy Medium Laser
+- [ ] Clan Heavy Small Laser
+- [ ] Clan Improved Gauss Rifle
+- [ ] Clan Improved Heavy Large Laser
+- [ ] Clan Improved Heavy Medium Laser
+- [ ] Clan Improved Heavy Small Laser
+- [ ] Clan LB 10-X AC
+- [ ] Clan LB 2-X AC
+- [ ] Clan LB 20-X AC
+- [ ] Clan LB 5-X AC
+- [ ] Clan LRM 10
+- [ ] Clan LRM 15
+- [ ] Clan LRM 20
+- [ ] Clan LRM 5
+- [ ] Clan Large Laser
+- [ ] Clan Large Pulse Laser
+- [ ] Clan Light Machine Gun
+- [ ] Clan Machine Gun
+- [ ] Clan Medium Laser
+- [ ] Clan Medium Pulse Laser
+- [ ] Clan Micro Pulse Laser
+- [ ] Clan Narc Missile Beacon
+- [ ] Clan Plasma Cannon
+- [ ] Clan ProtoMech AC/2
+- [ ] Clan ProtoMech AC/4
+- [ ] Clan ProtoMech AC/8
+- [ ] Clan Rotary AC/2
+- [ ] Clan Rotary AC/5
+- [ ] Clan SRM 2
+- [ ] Clan SRM 4
+- [ ] Clan SRM 6
+- [ ] Clan Small Laser
+- [ ] Clan Small Pulse Laser
+- [ ] Clan Streak LRM 10
+- [ ] Clan Streak LRM 15
+- [ ] Clan Streak LRM 20
+- [ ] Clan Streak LRM 5
+- [ ] Clan Streak SRM 2
+- [ ] Clan Streak SRM 4
+- [ ] Clan Streak SRM 6
+- [ ] Clan Talons
+- [ ] Clan Ultra AC/10
+- [ ] Clan Ultra AC/2
+- [ ] Clan Ultra AC/20
+- [ ] Clan Ultra AC/5
+- [ ] Clan iATM 12
+- [ ] Clan iATM 3
+- [ ] Clan iATM 6
+- [ ] Clan iATM 9
+- [ ] Cruise Missile 50
+- [ ] Enhanced LRM 10
+- [ ] Enhanced LRM 15
+- [ ] Enhanced LRM 5
+- [ ] Flamer (Heavy)
+- [ ] Flamer (Man-Pack)
+- [ ] Flamer (Man-Portable)
+- [ ] Flamer (Vehicle)
+- [ ] Flamer (Vehicle)(ST)
+- [ ] Flamer; Inner Sphere (Turret)
+- [ ] Gauss Cannon (Grand Mauler)
+- [ ] Gauss Rifle (Gungnir Heavy Support)
+- [ ] Gauss Rifle (Thunderstroke II)
+- [ ] Gauss Rifle (Tsunami Heavy)
+- [ ] Gauss Rifle, Light (David)
+- [ ] Gauss Rifle, Light (King David)
+- [ ] Gauss Rifle, Light (King David)(PT)
+- [ ] Gauss Rifle; Clan (Turret)
+- [ ] Gauss Rifle; Inner Sphere (Turret)
+- [ ] Gauss Submachine Gun
+- [ ] Gyrojet Rifle
+- [ ] Gyroslug Rifle
+- [ ] Heavy Gauss Rifle; Inner Sphere (Split)
+- [ ] Heavy Large Laser; Clan (Turret)
+- [ ] Heavy PPC; Inner Sphere (Turret)
+- [ ] Heavy Rifle; Inner Sphere (Turret)
+- [ ] Imperator AX-22 Assault Rifle
+- [ ] Improved Autocannon/5
+- [ ] Improved LRM 10
+- [ ] Improved LRM 15
+- [ ] Improved LRM 20
+- [ ] Improved Large Laser
+- [ ] Improved Large Pulse Laser
+- [ ] Improved SRM 6
+- [ ] Infantry Assault Rifle
+- [ ] Infantry Assault Rifle(PT):SIZE:10.0
+- [ ] Infantry Blazer Rifle
+- [ ] Infantry Bolt Action Rifle
+- [ ] Infantry Bolt Action Sniper Rifle
+- [ ] Infantry Clan ER Heavy Laser
+- [ ] Infantry Clan ER Micro Laser
+- [ ] Infantry Clan Gauss SMG
+- [ ] Infantry David Light Gauss Rifle
+- [ ] Infantry ER Laser
+- [ ] Infantry Gyroslug Rifle
+- [ ] Infantry Heavy Flamer
+- [ ] Infantry Heavy Laser
+- [ ] Infantry Heavy PPC
+- [ ] Infantry Heavy SRM
+- [ ] Infantry LRM
+- [ ] Infantry Laser Rifle
+- [ ] Infantry MG
+- [ ] Infantry One Shot MRM
+- [ ] Infantry Portable Autocannon
+- [ ] Infantry SRM
+- [ ] Infantry SRM Light
+- [ ] Infantry Semi-Portable PPC
+- [ ] Infantry Standard SRM
+- [ ] Infantry Standard SRM Inferno
+- [ ] Infantry Standard SRM:SIZE:1.0
+- [ ] Infantry Support Laser
+- [ ] Infantry Support Machine Gun
+- [ ] Infantry Support Pulse Laser
+- [ ] Infantry TAG
+- [ ] Infantry TK Assault Rifle
+- [ ] Infantry Zeus Heavy Rifle
+- [ ] Inner Sphere AC/10
+- [ ] Inner Sphere AC/2
+- [ ] Inner Sphere AC/20
+- [ ] Inner Sphere AC/5
+- [ ] Inner Sphere Arrow IV
+- [ ] Inner Sphere BattleMech Taser
+- [ ] Inner Sphere Blazer Cannon
+- [ ] Inner Sphere Bombast Laser
+- [ ] Inner Sphere Claw
+- [ ] Inner Sphere ER Flamer
+- [ ] Inner Sphere ER Large Laser
+- [ ] Inner Sphere ER Medium Laser
+- [ ] Inner Sphere ER PPC
+- [ ] Inner Sphere ER Small Laser
+- [ ] Inner Sphere Extended LRM 10
+- [ ] Inner Sphere Extended LRM 15
+- [ ] Inner Sphere Extended LRM 20
+- [ ] Inner Sphere Extended LRM 5
+- [ ] Inner Sphere Flail
+- [ ] Inner Sphere Flamer
+- [ ] Inner Sphere Gauss Rifle
+- [ ] Inner Sphere Hatchet
+- [ ] Inner Sphere Heavy Flamer
+- [ ] Inner Sphere Heavy Gauss Rifle
+- [ ] Inner Sphere Heavy Large Laser
+- [ ] Inner Sphere Heavy Machine Gun
+- [ ] Inner Sphere Heavy Medium Laser
+- [ ] Inner Sphere Heavy PPC
+- [ ] Inner Sphere Heavy Rifle
+- [ ] Inner Sphere Heavy Small Laser
+- [ ] Inner Sphere Improved Gauss Rifle
+- [ ] Inner Sphere Improved Heavy Gauss Rifle
+- [ ] Inner Sphere LB 10-X AC
+- [ ] Inner Sphere LB 2-X AC
+- [ ] Inner Sphere LB 20-X AC
+- [ ] Inner Sphere LB 5-X AC
+- [ ] Inner Sphere LRM 10
+- [ ] Inner Sphere LRM 15
+- [ ] Inner Sphere LRM 20
+- [ ] Inner Sphere LRM 5
+- [ ] Inner Sphere Lance
+- [ ] Inner Sphere Large Laser
+- [ ] Inner Sphere Large Pulse Laser
+- [ ] Inner Sphere Large VSP Laser
+- [ ] Inner Sphere Large Vibroblade
+- [ ] Inner Sphere Large X-Pulse Laser
+- [ ] Inner Sphere Light AC/2
+- [ ] Inner Sphere Light AC/5
+- [ ] Inner Sphere Light Gauss Rifle
+- [ ] Inner Sphere Light Machine Gun
+- [ ] Inner Sphere Light PPC
+- [ ] Inner Sphere Long Tom Cannon
+- [ ] Inner Sphere MML 3
+- [ ] Inner Sphere MML 5
+- [ ] Inner Sphere MML 7
+- [ ] Inner Sphere MML 9
+- [ ] Inner Sphere MRM 10
+- [ ] Inner Sphere MRM 20
+- [ ] Inner Sphere MRM 30
+- [ ] Inner Sphere MRM 40
+- [ ] Inner Sphere Machine Gun
+- [ ] Inner Sphere MagShot Gauss Rifle
+- [ ] Inner Sphere Medium Laser
+- [ ] Inner Sphere Medium Pulse Laser
+- [ ] Inner Sphere Medium VSP Laser
+- [ ] Inner Sphere Medium Vibroblade
+- [ ] Inner Sphere Medium X-Pulse Laser
+- [ ] Inner Sphere Narc Missile Beacon
+- [ ] Inner Sphere PPC
+- [ ] Inner Sphere Plasma Rifle
+- [ ] Inner Sphere RISC Hyper Laser
+- [ ] Inner Sphere Retractable Blade
+- [ ] Inner Sphere Rocket Launcher 10
+- [ ] Inner Sphere Rocket Launcher 15
+- [ ] Inner Sphere Rocket Launcher 20
+- [ ] Inner Sphere Rotary AC/2
+- [ ] Inner Sphere Rotary AC/5
+- [ ] Inner Sphere SRM 2
+- [ ] Inner Sphere SRM 4
+- [ ] Inner Sphere SRM 6
+- [ ] Inner Sphere Silver Bullet Gauss Rifle
+- [ ] Inner Sphere Small Laser
+- [ ] Inner Sphere Small Pulse Laser
+- [ ] Inner Sphere Small VSP Laser
+- [ ] Inner Sphere Small Vibroblade
+- [ ] Inner Sphere Small X-Pulse Laser
+- [ ] Inner Sphere Sniper Cannon
+- [ ] Inner Sphere Snub-Nose PPC
+- [ ] Inner Sphere Streak SRM 2
+- [ ] Inner Sphere Streak SRM 4
+- [ ] Inner Sphere Streak SRM 6
+- [ ] Inner Sphere Sword
+- [ ] Inner Sphere Thumper Cannon
+- [ ] Inner Sphere Thunderbolt 10
+- [ ] Inner Sphere Thunderbolt 15
+- [ ] Inner Sphere Thunderbolt 20
+- [ ] Inner Sphere Thunderbolt 5
+- [ ] Inner Sphere Ultra AC/10
+- [ ] Inner Sphere Ultra AC/2
+- [ ] Inner Sphere Ultra AC/20
+- [ ] Inner Sphere Ultra AC/5
+- [ ] Inner Sphere Wrecking Ball
+- [ ] Inner Sphere iNarc Launcher
+- [ ] LB 20-X AC; Inner Sphere (Split)
+- [ ] LRM 15(ST)
+- [ ] LRM 15; Clan (Turret)
+- [ ] LRM 20; Clan (Turret)
+- [ ] LRM 20; Inner Sphere (Turret)
+- [ ] LRM Launcher (Corean Farshot)
+- [ ] LRM Launcher (FarShot)
+- [ ] Large Chem Laser
+- [ ] Large Chemical Laser
+- [ ] Large Laser; Clan (Turret)
+- [ ] Large Laser; Inner Sphere (Turret)
+- [ ] Large Re-engineered Laser
+- [ ] Laser (Hellbore Assault)
+- [ ] Laser Pistol (Blazer)
+- [ ] Laser Pistol (Sunbeam)
+- [ ] Laser Rifle
+- [ ] Laser Rifle (Blazer)
+- [ ] Laser Rifle (ER [Sunbeam Starfire])
+- [ ] Laser Rifle (ER)
+- [ ] Laser Rifle (Ebony Assault)
+- [ ] Laser Rifle (Federated-Barrett M61A)
+- [ ] Laser Rifle (Intek)
+- [ ] Laser Rifle (Magna)
+- [ ] Laser Rifle (Marx XX)
+- [ ] Laser Rifle (Mauser 1200 LSS)
+- [ ] Laser Rifle (Mauser 960)
+- [ ] Laser Rifle (Mauser IIC IAS)
+- [ ] Laser Rifle (Maxell PL-10)
+- [ ] Light Machine Gun (ST)
+- [ ] Light Machine Gun(ST)
+- [ ] Light PPC; Inner Sphere (Turret)
+- [ ] Long Tom
+- [ ] MML 3; Inner Sphere (Turret)
+- [ ] MML 7; Inner Sphere (Turret)
+- [ ] Mace
+- [ ] Machine Gun (Light)(PT)
+- [ ] Machine Gun (Portable)
+- [ ] Machine Gun (Semi-Portable):SIZE:1.0
+- [ ] Machine Gun (Support)
+- [ ] Machine Gun (Support)(PT)
+- [ ] Machine Gun(ST)
+- [ ] Magshot GR(ST)
+- [ ] Medium Chemical Laser(ST)
+- [ ] Medium Laser(ST)
+- [ ] Medium Laser; Clan (Turret)
+- [ ] Medium Laser; Inner Sphere (Armored)
+- [ ] Medium Laser; Inner Sphere (Turret)
+- [ ] Medium Pulse Laser; Clan (Turret)
+- [ ] Medium Re-engineered Laser
+- [ ] Medium Rifle
+- [ ] Medium X-Pulse Laser; Inner Sphere (Armored)
+- [ ] Medium X-Pulse Laser; Inner Sphere (Turret)
+- [ ] Micro Pulse Laser; Clan (Turret)
+- [ ] Narc; Clan (I-OS)
+- [ ] Needler Rifle
+- [ ] Needler Rifle (M&G Flechette)
+- [ ] Needler Rifle (Shredder Heavy)
+- [ ] PPC Capacitor; Inner Sphere (Armored)
+- [ ] PPC; Clan (Turret)
+- [ ] PPC; Inner Sphere (Armored)
+- [ ] PPC; Inner Sphere (Turret)
+- [ ] Particle Cannon (Semi-Portable)
+- [ ] Plasma Rifle (Man-Portable)
+- [ ] Plasma Rifle; Inner Sphere (Turret)
+- [ ] Primitive Prototype PPC
+- [ ] Pulse Laser Rifle
+- [ ] Recoilless Rifle (Heavy)
+- [ ] Rifle (Bolt-Action)
+- [ ] Rifle (Cannon, Heavy)
+- [ ] Rifle (Cannon, Heavy); Inner Sphere (Turret)
+- [ ] Rifle (Cannon, Light)
+- [ ] Rifle (Cannon, Medium)
+- [ ] Rifle (Federated Long)
+- [ ] Rifle (Federated-Barrett M42B)
+- [ ] Rifle (Imperator AX-22 Assault)
+- [ ] Rifle (M&G G-150)
+- [ ] Rifle (Makeshift)
+- [ ] Rifle (Sniper)
+- [ ] Rifle (TK Assault)
+- [ ] Rifle (Zeus Heavy)
+- [ ] SRM 2 IOS
+- [ ] SRM 2 OS
+- [ ] SRM 2(ST)
+- [ ] SRM 2; Clan (IOS)
+- [ ] SRM 4 IOS
+- [ ] SRM 4(ST)
+- [ ] SRM 4; Clan (IOS)
+- [ ] SRM 4; Clan (Turret)
+- [ ] SRM 4; Inner Sphere (OS)
+- [ ] SRM 6 IOS
+- [ ] SRM 6 OS
+- [ ] SRM 6; Clan (IOS)
+- [ ] SRM 6; Clan (Turret)
+- [ ] SRM Launcher (Hvy, One-Shot)
+- [ ] SRM Launcher (Light)
+- [ ] SRM Launcher (Std, Two-Shot)
+- [ ] Small Laser(ST)
+- [ ] Small Pulse Laser(ST)
+- [ ] Small Re-engineered Laser
+- [ ] Sniper Artillery
+- [ ] Sniper Rifle (Bolt Action)
+- [ ] Sniper Rifle (Hammel Marksman)
+- [ ] Snub Nosed PPC
+- [ ] Streak SRM 2 IOS
+- [ ] Streak SRM 2 OS
+- [ ] Streak SRM 2; Clan (IOS)
+- [ ] Streak SRM 4; Clan (IOS)
+- [ ] Streak SRM 4; Clan (OS)
+- [ ] Support Laser
+- [ ] Support Laser (ER, IS)
+- [ ] Support Laser (Heavy)
+- [ ] Support Laser (Semi-Portable)
+- [ ] Support Laser:SIZE:2.0
+- [ ] Support PPC (Snub-Nose)
+- [ ] Support Pulse Laser
+- [ ] Thumper Artillery
+- [ ] Ultra AC 5 Prototype
+- [ ] Vehicle Flamer
+- [ ] i Narc Explosive Pods
+- [ ] index

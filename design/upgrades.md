@@ -1,0 +1,60 @@
+# Upgrades
+
+_56 unique items_
+
+- [ ] 2 Compact Heat Sinks
+- [ ] Angel ECM Suite; Inner Sphere (Armored)
+- [ ] Artemis IV FCS; Clan (Turret)
+- [ ] Artemis IV FCS; Inner Sphere (Turret)
+- [ ] Bloodhound Active Probe; Inner Sphere (Armored)
+- [ ] Chameleon Light Polarization Shield
+- [ ] Clan AES
+- [ ] Clan Active Probe
+- [ ] Clan Angel ECM Suite
+- [ ] Clan Artemis IV FCS
+- [ ] Clan Artemis V FCS
+- [ ] Clan CASE
+- [ ] Clan CASE II
+- [ ] Clan Double Heat Sink
+- [ ] Clan ECM Suite
+- [ ] Clan Laser Heat Sink
+- [ ] Clan Light Active Probe
+- [ ] Clan MASC
+- [ ] Clan Partial Wing
+- [ ] Clan Supercharger
+- [ ] Clan Targeting Computer
+- [ ] Clan UMU
+- [ ] Clan Watchdog CEWS
+- [ ] Coolant Pod ; Clan (Armored)
+- [ ] Ferro-Fibrous Prototype
+- [ ] Industrial TSM
+- [ ] Inner Sphere AES
+- [ ] Inner Sphere Angel ECM Suite
+- [ ] Inner Sphere Apollo FCS
+- [ ] Inner Sphere Artemis IV FCS
+- [ ] Inner Sphere Beagle Active Probe
+- [ ] Inner Sphere Bloodhound Active Probe
+- [ ] Inner Sphere Boosted C3 Master
+- [ ] Inner Sphere Boosted C3 Slave
+- [ ] Inner Sphere C3 Computer (Master)
+- [ ] Inner Sphere C3 Computer (Slave)
+- [ ] Inner Sphere CASE
+- [ ] Inner Sphere CASE II
+- [ ] Inner Sphere Chameleon LPS
+- [ ] Inner Sphere Double Heat Sink
+- [ ] Inner Sphere Guardian ECM Suite
+- [ ] Inner Sphere Improved C3 Computer
+- [ ] Inner Sphere MASC
+- [ ] Inner Sphere Mechanical Jump Booster
+- [ ] Inner Sphere Null Signature System
+- [ ] Inner Sphere Partial Wing
+- [ ] Inner Sphere Supercharger
+- [ ] Inner Sphere Targeting Computer
+- [ ] Inner Sphere UMU
+- [ ] Jump Booster
+- [ ] Mek Null Signature System
+- [ ] Mek Void Signature System
+- [ ] Spikes
+- [ ] Supercharger ; Inner Sphere (Armored)
+- [ ] Supercharger; Inner Sphere (Armored)
+- [ ] Tank Cockpit Command Console

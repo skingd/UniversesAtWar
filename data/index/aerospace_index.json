@@ -69,8 +69,7 @@
     "model": "C",
     "mul_id": 1336,
     "raw_equipment_refs": [
-      "ISStreakSRM4",
-      "IS Streak SRM 4 Ammo"
+      "ISStreakSRM4"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -90,8 +89,7 @@
     "model": "D",
     "mul_id": 1337,
     "raw_equipment_refs": [
-      "MRM 10",
-      "IS MRM 10 Ammo"
+      "MRM 10"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -111,8 +109,7 @@
     "model": "",
     "mul_id": 1334,
     "raw_equipment_refs": [
-      "SRM 6",
-      "IS Ammo SRM-6"
+      "SRM 6"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -133,9 +130,7 @@
     "mul_id": 1443,
     "raw_equipment_refs": [
       "Autocannon/10",
-      "SRM 2",
-      "IS Ammo AC/10",
-      "IS Ammo SRM-2"
+      "SRM 2"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -158,10 +153,7 @@
       "PPC",
       "LRM 10",
       "LRM 10",
-      "Machine Gun",
-      "IS Ammo LRM-10",
-      "IS Ammo LRM-10",
-      "IS Machine Gun Ammo - Half"
+      "Machine Gun"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -183,10 +175,7 @@
     "raw_equipment_refs": [
       "Autocannon/10",
       "SRM 4",
-      "SRM 4",
-      "IS Ammo AC/10",
-      "IS Ammo SRM-4",
-      "IS Ammo SRM-4"
+      "SRM 4"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -208,10 +197,7 @@
     "raw_equipment_refs": [
       "ISLightGaussRifle",
       "ISStreakSRM4",
-      "ISStreakSRM4",
-      "IS Light Gauss Ammo",
-      "IS Light Gauss Ammo",
-      "IS Streak SRM 4 Ammo"
+      "ISStreakSRM4"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -235,9 +221,7 @@
       "Medium Laser",
       "Medium Laser",
       "Medium Laser",
-      "Medium Laser",
-      "IS Ultra AC/10 Ammo",
-      "IS Ultra AC/10 Ammo"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -259,10 +243,7 @@
     "raw_equipment_refs": [
       "Autocannon/10",
       "SRM 4",
-      "SRM 4",
-      "IS Ammo AC/10",
-      "IS Ammo SRM-4",
-      "IS Ammo SRM-4"
+      "SRM 4"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -304,8 +285,7 @@
     "model": "Angel (Upgrade)",
     "mul_id": 1871,
     "raw_equipment_refs": [
-      "ISStreakSRM2",
-      "IS Streak SRM 2 Ammo"
+      "ISStreakSRM2"
     ],
     "raw_quirks": [],
     "role": "Interceptor",
@@ -325,8 +305,7 @@
     "model": "Angel",
     "mul_id": 1870,
     "raw_equipment_refs": [
-      "SRM 4",
-      "IS Ammo SRM-4"
+      "SRM 4"
     ],
     "raw_quirks": [],
     "role": "Interceptor",
@@ -346,8 +325,7 @@
     "model": "Comet",
     "mul_id": 1872,
     "raw_equipment_refs": [
-      "SRM 4",
-      "IS Ammo SRM-4"
+      "SRM 4"
     ],
     "raw_quirks": [],
     "role": "Interceptor",
@@ -410,8 +388,7 @@
     "model": "Owl",
     "mul_id": 1873,
     "raw_equipment_refs": [
-      "SRM 4",
-      "IS Ammo SRM-4"
+      "SRM 4"
     ],
     "raw_quirks": [],
     "role": "Interceptor",
@@ -431,8 +408,7 @@
     "model": "Suzume ('Sparrow')",
     "mul_id": 1876,
     "raw_equipment_refs": [
-      "LRM 5",
-      "IS Ammo LRM-5"
+      "LRM 5"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -474,8 +450,7 @@
     "model": "(LB-X)",
     "mul_id": 2151,
     "raw_equipment_refs": [
-      "ISLBXAC20",
-      "IS LB 20-X Cluster Ammo"
+      "ISLBXAC20"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -498,8 +473,7 @@
       "SRM 6",
       "SRM 6",
       "SRM 6",
-      "SRM 6",
-      "IS Ammo SRM-6"
+      "SRM 6"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -519,8 +493,7 @@
     "model": "",
     "mul_id": 2154,
     "raw_equipment_refs": [
-      "Autocannon/20",
-      "IS Ammo AC/20"
+      "Autocannon/20"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -542,8 +515,7 @@
     "raw_equipment_refs": [
       "LRM 5",
       "LRM 5",
-      "LRM 5",
-      "IS Ammo LRM-5"
+      "LRM 5"
     ],
     "raw_quirks": [],
     "role": "Fire Support",
@@ -566,8 +538,7 @@
       "LRM 5",
       "ISArtemisIV",
       "LRM 5",
-      "ISArtemisIV",
-      "IS Ammo LRM-5 Artemis-capable"
+      "ISArtemisIV"
     ],
     "raw_quirks": [],
     "role": "Fire Support",
@@ -589,9 +560,7 @@
     "raw_equipment_refs": [
       "SRM 2",
       "LRM 5",
-      "LRM 5",
-      "IS Ammo SRM-2",
-      "IS Ammo LRM-5"
+      "LRM 5"
     ],
     "raw_quirks": [],
     "role": "Fire Support",
@@ -614,9 +583,7 @@
       "Machine Gun",
       "Machine Gun",
       "SRM 4",
-      "SRM 4",
-      "IS Machine Gun Ammo - Half",
-      "IS Ammo SRM-4"
+      "SRM 4"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -638,9 +605,7 @@
     "raw_equipment_refs": [
       "SRM 2",
       "LRM 5",
-      "LRM 5",
-      "IS Ammo SRM-2",
-      "IS Ammo LRM-5"
+      "LRM 5"
     ],
     "raw_quirks": [],
     "role": "Fire Support",
@@ -664,8 +629,7 @@
     "raw_equipment_refs": [
       "ISSRM6OS",
       "Autocannon/5",
-      "Autocannon/5",
-      "IS Ammo AC/5"
+      "Autocannon/5"
     ],
     "raw_quirks": [],
     "role": "None",
@@ -709,8 +673,7 @@
       "SRM 4",
       "RefuelingDrogue",
       "Advanced Fire Control",
-      "Armored Chassis",
-      "IS Ammo SRM-4"
+      "Armored Chassis"
     ],
     "raw_quirks": [],
     "role": "None",
@@ -738,11 +701,7 @@
       "ISAntiMissileSystem",
       "ISAntiMissileSystem",
       "Advanced Fire Control",
-      "Armored Chassis",
-      "IS Ammo SRM-4",
-      "ISAMS Ammo",
-      "ISAMS Ammo",
-      "ISAMS Ammo"
+      "Armored Chassis"
     ],
     "raw_quirks": [],
     "role": "None",
@@ -776,7 +735,6 @@
       "CLCASE",
       "CLCASE",
       "CLMediumChemLaserAmmo",
-      "CLAPGaussRifle Ammo",
       "CLCASE",
       "CLCASE",
       "CLCASE"
@@ -814,12 +772,7 @@
       "CLLargePulseLaser",
       "CLLargePulseLaser",
       "CLERSmallLaser",
-      "CLERSmallLaser",
-      "Clan Ammo LRM-15 (Clan) Artemis-capable",
-      "Clan Ammo LRM-15 (Clan) Artemis-capable",
-      "Clan Ammo LRM-15 (Clan) Artemis-capable",
-      "Clan Ammo LRM-15 (Clan) Artemis-capable",
-      "Clan Ammo SRM-6 (Clan) Artemis-capable"
+      "CLERSmallLaser"
     ],
     "raw_quirks": [],
     "role": "Fire Support",
@@ -854,12 +807,7 @@
       "CLERLargeLaser",
       "CLERLargeLaser",
       "CLERSmallLaser",
-      "CLERSmallLaser",
-      "Clan Ammo LRM-15 (Clan) Artemis-capable",
-      "Clan Ammo LRM-15 (Clan) Artemis-capable",
-      "Clan Ammo LRM-15 (Clan) Artemis-capable",
-      "Clan Ammo LRM-15 (Clan) Artemis-capable",
-      "Clan Streak SRM 4 Ammo"
+      "CLERSmallLaser"
     ],
     "raw_quirks": [],
     "role": "Fire Support",
@@ -886,8 +834,7 @@
       "CLSRM6:OMNI",
       "CLERMediumLaser:OMNI",
       "CLSRM6:OMNI",
-      "CLSRM6:OMNI",
-      "Clan Ammo SRM-6:OMNI"
+      "CLSRM6:OMNI"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -932,14 +879,7 @@
     "mul_id": 7661,
     "raw_equipment_refs": [
       "CLRotaryAC5:OMNI",
-      "CLRotaryAC5:OMNI",
-      "CLRotaryAC5 Ammo:OMNI",
-      "CLRotaryAC5 Ammo:OMNI",
-      "CLRotaryAC5 Ammo:OMNI",
-      "CLRotaryAC5 Ammo:OMNI",
-      "CLRotaryAC5 Ammo:OMNI",
-      "CLRotaryAC5 Ammo:OMNI",
-      "CLRotaryAC5 Ammo:OMNI"
+      "CLRotaryAC5:OMNI"
     ],
     "raw_quirks": [],
     "role": "Fire Support",
@@ -965,9 +905,6 @@
       "CLArtemisV:OMNI",
       "CLLRM15:OMNI",
       "CLArtemisV:OMNI",
-      "Clan Ammo LRM-15 (Clan) Artemis V-capable:OMNI",
-      "Clan Ammo LRM-15 (Clan) Artemis V-capable:OMNI",
-      "Clan Ammo LRM-15 (Clan) Artemis V-capable:OMNI",
       "Coolant Pod:OMNI",
       "Coolant Pod:OMNI"
     ],
@@ -999,9 +936,7 @@
       "CLArtemisIV:OMNI",
       "CLSmallPulseLaser:OMNI",
       "CLERMediumLaser:OMNI",
-      "CLERMediumLaser:OMNI",
-      "Clan Ammo LRM-15 (Clan) Artemis-capable:OMNI",
-      "Clan Ammo LRM-15 (Clan) Artemis-capable:OMNI"
+      "CLERMediumLaser:OMNI"
     ],
     "raw_quirks": [
       "combat_computer",
@@ -1034,9 +969,7 @@
       "CLStreakSRM4",
       "Medium Laser",
       "CLStreakSRM4",
-      "CLStreakSRM4",
-      "Clan Streak SRM 4 Ammo",
-      "Clan Streak SRM 4 Ammo"
+      "CLStreakSRM4"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -1059,7 +992,6 @@
       "CLERLargeLaser",
       "CLERSmallLaser",
       "CLLRM10",
-      "Clan Ammo LRM-10",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -1084,8 +1016,6 @@
       "CLLRM10:OMNI",
       "CLLRM10:OMNI",
       "CLERMediumLaser:OMNI",
-      "Clan Ammo LRM-10:OMNI",
-      "Clan Ammo LRM-10:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -1143,7 +1073,6 @@
       "CLERSmallLaser:OMNI",
       "CLERSmallLaser:OMNI",
       "CLERSmallLaser:OMNI",
-      "Clan ProtoMech AC/8 Ammo:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -1197,9 +1126,7 @@
       "ISERMediumLaser:OMNI",
       "ISERMediumLaser:OMNI",
       "ISERMediumLaser:OMNI",
-      "ISERMediumLaser:OMNI",
-      "IS Ultra AC/10 Ammo:OMNI",
-      "IS Ultra AC/10 Ammo:OMNI"
+      "ISERMediumLaser:OMNI"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -1247,9 +1174,7 @@
       "CLImprovedHeavyLargeLaser:OMNI",
       "MRM 30:OMNI",
       "ISApollo:OMNI",
-      "CLECMSuite:OMNI",
-      "IS MRM 30 Ammo:OMNI",
-      "IS MRM 30 Ammo:OMNI"
+      "CLECMSuite:OMNI"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -1277,10 +1202,7 @@
       "CLArtemisIV:OMNI",
       "CLMediumPulseLaser:OMNI",
       "CLSRM6:OMNI",
-      "CLArtemisIV:OMNI",
-      "Clan Ammo SRM-6 (Clan) Artemis-capable:OMNI",
-      "Clan Ammo SRM-6 (Clan) Artemis-capable:OMNI",
-      "Clan Ammo SRM-6 (Clan) Artemis-capable:OMNI"
+      "CLArtemisIV:OMNI"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -1306,11 +1228,7 @@
       "CLERSmallLaser:OMNI",
       "CLERSmallLaser:OMNI",
       "CLLRM20:OMNI",
-      "CLLRM20:OMNI",
-      "Clan Ammo LRM-20:OMNI",
-      "Clan Ammo LRM-20:OMNI",
-      "Clan Ammo LRM-20:OMNI",
-      "Clan Ammo LRM-20:OMNI"
+      "CLLRM20:OMNI"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -1333,8 +1251,7 @@
       "CLLRM10:OMNI",
       "CLERLargeLaser:OMNI",
       "CLERLargeLaser:OMNI",
-      "CLERMediumLaser:OMNI",
-      "Clan Ammo LRM-10:OMNI"
+      "CLERMediumLaser:OMNI"
     ],
     "raw_quirks": [
       "atmo_instability"
@@ -1359,8 +1276,7 @@
       "CLLBXAC5",
       "CLActiveProbe",
       "CLERLargeLaser",
-      "CLERLargeLaser",
-      "Clan LB 5-X Cluster Ammo"
+      "CLERLargeLaser"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -1409,9 +1325,7 @@
       "CLStreakSRM6:OMNI",
       "CLStreakSRM6:OMNI",
       "CLStreakSRM6:OMNI",
-      "CLStreakSRM6:OMNI",
-      "Clan Streak SRM 6 Ammo:OMNI",
-      "Clan Streak SRM 6 Ammo:OMNI"
+      "CLStreakSRM6:OMNI"
     ],
     "raw_quirks": [],
     "role": "Fire Support",
@@ -1435,9 +1349,7 @@
       "CLERPPC:OMNI",
       "PPC Capacitor:OMNI",
       "CLERPPC:OMNI",
-      "PPC Capacitor:OMNI",
-      "CLRotaryAC5 Ammo:OMNI",
-      "CLRotaryAC5 Ammo:OMNI"
+      "PPC Capacitor:OMNI"
     ],
     "raw_quirks": [],
     "role": "Fire Support",
@@ -1464,10 +1376,7 @@
       "CLImprovedMediumHeavyLaser:OMNI",
       "CLImprovedMediumHeavyLaser:OMNI",
       "CLImprovedMediumHeavyLaser:OMNI",
-      "CLImprovedMediumHeavyLaser:OMNI",
-      "Clan Ammo ATM-9:OMNI",
-      "Clan Ammo ATM-9:OMNI",
-      "Clan Ammo ATM-9:OMNI"
+      "CLImprovedMediumHeavyLaser:OMNI"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -1488,10 +1397,6 @@
     "mul_id": 4883,
     "raw_equipment_refs": [
       "CLUltraAC20:OMNI",
-      "Clan Ultra AC/20 Ammo:OMNI",
-      "Clan Ultra AC/20 Ammo:OMNI",
-      "Clan Ultra AC/20 Ammo:OMNI",
-      "Clan Ultra AC/20 Ammo:OMNI",
       "CLERMediumLaser:OMNI",
       "CLERMediumLaser:OMNI",
       "CLERMediumLaser:OMNI",
@@ -1531,13 +1436,9 @@
       "ImprovedLargePulseLaser",
       "Improved LRM 20",
       "ISMediumPulseLaser",
-      "IS Ammo AC/20",
-      "IS Ammo AC/20",
       "ClanImprovedLRM20Ammo",
       "ClanImprovedLRM20Ammo",
       "ClanImprovedLRM20Ammo",
-      "IS Ammo AC/20",
-      "IS Ammo AC/20",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -1614,8 +1515,7 @@
       "RL10",
       "RL10",
       "RL10",
-      "RL10",
-      "IS Light Machine Gun Ammo - Half"
+      "RL10"
     ],
     "raw_quirks": [],
     "role": "None",
@@ -1640,8 +1540,7 @@
       "RL15",
       "RL15",
       "RL15",
-      "RL15",
-      "IS Light Machine Gun Ammo - Half"
+      "RL15"
     ],
     "raw_quirks": [],
     "role": "None",
@@ -1666,8 +1565,7 @@
       "RL10",
       "RL10",
       "RL20",
-      "RL20",
-      "IS Light Machine Gun Ammo - Half"
+      "RL20"
     ],
     "raw_quirks": [],
     "role": "None",
@@ -1690,9 +1588,7 @@
       "Large Laser",
       "SRM 2",
       "ISStreakSRM4",
-      "ISStreakSRM4",
-      "IS Ammo SRM-2",
-      "IS Streak SRM 4 Ammo"
+      "ISStreakSRM4"
     ],
     "raw_quirks": [],
     "role": "None",
@@ -1716,10 +1612,7 @@
       "Machine Gun",
       "Machine Gun",
       "LRM 10",
-      "LRM 10",
-      "IS Machine Gun Ammo - Half",
-      "IS Ammo LRM-10",
-      "IS Ammo LRM-10"
+      "LRM 10"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -1743,10 +1636,7 @@
       "Machine Gun",
       "Machine Gun",
       "LRM 10",
-      "LRM 10",
-      "IS Machine Gun Ammo - Half",
-      "IS Ammo LRM-10",
-      "IS Ammo LRM-10"
+      "LRM 10"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -1802,9 +1692,6 @@
       "ISERLargeLaser",
       "ISERLargeLaser",
       "ISMediumPulseLaser",
-      "IS Ammo LRM-15 Artemis-capable",
-      "IS Ammo LRM-15 Artemis-capable",
-      "IS Ammo LRM-15 Artemis-capable",
       "ImprovedShieldedAeroSRCS"
     ],
     "raw_quirks": [],
@@ -1879,10 +1766,6 @@
       "ISLargeVSPLaser",
       "ISUltraAC10",
       "ISLargeVSPLaser",
-      "IS Ultra AC/10 Ammo",
-      "IS Ultra AC/10 Ammo",
-      "IS Ultra AC/10 Ammo",
-      "IS Ultra AC/10 Ammo",
       "ImprovedSmartRoboticControlSystem"
     ],
     "raw_quirks": [],
@@ -1964,11 +1847,7 @@
       "ISERLargeLaser",
       "ISERLargeLaser",
       "Small Laser",
-      "Small Laser",
-      "IS Ammo LRM-15 Artemis-capable",
-      "IS Ammo LRM-15 Artemis-capable",
-      "IS Ammo LRM-15 Artemis-capable",
-      "IS Ammo LRM-15 Artemis-capable"
+      "Small Laser"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -2075,9 +1954,7 @@
       "Medium Laser",
       "ISMediumPulseLaser",
       "Medium Laser",
-      "Medium Laser",
-      "IS Gauss Ammo",
-      "IS Gauss Ammo"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -2140,10 +2017,7 @@
       "ISERPPC",
       "ISERPPC",
       "Medium Laser",
-      "Medium Laser",
-      "IS Ammo AC/20",
-      "IS Ammo AC/20",
-      "IS Ammo AC/20"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -2173,10 +2047,7 @@
       "PPC",
       "PPC",
       "Medium Laser",
-      "Medium Laser",
-      "IS Ammo AC/20",
-      "IS Ammo AC/20",
-      "IS Ammo AC/20"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "None",
@@ -2209,11 +2080,7 @@
       "ISERLargeLaser",
       "Medium Laser",
       "Medium Laser",
-      "Medium Laser",
-      "IS Gauss Ammo",
-      "IS Gauss Ammo",
-      "IS Gauss Ammo",
-      "IS Gauss Ammo"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -2260,8 +2127,7 @@
     "raw_equipment_refs": [
       "SRM 2",
       "ISBoobyTrap",
-      "ISDroneOperatingSystem",
-      "IS Ammo SRM-2"
+      "ISDroneOperatingSystem"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -2310,8 +2176,6 @@
       "CLStreakLRM15",
       "CLERMediumLaser",
       "CLERMediumLaser",
-      "Clan Streak LRM 15 Ammo",
-      "Clan Streak LRM 15 Ammo",
       "CLCASE"
     ],
     "raw_quirks": [
@@ -2369,10 +2233,7 @@
       "IS Vehicular Stealth",
       "IS Vehicular Stealth",
       "IS Vehicular Stealth",
-      "ISGuardianECMSuite",
-      "IS Ammo LAC/5",
-      "IS Ammo MML-3 LRM",
-      "IS Ammo MML-3 SRM"
+      "ISGuardianECMSuite"
     ],
     "raw_quirks": [
       "atmo_flyer",
@@ -2409,10 +2270,6 @@
       "CLArtemisV",
       "CLMediumPulseLaser",
       "CLMediumPulseLaser",
-      "Clan Ammo LRM-20 (Clan) Artemis V-capable",
-      "Clan Ammo LRM-20 (Clan) Artemis V-capable",
-      "Clan Ammo LRM-20 (Clan) Artemis V-capable",
-      "Clan Ammo LRM-20 (Clan) Artemis V-capable",
       "IS Coolant Pod",
       "IS Coolant Pod",
       "CLCASE"
@@ -2444,11 +2301,7 @@
       "Bombast Laser",
       "Extended LRM 10",
       "Extended LRM 10",
-      "ISMediumXPulseLaser",
-      "IS Ammo Extended LRM-10",
-      "IS Ammo Extended LRM-10",
-      "IS Ammo Extended LRM-10",
-      "IS Ammo Extended LRM-10"
+      "ISMediumXPulseLaser"
     ],
     "raw_quirks": [
       "difficult_eject",
@@ -2481,10 +2334,6 @@
       "CLStreakLRM20",
       "CLImprovedSmallHeavyLaser",
       "CLImprovedSmallHeavyLaser",
-      "Clan Streak LRM 20 Ammo",
-      "Clan Streak LRM 20 Ammo",
-      "Clan Streak LRM 20 Ammo",
-      "Clan Streak LRM 20 Ammo",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -2545,12 +2394,7 @@
       "ISERMediumLaser",
       "ISERMediumLaser",
       "ISERMediumLaser",
-      "ISERMediumLaser",
-      "IS Ammo HVAC/10",
-      "IS Ammo HVAC/10",
-      "IS Ammo Extended LRM-10",
-      "IS Ammo Extended LRM-10",
-      "IS Ammo HVAC/10"
+      "ISERMediumLaser"
     ],
     "raw_quirks": [
       "difficult_maintain",
@@ -2609,11 +2453,7 @@
       "ISReconCamera",
       "Medium Laser",
       "Medium Laser",
-      "ISFlotationHull",
-      "IS Ultra AC/20 Ammo",
-      "IS Ultra AC/20 Ammo",
-      "IS Ultra AC/20 Ammo",
-      "IS Ultra AC/20 Ammo"
+      "ISFlotationHull"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -2640,9 +2480,7 @@
       "PPC Capacitor",
       "ISERPPC",
       "PPC Capacitor",
-      "ISLaserAntiMissileSystem",
-      "IS MRM 20 Ammo",
-      "IS MRM 20 Ammo"
+      "ISLaserAntiMissileSystem"
     ],
     "raw_quirks": [
       "atmo_flyer"
@@ -2705,9 +2543,6 @@
       "CLImprovedHeavyLargeLaser",
       "CLCASE",
       "CLLaserAntiMissileSystem",
-      "Clan Ammo LRM-20 (Clan) Artemis V-capable",
-      "Clan Ammo LRM-20 (Clan) Artemis V-capable",
-      "Clan Ammo LRM-20 (Clan) Artemis V-capable",
       "CLCASE"
     ],
     "raw_quirks": [
@@ -2759,9 +2594,7 @@
       "Binary Laser (Blazer) Cannon",
       "ISMML5",
       "ISMML5",
-      "ISERMediumLaser",
-      "IS Ammo MML-5 SRM",
-      "IS Ammo MML-5 LRM"
+      "ISERMediumLaser"
     ],
     "raw_quirks": [
       "easy_pilot"
@@ -2788,11 +2621,7 @@
       "ISMML5",
       "ISMML5",
       "ISERMediumLaser",
-      "ISAntiMissileSystem",
-      "IS Ammo MML-5 SRM",
-      "IS Ammo MML-5 LRM",
-      "IS Ammo MML-5 LRM",
-      "ISAMS Ammo"
+      "ISAntiMissileSystem"
     ],
     "raw_quirks": [],
     "role": "None",
@@ -2822,15 +2651,7 @@
       "ISLargePulseLaser",
       "ISLargePulseLaser",
       "ISSmallPulseLaser",
-      "ISSmallPulseLaser",
-      "ISHeavyGauss Ammo",
-      "ISHeavyGauss Ammo",
-      "ISHeavyGauss Ammo",
-      "ISHeavyGauss Ammo",
-      "ISHeavyGauss Ammo",
-      "IS Ammo LRM-15",
-      "IS Ammo LRM-15",
-      "IS Ammo SRM-6"
+      "ISSmallPulseLaser"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -2853,12 +2674,7 @@
     "mul_id": 4008,
     "raw_equipment_refs": [
       "ISRotaryAC5",
-      "ISStreakSRM6",
-      "ISRotaryAC5 Ammo",
-      "ISRotaryAC5 Ammo",
-      "ISRotaryAC5 Ammo",
-      "ISRotaryAC5 Ammo",
-      "IS Streak SRM 6 Ammo"
+      "ISStreakSRM6"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -2886,18 +2702,6 @@
       "CLATM12",
       "CLERMediumLaser",
       "CLERMediumLaser",
-      "Clan Ammo ATM-12",
-      "Clan Ammo ATM-12",
-      "Clan Ammo ATM-12",
-      "Clan Ammo ATM-12",
-      "Clan Ammo ATM-12",
-      "Clan Ammo ATM-12",
-      "Clan Ammo ATM-12",
-      "Clan Ammo ATM-12",
-      "Clan Ammo ATM-12",
-      "Clan Ammo ATM-12",
-      "Clan Ammo ATM-12",
-      "Clan Ammo ATM-12",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -2922,7 +2726,6 @@
       "CLStreakSRM6",
       "CLERLargeLaser",
       "CLERLargeLaser",
-      "Clan Streak SRM 6 Ammo",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -2943,9 +2746,7 @@
     "model": "(Mary)",
     "mul_id": 2152,
     "raw_equipment_refs": [
-      "ISLightGaussRifle",
-      "IS Light Gauss Ammo",
-      "IS Light Gauss Ammo"
+      "ISLightGaussRifle"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -3066,8 +2867,6 @@
       "CLMediumPulseLaser",
       "CLMediumPulseLaser",
       "CLERSmallLaser",
-      "Clan Streak SRM 6 Ammo",
-      "Clan Streak SRM 6 Ammo",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -3416,7 +3215,6 @@
       "Machine Gun",
       "Advanced Fire Control",
       "STOLChassisMod",
-      "IS Machine Gun Ammo - Half",
       "External Stores Hardpoint",
       "External Stores Hardpoint",
       "External Stores Hardpoint",
@@ -3465,8 +3263,6 @@
       "Advanced Fire Control",
       "STOLChassisMod",
       "ISGuardianECMSuite",
-      "IS Machine Gun Ammo - Half",
-      "IS Ammo SRM-6",
       "External Stores Hardpoint",
       "External Stores Hardpoint",
       "External Stores Hardpoint",
@@ -3612,8 +3408,7 @@
     "mul_id": 575,
     "raw_equipment_refs": [
       "Small Laser",
-      "SRM 4",
-      "IS Ammo SRM-4"
+      "SRM 4"
     ],
     "raw_quirks": [],
     "role": "Interceptor",
@@ -3659,8 +3454,7 @@
     "raw_equipment_refs": [
       "Small Laser",
       "ISStreakSRM2",
-      "ISStreakSRM2",
-      "IS Streak SRM 2 Ammo"
+      "ISStreakSRM2"
     ],
     "raw_quirks": [],
     "role": "Interceptor",
@@ -3690,12 +3484,7 @@
       "Large Laser",
       "Large Laser",
       "Small Laser",
-      "Small Laser",
-      "IS Ammo LRM-15",
-      "IS Ammo LRM-15",
-      "IS Ammo LRM-15",
-      "IS Ammo LRM-15",
-      "IS Ammo SRM-6"
+      "Small Laser"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -3730,12 +3519,7 @@
       "Large Laser",
       "Large Laser",
       "Small Laser",
-      "Small Laser",
-      "IS Ammo LRM-15",
-      "IS Ammo LRM-15",
-      "IS Ammo LRM-15",
-      "IS Ammo LRM-15",
-      "IS Ammo SRM-6"
+      "Small Laser"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -3767,12 +3551,7 @@
       "ISLargePulseLaser",
       "ISLargePulseLaser",
       "ISSmallPulseLaser",
-      "ISSmallPulseLaser",
-      "IS Ammo LRM-15",
-      "IS Ammo LRM-15",
-      "IS Ammo LRM-15",
-      "IS Ammo LRM-15",
-      "IS Ammo SRM-6"
+      "ISSmallPulseLaser"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -3808,13 +3587,8 @@
       "ISPlasmaRifle",
       "ISSmallPulseLaser",
       "ISSmallPulseLaser",
-      "IS Ammo LRM-15 Artemis-capable",
-      "IS Ammo LRM-15 Artemis-capable",
       "ISPlasmaRifleAmmo",
-      "ISPlasmaRifleAmmo",
-      "IS Ammo SRM-6 Artemis-capable",
-      "IS Ammo LRM-15 Artemis-capable",
-      "IS Ammo LRM-15 Artemis-capable"
+      "ISPlasmaRifleAmmo"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -3849,10 +3623,7 @@
       "ISLargePulseLaser",
       "Medium Laser",
       "ISERSmallLaser",
-      "ISERSmallLaser",
-      "IS Ammo MML-7 LRM Artemis-capable",
-      "IS Ammo MML-7 LRM Artemis-capable",
-      "IS Ammo MML-7 SRM Artemis-capable"
+      "ISERSmallLaser"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -3991,8 +3762,7 @@
     "raw_equipment_refs": [
       "Large Laser",
       "Large Laser",
-      "SRM 6",
-      "IS Ammo SRM-6"
+      "SRM 6"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -4022,9 +3792,7 @@
       "Small Laser",
       "Small Laser",
       "Small Laser",
-      "Medium Laser",
-      "IS Ammo LRM-20",
-      "IS Ammo SRM-6"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -4053,11 +3821,7 @@
       "SRM 6",
       "ISSmallPulseLaser",
       "ISSmallPulseLaser",
-      "ISMediumPulseLaser",
-      "IS Ammo LRM-20",
-      "IS Ammo LRM-20",
-      "IS Ammo SRM-6",
-      "IS Ammo SRM-6"
+      "ISMediumPulseLaser"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -4087,12 +3851,7 @@
       "Small Laser",
       "Small Laser",
       "Small Laser",
-      "Medium Laser",
-      "IS Ammo LRM-20",
-      "IS Ammo LRM-20",
-      "IS Ammo LRM-20",
-      "IS Ammo LRM-20",
-      "IS Ammo LRM-20"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -4120,10 +3879,7 @@
       "ISERLargeLaser",
       "ISStreakSRM2",
       "ISStreakSRM2",
-      "ISMediumPulseLaser",
-      "IS Ammo LRM-20 Artemis-capable",
-      "IS Ammo LRM-20 Artemis-capable",
-      "IS Streak SRM 2 Ammo"
+      "ISMediumPulseLaser"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -4176,15 +3932,7 @@
       "SRM 6",
       "SRM 6",
       "SRM 6",
-      "SRM 6",
-      "IS Ammo AC/20",
-      "IS Ammo AC/20",
-      "IS Ammo LRM-10",
-      "IS Ammo LRM-10",
-      "IS Ammo SRM-6",
-      "IS Ammo SRM-6",
-      "IS Ammo SRM-6",
-      "IS Ammo SRM-6"
+      "SRM 6"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -4210,14 +3958,7 @@
       "SRM 6",
       "SRM 6",
       "SRM 6",
-      "SRM 6",
-      "IS Ammo AC/20",
-      "IS Ammo AC/20",
-      "IS Ammo SRM-6",
-      "IS Ammo SRM-6",
-      "IS Ammo SRM-6",
-      "IS Ammo SRM-6",
-      "IS Ammo SRM-6"
+      "SRM 6"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -4240,13 +3981,7 @@
       "Autocannon/20",
       "LRM 10",
       "Autocannon/5",
-      "Autocannon/5",
-      "IS Ammo AC/20",
-      "IS Ammo AC/20",
-      "IS Ammo LRM-10",
-      "IS Ammo LRM-10",
-      "IS Ammo AC/5",
-      "IS Ammo AC/5"
+      "Autocannon/5"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -4271,16 +4006,7 @@
       "SRM 6",
       "SRM 6",
       "SRM 6",
-      "SRM 6",
-      "IS Ammo AC/20",
-      "IS Ammo AC/20",
-      "IS Ammo AC/20",
-      "IS Ammo LRM-10",
-      "IS Ammo LRM-10",
-      "IS Ammo SRM-6",
-      "IS Ammo SRM-6",
-      "IS Ammo SRM-6",
-      "IS Ammo SRM-6"
+      "SRM 6"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -4309,17 +4035,7 @@
       "SRM 6",
       "SRM 6",
       "SRM 6",
-      "SRM 6",
-      "IS LB 10-X Cluster Ammo",
-      "IS LB 10-X Cluster Ammo",
-      "IS LB 10-X Cluster Ammo",
-      "IS LB 10-X Cluster Ammo",
-      "IS Ammo SRM-6",
-      "IS Ammo SRM-6",
-      "IS Ammo SRM-6",
-      "IS Ammo SRM-6",
-      "IS Ammo SRM-6",
-      "IS Ammo SRM-6"
+      "SRM 6"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -4346,17 +4062,7 @@
       "ISStreakSRM6",
       "ISStreakSRM6",
       "ISStreakSRM6",
-      "ISStreakSRM6",
-      "IS Ultra AC/20 Ammo",
-      "IS Ultra AC/20 Ammo",
-      "IS Ultra AC/20 Ammo",
-      "IS Ultra AC/20 Ammo",
-      "IS Ammo LRM-10",
-      "IS Ammo LRM-10",
-      "IS Streak SRM 6 Ammo",
-      "IS Streak SRM 6 Ammo",
-      "IS Streak SRM 6 Ammo",
-      "IS Streak SRM 6 Ammo"
+      "ISStreakSRM6"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -4404,9 +4110,7 @@
       "SRM 4",
       "ISArtemisIV",
       "SRM 4",
-      "ISArtemisIV",
-      "IS Ammo SRM-4 Artemis-capable",
-      "IS Ammo SRM-4 Artemis-capable"
+      "ISArtemisIV"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -4431,8 +4135,6 @@
       "CLStreakSRM4",
       "CLStreakSRM4",
       "CLStreakSRM4",
-      "Clan Streak SRM 4 Ammo",
-      "Clan Streak SRM 4 Ammo",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -4478,9 +4180,7 @@
       "ISERMediumLaser",
       "ISERMediumLaser",
       "MRM 10",
-      "MRM 10",
-      "IS MRM 10 Ammo",
-      "IS MRM 10 Ammo"
+      "MRM 10"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -4792,10 +4492,7 @@
       "Large Laser",
       "Medium Laser",
       "Medium Laser",
-      "SRM 4",
-      "IS Ammo LRM-20",
-      "IS Ammo LRM-20",
-      "IS Ammo SRM-4"
+      "SRM 4"
     ],
     "raw_quirks": [],
     "role": "Fire Support",
@@ -4820,9 +4517,7 @@
       "Autocannon/2",
       "Medium Laser",
       "Medium Laser",
-      "SRM 4",
-      "IS Ammo AC/2",
-      "IS Ammo SRM-4"
+      "SRM 4"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -4846,10 +4541,7 @@
       "Large Laser",
       "Medium Laser",
       "Medium Laser",
-      "SRM 4",
-      "IS Ammo LRM-20",
-      "IS Ammo LRM-20",
-      "IS Ammo SRM-4"
+      "SRM 4"
     ],
     "raw_quirks": [],
     "role": "Fire Support",
@@ -4875,11 +4567,7 @@
       "ISERLargeLaser",
       "ISERMediumLaser",
       "ISERMediumLaser",
-      "ISMML7",
-      "IS Ammo MML-7 LRM",
-      "IS Ammo MML-7 LRM",
-      "IS Ammo MML-7 SRM",
-      "IS Ammo MML-7 SRM"
+      "ISMML7"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -4901,8 +4589,7 @@
     "raw_equipment_refs": [
       "SRM 4",
       "Medium Laser",
-      "Medium Laser",
-      "IS Ammo SRM-4"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Interceptor",
@@ -4947,9 +4634,7 @@
     "raw_equipment_refs": [
       "ISMML7",
       "ISERMediumLaser",
-      "ISERMediumLaser",
-      "IS Ammo MML-7 LRM",
-      "IS Ammo MML-7 SRM"
+      "ISERMediumLaser"
     ],
     "raw_quirks": [],
     "role": "Interceptor",
@@ -4975,9 +4660,7 @@
       "Medium Laser",
       "Medium Laser",
       "Medium Laser",
-      "Medium Laser",
-      "IS Ammo AC/10",
-      "IS Ammo AC/10"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -5004,11 +4687,7 @@
       "Medium Laser",
       "Medium Laser",
       "Medium Laser",
-      "Medium Laser",
-      "IS Ammo LRM-15",
-      "IS Ammo LRM-15",
-      "IS Ammo SRM-6",
-      "IS Ammo SRM-6"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -5035,11 +4714,7 @@
       "Medium Laser",
       "Medium Laser",
       "SRM 6",
-      "Medium Laser",
-      "IS Ammo LRM-15",
-      "IS Ammo LRM-15",
-      "IS Ammo SRM-6",
-      "IS Ammo SRM-6"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -5066,11 +4741,7 @@
       "Medium Laser",
       "Medium Laser",
       "LRM 15",
-      "Medium Laser",
-      "IS Ammo SRM-6",
-      "IS Ammo SRM-6",
-      "IS Ammo LRM-15",
-      "IS Ammo LRM-15"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -5096,10 +4767,7 @@
       "ISERMediumLaser",
       "ISERMediumLaser",
       "ISERMediumLaser",
-      "ISERMediumLaser",
-      "IS LB 10-X Cluster Ammo",
-      "IS LB 10-X Cluster Ammo",
-      "IS LB 10-X Cluster Ammo"
+      "ISERMediumLaser"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -5125,10 +4793,7 @@
       "Medium Laser",
       "Medium Laser",
       "Medium Laser",
-      "Medium Laser",
-      "IS LB 10-X Cluster Ammo",
-      "IS LB 10-X Cluster Ammo",
-      "IS LB 10-X Cluster Ammo"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -5195,8 +4860,7 @@
     "mul_id": 2991,
     "raw_equipment_refs": [
       "SRM 2",
-      "Small Laser",
-      "IS Ammo SRM-2"
+      "Small Laser"
     ],
     "raw_quirks": [],
     "role": "Interceptor",
@@ -5292,8 +4956,7 @@
       "Large Laser",
       "Medium Laser",
       "Large Laser",
-      "Medium Laser",
-      "IS Ammo AC/5"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -5342,8 +5005,7 @@
       "LRM 10",
       "Medium Laser",
       "LRM 10",
-      "Medium Laser",
-      "IS Ammo LRM-10"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Fire Support",
@@ -5397,15 +5059,7 @@
       "Large Laser",
       "Large Laser",
       "Medium Laser",
-      "Medium Laser",
-      "IS Ammo SRM-6",
-      "IS Ammo SRM-6",
-      "IS Ammo SRM-6",
-      "IS Ammo SRM-6",
-      "IS Ammo LRM-20",
-      "IS Ammo LRM-20",
-      "IS Ammo LRM-20",
-      "IS Ammo LRM-20"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -5443,17 +5097,7 @@
       "ISERMediumLaser",
       "ISERMediumLaser",
       "ISERMediumLaser",
-      "ISERMediumLaser",
-      "IS Ammo LRM-20 Artemis-capable",
-      "IS Ammo LRM-20 Artemis-capable",
-      "IS Ammo LRM-20 Artemis-capable",
-      "IS Ammo SRM-6 Artemis-capable",
-      "IS Ammo SRM-6 Artemis-capable",
-      "IS Ammo SRM-6 Artemis-capable",
-      "ISRotaryAC5 Ammo",
-      "ISRotaryAC5 Ammo",
-      "ISRotaryAC5 Ammo",
-      "ISRotaryAC5 Ammo"
+      "ISERMediumLaser"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -5485,9 +5129,7 @@
       "Large Laser",
       "Large Laser",
       "Medium Laser",
-      "Medium Laser",
-      "IS Ammo LRM-20",
-      "IS Ammo LRM-20"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -5523,10 +5165,7 @@
       "Small Laser",
       "Small Laser",
       "Medium Laser",
-      "Medium Laser",
-      "IS Ammo LRM-20",
-      "IS Ammo LRM-20",
-      "IS Ammo SRM-4"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -5558,10 +5197,7 @@
       "Large Laser",
       "Large Laser",
       "Medium Laser",
-      "Medium Laser",
-      "IS Ammo LRM-20",
-      "IS Ammo LRM-20",
-      "IS Ammo SRM-4"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -5702,9 +5338,7 @@
       "Medium Laser",
       "Medium Laser",
       "Medium Laser",
-      "Medium Laser",
-      "IS Ammo AC/20",
-      "IS Ammo AC/20"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -5755,10 +5389,7 @@
       "Medium Laser",
       "Medium Laser",
       "Medium Laser",
-      "Medium Laser",
-      "IS Gauss Ammo",
-      "IS Gauss Ammo",
-      "IS Gauss Ammo"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Fire Support",
@@ -5784,9 +5415,7 @@
       "Medium Laser",
       "Medium Laser",
       "Medium Laser",
-      "Medium Laser",
-      "IS Ammo AC/20",
-      "IS Ammo AC/20"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -5808,9 +5437,7 @@
     "model": "TR-11",
     "mul_id": 3289,
     "raw_equipment_refs": [
-      "Autocannon/20",
-      "IS Ammo AC/20",
-      "IS Ammo AC/20"
+      "Autocannon/20"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -5836,11 +5463,7 @@
       "ISERMediumLaser",
       "ISERMediumLaser",
       "ISERMediumLaser",
-      "ISERMediumLaser",
-      "IS LB 20-X Cluster Ammo",
-      "IS LB 20-X Cluster Ammo",
-      "IS LB 20-X Cluster Ammo",
-      "IS LB 20-X Cluster Ammo"
+      "ISERMediumLaser"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -5867,8 +5490,6 @@
       "CLERMediumLaser:OMNI",
       "CLERMediumLaser:OMNI",
       "CLMediumPulseLaser:OMNI",
-      "Clan Ammo LRM-20 (Clan) Artemis-capable:OMNI",
-      "Clan Ammo LRM-20 (Clan) Artemis-capable:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -5921,8 +5542,6 @@
       "CLSRM6:OMNI",
       "CLERMediumLaser:OMNI",
       "ISNarc Pods:OMNI",
-      "Clan Ammo SRM-6:OMNI",
-      "Clan Ammo SRM-6:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -5947,8 +5566,6 @@
       "CLATM9:OMNI",
       "CLERMediumLaser:OMNI",
       "CLERMediumLaser:OMNI",
-      "Clan Ammo ATM-9:OMNI",
-      "Clan Ammo ATM-9:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -5977,7 +5594,6 @@
       "CLSRM2 (IOS):OMNI",
       "CLSRM2 (IOS):OMNI",
       "CLSRM2 (IOS):OMNI",
-      "Clan Streak SRM 4 Ammo:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -6003,7 +5619,6 @@
       "CLERLargeLaser:OMNI",
       "CLMediumPulseLaser:OMNI",
       "CLMediumPulseLaser:OMNI",
-      "Clan Streak SRM 6 Ammo:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -6026,7 +5641,6 @@
     "raw_equipment_refs": [
       "CLMediumPulseLaser:OMNI",
       "CLSRM6:OMNI",
-      "Clan Ammo SRM-6:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -6050,8 +5664,6 @@
       "CLERSmallLaser:OMNI",
       "CLLRM5:OMNI",
       "CLLRM5:OMNI",
-      "Clan Ammo LRM-5:OMNI",
-      "Clan Ammo LRM-5:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -6124,7 +5736,6 @@
       "CLERSmallLaser:OMNI",
       "CLERSmallLaser:OMNI",
       "CLERSmallLaser:OMNI",
-      "Clan Machine Gun Ammo - Half:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -6149,7 +5760,6 @@
       "CLStreakSRM2:OMNI",
       "CLERMediumLaser:OMNI",
       "CLERMediumLaser:OMNI",
-      "Clan Streak SRM 2 Ammo:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -6177,8 +5787,6 @@
       "CLSRM6:OMNI",
       "CLSRM6:OMNI",
       "ISNarc Pods:OMNI",
-      "Clan Ammo SRM-6:OMNI",
-      "Clan Ammo SRM-6:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -6235,8 +5843,7 @@
       "CLERSmallLaser:OMNI",
       "CLERSmallLaser:OMNI",
       "CLERSmallLaser:OMNI",
-      "CLERMediumLaser:OMNI",
-      "Clan Gauss Ammo:OMNI"
+      "CLERMediumLaser:OMNI"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -6283,11 +5890,7 @@
       "CLStreakSRM2 (IOS):OMNI",
       "CLStreakSRM2 (IOS):OMNI",
       "CLStreakSRM2 (IOS):OMNI",
-      "CLStreakSRM2 (IOS):OMNI",
-      "Clan Ultra AC/20 Ammo",
-      "Clan Ultra AC/20 Ammo",
-      "Clan Ultra AC/20 Ammo",
-      "Clan Ultra AC/20 Ammo"
+      "CLStreakSRM2 (IOS):OMNI"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -6338,12 +5941,6 @@
       "CLStreakSRM6:OMNI",
       "CLStreakSRM6:OMNI",
       "CLERLargeLaser:OMNI",
-      "Clan Ultra AC/20 Ammo:OMNI",
-      "Clan Ultra AC/20 Ammo:OMNI",
-      "Clan Ultra AC/20 Ammo:OMNI",
-      "Clan Ultra AC/20 Ammo:OMNI",
-      "Clan Streak SRM 6 Ammo:OMNI",
-      "Clan Streak SRM 6 Ammo:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -6370,11 +5967,7 @@
       "CLERLargeLaser:OMNI",
       "CLERLargeLaser:OMNI",
       "CLERMediumLaser:OMNI",
-      "CLMediumPulseLaser:OMNI",
-      "Clan Gauss Ammo:OMNI",
-      "Clan Gauss Ammo:OMNI",
-      "Clan Gauss Ammo:OMNI",
-      "Clan Gauss Ammo:OMNI"
+      "CLMediumPulseLaser:OMNI"
     ],
     "raw_quirks": [],
     "role": "Fire Support",
@@ -6401,10 +5994,6 @@
       "CLLRM10:OMNI",
       "CLERLargeLaser:OMNI",
       "CLLargePulseLaser:OMNI",
-      "Clan LB 20-X Cluster Ammo:OMNI",
-      "Clan LB 20-X Cluster Ammo:OMNI",
-      "Clan Ammo LRM-10:OMNI",
-      "Clan Ammo LRM-10:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -6431,11 +6020,6 @@
       "CLCASE",
       "CLERLargeLaser:OMNI",
       "CLERLargeLaser:OMNI",
-      "Clan Ammo ATM-12:OMNI",
-      "Clan Ammo ATM-12:OMNI",
-      "Clan Ammo ATM-12:OMNI",
-      "Clan Gauss Ammo:OMNI",
-      "Clan Gauss Ammo:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -6464,13 +6048,7 @@
       "CLCASE",
       "CLERMediumLaser:OMNI",
       "CLHAG20:OMNI",
-      "CLCASE",
-      "Hyper-Assault Gauss Rifle/20 Ammo:OMNI",
-      "Hyper-Assault Gauss Rifle/20 Ammo:OMNI",
-      "Hyper-Assault Gauss Rifle/20 Ammo:OMNI",
-      "Hyper-Assault Gauss Rifle/20 Ammo:OMNI",
-      "Hyper-Assault Gauss Rifle/20 Ammo:OMNI",
-      "Hyper-Assault Gauss Rifle/20 Ammo:OMNI"
+      "CLCASE"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -6496,8 +6074,6 @@
       "CLERPPC:OMNI",
       "CLLargePulseLaser:OMNI",
       "CLLargePulseLaser:OMNI",
-      "Clan Ammo LRM-20:OMNI",
-      "Clan Ammo LRM-20:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -6530,14 +6106,6 @@
       "CLArtemisV:OMNI",
       "CLERMediumLaser:OMNI",
       "ISAngelECMSuite:OMNI",
-      "Clan Ammo LRM-20 (Clan) Artemis V-capable:OMNI",
-      "Clan Ammo LRM-20 (Clan) Artemis V-capable:OMNI",
-      "Clan Ammo LRM-20 (Clan) Artemis V-capable:OMNI",
-      "Clan Ammo LRM-20 (Clan) Artemis V-capable:OMNI",
-      "Clan Ammo LRM-20 (Clan) Artemis V-capable:OMNI",
-      "Clan Ammo LRM-20 (Clan) Artemis V-capable:OMNI",
-      "Clan Ammo LRM-20 (Clan) Artemis V-capable:OMNI",
-      "Clan Ammo LRM-20 (Clan) Artemis V-capable:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -6595,11 +6163,6 @@
       "CLLRM20:OMNI",
       "CLArtemisIV:OMNI",
       "CLERSmallLaser:OMNI",
-      "Clan Gauss Ammo:OMNI",
-      "Clan Gauss Ammo:OMNI",
-      "Clan Gauss Ammo:OMNI",
-      "Clan Ammo LRM-20 (Clan) Artemis-capable:OMNI",
-      "Clan Ammo LRM-20 (Clan) Artemis-capable:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -6627,14 +6190,6 @@
       "CLLBXAC20:OMNI",
       "CLStreakSRM4:OMNI",
       "CLERSmallLaser:OMNI",
-      "Clan Streak SRM 6 Ammo:OMNI",
-      "Clan Streak SRM 6 Ammo:OMNI",
-      "Clan Streak SRM 6 Ammo:OMNI",
-      "Clan LB 20-X Cluster Ammo:OMNI",
-      "Clan LB 20-X Cluster Ammo:OMNI",
-      "Clan LB 20-X Cluster Ammo:OMNI",
-      "Clan LB 20-X Cluster Ammo:OMNI",
-      "Clan Streak SRM 4 Ammo:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -6666,10 +6221,6 @@
       "CLERMediumLaser:OMNI",
       "CLStreakSRM6:OMNI",
       "CLERSmallLaser:OMNI",
-      "Clan Ammo LRM-20 (Clan) Artemis-capable:OMNI",
-      "Clan Ammo LRM-20 (Clan) Artemis-capable:OMNI",
-      "Clan Streak SRM 6 Ammo:OMNI",
-      "Clan Streak SRM 6 Ammo:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -6733,9 +6284,6 @@
       "CLSRM6:OMNI",
       "CLMediumPulseLaser:OMNI",
       "CLECMSuite:OMNI",
-      "Clan LB 10-X Cluster Ammo:OMNI",
-      "Clan Ammo SRM-6:OMNI",
-      "Clan Ammo SRM-6:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -6765,15 +6313,6 @@
       "CLCASE",
       "CLERMediumLaser:OMNI",
       "WatchdogECMSuite:OMNI",
-      "CLRotaryAC5 Ammo:OMNI",
-      "CLRotaryAC5 Ammo:OMNI",
-      "CLRotaryAC5 Ammo:OMNI",
-      "CLRotaryAC5 Ammo:OMNI",
-      "CLRotaryAC5 Ammo:OMNI",
-      "CLRotaryAC5 Ammo:OMNI",
-      "CLRotaryAC5 Ammo:OMNI",
-      "CLRotaryAC5 Ammo:OMNI",
-      "CLRotaryAC5 Ammo:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -6804,8 +6343,6 @@
       "CLLargePulseLaser:OMNI",
       "CLERSmallLaser:OMNI",
       "CLERLargeLaser:OMNI",
-      "Clan LB 2-X Cluster Ammo:OMNI",
-      "Clan LB 2-X Cluster Ammo:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -6836,11 +6373,6 @@
       "CLLRM20:OMNI",
       "CLERPPC:OMNI",
       "CLMediumPulseLaser:OMNI",
-      "Clan Ammo LRM-20:OMNI",
-      "Clan Ammo LRM-20:OMNI",
-      "Clan Ammo LRM-20:OMNI",
-      "Clan Ammo LRM-20:OMNI",
-      "Clan Ammo LRM-20:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -6869,8 +6401,6 @@
       "CLERPPC:OMNI",
       "CLERLargeLaser:OMNI",
       "CLERLargeLaser:OMNI",
-      "Clan Ultra AC/20 Ammo:OMNI",
-      "Clan Ultra AC/20 Ammo:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -6900,18 +6430,6 @@
       "CLATM12:OMNI",
       "CLATM12:OMNI",
       "CLERSmallLaser:OMNI",
-      "Clan Ammo ATM-12:OMNI",
-      "Clan Ammo ATM-12:OMNI",
-      "Clan Ammo ATM-12:OMNI",
-      "Clan Ammo ATM-12:OMNI",
-      "Clan Ammo ATM-12:OMNI",
-      "Clan Ammo ATM-12:OMNI",
-      "Clan Ammo ATM-12:OMNI",
-      "Clan Ammo ATM-12:OMNI",
-      "Clan Ammo ATM-12:OMNI",
-      "Clan Ammo ATM-12:OMNI",
-      "Clan Ammo ATM-12:OMNI",
-      "Clan Ammo ATM-12:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -6940,17 +6458,7 @@
       "CLCASE",
       "CLHAG40:OMNI",
       "CLCASE",
-      "CLERSmallLaser:OMNI",
-      "Hyper-Assault Gauss Rifle/40 Ammo:OMNI",
-      "Hyper-Assault Gauss Rifle/40 Ammo:OMNI",
-      "Hyper-Assault Gauss Rifle/40 Ammo:OMNI",
-      "Hyper-Assault Gauss Rifle/40 Ammo:OMNI",
-      "Hyper-Assault Gauss Rifle/40 Ammo:OMNI",
-      "Hyper-Assault Gauss Rifle/40 Ammo:OMNI",
-      "Hyper-Assault Gauss Rifle/40 Ammo:OMNI",
-      "Hyper-Assault Gauss Rifle/40 Ammo:OMNI",
-      "Hyper-Assault Gauss Rifle/40 Ammo:OMNI",
-      "Hyper-Assault Gauss Rifle/40 Ammo:OMNI"
+      "CLERSmallLaser:OMNI"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -6980,14 +6488,6 @@
       "CLERSmallLaser:OMNI",
       "CLStreakSRM6:OMNI",
       "CLStreakSRM6:OMNI",
-      "Clan LB 10-X Cluster Ammo:OMNI",
-      "Clan LB 10-X Cluster Ammo:OMNI",
-      "Clan Gauss Ammo:OMNI",
-      "Clan Gauss Ammo:OMNI",
-      "Clan Gauss Ammo:OMNI",
-      "Clan Gauss Ammo:OMNI",
-      "Clan Streak SRM 6 Ammo:OMNI",
-      "Clan Streak SRM 6 Ammo:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -7016,11 +6516,6 @@
       "CLERSmallLaser:OMNI",
       "CLERMediumLaser:OMNI",
       "CLERMediumLaser:OMNI",
-      "Clan LB 20-X Cluster Ammo:OMNI",
-      "Clan LB 20-X Cluster Ammo:OMNI",
-      "Clan LB 20-X Cluster Ammo:OMNI",
-      "Clan Ultra AC/20 Ammo:OMNI",
-      "Clan Ultra AC/20 Ammo:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -7054,11 +6549,6 @@
       "CLECMSuite:OMNI",
       "ISNarc Pods:OMNI",
       "ISNarc Pods:OMNI",
-      "Clan Ammo LRM-20:OMNI",
-      "Clan Ammo LRM-20:OMNI",
-      "Clan Ammo LRM-20:OMNI",
-      "Clan Ammo LRM-20:OMNI",
-      "Clan Ammo LRM-20:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -7144,14 +6634,7 @@
       "CLHAG40:OMNI",
       "CLHeavyMediumLaser:OMNI",
       "CLCASE",
-      "CLHeavySmallLaser:OMNI",
-      "Hyper-Assault Gauss Rifle/40 Ammo:OMNI",
-      "Hyper-Assault Gauss Rifle/40 Ammo:OMNI",
-      "Hyper-Assault Gauss Rifle/40 Ammo:OMNI",
-      "Hyper-Assault Gauss Rifle/40 Ammo:OMNI",
-      "Hyper-Assault Gauss Rifle/40 Ammo:OMNI",
-      "Hyper-Assault Gauss Rifle/40 Ammo:OMNI",
-      "Hyper-Assault Gauss Rifle/40 Ammo:OMNI"
+      "CLHeavySmallLaser:OMNI"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -7179,8 +6662,7 @@
       "CLERPPC:OMNI",
       "CLLargePulseLaser:OMNI",
       "CLERSmallLaser:OMNI",
-      "CLERSmallLaser:OMNI",
-      "Clan Gauss Ammo:OMNI"
+      "CLERSmallLaser:OMNI"
     ],
     "raw_quirks": [],
     "role": "Fire Support",
@@ -7212,15 +6694,6 @@
       "CLArtemisV:OMNI",
       "CLECMSuite:OMNI",
       "CLMediumPulseLaser:OMNI",
-      "Clan Ammo LRM-20 (Clan) Artemis V-capable:OMNI",
-      "Clan Ammo LRM-20 (Clan) Artemis V-capable:OMNI",
-      "Clan Ammo LRM-20 (Clan) Artemis V-capable:OMNI",
-      "Clan Ammo LRM-20 (Clan) Artemis V-capable:OMNI",
-      "Clan Ammo LRM-20 (Clan) Artemis V-capable:OMNI",
-      "Clan Ammo LRM-20 (Clan) Artemis V-capable:OMNI",
-      "Clan Ammo LRM-20 (Clan) Artemis V-capable:OMNI",
-      "Clan Ammo LRM-20 (Clan) Artemis V-capable:OMNI",
-      "Clan Ammo LRM-20 (Clan) Artemis V-capable:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -7255,13 +6728,6 @@
       "CLERLargeLaser:OMNI",
       "CLStreakSRM6:OMNI",
       "ISNarc Pods:OMNI",
-      "Clan Ammo LRM-20:OMNI",
-      "Clan Ammo LRM-20:OMNI",
-      "Clan Ammo LRM-20:OMNI",
-      "Clan Ammo SRM-6:OMNI",
-      "Clan Ammo SRM-6:OMNI",
-      "Clan Ammo SRM-6:OMNI",
-      "Clan Streak SRM 6 Ammo:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -7294,7 +6760,6 @@
       "CLLargePulseLaser:OMNI",
       "CLMediumPulseLaser:OMNI",
       "CLMediumPulseLaser:OMNI",
-      "CLAMS Ammo:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -7326,9 +6791,7 @@
       "CLGaussRifle:OMNI",
       "CLERPPC:OMNI",
       "CLCASE",
-      "CLERSmallLaser:OMNI",
-      "Clan Gauss Ammo:OMNI",
-      "Clan Gauss Ammo:OMNI"
+      "CLERSmallLaser:OMNI"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -7359,11 +6822,7 @@
       "CLERLargeLaser:OMNI",
       "CLHeavyLargeLaser:OMNI",
       "CLERLargeLaser:OMNI",
-      "CLERSmallLaser:OMNI",
-      "Clan Gauss Ammo:OMNI",
-      "Clan Gauss Ammo:OMNI",
-      "Clan Gauss Ammo:OMNI",
-      "Clan Gauss Ammo:OMNI"
+      "CLERSmallLaser:OMNI"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -7395,13 +6854,7 @@
       "CLCASE",
       "CLHAG30:OMNI",
       "CLCASE",
-      "CLERSmallLaser:OMNI",
-      "Hyper-Assault Gauss Rifle/30 Ammo:OMNI",
-      "Hyper-Assault Gauss Rifle/30 Ammo:OMNI",
-      "Hyper-Assault Gauss Rifle/30 Ammo:OMNI",
-      "Hyper-Assault Gauss Rifle/30 Ammo:OMNI",
-      "Hyper-Assault Gauss Rifle/30 Ammo:OMNI",
-      "Hyper-Assault Gauss Rifle/30 Ammo:OMNI"
+      "CLERSmallLaser:OMNI"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -7433,8 +6886,6 @@
       "CLERLargeLaser:OMNI",
       "CLERMediumLaser:OMNI",
       "CLERMediumLaser:OMNI",
-      "Clan Ultra AC/20 Ammo:OMNI",
-      "Clan Ultra AC/20 Ammo:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -7505,8 +6956,6 @@
       "CLLRM10:OMNI",
       "CLArtemisIV:OMNI",
       "CLERSmallLaser:OMNI",
-      "Clan Ammo LRM-10 (Clan) Artemis-capable:OMNI",
-      "Clan Ammo LRM-10 (Clan) Artemis-capable:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -7532,8 +6981,6 @@
       "CLLRM20:OMNI",
       "CLArtemisIV:OMNI",
       "CLERSmallLaser:OMNI",
-      "Clan Ammo LRM-20 (Clan) Artemis-capable:OMNI",
-      "Clan Ammo LRM-20 (Clan) Artemis-capable:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -7583,8 +7030,6 @@
       "CLMediumPulseLaser:OMNI",
       "CLMediumPulseLaser:OMNI",
       "CLHeavySmallLaser:OMNI",
-      "Clan Streak SRM 6 Ammo:OMNI",
-      "Clan Streak SRM 6 Ammo:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -7661,10 +7106,6 @@
       "CLSRM4:OMNI",
       "CLSRM4:OMNI",
       "CLMediumPulseLaser:OMNI",
-      "Clan Gauss Ammo:OMNI",
-      "Clan Gauss Ammo:OMNI",
-      "Clan Ammo SRM-4:OMNI",
-      "Clan Ammo SRM-4:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -7689,8 +7130,6 @@
       "CLERMediumLaser:OMNI",
       "CLUltraAC10:OMNI",
       "CLUltraAC10:OMNI",
-      "Clan Ultra AC/10 Ammo:OMNI",
-      "Clan Ultra AC/10 Ammo:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -7717,10 +7156,6 @@
       "CLERLargeLaser:OMNI",
       "CLStreakSRM6:OMNI",
       "CLERMediumLaser:OMNI",
-      "Clan Ammo LRM-20:OMNI",
-      "Clan Ammo LRM-20:OMNI",
-      "Clan Streak SRM 6 Ammo:OMNI",
-      "Clan Streak SRM 6 Ammo:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -7744,12 +7179,6 @@
       "CLERLargeLaser:OMNI",
       "CLATM12:OMNI",
       "CLATM12:OMNI",
-      "Clan Ammo ATM-12:OMNI",
-      "Clan Ammo ATM-12:OMNI",
-      "Clan Ammo ATM-12:OMNI",
-      "Clan Ammo ATM-12:OMNI",
-      "Clan Ammo ATM-12:OMNI",
-      "Clan Ammo ATM-12:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -7783,10 +7212,7 @@
       "Clan Heavy Machine Gun Array:OMNI",
       "CLECMSuite:OMNI",
       "CLERSmallLaser:OMNI",
-      "Clan Gauss Ammo:OMNI",
-      "Clan Gauss Ammo:OMNI",
       "CLPlasmaCannonAmmo:OMNI",
-      "Clan Heavy Machine Gun Ammo - Full:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -7978,10 +7404,6 @@
       "CLArtemisIV:OMNI",
       "CLERMediumLaser:OMNI",
       "CLERMediumLaser:OMNI",
-      "Clan Ammo LRM-20 (Clan) Artemis-capable:OMNI",
-      "Clan Ammo LRM-20 (Clan) Artemis-capable:OMNI",
-      "Clan Ammo LRM-20 (Clan) Artemis-capable:OMNI",
-      "Clan Ammo LRM-20 (Clan) Artemis-capable:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -8033,7 +7455,6 @@
       "CLLargePulseLaser:OMNI",
       "CLMediumPulseLaser:OMNI",
       "CLSRM4:OMNI",
-      "Clan Ammo SRM-4:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -8064,11 +7485,6 @@
       "CLStreakSRM4:OMNI",
       "CLERMediumLaser:OMNI",
       "CLERMediumLaser:OMNI",
-      "Clan LB 10-X Cluster Ammo:OMNI",
-      "Clan LB 10-X Cluster Ammo:OMNI",
-      "Clan LB 10-X Cluster Ammo:OMNI",
-      "Clan Streak SRM 4 Ammo:OMNI",
-      "Clan Streak SRM 4 Ammo:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -8093,10 +7509,6 @@
       "CLUltraAC10:OMNI",
       "CLHeavyMediumLaser:OMNI",
       "CLHeavyMediumLaser:OMNI",
-      "Clan Ultra AC/10 Ammo:OMNI",
-      "Clan Ultra AC/10 Ammo:OMNI",
-      "Clan Ultra AC/10 Ammo:OMNI",
-      "Clan Ultra AC/10 Ammo:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -8125,10 +7537,7 @@
       "CLERMediumLaser:OMNI",
       "CLERMediumLaser:OMNI",
       "CLERMediumLaser:OMNI",
-      "CLTargeting Computer:OMNI",
-      "Hyper-Assault Gauss Rifle/30 Ammo:OMNI",
-      "Hyper-Assault Gauss Rifle/30 Ammo:OMNI",
-      "Hyper-Assault Gauss Rifle/30 Ammo:OMNI"
+      "CLTargeting Computer:OMNI"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -8158,11 +7567,6 @@
       "CLStreakSRM4:OMNI",
       "CLERMediumLaser:OMNI",
       "CLERMediumLaser:OMNI",
-      "Clan LB 10-X Cluster Ammo:OMNI",
-      "Clan LB 10-X Cluster Ammo:OMNI",
-      "Clan LB 10-X Cluster Ammo:OMNI",
-      "Clan Streak SRM 4 Ammo:OMNI",
-      "Clan Streak SRM 4 Ammo:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -8230,8 +7634,7 @@
       "Medium Laser",
       "SRM 6",
       "Medium Laser",
-      "Medium Laser",
-      "IS Ammo SRM-6"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Interceptor",
@@ -8279,8 +7682,7 @@
       "Medium Laser",
       "ISERLargeLaser",
       "ISERLargeLaser",
-      "Medium Laser",
-      "IS Ammo AC/10"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -8307,9 +7709,7 @@
       "ISERLargeLaser",
       "ISERLargeLaser",
       "Medium Laser",
-      "ISERSmallLaser",
-      "IS Ultra AC/10 Ammo",
-      "IS Ultra AC/10 Ammo"
+      "ISERSmallLaser"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -8528,11 +7928,7 @@
       "SRM 6",
       "SRM 6",
       "SRM 6",
-      "Medium Laser",
-      "IS Ammo SRM-6",
-      "IS Ammo SRM-6",
-      "IS Ammo SRM-6",
-      "IS Ammo SRM-6"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -8641,9 +8037,7 @@
       "Medium Laser",
       "Medium Laser",
       "Medium Laser",
-      "Medium Laser",
-      "IS Ammo AC/10",
-      "IS Ammo AC/10"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -8667,9 +8061,7 @@
       "Autocannon/20",
       "Medium Laser",
       "Medium Laser",
-      "Medium Laser",
-      "IS Ammo AC/20",
-      "IS Ammo AC/20"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -8696,10 +8088,7 @@
       "ISMediumPulseLaser",
       "ISERMediumLaser",
       "ISMediumPulseLaser",
-      "Medium Laser",
-      "ISRotaryAC2 Ammo",
-      "ISRotaryAC2 Ammo",
-      "ISRotaryAC2 Ammo"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -8723,9 +8112,7 @@
       "ISERMediumLaser",
       "ISERMediumLaser",
       "ISERMediumLaser",
-      "Medium Laser",
-      "IS Ultra AC/20 Ammo",
-      "IS Ultra AC/20 Ammo"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -8753,9 +8140,7 @@
       "ISERSmallLaser",
       "ISERSmallLaser",
       "ISERSmallLaser",
-      "Medium Laser",
-      "IS LB 20-X Cluster Ammo",
-      "IS LB 20-X Cluster Ammo"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -8783,10 +8168,7 @@
       "ISERMediumLaser",
       "ISERSmallLaser",
       "ISERSmallLaser",
-      "ISERMediumLaser",
-      "ISHeavyGauss Ammo",
-      "ISHeavyGauss Ammo",
-      "ISHeavyGauss Ammo"
+      "ISERMediumLaser"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -8811,10 +8193,7 @@
       "ISTargeting Computer",
       "ISERMediumLaser",
       "ISERMediumLaser",
-      "ISERMediumLaser",
-      "IS Ammo AC/20",
-      "IS Ammo AC/20",
-      "IS Ammo AC/20"
+      "ISERMediumLaser"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -8943,8 +8322,7 @@
       "Medium Laser",
       "Medium Laser",
       "Medium Laser",
-      "Small Laser",
-      "IS Ultra AC/5 Ammo"
+      "Small Laser"
     ],
     "raw_quirks": [
       "atmo_flyer",
@@ -8983,11 +8361,7 @@
       "Medium Laser",
       "LRM 20",
       "Medium Laser",
-      "Medium Laser",
-      "IS Ammo LRM-20",
-      "IS Ammo LRM-20",
-      "IS Ammo LRM-20",
-      "IS Ammo LRM-20"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -9020,11 +8394,7 @@
       "ISArtemisIV",
       "Medium Laser",
       "Medium Laser",
-      "Medium Laser",
-      "IS Ammo LRM-15 Artemis-capable",
-      "IS Ammo LRM-15 Artemis-capable",
-      "IS Ammo LRM-15 Artemis-capable",
-      "IS Ammo LRM-15 Artemis-capable"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -9054,9 +8424,7 @@
       "Large Laser",
       "Medium Laser",
       "Medium Laser",
-      "Small Laser",
-      "IS Ammo AC/10",
-      "IS Ammo AC/10"
+      "Small Laser"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -9087,13 +8455,7 @@
       "LRM 20",
       "ISArtemisIV",
       "ISERSmallLaser",
-      "ISERSmallLaser",
-      "IS Ultra AC/10 Ammo",
-      "IS Ultra AC/10 Ammo",
-      "IS Ammo LRM-20 Artemis-capable",
-      "IS Ammo LRM-20 Artemis-capable",
-      "IS Ammo LRM-20 Artemis-capable",
-      "IS Ammo LRM-20 Artemis-capable"
+      "ISERSmallLaser"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -9122,9 +8484,7 @@
       "PPC",
       "Large Laser",
       "Large Laser",
-      "PPC",
-      "IS Ammo LRM-15",
-      "IS Ammo LRM-15"
+      "PPC"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -9148,11 +8508,7 @@
       "Autocannon/10",
       "PPC",
       "Autocannon/10",
-      "PPC",
-      "IS Ammo LRM-15",
-      "IS Ammo LRM-15",
-      "IS Ammo AC/10",
-      "IS Ammo AC/10"
+      "PPC"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -9178,13 +8534,7 @@
       "LRM 20",
       "PPC",
       "LRM 20",
-      "PPC",
-      "IS Ammo LRM-15",
-      "IS Ammo LRM-15",
-      "IS Ammo LRM-20",
-      "IS Ammo LRM-20",
-      "IS Ammo LRM-20",
-      "IS Ammo LRM-20"
+      "PPC"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -9213,8 +8563,7 @@
       "Heavy PPC",
       "Large Laser",
       "Large Laser",
-      "Heavy PPC",
-      "IS Ammo LRM-10 Artemis-capable"
+      "Heavy PPC"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -9239,10 +8588,7 @@
       "SRM 6",
       "Autocannon/10",
       "Autocannon/10",
-      "Medium Laser",
-      "IS Ammo SRM-6",
-      "IS Ammo AC/10",
-      "IS Ammo AC/10"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -9267,12 +8613,7 @@
       "SRM 6",
       "ISGaussRifle",
       "ISGaussRifle",
-      "Medium Laser",
-      "IS Ammo SRM-6",
-      "IS Gauss Ammo",
-      "IS Gauss Ammo",
-      "IS Gauss Ammo",
-      "IS Gauss Ammo"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -9299,10 +8640,7 @@
       "ISERMediumLaser",
       "ISLightGaussRifle",
       "ISLightGaussRifle",
-      "ISERMediumLaser",
-      "IS Ammo SRM-6 Artemis-capable",
-      "IS Light Gauss Ammo",
-      "IS Light Gauss Ammo"
+      "ISERMediumLaser"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -9327,10 +8665,7 @@
       "Heavy PPC",
       "ISMediumPulseLaser",
       "ISChaffPod",
-      "ISChaffPod",
-      "IS Gauss Ammo",
-      "IS Gauss Ammo",
-      "IS Gauss Ammo"
+      "ISChaffPod"
     ],
     "raw_quirks": [],
     "role": null,
@@ -9382,10 +8717,6 @@
       "CLERMediumLaser:OMNI",
       "CLERMediumLaser:OMNI",
       "CLERSmallLaser:OMNI",
-      "Clan Ammo iATM-12:OMNI",
-      "Clan Ammo iATM-12:OMNI",
-      "Clan Ammo iATM-12:OMNI",
-      "Clan Ammo iATM-12:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -9412,22 +8743,6 @@
       "CLiATM9:OMNI",
       "CLiATM9:OMNI",
       "CLiATM9:OMNI",
-      "Clan Ammo iATM-9:OMNI",
-      "Clan Ammo iATM-9:OMNI",
-      "Clan Ammo iATM-9:OMNI",
-      "Clan Ammo iATM-9:OMNI",
-      "Clan Ammo iATM-9:OMNI",
-      "Clan Ammo iATM-9:OMNI",
-      "Clan Ammo iATM-9:OMNI",
-      "Clan Ammo iATM-9:OMNI",
-      "Clan Ammo iATM-9:OMNI",
-      "Clan Ammo iATM-9:OMNI",
-      "Clan Ammo iATM-9:OMNI",
-      "Clan Ammo iATM-9:OMNI",
-      "Clan Ammo iATM-9:OMNI",
-      "Clan Ammo iATM-9:OMNI",
-      "Clan Ammo iATM-9:OMNI",
-      "Clan Ammo iATM-9:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -9457,9 +8772,7 @@
       "IS Vehicular Stealth",
       "IS Vehicular Stealth",
       "ISGuardianECMSuite",
-      "ISModularArmor",
-      "IS Ammo MML-3 LRM",
-      "IS Ammo MML-3 SRM"
+      "ISModularArmor"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -9533,9 +8846,6 @@
       "CLStreakLRM15",
       "CLStreakLRM15",
       "CLLaserAntiMissileSystem",
-      "Clan Streak LRM 15 Ammo",
-      "Clan Streak LRM 15 Ammo",
-      "Clan Streak LRM 15 Ammo",
       "CLCASE"
     ],
     "raw_quirks": [
@@ -9569,9 +8879,6 @@
       "CLCASE",
       "CLERMediumLaser",
       "CLERMediumLaser",
-      "CLRotaryAC5 Ammo",
-      "CLRotaryAC5 Ammo",
-      "CLRotaryAC5 Ammo",
       "CLCASE"
     ],
     "raw_quirks": [
@@ -9606,9 +8913,7 @@
       "CLERMediumLaser",
       "CLStreakSRM6",
       "CLStreakSRM6",
-      "CLStreakSRM6",
-      "Clan Streak SRM 6 Ammo",
-      "Clan Streak SRM 6 Ammo"
+      "CLStreakSRM6"
     ],
     "raw_quirks": [
       "prototype",
@@ -9664,8 +8969,7 @@
     "raw_equipment_refs": [
       "ISERPPC",
       "PPC Capacitor",
-      "Enhanced LRM 5",
-      "ISEnhancedLRM5 Ammo"
+      "Enhanced LRM 5"
     ],
     "raw_quirks": [
       "prototype",
@@ -9887,8 +9191,7 @@
       "IS Vehicular Stealth",
       "IS Vehicular Stealth",
       "ISMediumPulseLaser",
-      "ISAngelECMSuite",
-      "IS MRM 30 Ammo"
+      "ISAngelECMSuite"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -9913,10 +9216,7 @@
       "CLMediumPulseLaser",
       "CLMediumPulseLaser",
       "ISChaffPod",
-      "ISChaffPod",
-      "ISImprovedHeavyGauss Ammo",
-      "ISImprovedHeavyGauss Ammo",
-      "ISImprovedHeavyGauss Ammo"
+      "ISChaffPod"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -9942,10 +9242,7 @@
       "ISERMediumLaser",
       "ISERMediumLaser",
       "ISERMediumLaser",
-      "ISERMediumLaser",
-      "ISImprovedHeavyGauss Ammo",
-      "ISImprovedHeavyGauss Ammo",
-      "ISImprovedHeavyGauss Ammo"
+      "ISERMediumLaser"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -9969,10 +9266,7 @@
       "CLERPPC",
       "CLMediumPulseLaser",
       "CLERPPC",
-      "CLMediumPulseLaser",
-      "Clan Streak LRM 20 Ammo",
-      "Clan Streak LRM 20 Ammo",
-      "Clan Streak LRM 20 Ammo"
+      "CLMediumPulseLaser"
     ],
     "raw_quirks": [],
     "role": "Fire Support",
@@ -10020,11 +9314,7 @@
       "ISImprovedHeavyGaussRifle",
       "IS Vehicular Stealth",
       "IS Vehicular Stealth",
-      "IS Vehicular Stealth",
-      "ISImprovedHeavyGauss Ammo",
-      "ISImprovedHeavyGauss Ammo",
-      "ISImprovedHeavyGauss Ammo",
-      "ISImprovedHeavyGauss Ammo"
+      "IS Vehicular Stealth"
     ],
     "raw_quirks": [],
     "role": "Fire Support",
@@ -10049,9 +9339,7 @@
       "Binary Laser (Blazer) Cannon",
       "Extended LRM 10",
       "Extended LRM 10",
-      "ISMediumXPulseLaser",
-      "IS Ammo Extended LRM-10",
-      "IS Ammo Extended LRM-10"
+      "ISMediumXPulseLaser"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -10097,9 +9385,7 @@
       "CLImprovedMediumHeavyLaser",
       "CLImprovedMediumHeavyLaser",
       "CLImprovedMediumHeavyLaser",
-      "CLLaserAntiMissileSystem",
-      "ISRotaryAC5 Ammo",
-      "ISRotaryAC5 Ammo"
+      "CLLaserAntiMissileSystem"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -10121,7 +9407,6 @@
     "raw_equipment_refs": [
       "ISImprovedHeavyGaussRifle",
       "ISReconCamera",
-      "ISImprovedHeavyGauss Ammo",
       "ISFlotationHull"
     ],
     "raw_quirks": [
@@ -10154,11 +9439,7 @@
       "ISLaserInsulator",
       "ISLargePulseLaser",
       "ISRotaryAC5",
-      "ISLaserInsulator",
-      "ISRotaryAC5 Ammo",
-      "ISRotaryAC5 Ammo",
-      "ISRotaryAC5 Ammo",
-      "ISRotaryAC5 Ammo"
+      "ISLaserInsulator"
     ],
     "raw_quirks": [
       "prototype"
@@ -10217,10 +9498,7 @@
       "ISLargeXPulseLaser",
       "ISLargeXPulseLaser",
       "IS Vehicular Stealth",
-      "IS Vehicular Stealth",
-      "ISImprovedHeavyGauss Ammo",
-      "ISImprovedHeavyGauss Ammo",
-      "ISImprovedHeavyGauss Ammo"
+      "IS Vehicular Stealth"
     ],
     "raw_quirks": [
       "atmo_flyer"
@@ -10255,13 +9533,7 @@
       "ISERMediumLaser",
       "ISERMediumLaser",
       "ISERMediumLaser",
-      "ISERMediumLaser",
-      "IS Ammo Extended LRM-15",
-      "IS Ammo Extended LRM-15",
-      "IS Ammo Extended LRM-15",
-      "IS Ammo Extended LRM-15",
-      "IS Ammo Extended LRM-15",
-      "IS Ammo Extended LRM-15"
+      "ISERMediumLaser"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -10286,9 +9558,7 @@
       "ISERMediumLaser",
       "ISERMediumLaser",
       "ISERSmallLaser",
-      "ISERSmallLaser",
-      "IS Ammo HVAC/10",
-      "IS Ammo HVAC/10"
+      "ISERSmallLaser"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -10311,7 +9581,6 @@
       "Machine Gun",
       "CLRocketLauncher15Prototype",
       "Basic Fire Control",
-      "IS Machine Gun Ammo - Half",
       "External Stores Hardpoint",
       "External Stores Hardpoint"
     ],
@@ -10337,10 +9606,7 @@
       "SRM 6",
       "Autocannon/10",
       "Autocannon/10",
-      "Medium Laser",
-      "IS Ammo SRM-6",
-      "IS Ammo AC/10",
-      "IS Ammo AC/10"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -10459,11 +9725,7 @@
       "SRM 4",
       "SRM 4",
       "SRM 4",
-      "Advanced Fire Control",
-      "IS Ammo SRM-4",
-      "IS Ammo SRM-4",
-      "IS Ammo AC/10 Primitive",
-      "IS Ammo AC/10 Primitive"
+      "Advanced Fire Control"
     ],
     "raw_quirks": [
       "atmo_flyer",
@@ -10493,8 +9755,7 @@
       "External Stores Hardpoint",
       "External Stores Hardpoint",
       "External Stores Hardpoint",
-      "External Stores Hardpoint",
-      "IS Ammo LRM-5"
+      "External Stores Hardpoint"
     ],
     "raw_quirks": [
       "atmo_flyer",
@@ -10523,8 +9784,7 @@
       "External Stores Hardpoint",
       "External Stores Hardpoint",
       "External Stores Hardpoint",
-      "External Stores Hardpoint",
-      "IS Ammo SRM-4"
+      "External Stores Hardpoint"
     ],
     "raw_quirks": [
       "atmo_flyer",
@@ -10562,10 +9822,6 @@
       "CLImprovedSmallHeavyLaser",
       "CLImprovedSmallHeavyLaser",
       "CLCASE",
-      "Clan Ammo LRM-20 (Clan) Artemis V-capable",
-      "Clan Ammo LRM-20 (Clan) Artemis V-capable",
-      "Clan Ammo LRM-20 (Clan) Artemis V-capable",
-      "Clan Ammo LRM-20 (Clan) Artemis V-capable",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -10590,10 +9846,7 @@
       "ISMML5",
       "ISArtemisIV",
       "ISArtemisIV",
-      "ISERSmallLaser",
-      "IS Ammo MML-5 LRM Artemis-capable",
-      "IS Ammo MML-5 LRM Artemis-capable",
-      "IS Ammo MML-5 SRM Artemis-capable"
+      "ISERSmallLaser"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -10640,8 +9893,7 @@
       "Small Laser",
       "Machine Gun",
       "Machine Gun",
-      "Machine Gun",
-      "IS Ammo MG - Full"
+      "Machine Gun"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -10669,12 +9921,7 @@
       "ISERMediumLaser",
       "ISERMediumLaser",
       "ISERMediumLaser",
-      "ISERMediumLaser",
-      "IS Ammo HVAC/10",
-      "IS Ammo HVAC/10",
-      "IS Ammo HVAC/10",
-      "IS Ammo Extended LRM-10",
-      "IS Ammo Extended LRM-10"
+      "ISERMediumLaser"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -10699,8 +9946,7 @@
       "Medium Laser",
       "Medium Laser",
       "Medium Laser",
-      "Small Laser",
-      "IS Ultra AC/5 Ammo"
+      "Small Laser"
     ],
     "raw_quirks": [
       "atmo_flyer",
@@ -10758,9 +10004,7 @@
       "ISERMediumLaser",
       "ISERMediumLaser",
       "ISERMediumLaser",
-      "ISERMediumLaser",
-      "IS Gauss Ammo",
-      "IS Gauss Ammo"
+      "ISERMediumLaser"
     ],
     "raw_quirks": [
       "imp_life_support",
@@ -10788,11 +10032,7 @@
       "ISERLargeLaser",
       "ISGuardianECMSuite",
       "BeagleActiveProbe",
-      "Extended LRM 20",
-      "IS Ammo Extended LRM-20",
-      "IS Ammo Extended LRM-20",
-      "IS Ammo Extended LRM-20",
-      "IS Ammo Extended LRM-20"
+      "Extended LRM 20"
     ],
     "raw_quirks": [
       "imp_life_support",
@@ -10821,10 +10061,7 @@
       "ISERMediumLaser",
       "ISERMediumLaser",
       "ISERMediumLaser",
-      "ISERMediumLaser",
-      "ISRotaryAC5 Ammo",
-      "ISRotaryAC5 Ammo",
-      "ISRotaryAC5 Ammo"
+      "ISERMediumLaser"
     ],
     "raw_quirks": [
       "easy_maintain"
@@ -10850,9 +10087,7 @@
       "ISApollo",
       "Heavy PPC",
       "Heavy PPC",
-      "ISAngelECMSuite",
-      "IS MRM 40 Ammo",
-      "IS MRM 40 Ammo"
+      "ISAngelECMSuite"
     ],
     "raw_quirks": [
       "fast_reload",
@@ -10880,9 +10115,7 @@
       "ISStreakSRM6",
       "IS Vehicular Stealth",
       "IS Vehicular Stealth",
-      "ISGuardianECMSuite",
-      "IS Streak SRM 6 Ammo",
-      "IS Streak SRM 6 Ammo"
+      "ISGuardianECMSuite"
     ],
     "raw_quirks": [
       "easy_pilot"
@@ -10907,10 +10140,7 @@
       "ISLightGaussRifle",
       "ISLightGaussRifle",
       "ISERMediumLaser",
-      "ISERMediumLaser",
-      "IS Light Gauss Ammo",
-      "IS Light Gauss Ammo",
-      "IS Light Gauss Ammo"
+      "ISERMediumLaser"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -10958,16 +10188,7 @@
       "CLUltraAC10",
       "ISMediumPulseLaser",
       "ISChaffPod",
-      "ISChaffPod",
-      "IS Gauss Ammo",
-      "IS Gauss Ammo",
-      "IS Gauss Ammo",
-      "Clan Ultra AC/10 Ammo",
-      "Clan Ultra AC/10 Ammo",
-      "Clan Ultra AC/10 Ammo",
-      "Clan Ultra AC/10 Ammo",
-      "Clan Ultra AC/10 Ammo",
-      "Clan Ultra AC/10 Ammo"
+      "ISChaffPod"
     ],
     "raw_quirks": [
       "difficult_maintain",
@@ -11025,10 +10246,6 @@
       "CLTargeting Computer:OMNI",
       "ISLongTomCannonAmmo:OMNI",
       "ISLongTomCannonAmmo:OMNI",
-      "Clan Ultra AC/20 Ammo:OMNI",
-      "Clan Ultra AC/20 Ammo:OMNI",
-      "Clan Ultra AC/20 Ammo:OMNI",
-      "Clan Ultra AC/20 Ammo:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -11054,11 +10271,7 @@
       "CLATM9",
       "CLATM9",
       "Clan Ferro-Lamellor",
-      "CLMediumPulseLaser",
-      "Clan Ammo ATM-9",
-      "Clan Ammo ATM-9",
-      "Clan Ammo ATM-9 ER",
-      "Clan Ammo ATM-9 HE"
+      "CLMediumPulseLaser"
     ],
     "raw_quirks": [],
     "role": null,
@@ -11082,9 +10295,7 @@
       "ISTargeting Computer:OMNI",
       "Large Re-engineered Laser:OMNI",
       "Large Re-engineered Laser:OMNI",
-      "ISERMediumLaser:OMNI",
-      "IS Ammo LRM-15:OMNI",
-      "IS Ammo LRM-15:OMNI"
+      "ISERMediumLaser:OMNI"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -11111,10 +10322,6 @@
       "CLCASE",
       "WatchdogECMSuite:OMNI",
       "CLTargeting Computer:OMNI",
-      "Clan Gauss Ammo:OMNI",
-      "Clan Gauss Ammo:OMNI",
-      "Clan Ammo LRM-20 (Clan) Artemis V-capable:OMNI",
-      "Clan Ammo LRM-20 (Clan) Artemis V-capable:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -11139,10 +10346,7 @@
       "ISMML5",
       "ISArtemisIV",
       "ISMML5",
-      "ISArtemisIV",
-      "IS Ammo MML-5 LRM",
-      "IS Ammo MML-5 LRM",
-      "IS Ammo MML-5 SRM"
+      "ISArtemisIV"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -11172,13 +10376,6 @@
       "CLCASE",
       "CLTargeting Computer:OMNI",
       "WatchdogECMSuite:OMNI",
-      "Clan Streak SRM 6 Ammo:OMNI",
-      "Clan Ultra AC/20 Ammo:OMNI",
-      "Clan Ultra AC/20 Ammo:OMNI",
-      "Clan Ultra AC/20 Ammo:OMNI",
-      "Clan Ultra AC/20 Ammo:OMNI",
-      "Clan Ultra AC/20 Ammo:OMNI",
-      "Clan Ultra AC/20 Ammo:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -11294,10 +10491,7 @@
       "ISMML7:OMNI",
       "Large Re-engineered Laser:OMNI",
       "Large Re-engineered Laser:OMNI",
-      "ISMML7:OMNI",
-      "IS Ammo MML-7 LRM:OMNI",
-      "IS Ammo MML-7 LRM:OMNI",
-      "IS Ammo MML-7 SRM:OMNI"
+      "ISMML7:OMNI"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -11346,10 +10540,7 @@
       "BeagleActiveProbe",
       "Large Re-engineered Laser",
       "Large Re-engineered Laser",
-      "Medium Re-engineered Laser",
-      "IS Ammo LRM-20",
-      "IS Ammo LRM-20",
-      "IS Ammo LRM-20"
+      "Medium Re-engineered Laser"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -11373,9 +10564,7 @@
       "CLImprovedHeavyLargeLaser:OMNI",
       "CLTargeting Computer:OMNI",
       "CLCASE",
-      "CLECMSuite:OMNI",
-      "Clan Gauss Ammo:OMNI",
-      "Clan Gauss Ammo:OMNI"
+      "CLECMSuite:OMNI"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -11400,11 +10589,7 @@
       "ISERMediumLaser:OMNI",
       "ISImprovedHeavyGaussRifle:OMNI",
       "ISStreakSRM2:OMNI",
-      "ISStreakSRM2:OMNI",
-      "IS Streak SRM 2 Ammo:OMNI",
-      "ISImprovedHeavyGauss Ammo:OMNI",
-      "ISImprovedHeavyGauss Ammo:OMNI",
-      "ISImprovedHeavyGauss Ammo:OMNI"
+      "ISStreakSRM2:OMNI"
     ],
     "raw_quirks": [
       "easy_pilot",
@@ -11435,9 +10620,7 @@
       "ISERMediumLaser:OMNI",
       "ISERMediumLaser:OMNI",
       "ISERMediumLaser:OMNI",
-      "ISERMediumLaser:OMNI",
-      "IS Gauss Ammo:OMNI",
-      "IS Gauss Ammo:OMNI"
+      "ISERMediumLaser:OMNI"
     ],
     "raw_quirks": [
       "easy_pilot",
@@ -11464,13 +10647,7 @@
       "ISERMediumLaser:OMNI",
       "ISERMediumLaser:OMNI",
       "ISRotaryAC5:OMNI",
-      "ISRotaryAC5:OMNI",
-      "ISRotaryAC5 Ammo:OMNI",
-      "ISRotaryAC5 Ammo:OMNI",
-      "ISRotaryAC5 Ammo:OMNI",
-      "ISRotaryAC5 Ammo:OMNI",
-      "ISRotaryAC5 Ammo:OMNI",
-      "ISRotaryAC5 Ammo:OMNI"
+      "ISRotaryAC5:OMNI"
     ],
     "raw_quirks": [
       "easy_pilot",
@@ -11496,16 +10673,7 @@
     "raw_equipment_refs": [
       "ISHeavyGaussRifle:OMNI",
       "ISRotaryAC5:OMNI",
-      "ISRotaryAC5:OMNI",
-      "ISHeavyGauss Ammo:OMNI",
-      "ISHeavyGauss Ammo:OMNI",
-      "ISHeavyGauss Ammo:OMNI",
-      "ISRotaryAC5 Ammo:OMNI",
-      "ISRotaryAC5 Ammo:OMNI",
-      "ISRotaryAC5 Ammo:OMNI",
-      "ISRotaryAC5 Ammo:OMNI",
-      "ISRotaryAC5 Ammo:OMNI",
-      "ISRotaryAC5 Ammo:OMNI"
+      "ISRotaryAC5:OMNI"
     ],
     "raw_quirks": [
       "easy_pilot",
@@ -11533,14 +10701,7 @@
       "MRM 40:OMNI",
       "MRM 40:OMNI",
       "ISApollo:OMNI",
-      "ISApollo:OMNI",
-      "ISRotaryAC5 Ammo:OMNI",
-      "ISRotaryAC5 Ammo:OMNI",
-      "ISRotaryAC5 Ammo:OMNI",
-      "IS MRM 40 Ammo:OMNI",
-      "IS MRM 40 Ammo:OMNI",
-      "IS MRM 40 Ammo:OMNI",
-      "IS MRM 40 Ammo:OMNI"
+      "ISApollo:OMNI"
     ],
     "raw_quirks": [
       "easy_pilot",
@@ -11565,14 +10726,7 @@
     "mul_id": 6695,
     "raw_equipment_refs": [
       "ISImprovedHeavyGaussRifle:OMNI",
-      "ISImprovedHeavyGaussRifle:OMNI",
-      "ISImprovedHeavyGauss Ammo:OMNI",
-      "ISImprovedHeavyGauss Ammo:OMNI",
-      "ISImprovedHeavyGauss Ammo:OMNI",
-      "ISImprovedHeavyGauss Ammo:OMNI",
-      "ISImprovedHeavyGauss Ammo:OMNI",
-      "ISImprovedHeavyGauss Ammo:OMNI",
-      "ISImprovedHeavyGauss Ammo:OMNI"
+      "ISImprovedHeavyGaussRifle:OMNI"
     ],
     "raw_quirks": [
       "easy_pilot",
@@ -11600,8 +10754,7 @@
       "ISERMediumLaser:OMNI",
       "ISERMediumLaser:OMNI",
       "ISStreakSRM4:OMNI",
-      "ISStreakSRM4:OMNI",
-      "IS Streak SRM 4 Ammo:OMNI"
+      "ISStreakSRM4:OMNI"
     ],
     "raw_quirks": [
       "easy_pilot"
@@ -11656,8 +10809,7 @@
       "ISERMediumLaser:OMNI",
       "ISAntiMissileSystem:OMNI",
       "ISAntiMissileSystem:OMNI",
-      "ISGuardianECMSuite:OMNI",
-      "ISAMS Ammo:OMNI"
+      "ISGuardianECMSuite:OMNI"
     ],
     "raw_quirks": [
       "easy_pilot"
@@ -11694,12 +10846,7 @@
       "ISERMediumLaser",
       "ISERMediumLaser",
       "ISPlasmaRifleAmmo",
-      "ISPlasmaRifleAmmo",
-      "IS Ammo SRM-6",
-      "IS Ammo SRM-6",
-      "IS Ammo LRM-15",
-      "IS Ammo LRM-15",
-      "IS Ammo LRM-15"
+      "ISPlasmaRifleAmmo"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -11725,9 +10872,7 @@
       "ISArtemisIV:OMNI",
       "ISMML7:OMNI",
       "ISArtemisIV:OMNI",
-      "ISERMediumLaser:OMNI",
-      "IS Ammo MML-7 SRM Artemis-capable:OMNI",
-      "IS Ammo MML-7 LRM Artemis-capable:OMNI"
+      "ISERMediumLaser:OMNI"
     ],
     "raw_quirks": [],
     "role": "Fire Support",
@@ -11777,12 +10922,7 @@
       "ISMML5:OMNI",
       "ISERMediumLaser:OMNI",
       "ISERMediumLaser:OMNI",
-      "ISERMediumLaser:OMNI",
-      "ISImprovedHeavyGauss Ammo:OMNI",
-      "ISImprovedHeavyGauss Ammo:OMNI",
-      "ISImprovedHeavyGauss Ammo:OMNI",
-      "IS Ammo MML-5 SRM:OMNI",
-      "IS Ammo MML-5 LRM:OMNI"
+      "ISERMediumLaser:OMNI"
     ],
     "raw_quirks": [],
     "role": "Fire Support",
@@ -11840,11 +10980,7 @@
       "ISArtemisIV:OMNI",
       "ISERMediumLaser:OMNI",
       "Small Laser:OMNI",
-      "ISTargeting Computer:OMNI",
-      "IS Ammo MML-7 LRM Artemis-capable:OMNI",
-      "IS Ammo MML-7 SRM Artemis-capable:OMNI",
-      "IS Ammo MML-7 LRM Artemis-capable:OMNI",
-      "IS Ammo MML-7 SRM Artemis-capable:OMNI"
+      "ISTargeting Computer:OMNI"
     ],
     "raw_quirks": [],
     "role": "Fire Support",
@@ -11872,8 +11008,6 @@
       "CLStreakSRM6:OMNI",
       "CLERMediumLaser:OMNI",
       "CLECMSuite:OMNI",
-      "Clan Streak SRM 6 Ammo:OMNI",
-      "Clan Streak SRM 6 Ammo:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -11903,11 +11037,6 @@
       "CLStreakSRM6:OMNI",
       "CLStreakSRM6:OMNI",
       "CLECMSuite:OMNI",
-      "Hyper-Assault Gauss Rifle/30 Ammo:OMNI",
-      "Hyper-Assault Gauss Rifle/30 Ammo:OMNI",
-      "Hyper-Assault Gauss Rifle/30 Ammo:OMNI",
-      "Clan Streak SRM 6 Ammo:OMNI",
-      "Clan Streak SRM 6 Ammo:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -11940,14 +11069,6 @@
       "CLArtemisIV:OMNI",
       "CLERSmallLaser:OMNI",
       "CLECMSuite:OMNI",
-      "Clan Ammo LRM-15 (Clan) Artemis-capable:OMNI",
-      "Clan Ammo LRM-15 (Clan) Artemis-capable:OMNI",
-      "Clan Ammo LRM-15 (Clan) Artemis-capable:OMNI",
-      "Clan Ammo LRM-15 (Clan) Artemis-capable:OMNI",
-      "Clan Ammo LRM-15 (Clan) Artemis-capable:OMNI",
-      "Clan Ammo LRM-15 (Clan) Artemis-capable:OMNI",
-      "Clan Ammo LRM-15 (Clan) Artemis-capable:OMNI",
-      "Clan Ammo LRM-15 (Clan) Artemis-capable:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -11982,10 +11103,6 @@
       "CLERMediumLaser:OMNI",
       "CLERMediumLaser:OMNI",
       "CLECMSuite:OMNI",
-      "Clan Ammo LRM-15 (Clan) Artemis-capable:OMNI",
-      "Clan Ammo LRM-15 (Clan) Artemis-capable:OMNI",
-      "Clan Ammo LRM-15 (Clan) Artemis-capable:OMNI",
-      "Clan Ammo LRM-15 (Clan) Artemis-capable:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -12059,8 +11176,7 @@
       "ISERMediumLaser",
       "ISERMediumLaser",
       "ISERMediumLaser",
-      "ISERMediumLaser",
-      "IS Ammo LAC/5"
+      "ISERMediumLaser"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -12082,11 +11198,7 @@
     "raw_equipment_refs": [
       "ISSNPPC",
       "ISMML7",
-      "ISMML7",
-      "IS Ammo MML-7 SRM",
-      "IS Ammo MML-7 LRM",
-      "IS Ammo MML-7 SRM",
-      "IS Ammo MML-7 LRM"
+      "ISMML7"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -12108,10 +11220,7 @@
     "raw_equipment_refs": [
       "Heavy PPC",
       "ISMML5",
-      "ISMML5",
-      "IS Ammo MML-5 LRM",
-      "IS Ammo MML-5 LRM",
-      "IS Ammo MML-5 SRM"
+      "ISMML5"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -12139,10 +11248,6 @@
       "CLArtemisIV:OMNI",
       "CLLRM15:OMNI",
       "CLArtemisIV:OMNI",
-      "Clan Ammo LRM-15 (Clan) Artemis-capable:OMNI",
-      "Clan Ammo LRM-15 (Clan) Artemis-capable:OMNI",
-      "Clan Ammo LRM-15 (Clan) Artemis-capable:OMNI",
-      "Clan Ammo LRM-15 (Clan) Artemis-capable:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -12165,11 +11270,7 @@
     "raw_equipment_refs": [
       "CLHAG40:OMNI",
       "CLTargeting Computer:OMNI",
-      "CLCASE",
-      "Hyper-Assault Gauss Rifle/40 Ammo:OMNI",
-      "Hyper-Assault Gauss Rifle/40 Ammo:OMNI",
-      "Hyper-Assault Gauss Rifle/40 Ammo:OMNI",
-      "Hyper-Assault Gauss Rifle/40 Ammo:OMNI"
+      "CLCASE"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -12225,10 +11326,6 @@
       "CLStreakSRM6:OMNI",
       "CLStreakSRM6:OMNI",
       "CLStreakSRM6:OMNI",
-      "Clan Streak SRM 6 Ammo:OMNI",
-      "Clan Streak SRM 6 Ammo:OMNI",
-      "Clan Streak SRM 6 Ammo:OMNI",
-      "Clan Streak SRM 6 Ammo:OMNI",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -12263,15 +11360,7 @@
       "ISNarc Pods",
       "ISNarc Pods",
       "ISNarc Pods",
-      "ISNarc Pods",
-      "IS Ammo LRM-20",
-      "IS Ammo LRM-20",
-      "IS Ammo LRM-20",
-      "IS Ammo SRM-6",
-      "IS Ammo LRM-20",
-      "IS Ammo LRM-20",
-      "IS Ammo LRM-20",
-      "IS Ammo SRM-6"
+      "ISNarc Pods"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -12301,8 +11390,7 @@
       "ISArtemisIV",
       "Small Laser",
       "Medium Laser",
-      "Medium Laser",
-      "IS Ammo LRM-15 Artemis-capable"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -12324,9 +11412,7 @@
     "model": "HMR-HDb",
     "mul_id": 4261,
     "raw_equipment_refs": [
-      "ISGaussRifle",
-      "IS Gauss Ammo",
-      "IS Gauss Ammo"
+      "ISGaussRifle"
     ],
     "raw_quirks": [],
     "role": "Fire Support",
@@ -12355,8 +11441,6 @@
       "SRM 6",
       "SRM 6",
       "Medium Laser",
-      "IS Ammo SRM-6",
-      "IS Ammo SRM-6",
       "ISCASE"
     ],
     "raw_quirks": [],
@@ -12385,11 +11469,6 @@
       "LRM 20",
       "ISArtemisIV",
       "ISMediumPulseLaser",
-      "IS Ammo AC/20",
-      "IS Ammo AC/20",
-      "IS Ammo LRM-20 Artemis-capable",
-      "IS Ammo LRM-20 Artemis-capable",
-      "IS Ammo LRM-20 Artemis-capable",
       "ISCASE"
     ],
     "raw_quirks": [],
@@ -12415,9 +11494,7 @@
       "ISArtemisIV",
       "LRM 15",
       "ISArtemisIV",
-      "ISMediumPulseLaser",
-      "IS Ammo LRM-15 Artemis-capable",
-      "IS Ammo LRM-15 Artemis-capable"
+      "ISMediumPulseLaser"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -12492,8 +11569,6 @@
       "ISERMediumLaser:OMNI",
       "ISMediumPulseLaser:OMNI",
       "ISERSmallLaser:OMNI",
-      "IS Ammo LRM-15 Artemis-capable:OMNI",
-      "IS Ammo LRM-15 Artemis-capable:OMNI",
       "ISCASE:OMNI"
     ],
     "raw_quirks": [],
@@ -12524,11 +11599,7 @@
       "ISArtemisIV:OMNI",
       "Medium Laser:OMNI",
       "Medium Laser:OMNI",
-      "ISCASE:OMNI",
-      "IS Ammo MML-9 SRM Artemis-capable:OMNI",
-      "IS Ammo MML-9 LRM Artemis-capable:OMNI",
-      "IS Ammo MML-9 SRM Artemis-capable:OMNI",
-      "IS Ammo MML-9 LRM Artemis-capable:OMNI"
+      "ISCASE:OMNI"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -12582,9 +11653,6 @@
       "ISMediumPulseLaser:OMNI",
       "ISMediumPulseLaser:OMNI",
       "ISERSmallLaser:OMNI",
-      "IS MRM 40 Ammo:OMNI",
-      "IS MRM 40 Ammo:OMNI",
-      "IS MRM 40 Ammo:OMNI",
       "ISCASE:OMNI"
     ],
     "raw_quirks": [],
@@ -12635,8 +11703,6 @@
       "ISERLargeLaser:OMNI",
       "ISERMediumLaser:OMNI",
       "Small Laser:OMNI",
-      "IS Light Gauss Ammo:OMNI",
-      "IS Light Gauss Ammo:OMNI",
       "ISCASE:OMNI"
     ],
     "raw_quirks": [],
@@ -12686,8 +11752,6 @@
       "ISERMediumLaser:OMNI",
       "ISERMediumLaser:OMNI",
       "ISERMediumLaser:OMNI",
-      "IS Ammo LRM-15 Artemis-capable:OMNI",
-      "IS Ammo LRM-15 Artemis-capable:OMNI",
       "ISCASE:OMNI"
     ],
     "raw_quirks": [],
@@ -12736,8 +11800,6 @@
       "ISERMediumLaser:OMNI",
       "ISERMediumLaser:OMNI",
       "ISERMediumLaser:OMNI",
-      "IS Ammo Thunderbolt-10:OMNI",
-      "IS Ammo Thunderbolt-10:OMNI",
       "ISCASE:OMNI"
     ],
     "raw_quirks": [],
@@ -12785,7 +11847,6 @@
       "ISLightGaussRifle:OMNI",
       "ISERMediumLaser:OMNI",
       "ISERMediumLaser:OMNI",
-      "IS Light Gauss Ammo:OMNI",
       "ISCASE:OMNI"
     ],
     "raw_quirks": [],
@@ -12813,8 +11874,6 @@
       "Heavy PPC:OMNI",
       "ISERMediumLaser:OMNI",
       "ISERMediumLaser:OMNI",
-      "IS Gauss Ammo:OMNI",
-      "IS Gauss Ammo:OMNI",
       "ISCASE:OMNI"
     ],
     "raw_quirks": [],
@@ -12840,14 +11899,7 @@
       "ISStreakSRM4:OMNI",
       "ISRotaryAC5:OMNI",
       "ISStreakSRM4:OMNI",
-      "ISRotaryAC5 Ammo:OMNI",
-      "ISRotaryAC5 Ammo:OMNI",
-      "ISRotaryAC5 Ammo:OMNI",
-      "IS Streak SRM 4 Ammo:OMNI",
-      "ISCASE:OMNI",
-      "ISRotaryAC5 Ammo:OMNI",
-      "ISRotaryAC5 Ammo:OMNI",
-      "ISRotaryAC5 Ammo:OMNI"
+      "ISCASE:OMNI"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -12906,11 +11958,7 @@
       "ISStreakSRM6:OMNI",
       "ISERMediumLaser:OMNI",
       "ISERMediumLaser:OMNI",
-      "ISCASE:OMNI",
-      "IS Streak SRM 6 Ammo:OMNI",
-      "IS Streak SRM 6 Ammo:OMNI",
-      "IS Streak SRM 6 Ammo:OMNI",
-      "IS Streak SRM 6 Ammo:OMNI"
+      "ISCASE:OMNI"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -12965,9 +12013,6 @@
       "ISERMediumLaser:OMNI",
       "ISERMediumLaser:OMNI",
       "ISERMediumLaser:OMNI",
-      "IS Light Gauss Ammo:OMNI",
-      "IS Light Gauss Ammo:OMNI",
-      "IS Light Gauss Ammo:OMNI",
       "ISCASE:OMNI"
     ],
     "raw_quirks": [],
@@ -12993,7 +12038,6 @@
       "CLStreakSRM6",
       "CLStreakSRM6",
       "CLERSmallLaser",
-      "Clan Streak SRM 6 Ammo",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -13090,12 +12134,6 @@
       "CLHeavyLargeLaser",
       "CLATM9",
       "CLATM9",
-      "Clan Ammo ATM-9",
-      "Clan Ammo ATM-9",
-      "Clan Ammo ATM-9",
-      "Clan Ammo ATM-9",
-      "Clan Ammo ATM-9",
-      "Clan Ammo ATM-9",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -13122,8 +12160,6 @@
       "CLERMediumLaser",
       "CLERMediumLaser",
       "CLERMediumLaser",
-      "Clan Ammo ATM-9",
-      "Clan Ammo ATM-9",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -13173,11 +12209,7 @@
       "CLGaussRifle",
       "CLCASE",
       "CLGaussRifle",
-      "CLCASE",
-      "Clan Gauss Ammo",
-      "Clan Gauss Ammo",
-      "Clan Gauss Ammo",
-      "Clan Gauss Ammo"
+      "CLCASE"
     ],
     "raw_quirks": [],
     "role": "Fire Support",
@@ -13200,13 +12232,7 @@
       "CLHAG40",
       "CLCASE",
       "CLHAG40",
-      "CLCASE",
-      "Hyper-Assault Gauss Rifle/40 Ammo",
-      "Hyper-Assault Gauss Rifle/40 Ammo",
-      "Hyper-Assault Gauss Rifle/40 Ammo",
-      "Hyper-Assault Gauss Rifle/40 Ammo",
-      "Hyper-Assault Gauss Rifle/40 Ammo",
-      "Hyper-Assault Gauss Rifle/40 Ammo"
+      "CLCASE"
     ],
     "raw_quirks": [],
     "role": "Fire Support",
@@ -13230,10 +12256,6 @@
       "CLERLargeLaser",
       "CLUltraAC20",
       "CLUltraAC20",
-      "Clan Ultra AC/20 Ammo",
-      "Clan Ultra AC/20 Ammo",
-      "Clan Ultra AC/20 Ammo",
-      "Clan Ultra AC/20 Ammo",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -13256,9 +12278,7 @@
     "raw_equipment_refs": [
       "LRM 10:OMNI",
       "Medium Laser:OMNI",
-      "Medium Laser:OMNI",
-      "IS Ammo LRM-10:OMNI",
-      "IS Ammo LRM-10:OMNI"
+      "Medium Laser:OMNI"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -13283,8 +12303,7 @@
       "CLERMediumLaser:OMNI",
       "CLStreakSRM4:OMNI",
       "CLStreakSRM4:OMNI",
-      "CLTargeting Computer:OMNI",
-      "Clan Streak SRM 4 Ammo:OMNI"
+      "CLTargeting Computer:OMNI"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -13359,8 +12378,7 @@
     "raw_equipment_refs": [
       "Thunderbolt 10:OMNI",
       "ISLargeVSPLaser:OMNI",
-      "ISLargeVSPLaser:OMNI",
-      "IS Ammo Thunderbolt-10:OMNI"
+      "ISLargeVSPLaser:OMNI"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -13392,10 +12410,7 @@
       "ISPlasmaRifleAmmo:OMNI",
       "ISPlasmaRifleAmmo:OMNI",
       "ISPlasmaRifleAmmo:OMNI",
-      "ISPlasmaRifleAmmo:OMNI",
-      "IS Ammo MML-7 SRM Artemis-capable:OMNI",
-      "IS Ammo MML-7 LRM Artemis-capable:OMNI",
-      "IS Ammo MML-7 LRM Artemis-capable:OMNI"
+      "ISPlasmaRifleAmmo:OMNI"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -13458,16 +12473,8 @@
       "CLLRM20:OMNI",
       "CLArtemisIV:OMNI",
       "CLPlasmaCannon:OMNI",
-      "Clan Ultra AC/20 Ammo:OMNI",
-      "Clan Ultra AC/20 Ammo:OMNI",
-      "Clan Ultra AC/20 Ammo:OMNI",
-      "Clan Ultra AC/20 Ammo:OMNI",
       "CLPlasmaCannonAmmo:OMNI",
-      "Clan Ammo LRM-20 (Clan) Artemis-capable:OMNI",
-      "Clan Ammo LRM-20 (Clan) Artemis-capable:OMNI",
-      "CLPlasmaCannonAmmo:OMNI",
-      "Clan Ammo LRM-20 (Clan) Artemis-capable:OMNI",
-      "Clan Ammo LRM-20 (Clan) Artemis-capable:OMNI"
+      "CLPlasmaCannonAmmo:OMNI"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -13513,12 +12520,7 @@
       "ISGaussRifle:OMNI",
       "ISGaussRifle:OMNI",
       "ISGuardianECMSuite:OMNI",
-      "ISMediumVSPLaser:OMNI",
-      "IS Light Gauss Ammo:OMNI",
-      "IS Gauss Ammo:OMNI",
-      "IS Gauss Ammo:OMNI",
-      "IS Gauss Ammo:OMNI",
-      "IS Gauss Ammo:OMNI"
+      "ISMediumVSPLaser:OMNI"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -13544,15 +12546,7 @@
       "ISMML9:OMNI",
       "ISMML9:OMNI",
       "ISERMediumLaser:OMNI",
-      "ISERMediumLaser:OMNI",
-      "IS Ammo MML-9 LRM:OMNI",
-      "IS Ammo MML-9 LRM:OMNI",
-      "IS Ammo MML-9 SRM:OMNI",
-      "IS Ammo MML-9 SRM:OMNI",
-      "IS Ammo MML-9 LRM:OMNI",
-      "IS Ammo MML-9 LRM:OMNI",
-      "IS Ammo MML-9 SRM:OMNI",
-      "IS Ammo MML-9 SRM:OMNI"
+      "ISERMediumLaser:OMNI"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -13580,7 +12574,6 @@
       "ISERMediumLaser:OMNI",
       "ISSNPPC:OMNI",
       "ISGuardianECMSuite:OMNI",
-      "ISAMS Ammo:OMNI",
       "ISPlasmaRifleAmmo:OMNI",
       "ISPlasmaRifleAmmo:OMNI",
       "ISPlasmaRifleAmmo:OMNI",
@@ -13615,7 +12608,6 @@
       "ISSmallVSPLaser",
       "ISSmallVSPLaser",
       "ISAntiMissileSystem",
-      "ISAMS Ammo",
       "ISCASE"
     ],
     "raw_quirks": [],
@@ -13642,7 +12634,6 @@
       "CLStreakSRM6",
       "CLStreakSRM6",
       "CLERSmallLaser",
-      "Clan Streak SRM 6 Ammo",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -13698,11 +12689,6 @@
       "CLMediumPulseLaser",
       "CLStreakSRM6",
       "CLStreakSRM6",
-      "Clan Ammo LRM-15 (Clan) Artemis-capable",
-      "Clan Ammo LRM-15 (Clan) Artemis-capable",
-      "Clan Ammo LRM-15 (Clan) Artemis-capable",
-      "Clan Ammo LRM-15 (Clan) Artemis-capable",
-      "Clan Streak SRM 6 Ammo",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -13729,7 +12715,6 @@
       "CLERLargeLaser",
       "CLERMediumLaser",
       "CLERLargeLaser",
-      "Clan Streak SRM 6 Ammo",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -13757,9 +12742,6 @@
       "CLERLargeLaser",
       "CLERLargeLaser",
       "CLERSmallLaser",
-      "Clan Ultra AC/10 Ammo",
-      "Clan Ultra AC/10 Ammo",
-      "Clan Ultra AC/10 Ammo",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -13789,9 +12771,6 @@
       "CLMediumPulseLaser",
       "CLMediumPulseLaser",
       "CLERSmallLaser",
-      "Clan Ultra AC/10 Ammo",
-      "Clan Ultra AC/10 Ammo",
-      "Clan Ultra AC/10 Ammo",
       "CLCASE"
     ],
     "raw_quirks": [],
@@ -13837,9 +12816,7 @@
       "SRM 6:OMNI",
       "SRM 6:OMNI",
       "Small Laser:OMNI",
-      "Small Laser:OMNI",
-      "IS Ammo SRM-6:OMNI",
-      "IS Ammo SRM-6:OMNI"
+      "Small Laser:OMNI"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -13886,9 +12863,7 @@
     "model": "CRX-OC",
     "mul_id": 3999,
     "raw_equipment_refs": [
-      "MRM 20:OMNI",
-      "IS MRM 20 Ammo:OMNI",
-      "IS MRM 20 Ammo:OMNI"
+      "MRM 20:OMNI"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -13912,10 +12887,7 @@
       "ISERMediumLaser:OMNI",
       "ISERMediumLaser:OMNI",
       "ISERMediumLaser:OMNI",
-      "ISERMediumLaser:OMNI",
-      "ISRotaryAC5 Ammo:OMNI",
-      "ISRotaryAC5 Ammo:OMNI",
-      "ISRotaryAC5 Ammo:OMNI"
+      "ISERMediumLaser:OMNI"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -13965,9 +12937,7 @@
       "ISERMediumLaser:OMNI",
       "ISERMediumLaser:OMNI",
       "ISERSmallLaser:OMNI",
-      "ISERSmallLaser:OMNI",
-      "IS LB 10-X Cluster Ammo:OMNI",
-      "IS LB 10-X Cluster Ammo:OMNI"
+      "ISERSmallLaser:OMNI"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -13995,9 +12965,7 @@
       "ISERMediumLaser:OMNI",
       "ISERMediumLaser:OMNI",
       "ISERSmallLaser:OMNI",
-      "ISERSmallLaser:OMNI",
-      "IS Gauss Ammo:OMNI",
-      "IS Gauss Ammo:OMNI"
+      "ISERSmallLaser:OMNI"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -14021,8 +12989,7 @@
       "ISERMediumLaser:OMNI",
       "ISERPPC:OMNI",
       "ISERPPC:OMNI",
-      "SRM 2:OMNI",
-      "IS Ammo SRM-2:OMNI"
+      "SRM 2:OMNI"
     ],
     "raw_quirks": [],
     "role": "Fire Support",
@@ -14043,11 +13010,7 @@
     "mul_id": 4062,
     "raw_equipment_refs": [
       "ISLBXAC10:OMNI",
-      "ISLBXAC10:OMNI",
-      "IS LB 10-X Cluster Ammo:OMNI",
-      "IS LB 10-X Cluster Ammo:OMNI",
-      "IS LB 10-X Cluster Ammo:OMNI",
-      "IS LB 10-X Cluster Ammo:OMNI"
+      "ISLBXAC10:OMNI"
     ],
     "raw_quirks": [],
     "role": "Fire Support",
@@ -14098,11 +13061,7 @@
       "Medium Laser:OMNI",
       "Medium Laser:OMNI",
       "Large Laser:OMNI",
-      "Large Laser:OMNI",
-      "IS Gauss Ammo:OMNI",
-      "IS Gauss Ammo:OMNI",
-      "IS Gauss Ammo:OMNI",
-      "IS Gauss Ammo:OMNI"
+      "Large Laser:OMNI"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -14126,10 +13085,7 @@
       "ISERLargeLaser:OMNI",
       "ISERLargeLaser:OMNI",
       "ISERLargeLaser:OMNI",
-      "ISERLargeLaser:OMNI",
-      "ISHeavyGauss Ammo:OMNI",
-      "ISHeavyGauss Ammo:OMNI",
-      "ISHeavyGauss Ammo:OMNI"
+      "ISERLargeLaser:OMNI"
     ],
     "raw_quirks": [],
     "role": "Fire Support",
@@ -14158,11 +13114,7 @@
       "LRM 15:OMNI",
       "ISArtemisIV:OMNI",
       "LRM 15:OMNI",
-      "ISArtemisIV:OMNI",
-      "IS Ammo LRM-15 Artemis-capable:OMNI",
-      "IS Ammo LRM-15 Artemis-capable:OMNI",
-      "IS Ammo LRM-15 Artemis-capable:OMNI",
-      "IS Ammo LRM-15 Artemis-capable:OMNI"
+      "ISArtemisIV:OMNI"
     ],
     "raw_quirks": [],
     "role": "Fire Support",
@@ -14192,17 +13144,7 @@
       "SRM 6:OMNI",
       "ISArtemisIV:OMNI",
       "SRM 6:OMNI",
-      "ISArtemisIV:OMNI",
-      "IS Ultra AC/5 Ammo:OMNI",
-      "IS Ultra AC/5 Ammo:OMNI",
-      "IS Ammo LRM-20 Artemis-capable:OMNI",
-      "IS Ammo LRM-20 Artemis-capable:OMNI",
-      "IS Ammo LRM-20 Artemis-capable:OMNI",
-      "IS Ammo LRM-20 Artemis-capable:OMNI",
-      "IS Ammo SRM-6 Artemis-capable:OMNI",
-      "IS Ammo SRM-6 Artemis-capable:OMNI",
-      "IS Ammo SRM-6 Artemis-capable:OMNI",
-      "IS Ammo SRM-6 Artemis-capable:OMNI"
+      "ISArtemisIV:OMNI"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -14227,11 +13169,7 @@
       "Medium Laser",
       "Medium Laser",
       "Large Laser",
-      "Large Laser",
-      "IS Gauss Ammo",
-      "IS Gauss Ammo",
-      "IS Gauss Ammo",
-      "IS Gauss Ammo"
+      "Large Laser"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -14255,13 +13193,7 @@
       "ISERLargeLaser:OMNI",
       "ISLBXAC10:OMNI",
       "ISERLargeLaser:OMNI",
-      "ISLBXAC10:OMNI",
-      "IS Ammo LRM-10:OMNI",
-      "IS Ammo LRM-10:OMNI",
-      "IS LB 10-X Cluster Ammo:OMNI",
-      "IS LB 10-X Cluster Ammo:OMNI",
-      "IS LB 10-X Cluster Ammo:OMNI",
-      "IS LB 10-X Cluster Ammo:OMNI"
+      "ISLBXAC10:OMNI"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -14288,10 +13220,7 @@
       "ISMediumPulseLaser:OMNI",
       "ISERPPC:OMNI",
       "ISMediumPulseLaser:OMNI",
-      "ISMediumPulseLaser:OMNI",
-      "IS Gauss Ammo:OMNI",
-      "IS Gauss Ammo:OMNI",
-      "IS Ammo SRM-4:OMNI"
+      "ISMediumPulseLaser:OMNI"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -14319,14 +13248,7 @@
       "LRM 20:OMNI",
       "ISArtemisIV:OMNI",
       "LRM 20:OMNI",
-      "ISArtemisIV:OMNI",
-      "IS Ammo SRM-4 Artemis-capable:OMNI",
-      "IS Ammo SRM-4 Artemis-capable:OMNI",
-      "IS Ammo AC/5:OMNI",
-      "IS Ammo LRM-20 Artemis-capable:OMNI",
-      "IS Ammo LRM-20 Artemis-capable:OMNI",
-      "IS Ammo LRM-20 Artemis-capable:OMNI",
-      "IS Ammo LRM-20 Artemis-capable:OMNI"
+      "ISArtemisIV:OMNI"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -14349,15 +13271,7 @@
       "ISMediumPulseLaser:OMNI",
       "ISMediumPulseLaser:OMNI",
       "ISUltraAC20:OMNI",
-      "ISUltraAC20:OMNI",
-      "IS Ultra AC/20 Ammo:OMNI",
-      "IS Ultra AC/20 Ammo:OMNI",
-      "IS Ultra AC/20 Ammo:OMNI",
-      "IS Ultra AC/20 Ammo:OMNI",
-      "IS Ultra AC/20 Ammo:OMNI",
-      "IS Ultra AC/20 Ammo:OMNI",
-      "IS Ultra AC/20 Ammo:OMNI",
-      "IS Ultra AC/20 Ammo:OMNI"
+      "ISUltraAC20:OMNI"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -14380,8 +13294,7 @@
       "LRM 10",
       "ISArtemisIV",
       "ISLargePulseLaser",
-      "ISLargePulseLaser",
-      "IS Ammo LRM-10 Artemis-capable"
+      "ISLargePulseLaser"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -14426,9 +13339,7 @@
       "MRM 30",
       "ISERSmallLaser",
       "ISERLargeLaser",
-      "ISERLargeLaser",
-      "IS MRM 30 Ammo",
-      "IS MRM 30 Ammo"
+      "ISERLargeLaser"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -14456,9 +13367,7 @@
       "ISERMediumLaser",
       "ISERMediumLaser",
       "ISERMediumLaser",
-      "ISGuardianECMSuite",
-      "IS MRM 40 Ammo",
-      "IS MRM 40 Ammo"
+      "ISGuardianECMSuite"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -14484,11 +13393,7 @@
       "ISLargePulseLaser:OMNI",
       "ISLargePulseLaser:OMNI",
       "ISLargePulseLaser:OMNI",
-      "ISLargePulseLaser:OMNI",
-      "IS LB 20-X Cluster Ammo:OMNI",
-      "IS LB 20-X Cluster Ammo:OMNI",
-      "IS Ammo SRM-6:OMNI",
-      "IS Ammo SRM-6:OMNI"
+      "ISLargePulseLaser:OMNI"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -14514,13 +13419,7 @@
       "ISERLargeLaser:OMNI",
       "ISGaussRifle:OMNI",
       "ISERLargeLaser:OMNI",
-      "ISGaussRifle:OMNI",
-      "IS Ammo LRM-10 Artemis-capable:OMNI",
-      "IS Ammo LRM-10 Artemis-capable:OMNI",
-      "IS Gauss Ammo:OMNI",
-      "IS Gauss Ammo:OMNI",
-      "IS Gauss Ammo:OMNI",
-      "IS Gauss Ammo:OMNI"
+      "ISGaussRifle:OMNI"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -14548,14 +13447,6 @@
       "ISArtemisIV:OMNI",
       "LRM 20:OMNI",
       "ISArtemisIV:OMNI",
-      "IS Ammo LRM-20 Artemis-capable:OMNI",
-      "IS Ammo LRM-20 Artemis-capable:OMNI",
-      "IS Ammo LRM-20 Artemis-capable:OMNI",
-      "IS Ammo LRM-20 Artemis-capable:OMNI",
-      "IS Ammo LRM-20 Artemis-capable:OMNI",
-      "IS Ammo LRM-20 Artemis-capable:OMNI",
-      "IS Ammo LRM-20 Artemis-capable:OMNI",
-      "IS Ammo LRM-20 Artemis-capable:OMNI",
       "ISCASE:OMNI"
     ],
     "raw_quirks": [],
@@ -14586,11 +13477,7 @@
       "ISERPPC:OMNI",
       "ISLightGaussRifle:OMNI",
       "ISERMediumLaser:OMNI",
-      "ISERMediumLaser:OMNI",
-      "IS Light Gauss Ammo:OMNI",
-      "IS Light Gauss Ammo:OMNI",
-      "IS Light Gauss Ammo:OMNI",
-      "IS Light Gauss Ammo:OMNI"
+      "ISERMediumLaser:OMNI"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -14617,11 +13504,7 @@
       "ISMediumPulseLaser:OMNI",
       "ISLargePulseLaser:OMNI",
       "ISMediumPulseLaser:OMNI",
-      "MRM 30:OMNI",
-      "IS MRM 10 Ammo:OMNI",
-      "IS MRM 30 Ammo:OMNI",
-      "IS MRM 30 Ammo:OMNI",
-      "IS MRM 30 Ammo:OMNI"
+      "MRM 30:OMNI"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -14678,15 +13561,7 @@
       "LRM 15:OMNI",
       "ISArtemisIV:OMNI",
       "ISERMediumLaser:OMNI",
-      "ISERMediumLaser:OMNI",
-      "IS LB 10-X Cluster Ammo:OMNI",
-      "IS LB 10-X Cluster Ammo:OMNI",
-      "IS Ammo LRM-15 Artemis-capable:OMNI",
-      "IS Ammo LRM-15 Artemis-capable:OMNI",
-      "IS Ammo LRM-15 Artemis-capable:OMNI",
-      "IS Ammo LRM-15 Artemis-capable:OMNI",
-      "IS Ammo LRM-15 Artemis-capable:OMNI",
-      "IS Ammo LRM-15 Artemis-capable:OMNI"
+      "ISERMediumLaser:OMNI"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -14709,15 +13584,7 @@
       "ISStreakSRM6:OMNI",
       "ISStreakSRM6:OMNI",
       "MRM 40:OMNI",
-      "MRM 40:OMNI",
-      "IS Streak SRM 6 Ammo:OMNI",
-      "IS Streak SRM 6 Ammo:OMNI",
-      "IS MRM 40 Ammo:OMNI",
-      "IS MRM 40 Ammo:OMNI",
-      "IS MRM 40 Ammo:OMNI",
-      "IS MRM 40 Ammo:OMNI",
-      "IS MRM 40 Ammo:OMNI",
-      "IS MRM 40 Ammo:OMNI"
+      "MRM 40:OMNI"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -14742,9 +13609,6 @@
       "ISERMediumLaser",
       "ISERPPC",
       "ISERMediumLaser",
-      "IS Ammo LRM-20",
-      "IS Ammo LRM-20",
-      "IS Ammo LRM-20",
       "ISCASE"
     ],
     "raw_quirks": [],
@@ -14880,15 +13744,7 @@
       "ISNarc Pods",
       "ISNarc Pods",
       "ISNarc Pods",
-      "ISNarc Pods",
-      "IS Ammo LRM-20",
-      "IS Ammo LRM-20",
-      "IS Ammo LRM-20",
-      "IS Ammo SRM-6",
-      "IS Ammo LRM-20",
-      "IS Ammo LRM-20",
-      "IS Ammo LRM-20",
-      "IS Ammo SRM-6"
+      "ISNarc Pods"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -14918,9 +13774,7 @@
       "RL10",
       "MRM 40",
       "RL10",
-      "RL10",
-      "IS MRM 40 Ammo",
-      "IS MRM 40 Ammo"
+      "RL10"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -14947,11 +13801,7 @@
       "Medium Laser",
       "ISTargeting Computer",
       "MRM 40",
-      "MRM 40",
-      "IS MRM 40 Ammo",
-      "IS MRM 40 Ammo",
-      "IS MRM 40 Ammo",
-      "IS MRM 40 Ammo"
+      "MRM 40"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -14980,15 +13830,7 @@
       "LRM 20",
       "SRM 6",
       "LRM 20",
-      "SRM 6",
-      "IS Ammo LRM-20",
-      "IS Ammo LRM-20",
-      "IS Ammo LRM-20",
-      "IS Ammo SRM-6",
-      "IS Ammo LRM-20",
-      "IS Ammo LRM-20",
-      "IS Ammo LRM-20",
-      "IS Ammo SRM-6"
+      "SRM 6"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -15016,9 +13858,7 @@
       "LRM 15",
       "SRM 4",
       "Small Laser",
-      "Small Laser",
-      "IS Ammo LRM-15",
-      "IS Ammo SRM-4"
+      "Small Laser"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -15046,8 +13886,7 @@
       "LRM 15",
       "Small Laser",
       "Medium Laser",
-      "Medium Laser",
-      "IS Ammo LRM-15"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -15075,8 +13914,7 @@
       "LRM 15",
       "Small Laser",
       "Medium Laser",
-      "Medium Laser",
-      "IS Ammo LRM-15"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -15104,8 +13942,7 @@
       "LRM 15",
       "Small Laser",
       "Medium Laser",
-      "Medium Laser",
-      "IS Ammo LRM-15"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -15135,9 +13972,7 @@
       "SRM 6",
       "SRM 6",
       "Medium Laser",
-      "Medium Laser",
-      "IS Ammo SRM-6",
-      "IS Ammo SRM-6"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -15159,10 +13994,7 @@
     "model": "HMR-HD",
     "mul_id": 1374,
     "raw_equipment_refs": [
-      "Autocannon/20",
-      "IS Ammo AC/20",
-      "IS Ammo AC/20",
-      "IS Ammo AC/20"
+      "Autocannon/20"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -15209,9 +14041,7 @@
     "raw_equipment_refs": [
       "ISLBXAC10",
       "ISERMediumLaser",
-      "ISERMediumLaser",
-      "IS LB 10-X Cluster Ammo",
-      "IS LB 10-X Cluster Ammo"
+      "ISERMediumLaser"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -15233,9 +14063,7 @@
     "model": "HMR-HG",
     "mul_id": 1377,
     "raw_equipment_refs": [
-      "ISUltraAC20",
-      "IS Ultra AC/20 Ammo",
-      "IS Ultra AC/20 Ammo"
+      "ISUltraAC20"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -15360,8 +14188,7 @@
       "Medium Laser",
       "SRM 6",
       "SRM 6",
-      "Medium Laser",
-      "IS Ammo SRM-6"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -15388,9 +14215,7 @@
       "SRM 6",
       "SRM 6",
       "SRM 6",
-      "SRM 6",
-      "IS Ammo SRM-6",
-      "IS Ammo SRM-6"
+      "SRM 6"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -15416,12 +14241,7 @@
       "MRM 10",
       "MRM 10",
       "MRM 10",
-      "MRM 10",
-      "IS MRM 10 Ammo",
-      "IS MRM 10 Ammo",
-      "IS MRM 10 Ammo",
-      "IS MRM 10 Ammo",
-      "IS MRM 10 Ammo"
+      "MRM 10"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -15446,10 +14266,7 @@
       "Autocannon/20",
       "PPC",
       "PPC",
-      "LRM 10",
-      "IS Ammo AC/20",
-      "IS Ammo AC/20",
-      "IS Ammo LRM-10"
+      "LRM 10"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -15502,10 +14319,7 @@
       "Autocannon/20",
       "Large Laser",
       "Large Laser",
-      "LRM 10",
-      "IS Ammo AC/20",
-      "IS Ammo AC/20",
-      "IS Ammo LRM-10"
+      "LRM 10"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -15530,10 +14344,7 @@
       "ISLBXAC10",
       "ISERPPC",
       "ISERPPC",
-      "LRM 10",
-      "IS LB 10-X Cluster Ammo",
-      "IS LB 10-X Cluster Ammo",
-      "IS Ammo LRM-10"
+      "LRM 10"
     ],
     "raw_quirks": [],
     "role": "Fire Support",
@@ -15557,11 +14368,7 @@
     "raw_equipment_refs": [
       "ISHeavyGaussRifle",
       "PPC",
-      "PPC",
-      "ISHeavyGauss Ammo",
-      "ISHeavyGauss Ammo",
-      "ISHeavyGauss Ammo",
-      "ISHeavyGauss Ammo"
+      "PPC"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -15584,9 +14391,7 @@
       "Medium Laser",
       "LRM 15",
       "LRM 15",
-      "Medium Laser",
-      "IS Ammo LRM-15",
-      "IS Ammo LRM-15"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Attack Fighter",
@@ -15611,11 +14416,7 @@
       "SRM 6",
       "SRM 6",
       "SRM 6",
-      "Medium Laser",
-      "IS Ammo SRM-6",
-      "IS Ammo SRM-6",
-      "IS Ammo SRM-6",
-      "IS Ammo SRM-6"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -16001,8 +14802,7 @@
     "raw_equipment_refs": [
       "LRM 10",
       "Large Laser",
-      "Medium Laser",
-      "IS Ammo LRM-10"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -16027,8 +14827,7 @@
       "ISERPPC",
       "ISStreakSRM2",
       "ISStreakSRM2",
-      "Medium Laser",
-      "IS Streak SRM 2 Ammo"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -16052,8 +14851,7 @@
       "Medium Laser",
       "Machine Gun",
       "Machine Gun",
-      "Machine Gun",
-      "IS Ammo MG - Full"
+      "Machine Gun"
     ],
     "raw_quirks": [],
     "role": "Fast Dogfighter",
@@ -16101,10 +14899,7 @@
       "Medium Laser",
       "Medium Laser",
       "Medium Laser",
-      "Medium Laser",
-      "IS Ammo AC/20",
-      "IS Ammo AC/20",
-      "IS Ammo AC/20"
+      "Medium Laser"
     ],
     "raw_quirks": [],
     "role": "Dogfighter",
@@ -16126,10 +14921,7 @@
     "raw_equipment_refs": [
       "Autocannon/2",
       "LRM 10",
-      "LRM 10",
-      "IS Ammo AC/2",
-      "IS Ammo LRM-10",
-      "IS Ammo LRM-10"
+      "LRM 10"
     ],
     "raw_quirks": [
       "atmo_instability",

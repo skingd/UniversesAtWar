@@ -1,0 +1,341 @@
+# Equipment
+
+_337 unique items_
+
+- [ ] 2 Compact Heat Sinks
+- [ ] AA Weapon (Mk. 1, Light)
+- [ ] AA Weapon (Mk. 2, Man-Portable)
+- [ ] Advanced Fire Control
+- [ ] Amphibious Chassis
+- [ ] Angel ECM Suite; Inner Sphere (Armored)
+- [ ] Armored Chassis
+- [ ] Armored Motive System
+- [ ] Artemis IV FCS; Clan (Turret)
+- [ ] Artemis IV FCS; Inner Sphere (Turret)
+- [ ] Auto Pistol
+- [ ] Auto-Pistol
+- [ ] Auto-Pistol (M&G)
+- [ ] Auto-Pistol (Magnum)
+- [ ] Auto-Pistol (Nambu)
+- [ ] Auto-Shotgun
+- [ ] Backhoe
+- [ ] Basic Fire Control
+- [ ] Bicycle Chassis Mod
+- [ ] Blade (Vibro-blade)
+- [ ] Blade (Vibro-katana)
+- [ ] Bloodhound Active Probe; Inner Sphere (Armored)
+- [ ] Blue Shield Particle Field Damper
+- [ ] Bulldozer
+- [ ] CLSRM2 (IOS)
+- [ ] CLVTOL Jet Booster
+- [ ] Cargo (0.5 tons)
+- [ ] Cargo (1 ton)
+- [ ] Cargo (1.5 tons)
+- [ ] Cargo (2 tons)
+- [ ] Cargo (2.5 tons)
+- [ ] Cargo (3 tons)
+- [ ] Cargo (5 tons)
+- [ ] Cargo :SIZE:0.5
+- [ ] Cargo Container (10 tons)
+- [ ] Cargo:SIZE:0.5
+- [ ] Cargo:SIZE:1.0
+- [ ] Cargo:SIZE:12.0
+- [ ] Cargo:SIZE:3.5
+- [ ] Cargo:SIZE:4.0
+- [ ] Cargo:SIZE:8.0
+- [ ] Cargo:size:11.0
+- [ ] Cargo:size:2.0
+- [ ] Centurion Weapon System
+- [ ] Chameleon Light Polarization Shield
+- [ ] Clan AES
+- [ ] Clan Active Probe
+- [ ] Clan Angel ECM Suite
+- [ ] Clan Anti-Missile System
+- [ ] Clan Artemis IV FCS
+- [ ] Clan Artemis V FCS
+- [ ] Clan B-Pod
+- [ ] Clan CASE
+- [ ] Clan CASE II
+- [ ] Clan Double Heat Sink
+- [ ] Clan ECM Suite
+- [ ] Clan Improved Jump Jet
+- [ ] Clan Jump Jet
+- [ ] Clan Laser Anti-Missile System
+- [ ] Clan Laser Heat Sink
+- [ ] Clan Light Active Probe
+- [ ] Clan Light TAG
+- [ ] Clan MASC
+- [ ] Clan Machine Gun Array
+- [ ] Clan Modular Armor
+- [ ] Clan Nova CEWS
+- [ ] Clan Partial Wing
+- [ ] Clan Supercharger
+- [ ] Clan TAG
+- [ ] Clan Targeting Computer
+- [ ] Clan UMU
+- [ ] Clan Watchdog CEWS
+- [ ] Cockpit (Armored)
+- [ ] Combat Vehicle Chassis Mod [Flotation Hull]
+- [ ] Combat Vehicle Escape Pod
+- [ ] Combine
+- [ ] Comms Gear
+- [ ] Communications Equipment (1 ton)
+- [ ] Communications Equipment (10 ton)
+- [ ] Communications Equipment (2 ton)
+- [ ] Communications Equipment (3 ton)
+- [ ] Communications Equipment (4 ton)
+- [ ] Communications Equipment (5 ton)
+- [ ] Communications Equipment (7 ton)
+- [ ] Communications Equipment:SIZE:1.0
+- [ ] Communications Equipment:SIZE:10.0
+- [ ] Communications Equipment:SIZE:2.0
+- [ ] Communications Equipment:SIZE:3.0
+- [ ] Communications Equipment:SIZE:4.0
+- [ ] Communications Equipment:SIZE:5.0
+- [ ] Communications Equipment:SIZE:7.0
+- [ ] Communications Equipment:SIZE:8.0
+- [ ] Communications Equipment:size:2.0
+- [ ] Convertible Chassis Mod
+- [ ] Coolant Pod ; Clan (Armored)
+- [ ] Drone Carrier Control System
+- [ ] Drone Carrier Control System:OMNI:SIZE:6.0
+- [ ] Drone Carrier Control System:SIZE:1.0
+- [ ] Dual Saw
+- [ ] Dumper (Front)
+- [ ] Dumper (Rear)
+- [ ] Ejection Seat (Industrial Mech)
+- [ ] Elephant Gun
+- [ ] Emergency C 3 Master
+- [ ] Extended Fuel Tank
+- [ ] Extended Fuel Tank (1 ton)
+- [ ] Extended Fuel Tank (3 tons)
+- [ ] External Stores Hardpoint
+- [ ] Federated Barrett M42B
+- [ ] Federated Barrett M61A
+- [ ] Ferro-Fibrous Prototype
+- [ ] Field Kitchen
+- [ ] Flotation Hull
+- [ ] Fluid Suction System[Standard]
+- [ ] Foot Actuator (Armored)
+- [ ] Fully Amphibious Chassis
+- [ ] Fusion Engine; Clan (Armored)
+- [ ] Fusion Engine; Inner Sphere (Armored)
+- [ ] Grenade Launcher
+- [ ] Grenade Launcher (Auto)
+- [ ] Grenade Launcher (Auto) - Inferno
+- [ ] Grenade Launcher (Compact)
+- [ ] Grenade Launcher (Heavy)
+- [ ] Gunther MP-20
+- [ ] Gyro; Clan (Armored)
+- [ ] Gyro; Inner Sphere (Armored)
+- [ ] HH Searchlight
+- [ ] Hand Actuator (Armored)
+- [ ] Har Jel ; Inner Sphere (Armored)
+- [ ] Har Jel II Self-Repair System
+- [ ] Har Jel III Self-Repair System
+- [ ] Har Jel Repair Systems (Har Jel II)
+- [ ] Har Jel Repair Systems (Har Jel III)
+- [ ] Heavy Bridge Layer
+- [ ] Heavy-Duty Pile Driver
+- [ ] High Res Imager
+- [ ] Hip (Armored)
+- [ ] Hitch
+- [ ] Hydro Foil Chassis Mod
+- [ ] Hyper Velocity Auto Cannon/10
+- [ ] Hyper Velocity Auto Cannon/2
+- [ ] Hyper Velocity Auto Cannon/5
+- [ ] Hypersprectral Imager
+- [ ] ISHPPC
+- [ ] ISLMGA(ST)
+- [ ] ISLR Torpedo 15
+- [ ] ISLR Torpedo 5
+- [ ] ISMGA(ST)
+- [ ] ISMML5(ST)
+- [ ] ISSRM2IOS
+- [ ] ISSRM4IOS
+- [ ] ISSRM4OS
+- [ ] ISSRM6OS
+- [ ] ISSRT2
+- [ ] ISSRT6
+- [ ] ISSV Dune Buggy Chassis
+- [ ] ISSVSPL
+- [ ] ISVTOL Jet Booster
+- [ ] ISVehicularGrenadeLauncher (FL)
+- [ ] ISVehicularGrenadeLauncher (FR)
+- [ ] Improved Shielded Aero SRCS
+- [ ] Improved Smart Robotic Control System
+- [ ] Industrial TSM
+- [ ] Infantry Auto GL
+- [ ] Infantry Autopistol
+- [ ] Infantry Avenger CCW
+- [ ] Infantry Bearhunter
+- [ ] Infantry Clan Mauser IICIAS
+- [ ] Infantry Claymore Pistol
+- [ ] Infantry Federated Barrett M 42 B
+- [ ] Infantry Grand Mauler
+- [ ] Infantry HRR
+- [ ] Infantry HRR:SIZE:1.0
+- [ ] Infantry Heavy Grenade Launcher Inferno
+- [ ] Infantry Heavy Mortar
+- [ ] Infantry Imperator AX 22
+- [ ] Infantry King David
+- [ ] Infantry LRR
+- [ ] Infantry Light Mortar
+- [ ] Infantry MPPR
+- [ ] Infantry MRR
+- [ ] Infantry Mini Grenade Inferno
+- [ ] Infantry Minolta 9000
+- [ ] Infantry Mk 2 Portable AA
+- [ ] Infantry Sunbeam Laserpistol
+- [ ] Infantry Sunbeam Starfire
+- [ ] Infantry Support Needler
+- [ ] Infantry Thunderstroke
+- [ ] Infantry Tranquilizer Gun
+- [ ] Infantry VLAW
+- [ ] Infantry Vibro Katana
+- [ ] Infrared Imager
+- [ ] Inner Sphere AES
+- [ ] Inner Sphere Angel ECM Suite
+- [ ] Inner Sphere Anti-Missile System
+- [ ] Inner Sphere Apollo FCS
+- [ ] Inner Sphere Artemis IV FCS
+- [ ] Inner Sphere B-Pod
+- [ ] Inner Sphere Beagle Active Probe
+- [ ] Inner Sphere Bloodhound Active Probe
+- [ ] Inner Sphere Boosted C3 Master
+- [ ] Inner Sphere Boosted C3 Slave
+- [ ] Inner Sphere C3 Computer (Master)
+- [ ] Inner Sphere C3 Computer (Slave)
+- [ ] Inner Sphere CASE
+- [ ] Inner Sphere CASE II
+- [ ] Inner Sphere Chameleon LPS
+- [ ] Inner Sphere Double Heat Sink
+- [ ] Inner Sphere Guardian ECM Suite
+- [ ] Inner Sphere Heat Sink
+- [ ] Inner Sphere Improved C3 Computer
+- [ ] Inner Sphere Improved Jump Jet
+- [ ] Inner Sphere Jump Jet
+- [ ] Inner Sphere Large Shield
+- [ ] Inner Sphere Laser Anti-Missile System
+- [ ] Inner Sphere Light TAG
+- [ ] Inner Sphere M-Pod
+- [ ] Inner Sphere MASC
+- [ ] Inner Sphere Machine Gun Array
+- [ ] Inner Sphere Mechanical Jump Booster
+- [ ] Inner Sphere Medium Shield
+- [ ] Inner Sphere Modular Armor
+- [ ] Inner Sphere Null Signature System
+- [ ] Inner Sphere PPC Capacitor
+- [ ] Inner Sphere Partial Wing
+- [ ] Inner Sphere Small Shield
+- [ ] Inner Sphere Supercharger
+- [ ] Inner Sphere TAG
+- [ ] Inner Sphere Targeting Computer
+- [ ] Inner Sphere UMU
+- [ ] Jump Booster
+- [ ] LAM Fuel Tank
+- [ ] LRT 20
+- [ ] Ladder (100m)
+- [ ] Ladder (20m)
+- [ ] Life Support (Armored)
+- [ ] Lifeboat (Atmospheric)
+- [ ] Lifeboat (Maritime)
+- [ ] Lift Hoist
+- [ ] Lift Hoist/Arresting Hoist
+- [ ] Light Auto Cannon/2
+- [ ] Light Auto Cannon/5
+- [ ] Light Blazer
+- [ ] Light Fluid Suction System (Mech)
+- [ ] Limited Amphibious Chassis
+- [ ] Liquid Storage (0.5 tons)
+- [ ] Liquid Storage (1 ton)
+- [ ] Liquid Storage :SIZE:1.0
+- [ ] Liquid Storage :SIZE:1.0; Clan (Armored)
+- [ ] Liquid Storage:SIZE:0.5
+- [ ] Liquid Storage:SIZE:1.0
+- [ ] Liquid Storage:SIZE:20.0
+- [ ] Liquid Storage:size:2.0
+- [ ] Look Down Radar
+- [ ] Lower Arm Actuator (Armored)
+- [ ] Lower Leg Actuator (Armored)
+- [ ] MASH Equipment
+- [ ] MASH Equipment:OMNI:SIZE:10.0
+- [ ] MASH Equipment:OMNI:SIZE:6.0
+- [ ] MASH Equipment:SIZE:1.0
+- [ ] MASH Equipment:SIZE:11.0
+- [ ] MASH Equipment:SIZE:5.0
+- [ ] Manipulator
+- [ ] Manipulator (Non-Mech/Non-Battle Armor)
+- [ ] Manipulator [Non-Mech/Non-Battle Armor]
+- [ ] Mast Mount
+- [ ] Mech Mortar-2
+- [ ] Mech Mortar-4
+- [ ] Mech Mortar-8
+- [ ] Mek Mortar 1
+- [ ] Mek Null Signature System
+- [ ] Mek Void Signature System
+- [ ] Mine Sweeper
+- [ ] Mobile Field Base
+- [ ] Monocycle Chassis Mod
+- [ ] Mortar (Heavy)
+- [ ] Nail Gun
+- [ ] Nail/Rivet Gun
+- [ ] Needler Pistol
+- [ ] Needler, Support (Firedrake)
+- [ ] Off Road
+- [ ] Off Road Chassis
+- [ ] Omni Chassis Mod
+- [ ] Paramedic Equipment
+- [ ] Pile Driver
+- [ ] Pintle Turret
+- [ ] Prop Chassis Mod
+- [ ] RISC Viral Jammer (Homing)
+- [ ] RL10
+- [ ] RL15
+- [ ] RL15(ST)
+- [ ] RL20
+- [ ] Ram Plate
+- [ ] Refueling Drogue
+- [ ] Reinforced
+- [ ] Rock Cutter
+- [ ] SMG (Gunther MP-20)
+- [ ] SRT 2 (OS)
+- [ ] STOL Chassis Mod
+- [ ] SV Chassis Mod [Tractor]
+- [ ] SV Chassis Mod [Trailer]
+- [ ] Salvage Arm
+- [ ] Searchlight
+- [ ] Sensors (Armored)
+- [ ] Shoulder (Armored)
+- [ ] Shoulder Turret; Inner Sphere (Armored)
+- [ ] Shredder Heavy Needler
+- [ ] Smart Robotic Control System
+- [ ] Snowmobile Chassis
+- [ ] Sonic Stunner
+- [ ] Space Mine Dispenser
+- [ ] Spikes
+- [ ] Sponson Turret
+- [ ] Spot Welder
+- [ ] Stunstick
+- [ ] Submachine Gun
+- [ ] Submersible Chassis Mod
+- [ ] Super Charger
+- [ ] Supercharger ; Inner Sphere (Armored)
+- [ ] Supercharger; Inner Sphere (Armored)
+- [ ] TSEMP Cannon
+- [ ] TSEMP One-Shot
+- [ ] TSEMP Repeating Cannon
+- [ ] Tank Cockpit Command Console
+- [ ] Tank Sprayer
+- [ ] Thunderstroke II
+- [ ] Tractor
+- [ ] Trailer
+- [ ] Tranq Gun
+- [ ] Ultra Light Chassis Mod
+- [ ] Upper Arm Actuator (Armored)
+- [ ] Upper Leg Actuator (Armored)
+- [ ] VSTOL Chassis Mod
+- [ ] Vehicle Jump Jet
+- [ ] Vehicular Stealth
+- [ ] Wheels
+- [ ] Wire-Guided Missile Launcher

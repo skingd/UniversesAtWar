@@ -8,6 +8,7 @@ Produces:
 """
 from __future__ import annotations
 
+import re
 from pathlib import Path
 from typing import Any
 
@@ -29,6 +30,16 @@ from .common import (
 from .inventory import iter_reference_files, iter_unit_files, iter_weapon_files
 
 
+# Ammunition is not modelled by the Universes At War rules translation; ammo
+# entries are dropped from the equipment index, alias map, and per-unit
+# equipment refs at build time.
+_AMMO_RX = re.compile(r"\bammo\b|\bammunition\b", re.IGNORECASE)
+
+
+def _is_ammo_text(s: str | None) -> bool:
+    return bool(s and _AMMO_RX.search(s))
+
+
 # --- Equipment index -------------------------------------------------------
 
 def build_equipment_index(data_dir: Path) -> tuple[list[dict], list[Issue]]:
@@ -44,15 +55,7 @@ def build_equipment_index(data_dir: Path) -> tuple[list[dict], list[Issue]]:
             continue  # already reported by inventory phase
 
         if cat == "ammunition":
-            # ammunition.json is a flat list of entries
-            if not isinstance(data, list):
-                issues.append(Issue("error", "schema", str(p), "ammunition.json is not a list"))
-                continue
-            for entry in data:
-                if not isinstance(entry, dict):
-                    continue
-                rec = _record_from_ammo(entry, p)
-                _register(rec, records, seen_canonical, seen_numeric, issues)
+            # Ammunition is intentionally excluded from the equipment index.
             continue
 
         if not isinstance(data, dict):
@@ -88,24 +91,6 @@ def _record_from_weapon_or_equipment(data: dict, path: Path, category: str) -> d
         "source": data.get("source"),
         "page_ref": data.get("page_ref"),
         "equipment_type": data.get("equipment_type"),
-        "source_path": str(path),
-    }
-
-
-def _record_from_ammo(data: dict, path: Path) -> dict:
-    name = data.get("name") or "Unknown Ammo"
-    cid = "ammo-" + slugify(name)
-    return {
-        "canonical_id": cid,
-        "numeric_id": str(data.get("id", "")) or None,
-        "display_name": name,
-        "mtf_reference": data.get("name"),
-        "category": "ammunition",
-        "tech_base": data.get("tech_base"),
-        "weight_tons": data.get("weight_tons"),
-        "ammo_per_ton": data.get("ammo_per_ton"),
-        "weapon_ref": data.get("weapon_ref"),
-        "cost": data.get("cost"),
         "source_path": str(path),
     }
 
@@ -257,10 +242,10 @@ def _extract_equipment_refs(data: dict, unit_type: str) -> list[str]:
 
     if unit_type == "infantry":
         pw = data.get("Primary Weapon")
-        if isinstance(pw, str) and pw:
+        if isinstance(pw, str) and pw and not _is_ammo_text(pw):
             refs.append(pw)
         sw = data.get("Secondary Weapon")
-        if isinstance(sw, str) and sw:
+        if isinstance(sw, str) and sw and not _is_ammo_text(sw):
             refs.append(sw)
         return refs
 
@@ -274,7 +259,7 @@ def _extract_equipment_refs(data: dict, unit_type: str) -> list[str]:
             if not isinstance(slot_list, list):
                 continue
             for slot in slot_list:
-                if isinstance(slot, str) and slot:
+                if isinstance(slot, str) and slot and not _is_ammo_text(slot):
                     refs.append(slot)
     return refs
 
@@ -298,7 +283,7 @@ def build_all_indices(
     alias_index = build_alias_index(
         equipment_records,
         equipment_names=reference.get("equipment_names"),
-        ammunition=_get_ammo_list(data_dir),
+        ammunition=None,  # ammo intentionally excluded from itemization
     )
     write_json(index_dir / "equipment_aliases.json", alias_index.exact)
 
@@ -320,7 +305,7 @@ def build_all_indices(
         equipment_records,
         alias_index,
         reference.get("equipment_names"),
-        _get_ammo_list(data_dir),
+        None,  # ammo intentionally excluded from itemization
     )
     if synthesized:
         equipment_records.extend(synthesized)
@@ -355,11 +340,15 @@ def _harvest_unit_only_equipment(
     for ut, records in unit_records_by_type.items():
         for unit in records:
             for raw in unit.get("raw_equipment_refs", []) or []:
+                if _is_ammo_text(raw):
+                    continue
                 parsed = parse_reference(raw)
                 if is_structural(parsed):
                     continue
                 cid, kind = alias_index.lookup(parsed)
                 if cid is not None:
+                    continue
+                if _is_ammo_text(parsed.normalized_key) or _is_ammo_text(parsed.name):
                     continue
                 key = (parsed.normalized_key, parsed.tech_base)
                 d = discoveries.get(key)
@@ -407,13 +396,3 @@ def _harvest_unit_only_equipment(
         ammunition=ammunition,
     )
     return synthesized, augmented
-
-
-def _get_ammo_list(data_dir: Path) -> list[dict] | None:
-    p = data_dir / "weaponsandequipment" / "ammunition.json"
-    if not p.exists():
-        return None
-    data, _ = parse_json_file(p)
-    if isinstance(data, list):
-        return data
-    return None
