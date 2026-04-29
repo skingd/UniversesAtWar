@@ -1,0 +1,23 @@
+Weapon Name,Range,Heat,Dice ,To-Hit,AP,Type,Traits
+Clan ATM 3,"2""-30""",1,1,5+,-2,Missile,"Artemis IV, Special Ammo, Barrage"
+Clan ATM 6,"2""-30""",2,2,5+,-2,Missile,"Artemis IV, Special Ammo, Barrage"
+Clan ATM 9,"2""-30""",3,3,5+,-2,Missile,"Artemis IV, Special Ammo, Barrage"
+Clan ATM 12,"2""-30""",4,4,5+,-2,Missile,"Artemis IV, Special Ammo, Barrage"
+Autocannon/2,"20""",1,3,5+,0,Ballistic,"Light, Rapid Fire"
+Autocannon/5,"16""",2,2,5+,-1,Ballistic,Light AT
+Autocannon/10,"12""",2,1,4+,-2,Ballistic,Anti-Tank
+Autocannon/20,"8""",3,1,4+,-4,Ballistic,"Anti-Tank, Demolisher"
+Bomb Bay,"12""",0,3,5+,-2,Missile,Bombing Run
+Binary Laser (Blazer) Cannon,"12""",4,4,4+,-3,Energy,
+Clan AP Gauss Rifle,"12""",0,2,5+,-2,Ballistic,Light
+Clan ER Flamer,"6""",1,3,4+,-1,Energy,Light
+Clan ER Large Laser,"27""",2,1,4+,,,
+Clan ER Large Pulse Laser,"18""",3,,,,,
+Clan ER Medium Laser,"20""",2,,,,,
+Clan ER Medium Pulse Laser,,2,,,,,
+Clan ER Micro Laser,,,,,,,
+Clan ER PPC,,4,,,,,
+Clan ER Small Laser,,1,,,,,
+Clan ER Small Pulse Laser,,2,,,,,
+Clan Flamer,,1,,,,,
+Clan Gauss Rifle,,0,,,,,

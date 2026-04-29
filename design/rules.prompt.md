@@ -137,41 +137,45 @@ Rule: The mech gains the skimmer special rule and gains +1 heat.
 
 Rule: Once per game, before rolling for heat effects, a mech with a coolant pod can reduce its total heat by 1d6.
 
+### Item Profile Mapping
+- AMS
+  - Anti-Missile System, Anti Missile System (ST), Anti-Missile System (Titan), Anti-Missile System (Vehicle), Anti-Missile System (Vehicle)(ST), Anti-Missile System; Inner Sphere (Turret), Anti-Missile System; Clan (Turret), Anti-Missile System; Inner Sphere (Split)
+- ATM x
+  - ATM x; Clan (Turret), ATM x; Inner Sphere (Turret), ATM x; Inner Sphere (Split)
+- Arrow IV
+  - Arrow IV; Clan (Turret), Arrow IV; Inner Sphere (Turret), Arrow IV; Inner Sphere (Split)
+- Autocannon/x
+  - Autocannon/x (Bearhunter Superheavy), Autocannon/x (Semi-Portable), Autocannon/x Primitive
+
 ## Weapon Profiles
+| Name   | Range  | Heat | Dice | To-Hit | Type | Traits |
+| ATM 6  | 2"-30" | 2    | 2    | 5+ | Missile | Artemis IV, Special Ammo, Barrage |
+| ATM 12 | 2"-30" | 2    | 3    | 5+ | Missile | Artemis IV, Special Ammo, Barrage |
+|Autocannon/2 | 
+|Autocannon/5
+|Autocannon/10
+|Autocannon/20
 
 ### Mech Weapons
 
 ### Vehicle Weapons
 
 ### Infantry Weapons
-
-### Aerospace Weapons
-
-- [ ] AMS
-- [ ] ATM 12; Clan (Turret)
-- [ ] ATM 6; Clan (Turret)
-- [ ] Anti Missile System(ST)
-- [ ] Arrow IV; Inner Sphere (Split)
 - [ ] Auto Rifle
 - [ ] Auto-Rifle
 - [ ] Auto-Rifle (Modern, Generic)
-- [ ] Autocannon (Bearhunter Superheavy)
-- [ ] Autocannon (Semi-Portable)
-- [ ] Autocannon/10 Primitive
-- [ ] Autocannon/20 Primitive
+### Aerospace Weapons
+- Bomb Bay
+
+
+
 - [ ] Binary Laser (Blazer) Cannon
-- [ ] Bomb Bay
+
 - [ ] Bombast Laser; Inner Sphere (Turret)
 - [ ] CLAP Gauss Rifle(ST)
 - [ ] CLStreakSRM2 (IOS)
 - [ ] Chain Whip
 - [ ] Chainsaw
-- [ ] Clan AP Gauss Rifle
-- [ ] Clan ATM 12
-- [ ] Clan ATM 3
-- [ ] Clan ATM 6
-- [ ] Clan ATM 9
-- [ ] Clan Arrow IV
 - [ ] Clan ER Flamer
 - [ ] Clan ER Large Laser
 - [ ] Clan ER Large Pulse Laser

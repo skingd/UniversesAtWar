@@ -3,7 +3,7 @@
 ## Status
 - Sections marked **[PLACEHOLDER]** are deferred to a separate rules-translation planning effort.
 - Sections marked **[COMPLETE]** have finalized content.
-
+- Distilled files are in `C:\Users\sking\OneDrive\Gaming\battletech\Data Files\distilled\`.
 ---
 
 ## 1. Overview & Design Goals [COMPLETE]
