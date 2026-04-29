@@ -31,12 +31,45 @@ If this would remove the last remaining wound from the mech, it is considered de
 
 ## Equipment Rules
 
-**Artemis IV**: The Artemis IV system is a targeting computer that provides a significant boost to the accuracy of missile weapons. It allows the user to ignore one level of range penalty when firing missile weapons, and also provides a +1 bonus to hit rolls with missile weapons. This makes it an essential piece of equipment for any mech that relies on missile weaponry, as it can greatly increase the effectiveness of those weapons.
+**Artemis IV FCS**: The Artemis IV system is a targeting computer that provides a significant boost to the accuracy of missile weapons. It allows the user to ignore one level of range penalty when firing missile weapons, and also provides a +1 bonus to hit rolls with missile weapons. This makes it an essential piece of equipment for any mech that relies on missile weaponry, as it can greatly increase the effectiveness of those weapons.
 
 Rule: +1 to hit rolls with missile weapons.
 
-**Artemis V**: The Artemis V system is an advanced targeting computer that provides an even greater boost to the accuracy of missile weapons than the Artemis IV. +1 to hit with missile weapons and +1 dice. It This makes it an invaluable piece of equipment for any mech that relies heavily on missile weaponry, as it can significantly enhance the performance of those weapons.
+**Artemis V FCS**: The Artemis V system is an advanced targeting computer that provides an even greater boost to the accuracy of missile weapons than the Artemis IV. +1 to hit with missile weapons and +1 dice. It This makes it an invaluable piece of equipment for any mech that relies heavily on missile weaponry, as it can significantly enhance the performance of those weapons.
 
 Rule: +1 to hit rolls with missile weapons and +1 dice.
 
-**ECM
+**ECM Suite**: ECM (Electronic Countermeasures) Suites distrupt targetting systems by amplifying the mech's electronic signature, making it harder for enemy units to lock onto it. It works on the same pricnipal as shinging a spotlight in the enemy's eyes to blind them. This provides a significant defensive advantage, as it can reduce the accuracy of enemy attacks against the unit, and any friendly units near it. Any weapon that targets a unit with ECM, or a friendly unit within 6" of a unit with ECM, loses the accurate and Tracking traits.
+
+Rule: Any weapon that targets a unit with ECM, or a friendly unit within 6" of a unit with ECM, loses the accurate and Tracking traits.
+
+**AMS**: Anti-Missile Systems (AMS) attempt to shoot down incoming missiles before they can hit their target. Whenever a unit with AMS is targeted by a missile weapon, that unit gets an immediate 5+ save against the missile weapon's attacks. This is before the unit's normal armor saves are rolled. This is reduced to a 6+ against any missile fired from a titan.
+
+Rule: Whenever a unit with AMS is targeted by a missile weapon, that unit gets an immediate 5+ saving throw against the missile weapon's attacks. This is before the unit's normal armor saves are rolled. The save is reduced to a 6+ against any missile fired from a titan.
+
+**Laser AMS** : Laser Anti-Missile Systems (Laser AMS) are an advanced form of AMS that use high-powered lasers to shoot down incoming missiles. Whenever a unit with Laser AMS is targeted by a missile weapon, that unit gets an immediate 4+ save against the missile weapon's attacks. This is before the unit's normal armor saves are rolled. This is reduced to a 5+ against any missile fired from a titan.
+
+Rule: Whenever a unit with Laser AMS is targeted by a missile weapon, that unit gets an immediate 4+ saving throw against the missile weapon's attacks. This is before the unit's normal armor saves are rolled. The save is reduced to a 5+ against any missile fired from a titan.
+
+**MASC*: MASC (Myomer Accelerator Signal Circuit) is a piece of equipment that allows a mech to temporarily boost its speed and mobility. When activated, MASC provides a significant increase to the mech's movement speed for a short duration, allowing it to quickly close the distance with enemies or retreat from danger. However, using MASC generates a large amount of heat, so it must be used strategically to avoid overheating. MASC can be activated whenever an advance or march order is issued to the mech, and its effects last until the end of the turn. While MASC is active, the mech's movement speed is increased according to the chart below. For every inch moved beyond the mech's normal movement range, it generates +1 heat.
+
+Light Mechs: +6"
+Medium Mechs: +4"
+Heavy Mechs: +3"
+Assault Mechs: +2"
+
+Rule: MASC can be activated whenever an advance or march order is issued to the mech, and its effects last until the end of the turn. While MASC is active, the mech's movement speed is increased according to the chart above. For every inch moved beyond the mech's normal movement range, it generates +1 heat.
+
+**TAG**: Target Acquisition Gear allows units to designate targets for other friendly units to lock onto. Roll to hit as normal against the target, but no damage is done or saves are made. Instead, the target is considered to be "painted" for the rest of the turn. Any friendly unit that targets a painted unit does not recieve an indirect fire penalty. It is also considered to be "painted" for the purposes of any weapon or ability that interacts with painted targets, such as copperhead rounds.
+
+Rule: Roll to hit as normal against the target, but no damage is done or saves are made. Instead, the target is considered to be "painted" for the rest of the turn. Any friendly unit that targets a painted unit does not recieve an indirect fire penalty. It is also considered to be "painted" for the purposes of any weapon or ability that interacts with painted targets, such as copperhead rounds.
+
+**Targeting Computer**: Targeting Computers provide a significant boost to the accuracy of a mech's weapons. When firing with the unit's weapons, the owning player may select one of the following rules to use for all of the firing weapons:
++ Recieve +1 bonus to-hit with all Energy and Ballistic weapons that are firing.
++ Receive a -1 penalty to hit with all energy and ballistic weapons but gain the precision strike trait with those weapons.
+
+Rule: When firing with the unit's weapons, the owning player may select a targeting rule to use for all of the effected firing weapons.
+
+**A-Pod**: Directed shrapnel weapons fitted to mech's legs, these are used to cut down infantry trying attack a mech in melee. Once per game, if an enemy unit is in base contact with a mech equipped with an A-Pod, and before any other attackes are made, that mech can immediately make a single attack against the enemy unit with the A-Pod. Resolve casualties before rolling for combat.
+
+Rule: Once per game, if an enemy unit is in base contact with a mech equipped with an A-Pod, and before any other attackes are made, that mech can immediately make a single attack against the enemy unit with the A-Pod. Resolve casualties before rolling for combat.
