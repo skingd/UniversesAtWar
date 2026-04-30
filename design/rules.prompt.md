@@ -61,6 +61,16 @@ The Narc system does no damage on a successful hit. Instead, place a narc beacon
 
 **INarc**: Improved Narc systems are an advanced version of the standard Narc system that provides even greater benefits to missile weapon accuracy. They function exactly like normal Narc systems, but in addition to the standard Narc effects, all missile weapons get +1 to-hit against the target and ECM Suites have no effect (though Angel ECM Suites still block INarc).
 
+Rule: The INarc system does no damage on a successful hit. Instead, place an INarc beacon on a single model in an enemy detachment if a hit is scored. All missile weapons that target that detachment can be allocated to the model with the beacon as if they were precision shots. In addition, they do not suffer from any indirect fire penalties and gain +1 to hit. ECM Suites have no effect against INarc beacons.
+
+**Variable Output**: Variable Output weapons have two profiles. Each time the weapon is fired, the owning player can choose which profile to use for that attack. Only one profile can be used each time the weapon is fired, but a different profile can be selected each time. For example, a Variable Output weapon might have one profile that does more damage but generates more heat, and another profile that does less damage but generates less heat. This allows for greater tactical flexibility, as players can choose the profile that best suits the situation at hand.
+
+Rule: Each time the weapon is fired, the owning player can choose which profile to use for that attack. Only one profile can be used each time the weapon is fired, but a different profile can be selected each time.
+
+**Dumbfire**: Weapons with the Dumbfire trait cannot benefit from Artemis or Narc systems, and do not gain any bonuses from targeting computers. They are also unaffected by ECM Suites. This represents the fact that these weapons are unguided and rely solely on the skill of the operator to hit their target.
+
+Rule: Weapons with the Dumbfire trait cannot benefit from Artemis or Narc systems, and do not gain any bonuses from targeting computers. They are also unaffected by ECM Suites.
+
 
 ## Equipment Rules
 
