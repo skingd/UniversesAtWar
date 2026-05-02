@@ -1,0 +1,548 @@
+{
+  "blocking": false,
+  "by_catalogue": {
+    "equipment": 369,
+    "weapons": 401
+  },
+  "missing_classification": [],
+  "orphan_count": 107,
+  "orphans": [
+    {
+      "canonical_id": "is-gauss-rifle",
+      "category": "ballistic",
+      "display_name": "Inner Sphere Gauss Rifle"
+    },
+    {
+      "canonical_id": "is-heavy-gauss-rifle",
+      "category": "ballistic",
+      "display_name": "Inner Sphere Heavy Gauss Rifle"
+    },
+    {
+      "canonical_id": "is-heavy-machine-gun",
+      "category": "ballistic",
+      "display_name": "Inner Sphere Heavy Machine Gun"
+    },
+    {
+      "canonical_id": "is-heavy-rifle",
+      "category": "ballistic",
+      "display_name": "Inner Sphere Heavy Rifle"
+    },
+    {
+      "canonical_id": "is-improved-gauss-rifle",
+      "category": "ballistic",
+      "display_name": "Inner Sphere Improved Gauss Rifle"
+    },
+    {
+      "canonical_id": "is-improved-heavy-gauss-rifle",
+      "category": "ballistic",
+      "display_name": "Inner Sphere Improved Heavy Gauss Rifle"
+    },
+    {
+      "canonical_id": "is-light-ac-2",
+      "category": "ballistic",
+      "display_name": "Inner Sphere Light AC/2"
+    },
+    {
+      "canonical_id": "is-light-ac-5",
+      "category": "ballistic",
+      "display_name": "Inner Sphere Light AC/5"
+    },
+    {
+      "canonical_id": "is-light-gauss-rifle",
+      "category": "ballistic",
+      "display_name": "Inner Sphere Light Gauss Rifle"
+    },
+    {
+      "canonical_id": "is-light-machine-gun",
+      "category": "ballistic",
+      "display_name": "Inner Sphere Light Machine Gun"
+    },
+    {
+      "canonical_id": "is-long-tom-cannon",
+      "category": "ballistic",
+      "display_name": "Inner Sphere Long Tom Cannon"
+    },
+    {
+      "canonical_id": "is-magshot-gauss-rifle",
+      "category": "ballistic",
+      "display_name": "Inner Sphere MagShot Gauss Rifle"
+    },
+    {
+      "canonical_id": "is-rotary-ac-2",
+      "category": "ballistic",
+      "display_name": "Inner Sphere Rotary AC/2"
+    },
+    {
+      "canonical_id": "is-rotary-ac-5",
+      "category": "ballistic",
+      "display_name": "Inner Sphere Rotary AC/5"
+    },
+    {
+      "canonical_id": "is-sniper-cannon",
+      "category": "ballistic",
+      "display_name": "Inner Sphere Sniper Cannon"
+    },
+    {
+      "canonical_id": "is-thumper-cannon",
+      "category": "ballistic",
+      "display_name": "Inner Sphere Thumper Cannon"
+    },
+    {
+      "canonical_id": "is-ultra-ac-10",
+      "category": "ballistic",
+      "display_name": "Inner Sphere Ultra AC/10"
+    },
+    {
+      "canonical_id": "is-ultra-ac-2",
+      "category": "ballistic",
+      "display_name": "Inner Sphere Ultra AC/2"
+    },
+    {
+      "canonical_id": "is-ultra-ac-20",
+      "category": "ballistic",
+      "display_name": "Inner Sphere Ultra AC/20"
+    },
+    {
+      "canonical_id": "is-ultra-ac-5",
+      "category": "ballistic",
+      "display_name": "Inner Sphere Ultra AC/5"
+    },
+    {
+      "canonical_id": "is-blazer-cannon",
+      "category": "energy",
+      "display_name": "Inner Sphere Blazer Cannon"
+    },
+    {
+      "canonical_id": "is-bombast-laser",
+      "category": "energy",
+      "display_name": "Inner Sphere Bombast Laser"
+    },
+    {
+      "canonical_id": "is-er-flamer",
+      "category": "energy",
+      "display_name": "Inner Sphere ER Flamer"
+    },
+    {
+      "canonical_id": "is-er-large-laser",
+      "category": "energy",
+      "display_name": "Inner Sphere ER Large Laser"
+    },
+    {
+      "canonical_id": "is-er-medium-laser",
+      "category": "energy",
+      "display_name": "Inner Sphere ER Medium Laser"
+    },
+    {
+      "canonical_id": "is-er-small-laser",
+      "category": "energy",
+      "display_name": "Inner Sphere ER Small Laser"
+    },
+    {
+      "canonical_id": "is-heavy-flamer",
+      "category": "energy",
+      "display_name": "Inner Sphere Heavy Flamer"
+    },
+    {
+      "canonical_id": "is-heavy-large-laser",
+      "category": "energy",
+      "display_name": "Inner Sphere Heavy Large Laser"
+    },
+    {
+      "canonical_id": "is-heavy-medium-laser",
+      "category": "energy",
+      "display_name": "Inner Sphere Heavy Medium Laser"
+    },
+    {
+      "canonical_id": "is-heavy-ppc",
+      "category": "energy",
+      "display_name": "Inner Sphere Heavy PPC"
+    },
+    {
+      "canonical_id": "is-heavy-small-laser",
+      "category": "energy",
+      "display_name": "Inner Sphere Heavy Small Laser"
+    },
+    {
+      "canonical_id": "is-large-pulse-laser",
+      "category": "energy",
+      "display_name": "Inner Sphere Large Pulse Laser"
+    },
+    {
+      "canonical_id": "is-large-vsp-laser",
+      "category": "energy",
+      "display_name": "Inner Sphere Large VSP Laser"
+    },
+    {
+      "canonical_id": "is-large-x-pulse-laser",
+      "category": "energy",
+      "display_name": "Inner Sphere Large X-Pulse Laser"
+    },
+    {
+      "canonical_id": "is-light-ppc",
+      "category": "energy",
+      "display_name": "Inner Sphere Light PPC"
+    },
+    {
+      "canonical_id": "is-medium-pulse-laser",
+      "category": "energy",
+      "display_name": "Inner Sphere Medium Pulse Laser"
+    },
+    {
+      "canonical_id": "is-medium-vsp-laser",
+      "category": "energy",
+      "display_name": "Inner Sphere Medium VSP Laser"
+    },
+    {
+      "canonical_id": "is-medium-x-pulse-laser",
+      "category": "energy",
+      "display_name": "Inner Sphere Medium X-Pulse Laser"
+    },
+    {
+      "canonical_id": "is-plasma-rifle",
+      "category": "energy",
+      "display_name": "Inner Sphere Plasma Rifle"
+    },
+    {
+      "canonical_id": "is-risc-hyper-laser",
+      "category": "energy",
+      "display_name": "Inner Sphere RISC Hyper Laser"
+    },
+    {
+      "canonical_id": "is-small-pulse-laser",
+      "category": "energy",
+      "display_name": "Inner Sphere Small Pulse Laser"
+    },
+    {
+      "canonical_id": "is-small-vsp-laser",
+      "category": "energy",
+      "display_name": "Inner Sphere Small VSP Laser"
+    },
+    {
+      "canonical_id": "is-small-x-pulse-laser",
+      "category": "energy",
+      "display_name": "Inner Sphere Small X-Pulse Laser"
+    },
+    {
+      "canonical_id": "is-snub-nose-ppc",
+      "category": "energy",
+      "display_name": "Inner Sphere Snub-Nose PPC"
+    },
+    {
+      "canonical_id": "clan-iatm-6",
+      "category": "missile",
+      "display_name": "Clan iATM 6"
+    },
+    {
+      "canonical_id": "clan-narc-missile-beacon",
+      "category": "missile",
+      "display_name": "Clan Narc Missile Beacon"
+    },
+    {
+      "canonical_id": "is-arrow-iv",
+      "category": "missile",
+      "display_name": "Inner Sphere Arrow IV"
+    },
+    {
+      "canonical_id": "is-battlemech-taser",
+      "category": "missile",
+      "display_name": "Inner Sphere BattleMech Taser"
+    },
+    {
+      "canonical_id": "is-extended-lrm-10",
+      "category": "missile",
+      "display_name": "Inner Sphere Extended LRM 10"
+    },
+    {
+      "canonical_id": "is-extended-lrm-15",
+      "category": "missile",
+      "display_name": "Inner Sphere Extended LRM 15"
+    },
+    {
+      "canonical_id": "is-extended-lrm-20",
+      "category": "missile",
+      "display_name": "Inner Sphere Extended LRM 20"
+    },
+    {
+      "canonical_id": "is-extended-lrm-5",
+      "category": "missile",
+      "display_name": "Inner Sphere Extended LRM 5"
+    },
+    {
+      "canonical_id": "is-inarc-launcher",
+      "category": "missile",
+      "display_name": "Inner Sphere iNarc Launcher"
+    },
+    {
+      "canonical_id": "is-mrm-40",
+      "category": "missile",
+      "display_name": "Inner Sphere MRM 40"
+    },
+    {
+      "canonical_id": "is-narc-missile-beacon",
+      "category": "missile",
+      "display_name": "Inner Sphere Narc Missile Beacon"
+    },
+    {
+      "canonical_id": "is-rocket-launcher-10",
+      "category": "missile",
+      "display_name": "Inner Sphere Rocket Launcher 10"
+    },
+    {
+      "canonical_id": "is-rocket-launcher-15",
+      "category": "missile",
+      "display_name": "Inner Sphere Rocket Launcher 15"
+    },
+    {
+      "canonical_id": "is-rocket-launcher-20",
+      "category": "missile",
+      "display_name": "Inner Sphere Rocket Launcher 20"
+    },
+    {
+      "canonical_id": "is-streak-srm-2",
+      "category": "missile",
+      "display_name": "Inner Sphere Streak SRM 2"
+    },
+    {
+      "canonical_id": "is-streak-srm-4",
+      "category": "missile",
+      "display_name": "Inner Sphere Streak SRM 4"
+    },
+    {
+      "canonical_id": "is-streak-srm-6",
+      "category": "missile",
+      "display_name": "Inner Sphere Streak SRM 6"
+    },
+    {
+      "canonical_id": "is-thunderbolt-10",
+      "category": "missile",
+      "display_name": "Inner Sphere Thunderbolt 10"
+    },
+    {
+      "canonical_id": "is-thunderbolt-15",
+      "category": "missile",
+      "display_name": "Inner Sphere Thunderbolt 15"
+    },
+    {
+      "canonical_id": "is-thunderbolt-20",
+      "category": "missile",
+      "display_name": "Inner Sphere Thunderbolt 20"
+    },
+    {
+      "canonical_id": "is-thunderbolt-5",
+      "category": "missile",
+      "display_name": "Inner Sphere Thunderbolt 5"
+    },
+    {
+      "canonical_id": "is-claw",
+      "category": "physical",
+      "display_name": "Inner Sphere Claw"
+    },
+    {
+      "canonical_id": "is-hatchet",
+      "category": "physical",
+      "display_name": "Inner Sphere Hatchet"
+    },
+    {
+      "canonical_id": "is-large-vibroblade",
+      "category": "physical",
+      "display_name": "Inner Sphere Large Vibroblade"
+    },
+    {
+      "canonical_id": "is-medium-vibroblade",
+      "category": "physical",
+      "display_name": "Inner Sphere Medium Vibroblade"
+    },
+    {
+      "canonical_id": "is-retractable-blade",
+      "category": "physical",
+      "display_name": "Inner Sphere Retractable Blade"
+    },
+    {
+      "canonical_id": "is-small-vibroblade",
+      "category": "physical",
+      "display_name": "Inner Sphere Small Vibroblade"
+    },
+    {
+      "canonical_id": "is-sword",
+      "category": "physical",
+      "display_name": "Inner Sphere Sword"
+    },
+    {
+      "canonical_id": "index",
+      "category": "infantry",
+      "display_name": "index"
+    },
+    {
+      "canonical_id": "clan-laser-anti-missile-system",
+      "category": "equipment",
+      "display_name": "Clan Laser Anti-Missile System"
+    },
+    {
+      "canonical_id": "is-aes",
+      "category": "equipment",
+      "display_name": "Inner Sphere AES"
+    },
+    {
+      "canonical_id": "is-angel-ecm-suite",
+      "category": "equipment",
+      "display_name": "Inner Sphere Angel ECM Suite"
+    },
+    {
+      "canonical_id": "is-anti-missile-system",
+      "category": "equipment",
+      "display_name": "Inner Sphere Anti-Missile System"
+    },
+    {
+      "canonical_id": "is-apollo-fcs",
+      "category": "equipment",
+      "display_name": "Inner Sphere Apollo FCS"
+    },
+    {
+      "canonical_id": "is-artemis-iv-fcs",
+      "category": "equipment",
+      "display_name": "Inner Sphere Artemis IV FCS"
+    },
+    {
+      "canonical_id": "is-b-pod",
+      "category": "equipment",
+      "display_name": "Inner Sphere B-Pod"
+    },
+    {
+      "canonical_id": "is-beagle-active-probe",
+      "category": "equipment",
+      "display_name": "Inner Sphere Beagle Active Probe"
+    },
+    {
+      "canonical_id": "is-bloodhound-active-probe",
+      "category": "equipment",
+      "display_name": "Inner Sphere Bloodhound Active Probe"
+    },
+    {
+      "canonical_id": "is-boosted-c3-master",
+      "category": "equipment",
+      "display_name": "Inner Sphere Boosted C3 Master"
+    },
+    {
+      "canonical_id": "is-boosted-c3-slave",
+      "category": "equipment",
+      "display_name": "Inner Sphere Boosted C3 Slave"
+    },
+    {
+      "canonical_id": "is-c3-computer-master",
+      "category": "equipment",
+      "display_name": "Inner Sphere C3 Computer (Master)"
+    },
+    {
+      "canonical_id": "is-c3-computer-slave",
+      "category": "equipment",
+      "display_name": "Inner Sphere C3 Computer (Slave)"
+    },
+    {
+      "canonical_id": "is-chameleon-lps",
+      "category": "equipment",
+      "display_name": "Inner Sphere Chameleon LPS"
+    },
+    {
+      "canonical_id": "is-double-heat-sink",
+      "category": "equipment",
+      "display_name": "Inner Sphere Double Heat Sink"
+    },
+    {
+      "canonical_id": "is-guardian-ecm-suite",
+      "category": "equipment",
+      "display_name": "Inner Sphere Guardian ECM Suite"
+    },
+    {
+      "canonical_id": "is-heat-sink",
+      "category": "equipment",
+      "display_name": "Inner Sphere Heat Sink"
+    },
+    {
+      "canonical_id": "is-improved-c3-computer",
+      "category": "equipment",
+      "display_name": "Inner Sphere Improved C3 Computer"
+    },
+    {
+      "canonical_id": "is-improved-jump-jet",
+      "category": "equipment",
+      "display_name": "Inner Sphere Improved Jump Jet"
+    },
+    {
+      "canonical_id": "is-large-shield",
+      "category": "equipment",
+      "display_name": "Inner Sphere Large Shield"
+    },
+    {
+      "canonical_id": "is-laser-anti-missile-system",
+      "category": "equipment",
+      "display_name": "Inner Sphere Laser Anti-Missile System"
+    },
+    {
+      "canonical_id": "is-light-tag",
+      "category": "equipment",
+      "display_name": "Inner Sphere Light TAG"
+    },
+    {
+      "canonical_id": "is-m-pod",
+      "category": "equipment",
+      "display_name": "Inner Sphere M-Pod"
+    },
+    {
+      "canonical_id": "is-masc",
+      "category": "equipment",
+      "display_name": "Inner Sphere MASC"
+    },
+    {
+      "canonical_id": "is-mechanical-jump-booster",
+      "category": "equipment",
+      "display_name": "Inner Sphere Mechanical Jump Booster"
+    },
+    {
+      "canonical_id": "is-medium-shield",
+      "category": "equipment",
+      "display_name": "Inner Sphere Medium Shield"
+    },
+    {
+      "canonical_id": "is-modular-armor",
+      "category": "equipment",
+      "display_name": "Inner Sphere Modular Armor"
+    },
+    {
+      "canonical_id": "is-null-signature-system",
+      "category": "equipment",
+      "display_name": "Inner Sphere Null Signature System"
+    },
+    {
+      "canonical_id": "is-partial-wing",
+      "category": "equipment",
+      "display_name": "Inner Sphere Partial Wing"
+    },
+    {
+      "canonical_id": "is-small-shield",
+      "category": "equipment",
+      "display_name": "Inner Sphere Small Shield"
+    },
+    {
+      "canonical_id": "is-supercharger",
+      "category": "equipment",
+      "display_name": "Inner Sphere Supercharger"
+    },
+    {
+      "canonical_id": "is-umu",
+      "category": "equipment",
+      "display_name": "Inner Sphere UMU"
+    },
+    {
+      "canonical_id": "unit-derived-is-lac-2",
+      "category": "unit-derived",
+      "display_name": "Light Auto Cannon/2"
+    },
+    {
+      "canonical_id": "unit-derived-is-lac-5",
+      "category": "unit-derived",
+      "display_name": "Light Auto Cannon/5"
+    }
+  ],
+  "uncatalogued": [],
+  "uncatalogued_count": 0
+}

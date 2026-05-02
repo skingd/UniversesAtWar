@@ -1,0 +1,1112 @@
+{
+  "aerospace": {
+    "armor_total": {
+      "count": 0
+    },
+    "count": 572,
+    "era_bucket": {
+      "age-of-war": 31,
+      "civil-war": 76,
+      "clan-invasion": 32,
+      "dark-age": 75,
+      "jihad": 130,
+      "star-league": 86,
+      "succession-wars": 142
+    },
+    "fuel": {
+      "count": 0
+    },
+    "max_thrust": {
+      "count": 0
+    },
+    "safe_thrust": {
+      "count": 0
+    },
+    "structural_integrity": {
+      "count": 0
+    },
+    "tech_base": {
+      "Clan": 144,
+      "Inner Sphere": 407,
+      "Mixed": 21
+    },
+    "tier": {
+      "heavy": 176,
+      "light": 145,
+      "medium": 242,
+      "superheavy": 9
+    },
+    "tonnage": {
+      "count": 572,
+      "histogram": [
+        {
+          "count": 36,
+          "hi": 25,
+          "lo": 0
+        },
+        {
+          "count": 179,
+          "hi": 50,
+          "lo": 25
+        },
+        {
+          "count": 172,
+          "hi": 75,
+          "lo": 50
+        },
+        {
+          "count": 148,
+          "hi": 100,
+          "lo": 75
+        },
+        {
+          "count": 28,
+          "hi": 125,
+          "lo": 100
+        },
+        {
+          "count": 2,
+          "hi": 150,
+          "lo": 125
+        },
+        {
+          "count": 0,
+          "hi": 175,
+          "lo": 150
+        },
+        {
+          "count": 2,
+          "hi": 200,
+          "lo": 175
+        },
+        {
+          "count": 5,
+          "hi": 225,
+          "lo": 200
+        }
+      ],
+      "max": 200.0,
+      "mean": 58.6871,
+      "median": 55.0,
+      "min": 4.999,
+      "p10": 25.0,
+      "p25": 35.0,
+      "p50": 55.0,
+      "p75": 80.0,
+      "p90": 90.0,
+      "p95": 100.0,
+      "p99": 180.0,
+      "std": 28.6037
+    },
+    "weapon_ref_count": {
+      "count": 572,
+      "histogram": [
+        {
+          "count": 34,
+          "hi": 2,
+          "lo": 0
+        },
+        {
+          "count": 93,
+          "hi": 4,
+          "lo": 2
+        },
+        {
+          "count": 134,
+          "hi": 6,
+          "lo": 4
+        },
+        {
+          "count": 120,
+          "hi": 8,
+          "lo": 6
+        },
+        {
+          "count": 100,
+          "hi": 10,
+          "lo": 8
+        },
+        {
+          "count": 49,
+          "hi": 12,
+          "lo": 10
+        },
+        {
+          "count": 22,
+          "hi": 14,
+          "lo": 12
+        },
+        {
+          "count": 8,
+          "hi": 16,
+          "lo": 14
+        },
+        {
+          "count": 9,
+          "hi": 18,
+          "lo": 16
+        },
+        {
+          "count": 0,
+          "hi": 20,
+          "lo": 18
+        },
+        {
+          "count": 2,
+          "hi": 22,
+          "lo": 20
+        },
+        {
+          "count": 1,
+          "hi": 24,
+          "lo": 22
+        }
+      ],
+      "max": 23.0,
+      "mean": 6.3636,
+      "median": 6.0,
+      "min": 0.0,
+      "p10": 2.0,
+      "p25": 4.0,
+      "p50": 6.0,
+      "p75": 9.0,
+      "p90": 11.0,
+      "p95": 12.0,
+      "p99": 16.0,
+      "std": 3.5068
+    }
+  },
+  "infantry": {
+    "anti_mech_count": 0,
+    "count": 1393,
+    "era_bucket": {
+      "age-of-war": 163,
+      "civil-war": 98,
+      "clan-invasion": 312,
+      "dark-age": 34,
+      "jihad": 56,
+      "star-league": 109,
+      "succession-wars": 591,
+      "unknown": 30
+    },
+    "motion_type": {},
+    "platoon_size": {
+      "count": 0
+    },
+    "tech_base": {
+      "Clan": 210,
+      "Inner Sphere": 1162,
+      "Mixed": 21
+    }
+  },
+  "mech": {
+    "armor_total": {
+      "count": 0
+    },
+    "by_tier_tonnage": {
+      "assault": {
+        "count": 951,
+        "max": 100.0,
+        "mean": 89.8055,
+        "median": 90.0,
+        "min": 80.0,
+        "p10": 80.0,
+        "p25": 85.0,
+        "p50": 90.0,
+        "p75": 100.0,
+        "p90": 100.0,
+        "p95": 100.0,
+        "p99": 100.0,
+        "std": 7.5833
+      },
+      "heavy": {
+        "count": 1132,
+        "max": 75.0,
+        "mean": 67.5883,
+        "median": 70.0,
+        "min": 60.0,
+        "p10": 60.0,
+        "p25": 65.0,
+        "p50": 70.0,
+        "p75": 70.0,
+        "p90": 75.0,
+        "p95": 75.0,
+        "p99": 75.0,
+        "std": 5.5059
+      },
+      "light": {
+        "count": 951,
+        "max": 35.0,
+        "mean": 28.2545,
+        "median": 30.0,
+        "min": 10.0,
+        "p10": 20.0,
+        "p25": 25.0,
+        "p50": 30.0,
+        "p75": 35.0,
+        "p90": 35.0,
+        "p95": 35.0,
+        "p99": 35.0,
+        "std": 5.7737
+      },
+      "medium": {
+        "count": 1174,
+        "max": 55.0,
+        "mean": 48.1899,
+        "median": 50.0,
+        "min": 40.0,
+        "p10": 40.0,
+        "p25": 45.0,
+        "p50": 50.0,
+        "p75": 55.0,
+        "p90": 55.0,
+        "p95": 55.0,
+        "p99": 55.0,
+        "std": 5.6161
+      },
+      "superheavy": {
+        "count": 11,
+        "max": 200.0,
+        "mean": 140.0,
+        "median": 135.0,
+        "min": 105.0,
+        "p10": 125.0,
+        "p25": 135.0,
+        "p50": 135.0,
+        "p75": 142.5,
+        "p90": 150.0,
+        "p95": 175.0,
+        "p99": 195.0,
+        "std": 22.1565
+      }
+    },
+    "count": 4219,
+    "engine_rating": {
+      "count": 0
+    },
+    "era_bucket": {
+      "age-of-war": 105,
+      "civil-war": 454,
+      "clan-invasion": 681,
+      "dark-age": 1224,
+      "ilclan": 3,
+      "jihad": 866,
+      "star-league": 240,
+      "succession-wars": 646
+    },
+    "heat_sinks": {
+      "count": 0
+    },
+    "jump_mp": {
+      "count": 0
+    },
+    "quirk_count": {
+      "count": 4219,
+      "histogram": [
+        {
+          "count": 558,
+          "hi": 1,
+          "lo": 0
+        },
+        {
+          "count": 1522,
+          "hi": 2,
+          "lo": 1
+        },
+        {
+          "count": 1064,
+          "hi": 3,
+          "lo": 2
+        },
+        {
+          "count": 499,
+          "hi": 4,
+          "lo": 3
+        },
+        {
+          "count": 297,
+          "hi": 5,
+          "lo": 4
+        },
+        {
+          "count": 189,
+          "hi": 6,
+          "lo": 5
+        },
+        {
+          "count": 40,
+          "hi": 7,
+          "lo": 6
+        },
+        {
+          "count": 47,
+          "hi": 8,
+          "lo": 7
+        },
+        {
+          "count": 2,
+          "hi": 9,
+          "lo": 8
+        },
+        {
+          "count": 1,
+          "hi": 10,
+          "lo": 9
+        }
+      ],
+      "max": 9.0,
+      "mean": 1.8663,
+      "median": 2.0,
+      "min": 0.0,
+      "p10": 0.0,
+      "p25": 1.0,
+      "p50": 2.0,
+      "p75": 3.0,
+      "p90": 4.0,
+      "p95": 5.0,
+      "p99": 7.0,
+      "std": 1.4608
+    },
+    "role": {
+      "Ambusher": 79,
+      "Brawler": 611,
+      "Juggernaut": 360,
+      "Missile Boat": 378,
+      "None": 40,
+      "Scout": 325,
+      "Skirmisher": 864,
+      "Sniper": 647,
+      "Striker": 806
+    },
+    "run_mp": {
+      "count": 0
+    },
+    "tech_base": {
+      "Clan": 1180,
+      "Inner Sphere": 2668,
+      "Mixed (Clan Chassis)": 119,
+      "Mixed (IS Chassis)": 252
+    },
+    "tier": {
+      "assault": 951,
+      "heavy": 1132,
+      "light": 951,
+      "medium": 1174,
+      "superheavy": 11
+    },
+    "tonnage": {
+      "count": 4219,
+      "histogram": [
+        {
+          "count": 4,
+          "hi": 15,
+          "lo": 10
+        },
+        {
+          "count": 27,
+          "hi": 20,
+          "lo": 15
+        },
+        {
+          "count": 156,
+          "hi": 25,
+          "lo": 20
+        },
+        {
+          "count": 188,
+          "hi": 30,
+          "lo": 25
+        },
+        {
+          "count": 311,
+          "hi": 35,
+          "lo": 30
+        },
+        {
+          "count": 265,
+          "hi": 40,
+          "lo": 35
+        },
+        {
+          "count": 259,
+          "hi": 45,
+          "lo": 40
+        },
+        {
+          "count": 253,
+          "hi": 50,
+          "lo": 45
+        },
+        {
+          "count": 316,
+          "hi": 55,
+          "lo": 50
+        },
+        {
+          "count": 346,
+          "hi": 60,
+          "lo": 55
+        },
+        {
+          "count": 267,
+          "hi": 65,
+          "lo": 60
+        },
+        {
+          "count": 290,
+          "hi": 70,
+          "lo": 65
+        },
+        {
+          "count": 297,
+          "hi": 75,
+          "lo": 70
+        },
+        {
+          "count": 278,
+          "hi": 80,
+          "lo": 75
+        },
+        {
+          "count": 225,
+          "hi": 85,
+          "lo": 80
+        },
+        {
+          "count": 199,
+          "hi": 90,
+          "lo": 85
+        },
+        {
+          "count": 154,
+          "hi": 95,
+          "lo": 90
+        },
+        {
+          "count": 134,
+          "hi": 100,
+          "lo": 95
+        },
+        {
+          "count": 239,
+          "hi": 105,
+          "lo": 100
+        },
+        {
+          "count": 1,
+          "hi": 110,
+          "lo": 105
+        },
+        {
+          "count": 0,
+          "hi": 115,
+          "lo": 110
+        },
+        {
+          "count": 0,
+          "hi": 120,
+          "lo": 115
+        },
+        {
+          "count": 0,
+          "hi": 125,
+          "lo": 120
+        },
+        {
+          "count": 1,
+          "hi": 130,
+          "lo": 125
+        },
+        {
+          "count": 0,
+          "hi": 135,
+          "lo": 130
+        },
+        {
+          "count": 6,
+          "hi": 140,
+          "lo": 135
+        },
+        {
+          "count": 0,
+          "hi": 145,
+          "lo": 140
+        },
+        {
+          "count": 0,
+          "hi": 150,
+          "lo": 145
+        },
+        {
+          "count": 2,
+          "hi": 155,
+          "lo": 150
+        },
+        {
+          "count": 0,
+          "hi": 160,
+          "lo": 155
+        },
+        {
+          "count": 0,
+          "hi": 165,
+          "lo": 160
+        },
+        {
+          "count": 0,
+          "hi": 170,
+          "lo": 165
+        },
+        {
+          "count": 0,
+          "hi": 175,
+          "lo": 170
+        },
+        {
+          "count": 0,
+          "hi": 180,
+          "lo": 175
+        },
+        {
+          "count": 0,
+          "hi": 185,
+          "lo": 180
+        },
+        {
+          "count": 0,
+          "hi": 190,
+          "lo": 185
+        },
+        {
+          "count": 0,
+          "hi": 195,
+          "lo": 190
+        },
+        {
+          "count": 0,
+          "hi": 200,
+          "lo": 195
+        },
+        {
+          "count": 1,
+          "hi": 205,
+          "lo": 200
+        }
+      ],
+      "max": 200.0,
+      "mean": 58.521,
+      "median": 55.0,
+      "min": 10.0,
+      "p10": 30.0,
+      "p25": 40.0,
+      "p50": 55.0,
+      "p75": 75.0,
+      "p90": 90.0,
+      "p95": 100.0,
+      "p99": 100.0,
+      "std": 23.1265
+    },
+    "walk_mp": {
+      "count": 0
+    },
+    "weapon_ref_count": {
+      "count": 4219,
+      "histogram": [
+        {
+          "count": 6,
+          "hi": 60,
+          "lo": 55
+        },
+        {
+          "count": 76,
+          "hi": 65,
+          "lo": 60
+        },
+        {
+          "count": 123,
+          "hi": 70,
+          "lo": 65
+        },
+        {
+          "count": 1062,
+          "hi": 75,
+          "lo": 70
+        },
+        {
+          "count": 2942,
+          "hi": 80,
+          "lo": 75
+        },
+        {
+          "count": 10,
+          "hi": 85,
+          "lo": 80
+        }
+      ],
+      "max": 84.0,
+      "mean": 75.219,
+      "median": 76.0,
+      "min": 56.0,
+      "p10": 72.0,
+      "p25": 74.0,
+      "p50": 76.0,
+      "p75": 77.0,
+      "p90": 78.0,
+      "p95": 78.0,
+      "p99": 78.0,
+      "std": 3.1224
+    }
+  },
+  "vehicle": {
+    "armor_total": {
+      "count": 0
+    },
+    "count": 1447,
+    "crew_size": {
+      "count": 0
+    },
+    "cruise_mp": {
+      "count": 0
+    },
+    "era_bucket": {
+      "age-of-war": 134,
+      "civil-war": 129,
+      "clan-invasion": 128,
+      "dark-age": 372,
+      "ilclan": 1,
+      "jihad": 271,
+      "star-league": 131,
+      "succession-wars": 279,
+      "unknown": 2
+    },
+    "flank_mp": {
+      "count": 0
+    },
+    "motion_type": {},
+    "tech_base": {
+      "Clan": 174,
+      "Inner Sphere": 1235,
+      "Mixed": 38
+    },
+    "tier": {
+      "assault": 47,
+      "heavy": 330,
+      "light": 506,
+      "medium": 564
+    },
+    "tonnage": {
+      "count": 1447,
+      "histogram": [
+        {
+          "count": 85,
+          "hi": 10,
+          "lo": 0
+        },
+        {
+          "count": 104,
+          "hi": 20,
+          "lo": 10
+        },
+        {
+          "count": 210,
+          "hi": 30,
+          "lo": 20
+        },
+        {
+          "count": 209,
+          "hi": 40,
+          "lo": 30
+        },
+        {
+          "count": 121,
+          "hi": 50,
+          "lo": 40
+        },
+        {
+          "count": 217,
+          "hi": 60,
+          "lo": 50
+        },
+        {
+          "count": 151,
+          "hi": 70,
+          "lo": 60
+        },
+        {
+          "count": 95,
+          "hi": 80,
+          "lo": 70
+        },
+        {
+          "count": 122,
+          "hi": 90,
+          "lo": 80
+        },
+        {
+          "count": 55,
+          "hi": 100,
+          "lo": 90
+        },
+        {
+          "count": 31,
+          "hi": 110,
+          "lo": 100
+        },
+        {
+          "count": 0,
+          "hi": 120,
+          "lo": 110
+        },
+        {
+          "count": 3,
+          "hi": 130,
+          "lo": 120
+        },
+        {
+          "count": 1,
+          "hi": 140,
+          "lo": 130
+        },
+        {
+          "count": 3,
+          "hi": 150,
+          "lo": 140
+        },
+        {
+          "count": 10,
+          "hi": 160,
+          "lo": 150
+        },
+        {
+          "count": 2,
+          "hi": 170,
+          "lo": 160
+        },
+        {
+          "count": 2,
+          "hi": 180,
+          "lo": 170
+        },
+        {
+          "count": 0,
+          "hi": 190,
+          "lo": 180
+        },
+        {
+          "count": 4,
+          "hi": 200,
+          "lo": 190
+        },
+        {
+          "count": 15,
+          "hi": 210,
+          "lo": 200
+        },
+        {
+          "count": 0,
+          "hi": 220,
+          "lo": 210
+        },
+        {
+          "count": 0,
+          "hi": 230,
+          "lo": 220
+        },
+        {
+          "count": 0,
+          "hi": 240,
+          "lo": 230
+        },
+        {
+          "count": 4,
+          "hi": 250,
+          "lo": 240
+        },
+        {
+          "count": 2,
+          "hi": 260,
+          "lo": 250
+        },
+        {
+          "count": 0,
+          "hi": 270,
+          "lo": 260
+        },
+        {
+          "count": 0,
+          "hi": 280,
+          "lo": 270
+        },
+        {
+          "count": 0,
+          "hi": 290,
+          "lo": 280
+        },
+        {
+          "count": 0,
+          "hi": 300,
+          "lo": 290
+        },
+        {
+          "count": 0,
+          "hi": 310,
+          "lo": 300
+        },
+        {
+          "count": 0,
+          "hi": 320,
+          "lo": 310
+        },
+        {
+          "count": 0,
+          "hi": 330,
+          "lo": 320
+        },
+        {
+          "count": 0,
+          "hi": 340,
+          "lo": 330
+        },
+        {
+          "count": 0,
+          "hi": 350,
+          "lo": 340
+        },
+        {
+          "count": 0,
+          "hi": 360,
+          "lo": 350
+        },
+        {
+          "count": 0,
+          "hi": 370,
+          "lo": 360
+        },
+        {
+          "count": 0,
+          "hi": 380,
+          "lo": 370
+        },
+        {
+          "count": 0,
+          "hi": 390,
+          "lo": 380
+        },
+        {
+          "count": 0,
+          "hi": 400,
+          "lo": 390
+        },
+        {
+          "count": 0,
+          "hi": 410,
+          "lo": 400
+        },
+        {
+          "count": 0,
+          "hi": 420,
+          "lo": 410
+        },
+        {
+          "count": 0,
+          "hi": 430,
+          "lo": 420
+        },
+        {
+          "count": 0,
+          "hi": 440,
+          "lo": 430
+        },
+        {
+          "count": 0,
+          "hi": 450,
+          "lo": 440
+        },
+        {
+          "count": 0,
+          "hi": 460,
+          "lo": 450
+        },
+        {
+          "count": 0,
+          "hi": 470,
+          "lo": 460
+        },
+        {
+          "count": 0,
+          "hi": 480,
+          "lo": 470
+        },
+        {
+          "count": 0,
+          "hi": 490,
+          "lo": 480
+        },
+        {
+          "count": 0,
+          "hi": 500,
+          "lo": 490
+        },
+        {
+          "count": 0,
+          "hi": 510,
+          "lo": 500
+        },
+        {
+          "count": 0,
+          "hi": 520,
+          "lo": 510
+        },
+        {
+          "count": 0,
+          "hi": 530,
+          "lo": 520
+        },
+        {
+          "count": 0,
+          "hi": 540,
+          "lo": 530
+        },
+        {
+          "count": 0,
+          "hi": 550,
+          "lo": 540
+        },
+        {
+          "count": 0,
+          "hi": 560,
+          "lo": 550
+        },
+        {
+          "count": 0,
+          "hi": 570,
+          "lo": 560
+        },
+        {
+          "count": 0,
+          "hi": 580,
+          "lo": 570
+        },
+        {
+          "count": 0,
+          "hi": 590,
+          "lo": 580
+        },
+        {
+          "count": 0,
+          "hi": 600,
+          "lo": 590
+        },
+        {
+          "count": 1,
+          "hi": 610,
+          "lo": 600
+        }
+      ],
+      "max": 600.0,
+      "mean": 49.9676,
+      "median": 45.0,
+      "min": 0.04,
+      "p10": 10.0,
+      "p25": 25.0,
+      "p50": 45.0,
+      "p75": 65.0,
+      "p90": 85.0,
+      "p95": 100.0,
+      "p99": 200.0,
+      "std": 37.9328
+    },
+    "weapon_ref_count": {
+      "count": 1447,
+      "histogram": [
+        {
+          "count": 155,
+          "hi": 2,
+          "lo": 0
+        },
+        {
+          "count": 376,
+          "hi": 4,
+          "lo": 2
+        },
+        {
+          "count": 358,
+          "hi": 6,
+          "lo": 4
+        },
+        {
+          "count": 254,
+          "hi": 8,
+          "lo": 6
+        },
+        {
+          "count": 143,
+          "hi": 10,
+          "lo": 8
+        },
+        {
+          "count": 81,
+          "hi": 12,
+          "lo": 10
+        },
+        {
+          "count": 41,
+          "hi": 14,
+          "lo": 12
+        },
+        {
+          "count": 14,
+          "hi": 16,
+          "lo": 14
+        },
+        {
+          "count": 12,
+          "hi": 18,
+          "lo": 16
+        },
+        {
+          "count": 8,
+          "hi": 20,
+          "lo": 18
+        },
+        {
+          "count": 2,
+          "hi": 22,
+          "lo": 20
+        },
+        {
+          "count": 1,
+          "hi": 24,
+          "lo": 22
+        },
+        {
+          "count": 0,
+          "hi": 26,
+          "lo": 24
+        },
+        {
+          "count": 0,
+          "hi": 28,
+          "lo": 26
+        },
+        {
+          "count": 2,
+          "hi": 30,
+          "lo": 28
+        }
+      ],
+      "max": 28.0,
+      "mean": 5.2011,
+      "median": 5.0,
+      "min": 0.0,
+      "p10": 1.0,
+      "p25": 3.0,
+      "p50": 5.0,
+      "p75": 7.0,
+      "p90": 10.0,
+      "p95": 12.0,
+      "p99": 16.54,
+      "std": 3.5366
+    }
+  }
+}

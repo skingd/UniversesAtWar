@@ -1,0 +1,6696 @@
+[
+  {
+    "canonical_id": "unit-derived-unk-blue-shield-particle-field-damper",
+    "category": "defence",
+    "crit_slots": null,
+    "display_name": "Blue Shield Particle Field Damper",
+    "mechanical_effect": "Blue Shield Particle Field Damper",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-is-blue-shield-particle-field-damper",
+    "category": "defence",
+    "crit_slots": null,
+    "display_name": "Blue Shield Particle Field Damper",
+    "mechanical_effect": "Blue Shield Particle Field Damper",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 28
+  },
+  {
+    "canonical_id": "unit-derived-clan-chameleon-light-polarization-shield",
+    "category": "defence",
+    "crit_slots": null,
+    "display_name": "Chameleon Light Polarization Shield",
+    "mechanical_effect": "Chameleon Light Polarization Shield",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Clan",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 42
+  },
+  {
+    "canonical_id": "unit-derived-is-chameleon-light-polarization-shield",
+    "category": "defence",
+    "crit_slots": null,
+    "display_name": "Chameleon Light Polarization Shield",
+    "mechanical_effect": "Chameleon Light Polarization Shield",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 66
+  },
+  {
+    "canonical_id": "unit-derived-unk-improved-shielded-aero-srcs",
+    "category": "defence",
+    "crit_slots": null,
+    "display_name": "Improved Shielded Aero SRCS",
+    "mechanical_effect": "Improved Shielded Aero SRCS",
+    "mounting_unit_types": [
+      "aerospace"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-clan-mek-null-signature-system",
+    "category": "defence",
+    "crit_slots": null,
+    "display_name": "Mek Null Signature System",
+    "mechanical_effect": "Mek Null Signature System",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Clan",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 49
+  },
+  {
+    "canonical_id": "unit-derived-is-mek-null-signature-system",
+    "category": "defence",
+    "crit_slots": null,
+    "display_name": "Mek Null Signature System",
+    "mechanical_effect": "Mek Null Signature System",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 77
+  },
+  {
+    "canonical_id": "unit-derived-is-mek-void-signature-system",
+    "category": "defence",
+    "crit_slots": null,
+    "display_name": "Mek Void Signature System",
+    "mechanical_effect": "Mek Void Signature System",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 63
+  },
+  {
+    "canonical_id": "unit-derived-is-vehicular-stealth",
+    "category": "defence",
+    "crit_slots": null,
+    "display_name": "Vehicular Stealth",
+    "mechanical_effect": "Vehicular Stealth",
+    "mounting_unit_types": [
+      "aerospace",
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 72
+  },
+  {
+    "canonical_id": "clan-anti-missile-system",
+    "category": "defensive",
+    "crit_slots": 1,
+    "display_name": "Clan Anti-Missile System",
+    "mechanical_effect": "Clan Anti-Missile System",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": "303",
+    "rarity": "D",
+    "raw_category": "equipment",
+    "source": "TW",
+    "tech_base": "Clan",
+    "tech_rating": "A",
+    "tonnage": 0.5,
+    "usage_count": 66
+  },
+  {
+    "canonical_id": "clan-b-pod",
+    "category": "defensive",
+    "crit_slots": 1,
+    "display_name": "Clan B-Pod",
+    "mechanical_effect": "Clan B-Pod",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": "289",
+    "rarity": "D",
+    "raw_category": "equipment",
+    "source": "TO",
+    "tech_base": "Clan",
+    "tech_rating": "A",
+    "tonnage": 1.0,
+    "usage_count": 7
+  },
+  {
+    "canonical_id": "clan-case",
+    "category": "defensive",
+    "crit_slots": 0,
+    "display_name": "Clan CASE",
+    "mechanical_effect": "Clan CASE",
+    "mounting_unit_types": [
+      "aerospace",
+      "vehicle"
+    ],
+    "page_ref": "303",
+    "rarity": "A",
+    "raw_category": "equipment",
+    "source": "TW",
+    "tech_base": "Clan",
+    "tech_rating": "A",
+    "tonnage": 0.0,
+    "usage_count": 252
+  },
+  {
+    "canonical_id": "clan-case-ii",
+    "category": "defensive",
+    "crit_slots": 1,
+    "display_name": "Clan CASE II",
+    "mechanical_effect": "Clan CASE II",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": "312",
+    "rarity": "D",
+    "raw_category": "equipment",
+    "source": "TO",
+    "tech_base": "Clan",
+    "tech_rating": "A",
+    "tonnage": 0.5,
+    "usage_count": 172
+  },
+  {
+    "canonical_id": "clan-laser-anti-missile-system",
+    "category": "defensive",
+    "crit_slots": 1,
+    "display_name": "Clan Laser Anti-Missile System",
+    "mechanical_effect": "Clan Laser Anti-Missile System",
+    "mounting_unit_types": [],
+    "page_ref": "322",
+    "rarity": "E",
+    "raw_category": "equipment",
+    "source": "TO",
+    "tech_base": "Clan",
+    "tech_rating": "A",
+    "tonnage": 1.0,
+    "usage_count": 0
+  },
+  {
+    "canonical_id": "clan-modular-armor",
+    "category": "defensive",
+    "crit_slots": 1,
+    "display_name": "Clan Modular Armor",
+    "mechanical_effect": "Clan Modular Armor",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": "287",
+    "rarity": "E",
+    "raw_category": "equipment",
+    "source": "TO",
+    "tech_base": "Clan",
+    "tech_rating": "A",
+    "tonnage": 1.0,
+    "usage_count": 17
+  },
+  {
+    "canonical_id": "is-anti-missile-system",
+    "category": "defensive",
+    "crit_slots": 1,
+    "display_name": "Inner Sphere Anti-Missile System",
+    "mechanical_effect": "Inner Sphere Anti-Missile System",
+    "mounting_unit_types": [],
+    "page_ref": "303",
+    "rarity": "B",
+    "raw_category": "equipment",
+    "source": "TW",
+    "tech_base": "Inner Sphere",
+    "tech_rating": "B",
+    "tonnage": 0.5,
+    "usage_count": 0
+  },
+  {
+    "canonical_id": "is-b-pod",
+    "category": "defensive",
+    "crit_slots": 1,
+    "display_name": "Inner Sphere B-Pod",
+    "mechanical_effect": "Inner Sphere B-Pod",
+    "mounting_unit_types": [],
+    "page_ref": "289",
+    "rarity": "D",
+    "raw_category": "equipment",
+    "source": "TO",
+    "tech_base": "Inner Sphere",
+    "tech_rating": "B",
+    "tonnage": 1.0,
+    "usage_count": 0
+  },
+  {
+    "canonical_id": "is-case",
+    "category": "defensive",
+    "crit_slots": 1,
+    "display_name": "Inner Sphere CASE",
+    "mechanical_effect": "Inner Sphere CASE",
+    "mounting_unit_types": [
+      "aerospace",
+      "vehicle"
+    ],
+    "page_ref": "303",
+    "rarity": "B",
+    "raw_category": "equipment",
+    "source": "TW",
+    "tech_base": "Inner Sphere",
+    "tech_rating": "B",
+    "tonnage": 0.5,
+    "usage_count": 193
+  },
+  {
+    "canonical_id": "is-case-ii",
+    "category": "defensive",
+    "crit_slots": 1,
+    "display_name": "Inner Sphere CASE II",
+    "mechanical_effect": "Inner Sphere CASE II",
+    "mounting_unit_types": [
+      "aerospace"
+    ],
+    "page_ref": "312",
+    "rarity": "D",
+    "raw_category": "equipment",
+    "source": "TO",
+    "tech_base": "Inner Sphere",
+    "tech_rating": "A",
+    "tonnage": 1.0,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "is-large-shield",
+    "category": "defensive",
+    "crit_slots": 7,
+    "display_name": "Inner Sphere Large Shield",
+    "mechanical_effect": "Inner Sphere Large Shield",
+    "mounting_unit_types": [],
+    "page_ref": "287",
+    "rarity": "E",
+    "raw_category": "equipment",
+    "source": "TO",
+    "tech_base": "Inner Sphere",
+    "tech_rating": "A",
+    "tonnage": 6.0,
+    "usage_count": 0
+  },
+  {
+    "canonical_id": "is-laser-anti-missile-system",
+    "category": "defensive",
+    "crit_slots": 2,
+    "display_name": "Inner Sphere Laser Anti-Missile System",
+    "mechanical_effect": "Inner Sphere Laser Anti-Missile System",
+    "mounting_unit_types": [],
+    "page_ref": "322",
+    "rarity": "E",
+    "raw_category": "equipment",
+    "source": "TO",
+    "tech_base": "Inner Sphere",
+    "tech_rating": "A",
+    "tonnage": 1.5,
+    "usage_count": 0
+  },
+  {
+    "canonical_id": "is-m-pod",
+    "category": "defensive",
+    "crit_slots": 1,
+    "display_name": "Inner Sphere M-Pod",
+    "mechanical_effect": "Inner Sphere M-Pod",
+    "mounting_unit_types": [],
+    "page_ref": "289",
+    "rarity": "D",
+    "raw_category": "equipment",
+    "source": "TO",
+    "tech_base": "Inner Sphere",
+    "tech_rating": "B",
+    "tonnage": 1.0,
+    "usage_count": 0
+  },
+  {
+    "canonical_id": "is-medium-shield",
+    "category": "defensive",
+    "crit_slots": 5,
+    "display_name": "Inner Sphere Medium Shield",
+    "mechanical_effect": "Inner Sphere Medium Shield",
+    "mounting_unit_types": [],
+    "page_ref": "287",
+    "rarity": "E",
+    "raw_category": "equipment",
+    "source": "TO",
+    "tech_base": "Inner Sphere",
+    "tech_rating": "A",
+    "tonnage": 4.0,
+    "usage_count": 0
+  },
+  {
+    "canonical_id": "is-modular-armor",
+    "category": "defensive",
+    "crit_slots": 1,
+    "display_name": "Inner Sphere Modular Armor",
+    "mechanical_effect": "Inner Sphere Modular Armor",
+    "mounting_unit_types": [],
+    "page_ref": "287",
+    "rarity": "E",
+    "raw_category": "equipment",
+    "source": "TO",
+    "tech_base": "Inner Sphere",
+    "tech_rating": "A",
+    "tonnage": 1.0,
+    "usage_count": 0
+  },
+  {
+    "canonical_id": "is-small-shield",
+    "category": "defensive",
+    "crit_slots": 3,
+    "display_name": "Inner Sphere Small Shield",
+    "mechanical_effect": "Inner Sphere Small Shield",
+    "mounting_unit_types": [],
+    "page_ref": "287",
+    "rarity": "E",
+    "raw_category": "equipment",
+    "source": "TO",
+    "tech_base": "Inner Sphere",
+    "tech_rating": "A",
+    "tonnage": 2.0,
+    "usage_count": 0
+  },
+  {
+    "canonical_id": "unit-derived-unk-angel-ecm-suite-inner-sphere-armored",
+    "category": "electronics",
+    "crit_slots": null,
+    "display_name": "Angel ECM Suite; Inner Sphere (Armored)",
+    "mechanical_effect": "Angel ECM Suite; Inner Sphere (Armored)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-unk-bloodhound-active-probe-inner-sphere-armored",
+    "category": "electronics",
+    "crit_slots": null,
+    "display_name": "Bloodhound Active Probe; Inner Sphere (Armored)",
+    "mechanical_effect": "Bloodhound Active Probe; Inner Sphere (Armored)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 3
+  },
+  {
+    "canonical_id": "clan-active-probe",
+    "category": "electronics",
+    "crit_slots": 1,
+    "display_name": "Clan Active Probe",
+    "mechanical_effect": "Clan Active Probe",
+    "mounting_unit_types": [
+      "aerospace",
+      "mech",
+      "vehicle"
+    ],
+    "page_ref": "303",
+    "rarity": "D",
+    "raw_category": "equipment",
+    "source": "TW",
+    "tech_base": "Clan",
+    "tech_rating": "A",
+    "tonnage": 1.0,
+    "usage_count": 124
+  },
+  {
+    "canonical_id": "clan-angel-ecm-suite",
+    "category": "electronics",
+    "crit_slots": 2,
+    "display_name": "Clan Angel ECM Suite",
+    "mechanical_effect": "Clan Angel ECM Suite",
+    "mounting_unit_types": [
+      "mech",
+      "vehicle"
+    ],
+    "page_ref": "312",
+    "rarity": "E",
+    "raw_category": "equipment",
+    "source": "TO",
+    "tech_base": "Clan",
+    "tech_rating": "A",
+    "tonnage": 2.0,
+    "usage_count": 11
+  },
+  {
+    "canonical_id": "clan-artemis-iv-fcs",
+    "category": "electronics",
+    "crit_slots": 1,
+    "display_name": "Clan Artemis IV FCS",
+    "mechanical_effect": "Clan Artemis IV FCS",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": "303",
+    "rarity": "D",
+    "raw_category": "equipment",
+    "source": "TW",
+    "tech_base": "Clan",
+    "tech_rating": "A",
+    "tonnage": 1.0,
+    "usage_count": 93
+  },
+  {
+    "canonical_id": "clan-artemis-v-fcs",
+    "category": "electronics",
+    "crit_slots": 1,
+    "display_name": "Clan Artemis V FCS",
+    "mechanical_effect": "Clan Artemis V FCS",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": "322",
+    "rarity": "E",
+    "raw_category": "equipment",
+    "source": "TO",
+    "tech_base": "Clan",
+    "tech_rating": "A",
+    "tonnage": 1.5,
+    "usage_count": 114
+  },
+  {
+    "canonical_id": "clan-ecm-suite",
+    "category": "electronics",
+    "crit_slots": 1,
+    "display_name": "Clan ECM Suite",
+    "mechanical_effect": "Clan ECM Suite",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": "303",
+    "rarity": "D",
+    "raw_category": "equipment",
+    "source": "TW",
+    "tech_base": "Clan",
+    "tech_rating": "A",
+    "tonnage": 1.0,
+    "usage_count": 132
+  },
+  {
+    "canonical_id": "clan-light-active-probe",
+    "category": "electronics",
+    "crit_slots": 1,
+    "display_name": "Clan Light Active Probe",
+    "mechanical_effect": "Clan Light Active Probe",
+    "mounting_unit_types": [
+      "aerospace",
+      "mech",
+      "vehicle"
+    ],
+    "page_ref": "312",
+    "rarity": "D",
+    "raw_category": "equipment",
+    "source": "TO",
+    "tech_base": "Clan",
+    "tech_rating": "A",
+    "tonnage": 0.5,
+    "usage_count": 47
+  },
+  {
+    "canonical_id": "clan-light-tag",
+    "category": "electronics",
+    "crit_slots": 1,
+    "display_name": "Clan Light TAG",
+    "mechanical_effect": "Clan Light TAG",
+    "mounting_unit_types": [
+      "aerospace",
+      "mech",
+      "vehicle"
+    ],
+    "page_ref": "312",
+    "rarity": "D",
+    "raw_category": "equipment",
+    "source": "TO",
+    "tech_base": "Clan",
+    "tech_rating": "A",
+    "tonnage": 0.5,
+    "usage_count": 42
+  },
+  {
+    "canonical_id": "clan-nova-cews",
+    "category": "electronics",
+    "crit_slots": 1,
+    "display_name": "Clan Nova CEWS",
+    "mechanical_effect": "Clan Nova CEWS",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": "72",
+    "rarity": "F",
+    "raw_category": "equipment",
+    "source": "IO",
+    "tech_base": "Clan",
+    "tech_rating": "A",
+    "tonnage": 1.5,
+    "usage_count": 29
+  },
+  {
+    "canonical_id": "clan-tag",
+    "category": "electronics",
+    "crit_slots": 1,
+    "display_name": "Clan TAG",
+    "mechanical_effect": "Clan TAG",
+    "mounting_unit_types": [
+      "aerospace",
+      "mech",
+      "vehicle"
+    ],
+    "page_ref": "303",
+    "rarity": "D",
+    "raw_category": "equipment",
+    "source": "TW",
+    "tech_base": "Clan",
+    "tech_rating": "A",
+    "tonnage": 1.0,
+    "usage_count": 36
+  },
+  {
+    "canonical_id": "clan-targeting-computer",
+    "category": "electronics",
+    "crit_slots": 0,
+    "display_name": "Clan Targeting Computer",
+    "mechanical_effect": "Clan Targeting Computer",
+    "mounting_unit_types": [
+      "aerospace",
+      "mech",
+      "vehicle"
+    ],
+    "page_ref": "303",
+    "rarity": "D",
+    "raw_category": "equipment",
+    "source": "TW",
+    "tech_base": "Clan",
+    "tech_rating": "A",
+    "tonnage": 0.0,
+    "usage_count": 750
+  },
+  {
+    "canonical_id": "clan-watchdog-cews",
+    "category": "electronics",
+    "crit_slots": 1,
+    "display_name": "Clan Watchdog CEWS",
+    "mechanical_effect": "Clan Watchdog CEWS",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": "312",
+    "rarity": "E",
+    "raw_category": "equipment",
+    "source": "TO",
+    "tech_base": "Clan",
+    "tech_rating": "A",
+    "tonnage": 1.0,
+    "usage_count": 42
+  },
+  {
+    "canonical_id": "unit-derived-unk-comms-gear",
+    "category": "electronics",
+    "crit_slots": null,
+    "display_name": "Comms Gear",
+    "mechanical_effect": "Comms Gear",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 7
+  },
+  {
+    "canonical_id": "unit-derived-unk-communications-equipment-1-ton",
+    "category": "electronics",
+    "crit_slots": null,
+    "display_name": "Communications Equipment (1 ton)",
+    "mechanical_effect": "Communications Equipment (1 ton)",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 6
+  },
+  {
+    "canonical_id": "unit-derived-is-communications-equipment-1-ton",
+    "category": "electronics",
+    "crit_slots": null,
+    "display_name": "Communications Equipment (1 ton)",
+    "mechanical_effect": "Communications Equipment (1 ton)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 4
+  },
+  {
+    "canonical_id": "unit-derived-unk-communications-equipment-10-ton",
+    "category": "electronics",
+    "crit_slots": null,
+    "display_name": "Communications Equipment (10 ton)",
+    "mechanical_effect": "Communications Equipment (10 ton)",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-communications-equipment-2-ton",
+    "category": "electronics",
+    "crit_slots": null,
+    "display_name": "Communications Equipment (2 ton)",
+    "mechanical_effect": "Communications Equipment (2 ton)",
+    "mounting_unit_types": [
+      "aerospace",
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 8
+  },
+  {
+    "canonical_id": "unit-derived-is-communications-equipment-2-ton",
+    "category": "electronics",
+    "crit_slots": null,
+    "display_name": "Communications Equipment (2 ton)",
+    "mechanical_effect": "Communications Equipment (2 ton)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 6
+  },
+  {
+    "canonical_id": "unit-derived-unk-communications-equipment-3-ton",
+    "category": "electronics",
+    "crit_slots": null,
+    "display_name": "Communications Equipment (3 ton)",
+    "mechanical_effect": "Communications Equipment (3 ton)",
+    "mounting_unit_types": [
+      "aerospace",
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 5
+  },
+  {
+    "canonical_id": "unit-derived-is-communications-equipment-3-ton",
+    "category": "electronics",
+    "crit_slots": null,
+    "display_name": "Communications Equipment (3 ton)",
+    "mechanical_effect": "Communications Equipment (3 ton)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 9
+  },
+  {
+    "canonical_id": "unit-derived-unk-communications-equipment-4-ton",
+    "category": "electronics",
+    "crit_slots": null,
+    "display_name": "Communications Equipment (4 ton)",
+    "mechanical_effect": "Communications Equipment (4 ton)",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 3
+  },
+  {
+    "canonical_id": "unit-derived-is-communications-equipment-4-ton",
+    "category": "electronics",
+    "crit_slots": null,
+    "display_name": "Communications Equipment (4 ton)",
+    "mechanical_effect": "Communications Equipment (4 ton)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 8
+  },
+  {
+    "canonical_id": "unit-derived-unk-communications-equipment-5-ton",
+    "category": "electronics",
+    "crit_slots": null,
+    "display_name": "Communications Equipment (5 ton)",
+    "mechanical_effect": "Communications Equipment (5 ton)",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-unk-communications-equipment-7-ton",
+    "category": "electronics",
+    "crit_slots": null,
+    "display_name": "Communications Equipment (7 ton)",
+    "mechanical_effect": "Communications Equipment (7 ton)",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 7
+  },
+  {
+    "canonical_id": "unit-derived-unk-communications-equipment-size-1-0",
+    "category": "electronics",
+    "crit_slots": null,
+    "display_name": "Communications Equipment:SIZE:1.0",
+    "mechanical_effect": "Communications Equipment:SIZE:1.0",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 3
+  },
+  {
+    "canonical_id": "unit-derived-unk-communications-equipment-size-10-0",
+    "category": "electronics",
+    "crit_slots": null,
+    "display_name": "Communications Equipment:SIZE:10.0",
+    "mechanical_effect": "Communications Equipment:SIZE:10.0",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-unk-communications-equipment-size-2-0",
+    "category": "electronics",
+    "crit_slots": null,
+    "display_name": "Communications Equipment:SIZE:2.0",
+    "mechanical_effect": "Communications Equipment:SIZE:2.0",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-unk-communications-equipment-size-3-0",
+    "category": "electronics",
+    "crit_slots": null,
+    "display_name": "Communications Equipment:SIZE:3.0",
+    "mechanical_effect": "Communications Equipment:SIZE:3.0",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-communications-equipment-size-4-0",
+    "category": "electronics",
+    "crit_slots": null,
+    "display_name": "Communications Equipment:SIZE:4.0",
+    "mechanical_effect": "Communications Equipment:SIZE:4.0",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 5
+  },
+  {
+    "canonical_id": "unit-derived-unk-communications-equipment-size-5-0",
+    "category": "electronics",
+    "crit_slots": null,
+    "display_name": "Communications Equipment:SIZE:5.0",
+    "mechanical_effect": "Communications Equipment:SIZE:5.0",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-communications-equipment-size-7-0",
+    "category": "electronics",
+    "crit_slots": null,
+    "display_name": "Communications Equipment:SIZE:7.0",
+    "mechanical_effect": "Communications Equipment:SIZE:7.0",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-communications-equipment-size-8-0",
+    "category": "electronics",
+    "crit_slots": null,
+    "display_name": "Communications Equipment:SIZE:8.0",
+    "mechanical_effect": "Communications Equipment:SIZE:8.0",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-is-communications-equipment-size-2-0",
+    "category": "electronics",
+    "crit_slots": null,
+    "display_name": "Communications Equipment:size:2.0",
+    "mechanical_effect": "Communications Equipment:size:2.0",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "is-angel-ecm-suite",
+    "category": "electronics",
+    "crit_slots": 2,
+    "display_name": "Inner Sphere Angel ECM Suite",
+    "mechanical_effect": "Inner Sphere Angel ECM Suite",
+    "mounting_unit_types": [],
+    "page_ref": "312",
+    "rarity": "E",
+    "raw_category": "equipment",
+    "source": "TO",
+    "tech_base": "Inner Sphere",
+    "tech_rating": "A",
+    "tonnage": 2.0,
+    "usage_count": 0
+  },
+  {
+    "canonical_id": "is-apollo-fcs",
+    "category": "electronics",
+    "crit_slots": 1,
+    "display_name": "Inner Sphere Apollo FCS",
+    "mechanical_effect": "Inner Sphere Apollo FCS",
+    "mounting_unit_types": [],
+    "page_ref": "312",
+    "rarity": "D",
+    "raw_category": "equipment",
+    "source": "TO",
+    "tech_base": "Inner Sphere",
+    "tech_rating": "B",
+    "tonnage": 1.0,
+    "usage_count": 0
+  },
+  {
+    "canonical_id": "is-artemis-iv-fcs",
+    "category": "electronics",
+    "crit_slots": 1,
+    "display_name": "Inner Sphere Artemis IV FCS",
+    "mechanical_effect": "Inner Sphere Artemis IV FCS",
+    "mounting_unit_types": [],
+    "page_ref": "303",
+    "rarity": "C",
+    "raw_category": "equipment",
+    "source": "TW",
+    "tech_base": "Inner Sphere",
+    "tech_rating": "B",
+    "tonnage": 1.0,
+    "usage_count": 0
+  },
+  {
+    "canonical_id": "is-beagle-active-probe",
+    "category": "electronics",
+    "crit_slots": 2,
+    "display_name": "Inner Sphere Beagle Active Probe",
+    "mechanical_effect": "Inner Sphere Beagle Active Probe",
+    "mounting_unit_types": [],
+    "page_ref": "303",
+    "rarity": "C",
+    "raw_category": "equipment",
+    "source": "TW",
+    "tech_base": "Inner Sphere",
+    "tech_rating": "B",
+    "tonnage": 1.5,
+    "usage_count": 0
+  },
+  {
+    "canonical_id": "is-bloodhound-active-probe",
+    "category": "electronics",
+    "crit_slots": 3,
+    "display_name": "Inner Sphere Bloodhound Active Probe",
+    "mechanical_effect": "Inner Sphere Bloodhound Active Probe",
+    "mounting_unit_types": [],
+    "page_ref": "312",
+    "rarity": "E",
+    "raw_category": "equipment",
+    "source": "TO",
+    "tech_base": "Inner Sphere",
+    "tech_rating": "A",
+    "tonnage": 2.0,
+    "usage_count": 0
+  },
+  {
+    "canonical_id": "is-boosted-c3-master",
+    "category": "electronics",
+    "crit_slots": 5,
+    "display_name": "Inner Sphere Boosted C3 Master",
+    "mechanical_effect": "Inner Sphere Boosted C3 Master",
+    "mounting_unit_types": [],
+    "page_ref": "312",
+    "rarity": "E",
+    "raw_category": "equipment",
+    "source": "TO",
+    "tech_base": "Inner Sphere",
+    "tech_rating": "A",
+    "tonnage": 6.0,
+    "usage_count": 0
+  },
+  {
+    "canonical_id": "is-boosted-c3-slave",
+    "category": "electronics",
+    "crit_slots": 1,
+    "display_name": "Inner Sphere Boosted C3 Slave",
+    "mechanical_effect": "Inner Sphere Boosted C3 Slave",
+    "mounting_unit_types": [],
+    "page_ref": "312",
+    "rarity": "E",
+    "raw_category": "equipment",
+    "source": "TO",
+    "tech_base": "Inner Sphere",
+    "tech_rating": "A",
+    "tonnage": 2.0,
+    "usage_count": 0
+  },
+  {
+    "canonical_id": "is-c3-computer-master",
+    "category": "electronics",
+    "crit_slots": 5,
+    "display_name": "Inner Sphere C3 Computer (Master)",
+    "mechanical_effect": "Inner Sphere C3 Computer (Master)",
+    "mounting_unit_types": [],
+    "page_ref": "303",
+    "rarity": "C",
+    "raw_category": "equipment",
+    "source": "TW",
+    "tech_base": "Inner Sphere",
+    "tech_rating": "B",
+    "tonnage": 5.0,
+    "usage_count": 0
+  },
+  {
+    "canonical_id": "is-c3-computer-slave",
+    "category": "electronics",
+    "crit_slots": 1,
+    "display_name": "Inner Sphere C3 Computer (Slave)",
+    "mechanical_effect": "Inner Sphere C3 Computer (Slave)",
+    "mounting_unit_types": [],
+    "page_ref": "303",
+    "rarity": "C",
+    "raw_category": "equipment",
+    "source": "TW",
+    "tech_base": "Inner Sphere",
+    "tech_rating": "B",
+    "tonnage": 1.0,
+    "usage_count": 0
+  },
+  {
+    "canonical_id": "is-chameleon-lps",
+    "category": "electronics",
+    "crit_slots": 6,
+    "display_name": "Inner Sphere Chameleon LPS",
+    "mechanical_effect": "Inner Sphere Chameleon LPS",
+    "mounting_unit_types": [],
+    "page_ref": "312",
+    "rarity": "F",
+    "raw_category": "equipment",
+    "source": "TO",
+    "tech_base": "Inner Sphere",
+    "tech_rating": "A",
+    "tonnage": 0.0,
+    "usage_count": 0
+  },
+  {
+    "canonical_id": "is-guardian-ecm-suite",
+    "category": "electronics",
+    "crit_slots": 2,
+    "display_name": "Inner Sphere Guardian ECM Suite",
+    "mechanical_effect": "Inner Sphere Guardian ECM Suite",
+    "mounting_unit_types": [],
+    "page_ref": "303",
+    "rarity": "C",
+    "raw_category": "equipment",
+    "source": "TW",
+    "tech_base": "Inner Sphere",
+    "tech_rating": "B",
+    "tonnage": 1.5,
+    "usage_count": 0
+  },
+  {
+    "canonical_id": "is-improved-c3-computer",
+    "category": "electronics",
+    "crit_slots": 2,
+    "display_name": "Inner Sphere Improved C3 Computer",
+    "mechanical_effect": "Inner Sphere Improved C3 Computer",
+    "mounting_unit_types": [],
+    "page_ref": "303",
+    "rarity": "C",
+    "raw_category": "equipment",
+    "source": "TW",
+    "tech_base": "Inner Sphere",
+    "tech_rating": "B",
+    "tonnage": 2.5,
+    "usage_count": 0
+  },
+  {
+    "canonical_id": "is-light-tag",
+    "category": "electronics",
+    "crit_slots": 1,
+    "display_name": "Inner Sphere Light TAG",
+    "mechanical_effect": "Inner Sphere Light TAG",
+    "mounting_unit_types": [],
+    "page_ref": "312",
+    "rarity": "C",
+    "raw_category": "equipment",
+    "source": "TO",
+    "tech_base": "Inner Sphere",
+    "tech_rating": "B",
+    "tonnage": 0.5,
+    "usage_count": 0
+  },
+  {
+    "canonical_id": "is-null-signature-system",
+    "category": "electronics",
+    "crit_slots": 7,
+    "display_name": "Inner Sphere Null Signature System",
+    "mechanical_effect": "Inner Sphere Null Signature System",
+    "mounting_unit_types": [],
+    "page_ref": "312",
+    "rarity": "F",
+    "raw_category": "equipment",
+    "source": "TO",
+    "tech_base": "Inner Sphere",
+    "tech_rating": "A",
+    "tonnage": 0.0,
+    "usage_count": 0
+  },
+  {
+    "canonical_id": "is-tag",
+    "category": "electronics",
+    "crit_slots": 1,
+    "display_name": "Inner Sphere TAG",
+    "mechanical_effect": "Inner Sphere TAG",
+    "mounting_unit_types": [
+      "aerospace",
+      "vehicle"
+    ],
+    "page_ref": "303",
+    "rarity": "C",
+    "raw_category": "equipment",
+    "source": "TW",
+    "tech_base": "Inner Sphere",
+    "tech_rating": "B",
+    "tonnage": 1.0,
+    "usage_count": 63
+  },
+  {
+    "canonical_id": "is-targeting-computer",
+    "category": "electronics",
+    "crit_slots": 0,
+    "display_name": "Inner Sphere Targeting Computer",
+    "mechanical_effect": "Inner Sphere Targeting Computer",
+    "mounting_unit_types": [
+      "aerospace",
+      "vehicle"
+    ],
+    "page_ref": "303",
+    "rarity": "C",
+    "raw_category": "equipment",
+    "source": "TW",
+    "tech_base": "Inner Sphere",
+    "tech_rating": "B",
+    "tonnage": 0.0,
+    "usage_count": 61
+  },
+  {
+    "canonical_id": "unit-derived-unk-sensors-armored",
+    "category": "electronics",
+    "crit_slots": null,
+    "display_name": "Sensors (Armored)",
+    "mechanical_effect": "Sensors (Armored)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 7
+  },
+  {
+    "canonical_id": "clan-aes",
+    "category": "enhancement",
+    "crit_slots": 1,
+    "display_name": "Clan AES",
+    "mechanical_effect": "Clan AES",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": "289",
+    "rarity": "E",
+    "raw_category": "equipment",
+    "source": "TO",
+    "tech_base": "Clan",
+    "tech_rating": "A",
+    "tonnage": 0.0,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "is-aes",
+    "category": "enhancement",
+    "crit_slots": 1,
+    "display_name": "Inner Sphere AES",
+    "mechanical_effect": "Inner Sphere AES",
+    "mounting_unit_types": [],
+    "page_ref": "289",
+    "rarity": "E",
+    "raw_category": "equipment",
+    "source": "TO",
+    "tech_base": "Inner Sphere",
+    "tech_rating": "A",
+    "tonnage": 0.0,
+    "usage_count": 0
+  },
+  {
+    "canonical_id": "is-ppc-capacitor",
+    "category": "enhancement",
+    "crit_slots": 1,
+    "display_name": "Inner Sphere PPC Capacitor",
+    "mechanical_effect": "Inner Sphere PPC Capacitor",
+    "mounting_unit_types": [
+      "aerospace",
+      "mech",
+      "vehicle"
+    ],
+    "page_ref": "321",
+    "rarity": "E",
+    "raw_category": "equipment",
+    "source": "TO",
+    "tech_base": "Inner Sphere",
+    "tech_rating": "A",
+    "tonnage": 1.0,
+    "usage_count": 93
+  },
+  {
+    "canonical_id": "unit-derived-unk-advanced-fire-control",
+    "category": "fcs",
+    "crit_slots": null,
+    "display_name": "Advanced Fire Control",
+    "mechanical_effect": "Advanced Fire Control",
+    "mounting_unit_types": [
+      "aerospace",
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 84
+  },
+  {
+    "canonical_id": "unit-derived-unk-artemis-iv-fcs-clan-turret",
+    "category": "fcs",
+    "crit_slots": null,
+    "display_name": "Artemis IV FCS; Clan (Turret)",
+    "mechanical_effect": "Artemis IV FCS; Clan (Turret)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-artemis-iv-fcs-inner-sphere-turret",
+    "category": "fcs",
+    "crit_slots": null,
+    "display_name": "Artemis IV FCS; Inner Sphere (Turret)",
+    "mechanical_effect": "Artemis IV FCS; Inner Sphere (Turret)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-unk-basic-fire-control",
+    "category": "fcs",
+    "crit_slots": null,
+    "display_name": "Basic Fire Control",
+    "mechanical_effect": "Basic Fire Control",
+    "mounting_unit_types": [
+      "aerospace",
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 23
+  },
+  {
+    "canonical_id": "unit-derived-is-2-compact-heat-sinks",
+    "category": "heat",
+    "crit_slots": null,
+    "display_name": "2 Compact Heat Sinks",
+    "mechanical_effect": "2 Compact Heat Sinks",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 4
+  },
+  {
+    "canonical_id": "unit-derived-unk-coolant-pod-clan-armored",
+    "category": "heat",
+    "crit_slots": null,
+    "display_name": "Coolant Pod ; Clan (Armored)",
+    "mechanical_effect": "Coolant Pod ; Clan (Armored)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "clan-double-heat-sink",
+    "category": "heat_sink",
+    "crit_slots": 2,
+    "display_name": "Clan Double Heat Sink",
+    "mechanical_effect": "Clan Double Heat Sink",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": "303",
+    "rarity": "C",
+    "raw_category": "equipment",
+    "source": "TW",
+    "tech_base": "Clan",
+    "tech_rating": "A",
+    "tonnage": 1.0,
+    "usage_count": 6978
+  },
+  {
+    "canonical_id": "clan-laser-heat-sink",
+    "category": "heat_sink",
+    "crit_slots": 2,
+    "display_name": "Clan Laser Heat Sink",
+    "mechanical_effect": "Clan Laser Heat Sink",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": "322",
+    "rarity": "E",
+    "raw_category": "equipment",
+    "source": "TO",
+    "tech_base": "Clan",
+    "tech_rating": "A",
+    "tonnage": 1.0,
+    "usage_count": 85
+  },
+  {
+    "canonical_id": "is-double-heat-sink",
+    "category": "heat_sink",
+    "crit_slots": 3,
+    "display_name": "Inner Sphere Double Heat Sink",
+    "mechanical_effect": "Inner Sphere Double Heat Sink",
+    "mounting_unit_types": [],
+    "page_ref": "303",
+    "rarity": "C",
+    "raw_category": "equipment",
+    "source": "TW",
+    "tech_base": "Inner Sphere",
+    "tech_rating": "B",
+    "tonnage": 1.0,
+    "usage_count": 0
+  },
+  {
+    "canonical_id": "is-heat-sink",
+    "category": "heat_sink",
+    "crit_slots": 1,
+    "display_name": "Inner Sphere Heat Sink",
+    "mechanical_effect": "Inner Sphere Heat Sink",
+    "mounting_unit_types": [],
+    "page_ref": "303",
+    "rarity": "A",
+    "raw_category": "equipment",
+    "source": "TW",
+    "tech_base": "Inner Sphere",
+    "tech_rating": "D",
+    "tonnage": 1.0,
+    "usage_count": 0
+  },
+  {
+    "canonical_id": "unit-derived-is-jump-booster",
+    "category": "mobility",
+    "crit_slots": null,
+    "display_name": "Jump Booster",
+    "mechanical_effect": "Jump Booster",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 12
+  },
+  {
+    "canonical_id": "unit-derived-unk-supercharger-inner-sphere-armored",
+    "category": "mobility",
+    "crit_slots": null,
+    "display_name": "Supercharger ; Inner Sphere (Armored)",
+    "mechanical_effect": "Supercharger ; Inner Sphere (Armored)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 3
+  },
+  {
+    "canonical_id": "unit-derived-unk-supercharger-inner-sphere-armored",
+    "category": "mobility",
+    "crit_slots": null,
+    "display_name": "Supercharger; Inner Sphere (Armored)",
+    "mechanical_effect": "Supercharger; Inner Sphere (Armored)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 3
+  },
+  {
+    "canonical_id": "unit-derived-unk-vehicle-jump-jet",
+    "category": "mobility",
+    "crit_slots": null,
+    "display_name": "Vehicle Jump Jet",
+    "mechanical_effect": "Vehicle Jump Jet",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 55
+  },
+  {
+    "canonical_id": "clan-improved-jump-jet",
+    "category": "movement",
+    "crit_slots": 2,
+    "display_name": "Clan Improved Jump Jet",
+    "mechanical_effect": "Clan Improved Jump Jet",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": "312",
+    "rarity": "D",
+    "raw_category": "equipment",
+    "source": "TO",
+    "tech_base": "Clan",
+    "tech_rating": "A",
+    "tonnage": 0.0,
+    "usage_count": 800
+  },
+  {
+    "canonical_id": "clan-jump-jet",
+    "category": "movement",
+    "crit_slots": 1,
+    "display_name": "Clan Jump Jet",
+    "mechanical_effect": "Clan Jump Jet",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": "303",
+    "rarity": "A",
+    "raw_category": "equipment",
+    "source": "TW",
+    "tech_base": "Clan",
+    "tech_rating": "A",
+    "tonnage": 0.0,
+    "usage_count": 17
+  },
+  {
+    "canonical_id": "clan-masc",
+    "category": "movement",
+    "crit_slots": 0,
+    "display_name": "Clan MASC",
+    "mechanical_effect": "Clan MASC",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": "303",
+    "rarity": "D",
+    "raw_category": "equipment",
+    "source": "TW",
+    "tech_base": "Clan",
+    "tech_rating": "A",
+    "tonnage": 0.0,
+    "usage_count": 304
+  },
+  {
+    "canonical_id": "clan-partial-wing",
+    "category": "movement",
+    "crit_slots": 3,
+    "display_name": "Clan Partial Wing",
+    "mechanical_effect": "Clan Partial Wing",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": "289",
+    "rarity": "E",
+    "raw_category": "equipment",
+    "source": "TO",
+    "tech_base": "Clan",
+    "tech_rating": "A",
+    "tonnage": 0.0,
+    "usage_count": 240
+  },
+  {
+    "canonical_id": "clan-supercharger",
+    "category": "movement",
+    "crit_slots": 1,
+    "display_name": "Clan Supercharger",
+    "mechanical_effect": "Clan Supercharger",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": "312",
+    "rarity": "D",
+    "raw_category": "equipment",
+    "source": "TO",
+    "tech_base": "Clan",
+    "tech_rating": "A",
+    "tonnage": 0.0,
+    "usage_count": 83
+  },
+  {
+    "canonical_id": "clan-umu",
+    "category": "movement",
+    "crit_slots": 1,
+    "display_name": "Clan UMU",
+    "mechanical_effect": "Clan UMU",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": "289",
+    "rarity": "E",
+    "raw_category": "equipment",
+    "source": "TO",
+    "tech_base": "Clan",
+    "tech_rating": "A",
+    "tonnage": 0.0,
+    "usage_count": 54
+  },
+  {
+    "canonical_id": "is-improved-jump-jet",
+    "category": "movement",
+    "crit_slots": 2,
+    "display_name": "Inner Sphere Improved Jump Jet",
+    "mechanical_effect": "Inner Sphere Improved Jump Jet",
+    "mounting_unit_types": [],
+    "page_ref": "312",
+    "rarity": "D",
+    "raw_category": "equipment",
+    "source": "TO",
+    "tech_base": "Inner Sphere",
+    "tech_rating": "B",
+    "tonnage": 0.0,
+    "usage_count": 0
+  },
+  {
+    "canonical_id": "is-jump-jet",
+    "category": "movement",
+    "crit_slots": 1,
+    "display_name": "Inner Sphere Jump Jet",
+    "mechanical_effect": "Inner Sphere Jump Jet",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": "303",
+    "rarity": "A",
+    "raw_category": "equipment",
+    "source": "TW",
+    "tech_base": "Inner Sphere",
+    "tech_rating": "D",
+    "tonnage": 0.0,
+    "usage_count": 7405
+  },
+  {
+    "canonical_id": "is-masc",
+    "category": "movement",
+    "crit_slots": 0,
+    "display_name": "Inner Sphere MASC",
+    "mechanical_effect": "Inner Sphere MASC",
+    "mounting_unit_types": [],
+    "page_ref": "303",
+    "rarity": "C",
+    "raw_category": "equipment",
+    "source": "TW",
+    "tech_base": "Inner Sphere",
+    "tech_rating": "B",
+    "tonnage": 0.0,
+    "usage_count": 0
+  },
+  {
+    "canonical_id": "is-mechanical-jump-booster",
+    "category": "movement",
+    "crit_slots": 0,
+    "display_name": "Inner Sphere Mechanical Jump Booster",
+    "mechanical_effect": "Inner Sphere Mechanical Jump Booster",
+    "mounting_unit_types": [],
+    "page_ref": "72",
+    "rarity": "F",
+    "raw_category": "equipment",
+    "source": "IO",
+    "tech_base": "Inner Sphere",
+    "tech_rating": "A",
+    "tonnage": 0.0,
+    "usage_count": 0
+  },
+  {
+    "canonical_id": "is-partial-wing",
+    "category": "movement",
+    "crit_slots": 4,
+    "display_name": "Inner Sphere Partial Wing",
+    "mechanical_effect": "Inner Sphere Partial Wing",
+    "mounting_unit_types": [],
+    "page_ref": "289",
+    "rarity": "E",
+    "raw_category": "equipment",
+    "source": "TO",
+    "tech_base": "Inner Sphere",
+    "tech_rating": "A",
+    "tonnage": 0.0,
+    "usage_count": 0
+  },
+  {
+    "canonical_id": "is-supercharger",
+    "category": "movement",
+    "crit_slots": 1,
+    "display_name": "Inner Sphere Supercharger",
+    "mechanical_effect": "Inner Sphere Supercharger",
+    "mounting_unit_types": [],
+    "page_ref": "312",
+    "rarity": "D",
+    "raw_category": "equipment",
+    "source": "TO",
+    "tech_base": "Inner Sphere",
+    "tech_rating": "B",
+    "tonnage": 0.0,
+    "usage_count": 0
+  },
+  {
+    "canonical_id": "is-umu",
+    "category": "movement",
+    "crit_slots": 1,
+    "display_name": "Inner Sphere UMU",
+    "mechanical_effect": "Inner Sphere UMU",
+    "mounting_unit_types": [],
+    "page_ref": "289",
+    "rarity": "E",
+    "raw_category": "equipment",
+    "source": "TO",
+    "tech_base": "Inner Sphere",
+    "tech_rating": "A",
+    "tonnage": 0.0,
+    "usage_count": 0
+  },
+  {
+    "canonical_id": "unit-derived-unk-aa-weapon-mk-1-light",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "AA Weapon (Mk. 1, Light)",
+    "mechanical_effect": "AA Weapon (Mk. 1, Light)",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 8
+  },
+  {
+    "canonical_id": "unit-derived-unk-aa-weapon-mk-2-man-portable",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "AA Weapon (Mk. 2, Man-Portable)",
+    "mechanical_effect": "AA Weapon (Mk. 2, Man-Portable)",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 10
+  },
+  {
+    "canonical_id": "unit-derived-unk-amphibious-chassis",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Amphibious Chassis",
+    "mechanical_effect": "Amphibious Chassis",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 20
+  },
+  {
+    "canonical_id": "unit-derived-unk-auto-pistol",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Auto Pistol",
+    "mechanical_effect": "Auto Pistol",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 6
+  },
+  {
+    "canonical_id": "unit-derived-unk-auto-pistol",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Auto-Pistol",
+    "mechanical_effect": "Auto-Pistol",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 6
+  },
+  {
+    "canonical_id": "unit-derived-unk-auto-pistol-m-g",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Auto-Pistol (M&G)",
+    "mechanical_effect": "Auto-Pistol (M&G)",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-auto-pistol-magnum",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Auto-Pistol (Magnum)",
+    "mechanical_effect": "Auto-Pistol (Magnum)",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-auto-pistol-nambu",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Auto-Pistol (Nambu)",
+    "mechanical_effect": "Auto-Pistol (Nambu)",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-auto-shotgun",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Auto-Shotgun",
+    "mechanical_effect": "Auto-Shotgun",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 8
+  },
+  {
+    "canonical_id": "unit-derived-unk-backhoe",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Backhoe",
+    "mechanical_effect": "Backhoe",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 8
+  },
+  {
+    "canonical_id": "unit-derived-is-backhoe",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Backhoe",
+    "mechanical_effect": "Backhoe",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 48
+  },
+  {
+    "canonical_id": "unit-derived-unk-bicycle-chassis-mod",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Bicycle Chassis Mod",
+    "mechanical_effect": "Bicycle Chassis Mod",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 14
+  },
+  {
+    "canonical_id": "unit-derived-unk-blade-vibro-blade",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Blade (Vibro-blade)",
+    "mechanical_effect": "Blade (Vibro-blade)",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-unk-blade-vibro-katana",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Blade (Vibro-katana)",
+    "mechanical_effect": "Blade (Vibro-katana)",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-bulldozer",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Bulldozer",
+    "mechanical_effect": "Bulldozer",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 11
+  },
+  {
+    "canonical_id": "unit-derived-unk-clsrm2-ios",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "CLSRM2 (IOS)",
+    "mechanical_effect": "CLSRM2 (IOS)",
+    "mounting_unit_types": [
+      "aerospace"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 4
+  },
+  {
+    "canonical_id": "unit-derived-unk-clvtol-jet-booster",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "CLVTOL Jet Booster",
+    "mechanical_effect": "CLVTOL Jet Booster",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-unk-centurion-weapon-system",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Centurion Weapon System",
+    "mechanical_effect": "Centurion Weapon System",
+    "mounting_unit_types": [
+      "aerospace"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-unk-combat-vehicle-chassis-mod-flotation-hull",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Combat Vehicle Chassis Mod [Flotation Hull]",
+    "mechanical_effect": "Combat Vehicle Chassis Mod [Flotation Hull]",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-is-combat-vehicle-escape-pod",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Combat Vehicle Escape Pod",
+    "mechanical_effect": "Combat Vehicle Escape Pod",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 4
+  },
+  {
+    "canonical_id": "unit-derived-unk-combine",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Combine",
+    "mechanical_effect": "Combine",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 3
+  },
+  {
+    "canonical_id": "unit-derived-is-combine",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Combine",
+    "mechanical_effect": "Combine",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 44
+  },
+  {
+    "canonical_id": "unit-derived-unk-convertible-chassis-mod",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Convertible Chassis Mod",
+    "mechanical_effect": "Convertible Chassis Mod",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 4
+  },
+  {
+    "canonical_id": "unit-derived-is-drone-carrier-control-system",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Drone Carrier Control System",
+    "mechanical_effect": "Drone Carrier Control System",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 4
+  },
+  {
+    "canonical_id": "unit-derived-is-drone-carrier-control-system-omni-size-6-0",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Drone Carrier Control System:OMNI:SIZE:6.0",
+    "mechanical_effect": "Drone Carrier Control System:OMNI:SIZE:6.0",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-is-drone-carrier-control-system-size-1-0",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Drone Carrier Control System:SIZE:1.0",
+    "mechanical_effect": "Drone Carrier Control System:SIZE:1.0",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-is-dual-saw",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Dual Saw",
+    "mechanical_effect": "Dual Saw",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 49
+  },
+  {
+    "canonical_id": "unit-derived-is-dumper-front",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Dumper (Front)",
+    "mechanical_effect": "Dumper (Front)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 3
+  },
+  {
+    "canonical_id": "unit-derived-unk-dumper-rear",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Dumper (Rear)",
+    "mechanical_effect": "Dumper (Rear)",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-is-dumper-rear",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Dumper (Rear)",
+    "mechanical_effect": "Dumper (Rear)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 4
+  },
+  {
+    "canonical_id": "unit-derived-clan-ejection-seat-industrial-mech",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Ejection Seat (Industrial Mech)",
+    "mechanical_effect": "Ejection Seat (Industrial Mech)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Clan",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-is-ejection-seat-industrial-mech",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Ejection Seat (Industrial Mech)",
+    "mechanical_effect": "Ejection Seat (Industrial Mech)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 24
+  },
+  {
+    "canonical_id": "unit-derived-unk-elephant-gun",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Elephant Gun",
+    "mechanical_effect": "Elephant Gun",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-is-emergency-c-3-master",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Emergency C 3 Master",
+    "mechanical_effect": "Emergency C 3 Master",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-is-extended-fuel-tank",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Extended Fuel Tank",
+    "mechanical_effect": "Extended Fuel Tank",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 6
+  },
+  {
+    "canonical_id": "unit-derived-is-extended-fuel-tank-1-ton",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Extended Fuel Tank (1 ton)",
+    "mechanical_effect": "Extended Fuel Tank (1 ton)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 3
+  },
+  {
+    "canonical_id": "unit-derived-is-extended-fuel-tank-3-tons",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Extended Fuel Tank (3 tons)",
+    "mechanical_effect": "Extended Fuel Tank (3 tons)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 3
+  },
+  {
+    "canonical_id": "unit-derived-unk-external-stores-hardpoint",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "External Stores Hardpoint",
+    "mechanical_effect": "External Stores Hardpoint",
+    "mounting_unit_types": [
+      "aerospace",
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 52
+  },
+  {
+    "canonical_id": "unit-derived-unk-federated-barrett-m42b",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Federated Barrett M42B",
+    "mechanical_effect": "Federated Barrett M42B",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-federated-barrett-m61a",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Federated Barrett M61A",
+    "mechanical_effect": "Federated Barrett M61A",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-field-kitchen",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Field Kitchen",
+    "mechanical_effect": "Field Kitchen",
+    "mounting_unit_types": [
+      "aerospace",
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 14
+  },
+  {
+    "canonical_id": "unit-derived-is-flotation-hull",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Flotation Hull",
+    "mechanical_effect": "Flotation Hull",
+    "mounting_unit_types": [
+      "aerospace",
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 5
+  },
+  {
+    "canonical_id": "unit-derived-is-fully-amphibious-chassis",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Fully Amphibious Chassis",
+    "mechanical_effect": "Fully Amphibious Chassis",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 12
+  },
+  {
+    "canonical_id": "unit-derived-unk-grenade-launcher",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Grenade Launcher",
+    "mechanical_effect": "Grenade Launcher",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 5
+  },
+  {
+    "canonical_id": "unit-derived-unk-grenade-launcher-auto",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Grenade Launcher (Auto)",
+    "mechanical_effect": "Grenade Launcher (Auto)",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-grenade-launcher-auto-inferno",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Grenade Launcher (Auto) - Inferno",
+    "mechanical_effect": "Grenade Launcher (Auto) - Inferno",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-grenade-launcher-compact",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Grenade Launcher (Compact)",
+    "mechanical_effect": "Grenade Launcher (Compact)",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-grenade-launcher-heavy",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Grenade Launcher (Heavy)",
+    "mechanical_effect": "Grenade Launcher (Heavy)",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-gunther-mp-20",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Gunther MP-20",
+    "mechanical_effect": "Gunther MP-20",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-clan-har-jel-ii-self-repair-system",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Har Jel II Self-Repair System",
+    "mechanical_effect": "Har Jel II Self-Repair System",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Clan",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 3
+  },
+  {
+    "canonical_id": "unit-derived-is-har-jel-ii-self-repair-system",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Har Jel II Self-Repair System",
+    "mechanical_effect": "Har Jel II Self-Repair System",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 3
+  },
+  {
+    "canonical_id": "unit-derived-clan-har-jel-iii-self-repair-system",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Har Jel III Self-Repair System",
+    "mechanical_effect": "Har Jel III Self-Repair System",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Clan",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 26
+  },
+  {
+    "canonical_id": "unit-derived-clan-har-jel-repair-systems-har-jel-ii",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Har Jel Repair Systems (Har Jel II)",
+    "mechanical_effect": "Har Jel Repair Systems (Har Jel II)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Clan",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 5
+  },
+  {
+    "canonical_id": "unit-derived-is-har-jel-repair-systems-har-jel-iii",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Har Jel Repair Systems (Har Jel III)",
+    "mechanical_effect": "Har Jel Repair Systems (Har Jel III)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 6
+  },
+  {
+    "canonical_id": "unit-derived-unk-heavy-bridge-layer",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Heavy Bridge Layer",
+    "mechanical_effect": "Heavy Bridge Layer",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-is-heavy-duty-pile-driver",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Heavy-Duty Pile Driver",
+    "mechanical_effect": "Heavy-Duty Pile Driver",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 24
+  },
+  {
+    "canonical_id": "unit-derived-is-high-res-imager",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "High Res Imager",
+    "mechanical_effect": "High Res Imager",
+    "mounting_unit_types": [
+      "aerospace",
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 8
+  },
+  {
+    "canonical_id": "unit-derived-unk-hitch",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Hitch",
+    "mechanical_effect": "Hitch",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 41
+  },
+  {
+    "canonical_id": "unit-derived-unk-hydro-foil-chassis-mod",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Hydro Foil Chassis Mod",
+    "mechanical_effect": "Hydro Foil Chassis Mod",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-unk-hyper-velocity-auto-cannon-10",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Hyper Velocity Auto Cannon/10",
+    "mechanical_effect": "Hyper Velocity Auto Cannon/10",
+    "mounting_unit_types": [
+      "aerospace",
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 8
+  },
+  {
+    "canonical_id": "unit-derived-is-hyper-velocity-auto-cannon-10",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Hyper Velocity Auto Cannon/10",
+    "mechanical_effect": "Hyper Velocity Auto Cannon/10",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 24
+  },
+  {
+    "canonical_id": "unit-derived-unk-hyper-velocity-auto-cannon-2",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Hyper Velocity Auto Cannon/2",
+    "mechanical_effect": "Hyper Velocity Auto Cannon/2",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 7
+  },
+  {
+    "canonical_id": "unit-derived-unk-hyper-velocity-auto-cannon-5",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Hyper Velocity Auto Cannon/5",
+    "mechanical_effect": "Hyper Velocity Auto Cannon/5",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-is-hypersprectral-imager",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Hypersprectral Imager",
+    "mechanical_effect": "Hypersprectral Imager",
+    "mounting_unit_types": [
+      "aerospace",
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 3
+  },
+  {
+    "canonical_id": "unit-derived-unk-ishppc",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "ISHPPC",
+    "mechanical_effect": "ISHPPC",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-unk-islmga-st",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "ISLMGA(ST)",
+    "mechanical_effect": "ISLMGA(ST)",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-unk-islr-torpedo-15",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "ISLR Torpedo 15",
+    "mechanical_effect": "ISLR Torpedo 15",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-islr-torpedo-5",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "ISLR Torpedo 5",
+    "mechanical_effect": "ISLR Torpedo 5",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-ismga-st",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "ISMGA(ST)",
+    "mechanical_effect": "ISMGA(ST)",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-unk-ismml5-st",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "ISMML5(ST)",
+    "mechanical_effect": "ISMML5(ST)",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-unk-issrm2ios",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "ISSRM2IOS",
+    "mechanical_effect": "ISSRM2IOS",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 14
+  },
+  {
+    "canonical_id": "unit-derived-unk-issrm4ios",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "ISSRM4IOS",
+    "mechanical_effect": "ISSRM4IOS",
+    "mounting_unit_types": [
+      "aerospace",
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-unk-issrm4os",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "ISSRM4OS",
+    "mechanical_effect": "ISSRM4OS",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-unk-issrm6os",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "ISSRM6OS",
+    "mechanical_effect": "ISSRM6OS",
+    "mounting_unit_types": [
+      "aerospace"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-issrt2",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "ISSRT2",
+    "mechanical_effect": "ISSRT2",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-issrt6",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "ISSRT6",
+    "mechanical_effect": "ISSRT6",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 4
+  },
+  {
+    "canonical_id": "unit-derived-unk-issv-dune-buggy-chassis",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "ISSV Dune Buggy Chassis",
+    "mechanical_effect": "ISSV Dune Buggy Chassis",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-issvspl",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "ISSVSPL",
+    "mechanical_effect": "ISSVSPL",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-isvtol-jet-booster",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "ISVTOL Jet Booster",
+    "mechanical_effect": "ISVTOL Jet Booster",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 13
+  },
+  {
+    "canonical_id": "unit-derived-unk-isvehiculargrenadelauncher-fl",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "ISVehicularGrenadeLauncher (FL)",
+    "mechanical_effect": "ISVehicularGrenadeLauncher (FL)",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-unk-isvehiculargrenadelauncher-fr",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "ISVehicularGrenadeLauncher (FR)",
+    "mechanical_effect": "ISVehicularGrenadeLauncher (FR)",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-unk-improved-smart-robotic-control-system",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Improved Smart Robotic Control System",
+    "mechanical_effect": "Improved Smart Robotic Control System",
+    "mounting_unit_types": [
+      "aerospace"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 3
+  },
+  {
+    "canonical_id": "unit-derived-is-industrial-tsm",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Industrial TSM",
+    "mechanical_effect": "Industrial TSM",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 96
+  },
+  {
+    "canonical_id": "unit-derived-unk-infantry-auto-gl",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Infantry Auto GL",
+    "mechanical_effect": "Infantry Auto GL",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 4
+  },
+  {
+    "canonical_id": "unit-derived-unk-infantry-autopistol",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Infantry Autopistol",
+    "mechanical_effect": "Infantry Autopistol",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-infantry-avenger-ccw",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Infantry Avenger CCW",
+    "mechanical_effect": "Infantry Avenger CCW",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-infantry-bearhunter",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Infantry Bearhunter",
+    "mechanical_effect": "Infantry Bearhunter",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-infantry-clan-mauser-iicias",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Infantry Clan Mauser IICIAS",
+    "mechanical_effect": "Infantry Clan Mauser IICIAS",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 6
+  },
+  {
+    "canonical_id": "unit-derived-unk-infantry-claymore-pistol",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Infantry Claymore Pistol",
+    "mechanical_effect": "Infantry Claymore Pistol",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-infantry-federated-barrett-m-42-b",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Infantry Federated Barrett M 42 B",
+    "mechanical_effect": "Infantry Federated Barrett M 42 B",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 3
+  },
+  {
+    "canonical_id": "unit-derived-unk-infantry-grand-mauler",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Infantry Grand Mauler",
+    "mechanical_effect": "Infantry Grand Mauler",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 3
+  },
+  {
+    "canonical_id": "unit-derived-unk-infantry-hrr",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Infantry HRR",
+    "mechanical_effect": "Infantry HRR",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-infantry-hrr-size-1-0",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Infantry HRR:SIZE:1.0",
+    "mechanical_effect": "Infantry HRR:SIZE:1.0",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-infantry-heavy-grenade-launcher-inferno",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Infantry Heavy Grenade Launcher Inferno",
+    "mechanical_effect": "Infantry Heavy Grenade Launcher Inferno",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-infantry-heavy-mortar",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Infantry Heavy Mortar",
+    "mechanical_effect": "Infantry Heavy Mortar",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-infantry-imperator-ax-22",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Infantry Imperator AX 22",
+    "mechanical_effect": "Infantry Imperator AX 22",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-infantry-king-david",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Infantry King David",
+    "mechanical_effect": "Infantry King David",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-infantry-lrr",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Infantry LRR",
+    "mechanical_effect": "Infantry LRR",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-infantry-light-mortar",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Infantry Light Mortar",
+    "mechanical_effect": "Infantry Light Mortar",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-infantry-mppr",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Infantry MPPR",
+    "mechanical_effect": "Infantry MPPR",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-infantry-mrr",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Infantry MRR",
+    "mechanical_effect": "Infantry MRR",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-infantry-mini-grenade-inferno",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Infantry Mini Grenade Inferno",
+    "mechanical_effect": "Infantry Mini Grenade Inferno",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 4
+  },
+  {
+    "canonical_id": "unit-derived-unk-infantry-minolta-9000",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Infantry Minolta 9000",
+    "mechanical_effect": "Infantry Minolta 9000",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-infantry-mk-2-portable-aa",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Infantry Mk 2 Portable AA",
+    "mechanical_effect": "Infantry Mk 2 Portable AA",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 8
+  },
+  {
+    "canonical_id": "unit-derived-unk-infantry-sunbeam-laserpistol",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Infantry Sunbeam Laserpistol",
+    "mechanical_effect": "Infantry Sunbeam Laserpistol",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-infantry-sunbeam-starfire",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Infantry Sunbeam Starfire",
+    "mechanical_effect": "Infantry Sunbeam Starfire",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-infantry-support-needler",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Infantry Support Needler",
+    "mechanical_effect": "Infantry Support Needler",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-unk-infantry-thunderstroke",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Infantry Thunderstroke",
+    "mechanical_effect": "Infantry Thunderstroke",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 3
+  },
+  {
+    "canonical_id": "unit-derived-unk-infantry-tranquilizer-gun",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Infantry Tranquilizer Gun",
+    "mechanical_effect": "Infantry Tranquilizer Gun",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-infantry-vlaw",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Infantry VLAW",
+    "mechanical_effect": "Infantry VLAW",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-infantry-vibro-katana",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Infantry Vibro Katana",
+    "mechanical_effect": "Infantry Vibro Katana",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-is-infrared-imager",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Infrared Imager",
+    "mechanical_effect": "Infrared Imager",
+    "mounting_unit_types": [
+      "aerospace",
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 6
+  },
+  {
+    "canonical_id": "unit-derived-is-lam-fuel-tank",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "LAM Fuel Tank",
+    "mechanical_effect": "LAM Fuel Tank",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-lrt-20",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "LRT 20",
+    "mechanical_effect": "LRT 20",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 8
+  },
+  {
+    "canonical_id": "unit-derived-unk-ladder-100m",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Ladder (100m)",
+    "mechanical_effect": "Ladder (100m)",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-unk-ladder-20m",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Ladder (20m)",
+    "mechanical_effect": "Ladder (20m)",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-lifeboat-atmospheric",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Lifeboat (Atmospheric)",
+    "mechanical_effect": "Lifeboat (Atmospheric)",
+    "mounting_unit_types": [
+      "aerospace"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 12
+  },
+  {
+    "canonical_id": "unit-derived-unk-lifeboat-maritime",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Lifeboat (Maritime)",
+    "mechanical_effect": "Lifeboat (Maritime)",
+    "mounting_unit_types": [
+      "aerospace",
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 21
+  },
+  {
+    "canonical_id": "unit-derived-unk-lac-2",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Light Auto Cannon/2",
+    "mechanical_effect": "Light Auto Cannon/2",
+    "mounting_unit_types": [
+      "mech",
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 30
+  },
+  {
+    "canonical_id": "unit-derived-is-lac-2",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Light Auto Cannon/2",
+    "mechanical_effect": "Light Auto Cannon/2",
+    "mounting_unit_types": [],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 0
+  },
+  {
+    "canonical_id": "unit-derived-unk-lac-5",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Light Auto Cannon/5",
+    "mechanical_effect": "Light Auto Cannon/5",
+    "mounting_unit_types": [
+      "aerospace",
+      "mech",
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 152
+  },
+  {
+    "canonical_id": "unit-derived-is-lac-5",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Light Auto Cannon/5",
+    "mechanical_effect": "Light Auto Cannon/5",
+    "mounting_unit_types": [],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 0
+  },
+  {
+    "canonical_id": "unit-derived-is-light-blazer",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Light Blazer",
+    "mechanical_effect": "Light Blazer",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 16
+  },
+  {
+    "canonical_id": "unit-derived-clan-limited-amphibious-chassis",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Limited Amphibious Chassis",
+    "mechanical_effect": "Limited Amphibious Chassis",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Clan",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 3
+  },
+  {
+    "canonical_id": "unit-derived-is-limited-amphibious-chassis",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Limited Amphibious Chassis",
+    "mechanical_effect": "Limited Amphibious Chassis",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 10
+  },
+  {
+    "canonical_id": "unit-derived-is-liquid-storage-0-5-tons",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Liquid Storage (0.5 tons)",
+    "mechanical_effect": "Liquid Storage (0.5 tons)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-clan-liquid-storage-1-ton",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Liquid Storage (1 ton)",
+    "mechanical_effect": "Liquid Storage (1 ton)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Clan",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 7
+  },
+  {
+    "canonical_id": "unit-derived-is-liquid-storage-1-ton",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Liquid Storage (1 ton)",
+    "mechanical_effect": "Liquid Storage (1 ton)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 14
+  },
+  {
+    "canonical_id": "unit-derived-clan-liquid-storage-size-1-0",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Liquid Storage :SIZE:1.0",
+    "mechanical_effect": "Liquid Storage :SIZE:1.0",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Clan",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 3
+  },
+  {
+    "canonical_id": "unit-derived-is-liquid-storage-size-0-5",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Liquid Storage:SIZE:0.5",
+    "mechanical_effect": "Liquid Storage:SIZE:0.5",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 5
+  },
+  {
+    "canonical_id": "unit-derived-clan-liquid-storage-size-1-0",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Liquid Storage:SIZE:1.0",
+    "mechanical_effect": "Liquid Storage:SIZE:1.0",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Clan",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 3
+  },
+  {
+    "canonical_id": "unit-derived-is-liquid-storage-size-1-0",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Liquid Storage:SIZE:1.0",
+    "mechanical_effect": "Liquid Storage:SIZE:1.0",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-unk-liquid-storage-size-20-0",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Liquid Storage:SIZE:20.0",
+    "mechanical_effect": "Liquid Storage:SIZE:20.0",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-is-liquid-storage-size-2-0",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Liquid Storage:size:2.0",
+    "mechanical_effect": "Liquid Storage:size:2.0",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 4
+  },
+  {
+    "canonical_id": "unit-derived-is-look-down-radar",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Look Down Radar",
+    "mechanical_effect": "Look Down Radar",
+    "mounting_unit_types": [
+      "aerospace",
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 4
+  },
+  {
+    "canonical_id": "unit-derived-unk-mash-equipment",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "MASH Equipment",
+    "mechanical_effect": "MASH Equipment",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 6
+  },
+  {
+    "canonical_id": "unit-derived-unk-mash-equipment-omni-size-10-0",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "MASH Equipment:OMNI:SIZE:10.0",
+    "mechanical_effect": "MASH Equipment:OMNI:SIZE:10.0",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-mash-equipment-omni-size-6-0",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "MASH Equipment:OMNI:SIZE:6.0",
+    "mechanical_effect": "MASH Equipment:OMNI:SIZE:6.0",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-mash-equipment-size-1-0",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "MASH Equipment:SIZE:1.0",
+    "mechanical_effect": "MASH Equipment:SIZE:1.0",
+    "mounting_unit_types": [
+      "aerospace",
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-unk-mash-equipment-size-11-0",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "MASH Equipment:SIZE:11.0",
+    "mechanical_effect": "MASH Equipment:SIZE:11.0",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-unk-mash-equipment-size-5-0",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "MASH Equipment:SIZE:5.0",
+    "mechanical_effect": "MASH Equipment:SIZE:5.0",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-unk-manipulator",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Manipulator",
+    "mechanical_effect": "Manipulator",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-clan-mast-mount",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Mast Mount",
+    "mechanical_effect": "Mast Mount",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Clan",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-is-mast-mount",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Mast Mount",
+    "mechanical_effect": "Mast Mount",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 5
+  },
+  {
+    "canonical_id": "unit-derived-is-mech-mortar-2",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Mech Mortar-2",
+    "mechanical_effect": "Mech Mortar-2",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 3
+  },
+  {
+    "canonical_id": "unit-derived-clan-mech-mortar-4",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Mech Mortar-4",
+    "mechanical_effect": "Mech Mortar-4",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Clan",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 14
+  },
+  {
+    "canonical_id": "unit-derived-clan-mech-mortar-8",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Mech Mortar-8",
+    "mechanical_effect": "Mech Mortar-8",
+    "mounting_unit_types": [
+      "mech",
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Clan",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 25
+  },
+  {
+    "canonical_id": "unit-derived-is-mech-mortar-8",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Mech Mortar-8",
+    "mechanical_effect": "Mech Mortar-8",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 3
+  },
+  {
+    "canonical_id": "unit-derived-is-mek-mortar-1",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Mek Mortar 1",
+    "mechanical_effect": "Mek Mortar 1",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-is-mobile-field-base",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Mobile Field Base",
+    "mechanical_effect": "Mobile Field Base",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 7
+  },
+  {
+    "canonical_id": "unit-derived-unk-monocycle-chassis-mod",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Monocycle Chassis Mod",
+    "mechanical_effect": "Monocycle Chassis Mod",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 3
+  },
+  {
+    "canonical_id": "unit-derived-unk-mortar-heavy",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Mortar (Heavy)",
+    "mechanical_effect": "Mortar (Heavy)",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-is-nail-gun",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Nail Gun",
+    "mechanical_effect": "Nail Gun",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-is-nail-rivet-gun",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Nail/Rivet Gun",
+    "mechanical_effect": "Nail/Rivet Gun",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 4
+  },
+  {
+    "canonical_id": "unit-derived-unk-needler-pistol",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Needler Pistol",
+    "mechanical_effect": "Needler Pistol",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 3
+  },
+  {
+    "canonical_id": "unit-derived-unk-needler-support-firedrake",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Needler, Support (Firedrake)",
+    "mechanical_effect": "Needler, Support (Firedrake)",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 4
+  },
+  {
+    "canonical_id": "unit-derived-is-off-road",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Off Road",
+    "mechanical_effect": "Off Road",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-is-off-road-chassis",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Off Road Chassis",
+    "mechanical_effect": "Off Road Chassis",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 43
+  },
+  {
+    "canonical_id": "unit-derived-unk-omni-chassis-mod",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Omni Chassis Mod",
+    "mechanical_effect": "Omni Chassis Mod",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 20
+  },
+  {
+    "canonical_id": "unit-derived-unk-paramedic-equipment",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Paramedic Equipment",
+    "mechanical_effect": "Paramedic Equipment",
+    "mounting_unit_types": [
+      "aerospace",
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 61
+  },
+  {
+    "canonical_id": "unit-derived-is-paramedic-equipment",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Paramedic Equipment",
+    "mechanical_effect": "Paramedic Equipment",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-is-pile-driver",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Pile Driver",
+    "mechanical_effect": "Pile Driver",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 8
+  },
+  {
+    "canonical_id": "unit-derived-unk-pintle-turret",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Pintle Turret",
+    "mechanical_effect": "Pintle Turret",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 12
+  },
+  {
+    "canonical_id": "unit-derived-unk-prop-chassis-mod",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Prop Chassis Mod",
+    "mechanical_effect": "Prop Chassis Mod",
+    "mounting_unit_types": [
+      "aerospace"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 3
+  },
+  {
+    "canonical_id": "unit-derived-unk-risc-viral-jammer-homing",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "RISC Viral Jammer (Homing)",
+    "mechanical_effect": "RISC Viral Jammer (Homing)",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-rl10",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "RL10",
+    "mechanical_effect": "RL10",
+    "mounting_unit_types": [
+      "aerospace",
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 60
+  },
+  {
+    "canonical_id": "unit-derived-unk-rl15",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "RL15",
+    "mechanical_effect": "RL15",
+    "mounting_unit_types": [
+      "aerospace",
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 41
+  },
+  {
+    "canonical_id": "unit-derived-unk-rl15-st",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "RL15(ST)",
+    "mechanical_effect": "RL15(ST)",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 6
+  },
+  {
+    "canonical_id": "unit-derived-unk-rl20",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "RL20",
+    "mechanical_effect": "RL20",
+    "mounting_unit_types": [
+      "aerospace",
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 9
+  },
+  {
+    "canonical_id": "unit-derived-clan-ram-plate",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Ram Plate",
+    "mechanical_effect": "Ram Plate",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Clan",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 3
+  },
+  {
+    "canonical_id": "unit-derived-unk-refueling-drogue",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Refueling Drogue",
+    "mechanical_effect": "Refueling Drogue",
+    "mounting_unit_types": [
+      "aerospace"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-unk-rock-cutter",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Rock Cutter",
+    "mechanical_effect": "Rock Cutter",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-is-rock-cutter",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Rock Cutter",
+    "mechanical_effect": "Rock Cutter",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 50
+  },
+  {
+    "canonical_id": "unit-derived-unk-smg-gunther-mp-20",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "SMG (Gunther MP-20)",
+    "mechanical_effect": "SMG (Gunther MP-20)",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-srt-2-os",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "SRT 2 (OS)",
+    "mechanical_effect": "SRT 2 (OS)",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-stol-chassis-mod",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "STOL Chassis Mod",
+    "mechanical_effect": "STOL Chassis Mod",
+    "mounting_unit_types": [
+      "aerospace",
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 15
+  },
+  {
+    "canonical_id": "unit-derived-unk-sv-chassis-mod-tractor",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "SV Chassis Mod [Tractor]",
+    "mechanical_effect": "SV Chassis Mod [Tractor]",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 22
+  },
+  {
+    "canonical_id": "unit-derived-unk-shredder-heavy-needler",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Shredder Heavy Needler",
+    "mechanical_effect": "Shredder Heavy Needler",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-smart-robotic-control-system",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Smart Robotic Control System",
+    "mechanical_effect": "Smart Robotic Control System",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 3
+  },
+  {
+    "canonical_id": "unit-derived-unk-snowmobile-chassis",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Snowmobile Chassis",
+    "mechanical_effect": "Snowmobile Chassis",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-sonic-stunner",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Sonic Stunner",
+    "mechanical_effect": "Sonic Stunner",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 8
+  },
+  {
+    "canonical_id": "unit-derived-clan-spikes",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Spikes",
+    "mechanical_effect": "Spikes",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Clan",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 9
+  },
+  {
+    "canonical_id": "unit-derived-is-spikes",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Spikes",
+    "mechanical_effect": "Spikes",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 33
+  },
+  {
+    "canonical_id": "unit-derived-unk-sponson-turret",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Sponson Turret",
+    "mechanical_effect": "Sponson Turret",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 21
+  },
+  {
+    "canonical_id": "unit-derived-is-sponson-turret",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Sponson Turret",
+    "mechanical_effect": "Sponson Turret",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 10
+  },
+  {
+    "canonical_id": "unit-derived-clan-spot-welder",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Spot Welder",
+    "mechanical_effect": "Spot Welder",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Clan",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 3
+  },
+  {
+    "canonical_id": "unit-derived-is-spot-welder",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Spot Welder",
+    "mechanical_effect": "Spot Welder",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 5
+  },
+  {
+    "canonical_id": "unit-derived-unk-stunstick",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Stunstick",
+    "mechanical_effect": "Stunstick",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-unk-submachine-gun",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Submachine Gun",
+    "mechanical_effect": "Submachine Gun",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 121
+  },
+  {
+    "canonical_id": "unit-derived-unk-submersible-chassis-mod",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Submersible Chassis Mod",
+    "mechanical_effect": "Submersible Chassis Mod",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 5
+  },
+  {
+    "canonical_id": "unit-derived-clan-super-charger",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Super Charger",
+    "mechanical_effect": "Super Charger",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Clan",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-tsemp-cannon",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "TSEMP Cannon",
+    "mechanical_effect": "TSEMP Cannon",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 6
+  },
+  {
+    "canonical_id": "unit-derived-clan-tsemp-cannon",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "TSEMP Cannon",
+    "mechanical_effect": "TSEMP Cannon",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Clan",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 45
+  },
+  {
+    "canonical_id": "unit-derived-is-tsemp-cannon",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "TSEMP Cannon",
+    "mechanical_effect": "TSEMP Cannon",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 121
+  },
+  {
+    "canonical_id": "unit-derived-clan-tsemp-one-shot",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "TSEMP One-Shot",
+    "mechanical_effect": "TSEMP One-Shot",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Clan",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 3
+  },
+  {
+    "canonical_id": "unit-derived-is-tsemp-one-shot",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "TSEMP One-Shot",
+    "mechanical_effect": "TSEMP One-Shot",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 3
+  },
+  {
+    "canonical_id": "unit-derived-is-tsemp-repeating-cannon",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "TSEMP Repeating Cannon",
+    "mechanical_effect": "TSEMP Repeating Cannon",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 14
+  },
+  {
+    "canonical_id": "unit-derived-unk-tank-sprayer",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Tank Sprayer",
+    "mechanical_effect": "Tank Sprayer",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 18
+  },
+  {
+    "canonical_id": "unit-derived-unk-thunderstroke-ii",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Thunderstroke II",
+    "mechanical_effect": "Thunderstroke II",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-tractor",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Tractor",
+    "mechanical_effect": "Tractor",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 13
+  },
+  {
+    "canonical_id": "unit-derived-unk-tranq-gun",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Tranq Gun",
+    "mechanical_effect": "Tranq Gun",
+    "mounting_unit_types": [
+      "infantry"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-unk-ultra-light-chassis-mod",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Ultra Light Chassis Mod",
+    "mechanical_effect": "Ultra Light Chassis Mod",
+    "mounting_unit_types": [
+      "aerospace",
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 11
+  },
+  {
+    "canonical_id": "unit-derived-unk-vstol-chassis-mod",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "VSTOL Chassis Mod",
+    "mechanical_effect": "VSTOL Chassis Mod",
+    "mounting_unit_types": [
+      "aerospace"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-clan-wheels",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Wheels",
+    "mechanical_effect": "Wheels",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Clan",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 20
+  },
+  {
+    "canonical_id": "unit-derived-unk-wire-guided-missile-launcher",
+    "category": "other",
+    "crit_slots": null,
+    "display_name": "Wire-Guided Missile Launcher",
+    "mechanical_effect": "Wire-Guided Missile Launcher",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-armored-chassis",
+    "category": "structural",
+    "crit_slots": null,
+    "display_name": "Armored Chassis",
+    "mechanical_effect": "Armored Chassis",
+    "mounting_unit_types": [
+      "aerospace",
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 71
+  },
+  {
+    "canonical_id": "unit-derived-clan-armored-motive-system",
+    "category": "structural",
+    "crit_slots": null,
+    "display_name": "Armored Motive System",
+    "mechanical_effect": "Armored Motive System",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Clan",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 9
+  },
+  {
+    "canonical_id": "unit-derived-is-armored-motive-system",
+    "category": "structural",
+    "crit_slots": null,
+    "display_name": "Armored Motive System",
+    "mechanical_effect": "Armored Motive System",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 15
+  },
+  {
+    "canonical_id": "unit-derived-unk-cockpit-armored",
+    "category": "structural",
+    "crit_slots": null,
+    "display_name": "Cockpit (Armored)",
+    "mechanical_effect": "Cockpit (Armored)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 23
+  },
+  {
+    "canonical_id": "unit-derived-is-ferro-fibrous-prototype",
+    "category": "structural",
+    "crit_slots": null,
+    "display_name": "Ferro-Fibrous Prototype",
+    "mechanical_effect": "Ferro-Fibrous Prototype",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 32
+  },
+  {
+    "canonical_id": "unit-derived-unk-foot-actuator-armored",
+    "category": "structural",
+    "crit_slots": null,
+    "display_name": "Foot Actuator (Armored)",
+    "mechanical_effect": "Foot Actuator (Armored)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-unk-fusion-engine-clan-armored",
+    "category": "structural",
+    "crit_slots": null,
+    "display_name": "Fusion Engine; Clan (Armored)",
+    "mechanical_effect": "Fusion Engine; Clan (Armored)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 14
+  },
+  {
+    "canonical_id": "unit-derived-unk-fusion-engine-inner-sphere-armored",
+    "category": "structural",
+    "crit_slots": null,
+    "display_name": "Fusion Engine; Inner Sphere (Armored)",
+    "mechanical_effect": "Fusion Engine; Inner Sphere (Armored)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 55
+  },
+  {
+    "canonical_id": "unit-derived-unk-gyro-clan-armored",
+    "category": "structural",
+    "crit_slots": null,
+    "display_name": "Gyro; Clan (Armored)",
+    "mechanical_effect": "Gyro; Clan (Armored)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 18
+  },
+  {
+    "canonical_id": "unit-derived-unk-gyro-inner-sphere-armored",
+    "category": "structural",
+    "crit_slots": null,
+    "display_name": "Gyro; Inner Sphere (Armored)",
+    "mechanical_effect": "Gyro; Inner Sphere (Armored)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 26
+  },
+  {
+    "canonical_id": "unit-derived-unk-hand-actuator-armored",
+    "category": "structural",
+    "crit_slots": null,
+    "display_name": "Hand Actuator (Armored)",
+    "mechanical_effect": "Hand Actuator (Armored)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-unk-har-jel-inner-sphere-armored",
+    "category": "structural",
+    "crit_slots": null,
+    "display_name": "Har Jel ; Inner Sphere (Armored)",
+    "mechanical_effect": "Har Jel ; Inner Sphere (Armored)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 5
+  },
+  {
+    "canonical_id": "unit-derived-unk-hip-armored",
+    "category": "structural",
+    "crit_slots": null,
+    "display_name": "Hip (Armored)",
+    "mechanical_effect": "Hip (Armored)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 16
+  },
+  {
+    "canonical_id": "unit-derived-unk-life-support-armored",
+    "category": "structural",
+    "crit_slots": null,
+    "display_name": "Life Support (Armored)",
+    "mechanical_effect": "Life Support (Armored)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 6
+  },
+  {
+    "canonical_id": "unit-derived-unk-liquid-storage-size-1-0-clan-armored",
+    "category": "structural",
+    "crit_slots": null,
+    "display_name": "Liquid Storage :SIZE:1.0; Clan (Armored)",
+    "mechanical_effect": "Liquid Storage :SIZE:1.0; Clan (Armored)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-unk-lower-arm-actuator-armored",
+    "category": "structural",
+    "crit_slots": null,
+    "display_name": "Lower Arm Actuator (Armored)",
+    "mechanical_effect": "Lower Arm Actuator (Armored)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-unk-lower-leg-actuator-armored",
+    "category": "structural",
+    "crit_slots": null,
+    "display_name": "Lower Leg Actuator (Armored)",
+    "mechanical_effect": "Lower Leg Actuator (Armored)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-unk-manipulator-non-mech-non-battle-armor",
+    "category": "structural",
+    "crit_slots": null,
+    "display_name": "Manipulator (Non-Mech/Non-Battle Armor)",
+    "mechanical_effect": "Manipulator (Non-Mech/Non-Battle Armor)",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 16
+  },
+  {
+    "canonical_id": "unit-derived-unk-manipulator-non-mech-non-battle-armor",
+    "category": "structural",
+    "crit_slots": null,
+    "display_name": "Manipulator [Non-Mech/Non-Battle Armor]",
+    "mechanical_effect": "Manipulator [Non-Mech/Non-Battle Armor]",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 16
+  },
+  {
+    "canonical_id": "unit-derived-clan-reinforced",
+    "category": "structural",
+    "crit_slots": null,
+    "display_name": "Reinforced",
+    "mechanical_effect": "Reinforced",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Clan",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-is-reinforced",
+    "category": "structural",
+    "crit_slots": null,
+    "display_name": "Reinforced",
+    "mechanical_effect": "Reinforced",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-shoulder-armored",
+    "category": "structural",
+    "crit_slots": null,
+    "display_name": "Shoulder (Armored)",
+    "mechanical_effect": "Shoulder (Armored)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 8
+  },
+  {
+    "canonical_id": "unit-derived-unk-shoulder-turret-inner-sphere-armored",
+    "category": "structural",
+    "crit_slots": null,
+    "display_name": "Shoulder Turret; Inner Sphere (Armored)",
+    "mechanical_effect": "Shoulder Turret; Inner Sphere (Armored)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-is-tank-cockpit-command-console",
+    "category": "structural",
+    "crit_slots": null,
+    "display_name": "Tank Cockpit Command Console",
+    "mechanical_effect": "Tank Cockpit Command Console",
+    "mounting_unit_types": [
+      "aerospace",
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 5
+  },
+  {
+    "canonical_id": "unit-derived-unk-upper-arm-actuator-armored",
+    "category": "structural",
+    "crit_slots": null,
+    "display_name": "Upper Arm Actuator (Armored)",
+    "mechanical_effect": "Upper Arm Actuator (Armored)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-unk-upper-leg-actuator-armored",
+    "category": "structural",
+    "crit_slots": null,
+    "display_name": "Upper Leg Actuator (Armored)",
+    "mechanical_effect": "Upper Leg Actuator (Armored)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-is-cargo-0-5-tons",
+    "category": "utility",
+    "crit_slots": null,
+    "display_name": "Cargo (0.5 tons)",
+    "mechanical_effect": "Cargo (0.5 tons)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 9
+  },
+  {
+    "canonical_id": "unit-derived-clan-cargo-1-ton",
+    "category": "utility",
+    "crit_slots": null,
+    "display_name": "Cargo (1 ton)",
+    "mechanical_effect": "Cargo (1 ton)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Clan",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-is-cargo-1-ton",
+    "category": "utility",
+    "crit_slots": null,
+    "display_name": "Cargo (1 ton)",
+    "mechanical_effect": "Cargo (1 ton)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 66
+  },
+  {
+    "canonical_id": "unit-derived-is-cargo-1-5-tons",
+    "category": "utility",
+    "crit_slots": null,
+    "display_name": "Cargo (1.5 tons)",
+    "mechanical_effect": "Cargo (1.5 tons)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 8
+  },
+  {
+    "canonical_id": "unit-derived-is-cargo-2-tons",
+    "category": "utility",
+    "crit_slots": null,
+    "display_name": "Cargo (2 tons)",
+    "mechanical_effect": "Cargo (2 tons)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 6
+  },
+  {
+    "canonical_id": "unit-derived-is-cargo-2-5-tons",
+    "category": "utility",
+    "crit_slots": null,
+    "display_name": "Cargo (2.5 tons)",
+    "mechanical_effect": "Cargo (2.5 tons)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 3
+  },
+  {
+    "canonical_id": "unit-derived-is-cargo-3-tons",
+    "category": "utility",
+    "crit_slots": null,
+    "display_name": "Cargo (3 tons)",
+    "mechanical_effect": "Cargo (3 tons)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 6
+  },
+  {
+    "canonical_id": "unit-derived-is-cargo-5-tons",
+    "category": "utility",
+    "crit_slots": null,
+    "display_name": "Cargo (5 tons)",
+    "mechanical_effect": "Cargo (5 tons)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 20
+  },
+  {
+    "canonical_id": "unit-derived-clan-cargo-size-0-5",
+    "category": "utility",
+    "crit_slots": null,
+    "display_name": "Cargo :SIZE:0.5",
+    "mechanical_effect": "Cargo :SIZE:0.5",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Clan",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-cargo-container-10-tons",
+    "category": "utility",
+    "crit_slots": null,
+    "display_name": "Cargo Container (10 tons)",
+    "mechanical_effect": "Cargo Container (10 tons)",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 19
+  },
+  {
+    "canonical_id": "unit-derived-is-cargo-container-10-tons",
+    "category": "utility",
+    "crit_slots": null,
+    "display_name": "Cargo Container (10 tons)",
+    "mechanical_effect": "Cargo Container (10 tons)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 7
+  },
+  {
+    "canonical_id": "unit-derived-is-cargo-size-0-5",
+    "category": "utility",
+    "crit_slots": null,
+    "display_name": "Cargo:SIZE:0.5",
+    "mechanical_effect": "Cargo:SIZE:0.5",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 7
+  },
+  {
+    "canonical_id": "unit-derived-unk-cargo-size-1-0",
+    "category": "utility",
+    "crit_slots": null,
+    "display_name": "Cargo:SIZE:1.0",
+    "mechanical_effect": "Cargo:SIZE:1.0",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-is-cargo-size-1-0",
+    "category": "utility",
+    "crit_slots": null,
+    "display_name": "Cargo:SIZE:1.0",
+    "mechanical_effect": "Cargo:SIZE:1.0",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 38
+  },
+  {
+    "canonical_id": "unit-derived-is-cargo-size-12-0",
+    "category": "utility",
+    "crit_slots": null,
+    "display_name": "Cargo:SIZE:12.0",
+    "mechanical_effect": "Cargo:SIZE:12.0",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 24
+  },
+  {
+    "canonical_id": "unit-derived-is-cargo-size-3-5",
+    "category": "utility",
+    "crit_slots": null,
+    "display_name": "Cargo:SIZE:3.5",
+    "mechanical_effect": "Cargo:SIZE:3.5",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 8
+  },
+  {
+    "canonical_id": "unit-derived-is-cargo-size-4-0",
+    "category": "utility",
+    "crit_slots": null,
+    "display_name": "Cargo:SIZE:4.0",
+    "mechanical_effect": "Cargo:SIZE:4.0",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 4
+  },
+  {
+    "canonical_id": "unit-derived-is-cargo-size-8-0",
+    "category": "utility",
+    "crit_slots": null,
+    "display_name": "Cargo:SIZE:8.0",
+    "mechanical_effect": "Cargo:SIZE:8.0",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 8
+  },
+  {
+    "canonical_id": "unit-derived-is-cargo-size-11-0",
+    "category": "utility",
+    "crit_slots": null,
+    "display_name": "Cargo:size:11.0",
+    "mechanical_effect": "Cargo:size:11.0",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 22
+  },
+  {
+    "canonical_id": "unit-derived-is-cargo-size-2-0",
+    "category": "utility",
+    "crit_slots": null,
+    "display_name": "Cargo:size:2.0",
+    "mechanical_effect": "Cargo:size:2.0",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 18
+  },
+  {
+    "canonical_id": "unit-derived-unk-fluid-suction-system-standard",
+    "category": "utility",
+    "crit_slots": null,
+    "display_name": "Fluid Suction System[Standard]",
+    "mechanical_effect": "Fluid Suction System[Standard]",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 1
+  },
+  {
+    "canonical_id": "unit-derived-unk-hh-searchlight",
+    "category": "utility",
+    "crit_slots": null,
+    "display_name": "HH Searchlight",
+    "mechanical_effect": "HH Searchlight",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 44
+  },
+  {
+    "canonical_id": "unit-derived-unk-lift-hoist",
+    "category": "utility",
+    "crit_slots": null,
+    "display_name": "Lift Hoist",
+    "mechanical_effect": "Lift Hoist",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 19
+  },
+  {
+    "canonical_id": "unit-derived-is-lift-hoist",
+    "category": "utility",
+    "crit_slots": null,
+    "display_name": "Lift Hoist",
+    "mechanical_effect": "Lift Hoist",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 135
+  },
+  {
+    "canonical_id": "unit-derived-unk-lift-hoist-arresting-hoist",
+    "category": "utility",
+    "crit_slots": null,
+    "display_name": "Lift Hoist/Arresting Hoist",
+    "mechanical_effect": "Lift Hoist/Arresting Hoist",
+    "mounting_unit_types": [
+      "aerospace",
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 37
+  },
+  {
+    "canonical_id": "unit-derived-is-lift-hoist-arresting-hoist",
+    "category": "utility",
+    "crit_slots": null,
+    "display_name": "Lift Hoist/Arresting Hoist",
+    "mechanical_effect": "Lift Hoist/Arresting Hoist",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 132
+  },
+  {
+    "canonical_id": "unit-derived-is-light-fluid-suction-system-mech",
+    "category": "utility",
+    "crit_slots": null,
+    "display_name": "Light Fluid Suction System (Mech)",
+    "mechanical_effect": "Light Fluid Suction System (Mech)",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-is-mine-sweeper",
+    "category": "utility",
+    "crit_slots": null,
+    "display_name": "Mine Sweeper",
+    "mechanical_effect": "Mine Sweeper",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 10
+  },
+  {
+    "canonical_id": "unit-derived-unk-sv-chassis-mod-trailer",
+    "category": "utility",
+    "crit_slots": null,
+    "display_name": "SV Chassis Mod [Trailer]",
+    "mechanical_effect": "SV Chassis Mod [Trailer]",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 7
+  },
+  {
+    "canonical_id": "unit-derived-is-salvage-arm",
+    "category": "utility",
+    "crit_slots": null,
+    "display_name": "Salvage Arm",
+    "mechanical_effect": "Salvage Arm",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 38
+  },
+  {
+    "canonical_id": "unit-derived-unk-searchlight",
+    "category": "utility",
+    "crit_slots": null,
+    "display_name": "Searchlight",
+    "mechanical_effect": "Searchlight",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 51
+  },
+  {
+    "canonical_id": "unit-derived-is-searchlight",
+    "category": "utility",
+    "crit_slots": null,
+    "display_name": "Searchlight",
+    "mechanical_effect": "Searchlight",
+    "mounting_unit_types": [
+      "mech"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 82
+  },
+  {
+    "canonical_id": "unit-derived-is-space-mine-dispenser",
+    "category": "utility",
+    "crit_slots": null,
+    "display_name": "Space Mine Dispenser",
+    "mechanical_effect": "Space Mine Dispenser",
+    "mounting_unit_types": [
+      "aerospace"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": "Inner Sphere",
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 2
+  },
+  {
+    "canonical_id": "unit-derived-unk-trailer",
+    "category": "utility",
+    "crit_slots": null,
+    "display_name": "Trailer",
+    "mechanical_effect": "Trailer",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": null,
+    "rarity": null,
+    "raw_category": "unit-derived",
+    "source": "harvested-from-unit-references",
+    "tech_base": null,
+    "tech_rating": null,
+    "tonnage": null,
+    "usage_count": 11
+  },
+  {
+    "canonical_id": "clan-machine-gun-array",
+    "category": "weapon",
+    "crit_slots": 1,
+    "display_name": "Clan Machine Gun Array",
+    "mechanical_effect": "Clan Machine Gun Array",
+    "mounting_unit_types": [
+      "aerospace",
+      "mech",
+      "vehicle"
+    ],
+    "page_ref": "303",
+    "rarity": "D",
+    "raw_category": "equipment",
+    "source": "TW",
+    "tech_base": "Clan",
+    "tech_rating": "A",
+    "tonnage": 0.5,
+    "usage_count": 23
+  },
+  {
+    "canonical_id": "is-machine-gun-array",
+    "category": "weapon",
+    "crit_slots": 1,
+    "display_name": "Inner Sphere Machine Gun Array",
+    "mechanical_effect": "Inner Sphere Machine Gun Array",
+    "mounting_unit_types": [
+      "vehicle"
+    ],
+    "page_ref": "303",
+    "rarity": "C",
+    "raw_category": "equipment",
+    "source": "TW",
+    "tech_base": "Inner Sphere",
+    "tech_rating": "B",
+    "tonnage": 0.5,
+    "usage_count": 5
+  }
+]

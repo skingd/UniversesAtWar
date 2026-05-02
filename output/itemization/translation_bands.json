@@ -1,0 +1,96 @@
+{
+  "armour_save": {
+    "error": "no armour data"
+  },
+  "damage_ap": {
+    "cut_points": {
+      "p33": 2.0,
+      "p66": 10.0
+    },
+    "ladder": [
+      {
+        "ap_modifier": 0,
+        "damage_max": 2.0,
+        "label": "1A"
+      },
+      {
+        "ap_modifier": -1,
+        "damage_max": 10.0,
+        "label": "2A"
+      },
+      {
+        "ap_modifier": -2,
+        "damage_max": null,
+        "label": "3A+"
+      }
+    ],
+    "note": "Cut points approximated from summary p25/p75. AP modifier is a starting point; tune against canonical heavy weapons.",
+    "source_field": "damage",
+    "stat": "weapon_damage"
+  },
+  "movement": {
+    "error": "no walk_mp data"
+  },
+  "weapon_range": {
+    "cut_points": {
+      "p33": 12.0,
+      "p66": 18.0,
+      "point_blank_max": 1.0
+    },
+    "labels": [
+      "POINT-BLANK",
+      "SHORT",
+      "MEDIUM",
+      "LONG"
+    ],
+    "passed_90pct": false,
+    "source_field": "long_range",
+    "stat": "weapon_range",
+    "validation_hit_rate": 0.864,
+    "validation_hits": 19,
+    "validation_misses": [
+      {
+        "actual": "MEDIUM",
+        "expected": "LONG",
+        "long_range": 18.0,
+        "name": "ppc"
+      },
+      {
+        "actual": "SHORT",
+        "expected": "POINT-BLANK",
+        "long_range": 3.0,
+        "name": "machine gun"
+      },
+      {
+        "actual": "SHORT",
+        "expected": "POINT-BLANK",
+        "long_range": 3.0,
+        "name": "flamer"
+      }
+    ],
+    "validation_total": 22
+  },
+  "wounds": {
+    "ladder": [
+      {
+        "tonnage_max": 35,
+        "wounds": 2
+      },
+      {
+        "tonnage_max": 55,
+        "wounds": 4
+      },
+      {
+        "tonnage_max": 75,
+        "wounds": 6
+      },
+      {
+        "tonnage_max": null,
+        "wounds": 8
+      }
+    ],
+    "note": "Hard-coded against the canonical light/medium/heavy/assault tier boundaries; verified to match BattleMech weight classes.",
+    "source_field": "tonnage",
+    "stat": "wounds"
+  }
+}
