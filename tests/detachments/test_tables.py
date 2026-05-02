@@ -18,13 +18,27 @@ from src.detachments.tables import (
 
 class TestArmorSave:
     @pytest.mark.parametrize("armor,expected", [
+        (0,   "5+"), (20,  "5+"),
+        (21,  "4+"), (80,  "4+"),
+        (81,  "3+"), (250, "3+"),
+        (251, "2+"), (300, "2+"),
+        (301, "1+"), (704, "1+"),
+    ])
+    def test_mech(self, armor, expected):
+        assert armor_save(armor, "mech") == expected
+
+    def test_mech_and_aerospace_share_table(self):
+        for armor, expected in [(20, "5+"), (80, "4+"), (200, "3+"), (300, "2+"), (400, "1+")]:
+            assert armor_save(armor, "mech") == armor_save(armor, "aerospace")
+
+    @pytest.mark.parametrize("armor,expected", [
         (0,   "5+"), (50,  "5+"), (99,  "5+"),
         (100, "4+"), (200, "4+"), (299, "4+"),
         (300, "3+"), (350, "3+"), (400, "3+"),
         (401, "2+"), (576, "2+"),
     ])
-    def test_mech(self, armor, expected):
-        assert armor_save(armor, "mech") == expected
+    def test_vehicle(self, armor, expected):
+        assert armor_save(armor, "vehicle") == expected
 
     @pytest.mark.parametrize("armor,expected", [
         (0,   "5+"), (20,  "5+"),
@@ -33,8 +47,7 @@ class TestArmorSave:
         (251, "2+"), (300, "2+"),
         (301, "1+"), (704, "1+"),
     ])
-    def test_vehicle_and_aerospace(self, armor, expected):
-        assert armor_save(armor, "vehicle") == expected
+    def test_aerospace(self, armor, expected):
         assert armor_save(armor, "aerospace") == expected
 
     def test_missing(self):

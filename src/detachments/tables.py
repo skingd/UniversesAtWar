@@ -11,18 +11,19 @@ from src.datacheck.stats import to_float, to_int
 # --- Armor save -----------------------------------------------------------
 
 # (max_armor, save). Inclusive upper bound; final entry uses inf.
-_MECH_ARMOR: list[tuple[float, str]] = [
-    (99,  "5+"),
-    (299, "4+"),
-    (400, "3+"),
-    (float("inf"), "2+"),
-]
-_VEH_AERO_ARMOR: list[tuple[float, str]] = [
+# Mech and aerospace share the same thresholds per design/units-translation.md.
+_MECH_AERO_ARMOR: list[tuple[float, str]] = [
     (20,  "5+"),
     (80,  "4+"),
     (250, "3+"),
     (300, "2+"),
     (float("inf"), "1+"),
+]
+_VEH_ARMOR: list[tuple[float, str]] = [
+    (99,  "5+"),
+    (299, "4+"),
+    (400, "3+"),
+    (float("inf"), "2+"),
 ]
 
 
@@ -32,7 +33,7 @@ def armor_save(armor_total, unit_type: str) -> Optional[str]:
     a = to_float(armor_total)
     if a is None:
         return None
-    table = _MECH_ARMOR if unit_type == "mech" else _VEH_AERO_ARMOR
+    table = _VEH_ARMOR if unit_type == "vehicle" else _MECH_AERO_ARMOR
     for cap, save in table:
         if a <= cap:
             return save
