@@ -49,11 +49,11 @@
 - Skipped — missing movement: 54
 - Speed gap fall-backs: 23
   - Examples:
-    - Savannah Master Hovercraft (SL) (speed=13 → 14")
-    - Savannah Master Hovercraft (speed=13 → 14")
-    - Gabriel Reconnaissance Hovercraft (ERSL) (speed=13 → 14")
-    - Gabriel Reconnaissance Hovercraft (TDF) (speed=13 → 14")
-    - Gabriel Reconnaissance Hovercraft (speed=13 → 14")
+    - Savannah Master Hovercraft (SL) (speed=13 -> 14")
+    - Savannah Master Hovercraft (speed=13 -> 14")
+    - Gabriel Reconnaissance Hovercraft (ERSL) (speed=13 -> 14")
+    - Gabriel Reconnaissance Hovercraft (TDF) (speed=13 -> 14")
+    - Gabriel Reconnaissance Hovercraft (speed=13 -> 14")
 - Distinct unmapped weapon names: 177
 
 | Weapon | Installations |
@@ -94,11 +94,11 @@
 - Skipped — missing movement: 0
 - Speed gap fall-backs: 11
   - Examples:
-    - Bashkir A (speed=13 → 28")
-    - Bashkir B (speed=13 → 28")
-    - Bashkir C (speed=13 → 28")
-    - Bashkir D (speed=13 → 28")
-    - Bashkir E (speed=13 → 28")
+    - Bashkir A (speed=13 -> 28")
+    - Bashkir B (speed=13 -> 28")
+    - Bashkir C (speed=13 -> 28")
+    - Bashkir D (speed=13 -> 28")
+    - Bashkir E (speed=13 -> 28")
 - Distinct unmapped weapon names: 80
 
 | Weapon | Installations |
