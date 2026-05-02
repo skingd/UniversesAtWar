@@ -3,43 +3,15 @@ from __future__ import annotations
 
 import json
 import math
-import re
 import statistics
 from collections import Counter
 from pathlib import Path
 from typing import Any, Iterable, Sequence
 
-
-# --- Numeric coercion ------------------------------------------------------
-
-_NUM_RE = re.compile(r"-?\d+(?:\.\d+)?")
-
-
-def to_float(value: Any) -> float | None:
-    """Best-effort numeric coercion. Returns None for missing / non-numeric."""
-    if value is None:
-        return None
-    if isinstance(value, bool):  # bools are ints in Python; reject
-        return None
-    if isinstance(value, (int, float)):
-        if isinstance(value, float) and math.isnan(value):
-            return None
-        return float(value)
-    if isinstance(value, str):
-        s = value.strip()
-        if not s or s.upper() in ("NA", "N/A", "VARIABLE", "SPECIAL", "-"):
-            return None
-        try:
-            return float(s)
-        except ValueError:
-            m = _NUM_RE.search(s)
-            return float(m.group(0)) if m else None
-    return None
-
-
-def to_int(value: Any) -> int | None:
-    f = to_float(value)
-    return int(f) if f is not None else None
+# Numeric coercion lives in src.datacheck.stats so the index builder can
+# reuse it without depending on the itemization package. Re-exported here
+# for backwards compatibility with existing itemization callers.
+from src.datacheck.stats import to_float, to_int  # noqa: F401
 
 
 # --- Statistical summary ---------------------------------------------------

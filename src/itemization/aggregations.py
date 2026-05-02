@@ -21,6 +21,14 @@ import math
 from collections import defaultdict
 from typing import Any, Iterable
 
+from src.datacheck.stats import (
+    extract_armor_total as _extract_armor_total,
+    extract_engine_rating as _extract_engine_rating,
+    extract_heat_sink_count as _extract_heat_sink_count,
+    extract_jump_mp as _extract_jump_mp,
+    extract_run_mp as _extract_run_mp,
+)
+
 from .common import categorical_counts, summarize, to_float, to_int
 
 
@@ -99,72 +107,10 @@ _TIER_FOR = {
 
 
 # --- Field extraction from raw unit blobs ---------------------------------
-
-def _extract_armor_total(parsed: dict) -> float | None:
-    """Sum every numeric value under the 'Armor Points' block."""
-    ap = parsed.get("Armor Points") or parsed.get("Armor")
-    if ap is None:
-        return None
-    if isinstance(ap, (int, float)):
-        return float(ap)
-    if isinstance(ap, dict):
-        total = 0.0
-        any_numeric = False
-        for v in ap.values():
-            f = to_float(v)
-            if f is not None:
-                total += f
-                any_numeric = True
-        return total if any_numeric else None
-    if isinstance(ap, list):
-        total = 0.0
-        any_numeric = False
-        for item in ap:
-            if isinstance(item, dict):
-                for v in item.values():
-                    f = to_float(v)
-                    if f is not None:
-                        total += f
-                        any_numeric = True
-            else:
-                f = to_float(item)
-                if f is not None:
-                    total += f
-                    any_numeric = True
-        return total if any_numeric else None
-    return to_float(ap)
-
-
-def _extract_engine_rating(parsed: dict) -> float | None:
-    eng = parsed.get("Engine") or parsed.get("engine")
-    if isinstance(eng, dict):
-        return to_float(eng.get("rating") or eng.get("Rating"))
-    if isinstance(eng, str):
-        return to_float(eng)
-    return to_float(eng)
-
-
-def _extract_heat_sink_count(parsed: dict) -> int | None:
-    hs = parsed.get("Heat Sinks") or parsed.get("HeatSinks")
-    if isinstance(hs, dict):
-        return to_int(hs.get("count") or hs.get("Count") or hs.get("number"))
-    return to_int(hs)
-
-
-def _extract_jump_mp(parsed: dict) -> int | None:
-    return to_int(parsed.get("Jump MP") or parsed.get("Jump Mp") or parsed.get("jump_mp"))
-
-
-def _extract_run_mp(parsed: dict) -> int | None:
-    """Run = ⌈walk × 1.5⌉ when not given explicitly."""
-    explicit = to_int(parsed.get("Run MP"))
-    if explicit is not None:
-        return explicit
-    walk = to_float(parsed.get("Walk MP"))
-    if walk is None:
-        return None
-    return int(math.ceil(walk * 1.5))
-
+#
+# The actual extractors live in `src.datacheck.stats` so the index builder
+# can persist them. The `_extract_*` aliases above keep this module's
+# internal call sites stable.
 
 def _equipment_ref_count(unit_record: dict) -> int:
     return len(unit_record.get("raw_equipment_refs") or [])

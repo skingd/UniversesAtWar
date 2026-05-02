@@ -8,9 +8,11 @@ Produces:
 """
 from __future__ import annotations
 
+import os
 import re
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
-from typing import Any
+from typing import Any, Callable, Iterable
 
 from .alias_resolver import (
     AliasIndex,
@@ -28,6 +30,14 @@ from .common import (
     write_json,
 )
 from .inventory import iter_reference_files, iter_unit_files, iter_weapon_files
+from .stats import (
+    extract_armor_total,
+    extract_cruise_mp,
+    extract_infantry_movement,
+    extract_jump_mp,
+    extract_safe_thrust,
+    extract_walk_mp,
+)
 
 
 # Ammunition is not modelled by the Universes At War rules translation; ammo
@@ -40,6 +50,32 @@ def _is_ammo_text(s: str | None) -> bool:
     return bool(s and _AMMO_RX.search(s))
 
 
+# I/O is the bottleneck (thousands of small JSON/YAML files, often on
+# OneDrive). Parsing happens in a thread pool; per-file results are returned
+# in the original input order so downstream dedup logic stays deterministic.
+_DEFAULT_WORKERS = min(32, (os.cpu_count() or 4) * 4)
+
+
+def _parse_files_threaded(
+    paths: Iterable[Path],
+    parser_for: Callable[[Path], Callable[[Path], tuple[Any, Any]]],
+    *,
+    max_workers: int = _DEFAULT_WORKERS,
+) -> list[tuple[Path, Any, Any]]:
+    """Parse ``paths`` in parallel. Returns ``[(path, data, err), ...]`` in
+    the same order as ``paths``."""
+    paths = list(paths)
+    if not paths:
+        return []
+
+    def _one(p: Path) -> tuple[Path, Any, Any]:
+        data, err = parser_for(p)(p)
+        return p, data, err
+
+    with ThreadPoolExecutor(max_workers=max_workers) as ex:
+        return list(ex.map(_one, paths))
+
+
 # --- Equipment index -------------------------------------------------------
 
 def build_equipment_index(data_dir: Path) -> tuple[list[dict], list[Issue]]:
@@ -49,8 +85,12 @@ def build_equipment_index(data_dir: Path) -> tuple[list[dict], list[Issue]]:
     seen_canonical: dict[str, str] = {}
     seen_numeric: dict[str, str] = {}
 
-    for cat, p in iter_weapon_files(data_dir):
-        data, err = parse_json_file(p)
+    cat_path_pairs = list(iter_weapon_files(data_dir))
+    parsed = _parse_files_threaded(
+        (p for _cat, p in cat_path_pairs),
+        lambda _p: parse_json_file,
+    )
+    for (cat, _p), (p, data, _err) in zip(cat_path_pairs, parsed):
         if data is None:
             continue  # already reported by inventory phase
 
@@ -135,8 +175,11 @@ def _register(
 
 def build_reference_index(data_dir: Path) -> dict:
     out: dict = {}
-    for p in iter_reference_files(data_dir):
-        data, _err = parse_json_file(p)
+    parsed = _parse_files_threaded(
+        iter_reference_files(data_dir),
+        lambda _p: parse_json_file,
+    )
+    for p, data, _err in parsed:
         if data is None:
             continue
         out[p.stem] = data
@@ -154,9 +197,11 @@ def build_unit_index(
     records: list[dict] = []
     seen_keys: dict[str, str] = {}
 
-    for p in iter_unit_files(data_dir, unit_type):
-        parser = parse_json_file if p.suffix == ".json" else parse_yaml_file
-        data, err = parser(p)
+    parsed = _parse_files_threaded(
+        iter_unit_files(data_dir, unit_type),
+        lambda p: parse_json_file if p.suffix == ".json" else parse_yaml_file,
+    )
+    for p, data, _err in parsed:
         if data is None or not isinstance(data, dict):
             continue
 
@@ -194,9 +239,41 @@ def build_unit_index(
             "raw_quirks": data.get("Quirks") or [],
             "source_path": str(p),
         }
+        rec.update(_extract_base_stats(data, unit_type))
         records.append(rec)
 
     return records, issues
+
+
+def _extract_base_stats(data: dict, unit_type: str) -> dict[str, Any]:
+    """Per-unit-type base movement + armor stats (used by `uaw-base-ranges`).
+
+    Returns a dict of fields to merge into the unit record. All values may be
+    `None` when the source file omits them.
+    """
+    if unit_type == "mech":
+        return {
+            "walk_mp":     extract_walk_mp(data),
+            "jump_mp":     extract_jump_mp(data),
+            "armor_total": extract_armor_total(data),
+        }
+    if unit_type == "vehicle":
+        return {
+            "cruise_mp":   extract_cruise_mp(data),
+            "armor_total": extract_armor_total(data),
+        }
+    if unit_type == "aerospace":
+        return {
+            "safe_thrust": extract_safe_thrust(data),
+            "armor_total": extract_armor_total(data),
+        }
+    if unit_type == "infantry":
+        mp, mode = extract_infantry_movement(data)
+        return {
+            "movement_points": mp,
+            "movement_mode":   mode,
+        }
+    return {}
 
 
 def _split_tech_field(combined: Any) -> str | None:
