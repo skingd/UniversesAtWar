@@ -12,72 +12,28 @@
     "unmapped_weapons_count": 124,
     "unmapped_weapons_top": [
       [
-        "RL 10; Inner Sphere",
-        115
-      ],
-      [
         "Anti-Missile System; Inner Sphere",
         108
-      ],
-      [
-        "Light Auto Cannon/5; Inner Sphere",
-        102
       ],
       [
         "TAG; Inner Sphere",
         100
       ],
       [
-        "Large Re-engineered Laser; Inner Sphere",
-        80
-      ],
-      [
-        "LB 20-X AC; Inner Sphere (Split)",
-        55
-      ],
-      [
-        "Laser Heat Sink; Clan",
-        48
-      ],
-      [
-        "Heavy Gauss Rifle; Inner Sphere (Split)",
-        44
-      ],
-      [
-        "Narc; Inner Sphere",
-        42
-      ],
-      [
-        "RL 20; Inner Sphere",
-        42
-      ],
-      [
-        "Anti-Missile System; Clan (OmniPod)",
+        "RL 10; Inner Sphere",
         41
       ],
       [
-        "RL 15; Inner Sphere",
+        "Anti-Missile System; Clan (OmniPod)",
+        38
+      ],
+      [
+        "Light Auto Cannon/5; Inner Sphere",
         36
       ],
       [
         "PPC Capacitor; Inner Sphere",
         35
-      ],
-      [
-        "Medium Re-engineered Laser; Inner Sphere",
-        34
-      ],
-      [
-        "Binary Laser (Blazer) Cannon; Inner Sphere",
-        32
-      ],
-      [
-        "Arrow IV; Inner Sphere (Split)",
-        30
-      ],
-      [
-        "Laser AMS; Inner Sphere",
-        26
       ],
       [
         "PPC Capacitor; Inner Sphere (OmniPod)",
@@ -88,11 +44,11 @@
         23
       ],
       [
-        "Light TAG; Clan (OmniPod)",
+        "Narc; Inner Sphere",
         21
       ],
       [
-        "LB 10-X AC Prototype; Inner Sphere",
+        "Light TAG; Clan (OmniPod)",
         21
       ],
       [
@@ -100,36 +56,28 @@
         19
       ],
       [
-        "Bomb Bay; Inner Sphere",
-        18
+        "Laser Heat Sink; Clan",
+        19
       ],
       [
         "TAG; Clan (OmniPod)",
         17
       ],
       [
-        "Light Auto Cannon/2; Inner Sphere",
-        17
-      ],
-      [
-        "Enhanced LRM 5; Inner Sphere (OmniPod)",
-        16
-      ],
-      [
         "Machine Gun Array; Clan (OmniPod)",
         16
       ],
       [
-        "Mech Mortar-8; Clan (OmniPod)",
+        "Large Re-engineered Laser; Inner Sphere",
         15
       ],
       [
-        "Laser Heat Sink; Clan (OmniPod)",
+        "Light Auto Cannon/2; Inner Sphere",
         14
       ],
       [
-        "SRM 2; Clan (IOS) (OmniPod)",
-        14
+        "Laser AMS; Inner Sphere",
+        13
       ],
       [
         "Light Machine Gun Array; Inner Sphere",
@@ -140,31 +88,19 @@
         12
       ],
       [
-        "Rocket Launcher 20 Prototype; Inner Sphere",
+        "Medium Re-engineered Laser; Inner Sphere",
         12
       ],
       [
-        "Medium Chemical Laser; Clan (OmniPod)",
-        12
+        "RL 15; Inner Sphere",
+        11
       ],
       [
-        "Rocket Launcher 15 Prototype; Clan",
+        "LB 20-X AC; Inner Sphere (Split)",
         10
       ],
       [
         "Laser AMS; Clan (OmniPod)",
-        10
-      ],
-      [
-        "Large Re-engineered Laser; Inner Sphere (OmniPod)",
-        10
-      ],
-      [
-        "ATM 12; Clan (Turret) (OmniPod)",
-        10
-      ],
-      [
-        "LRM 20; Inner Sphere (Turret)",
         10
       ],
       [
@@ -176,14 +112,6 @@
         9
       ],
       [
-        "Primitive Prototype PPC; Inner Sphere",
-        9
-      ],
-      [
-        "ER Medium Laser; Inner Sphere (Turret)",
-        9
-      ],
-      [
         "Laser AMS; Clan",
         9
       ],
@@ -192,8 +120,8 @@
         9
       ],
       [
-        "SRM 2 IOS; Inner Sphere",
-        9
+        "Heavy Gauss Rifle; Inner Sphere (Split)",
+        8
       ],
       [
         "Light Machine Gun Array; Clan (OmniPod)",
@@ -204,12 +132,84 @@
         8
       ],
       [
-        "Mech Mortar-4; Clan (OmniPod)",
+        "Binary Laser (Blazer) Cannon; Inner Sphere",
         8
       ],
       [
+        "Heavy Machine Gun Array; Clan (OmniPod)",
+        6
+      ],
+      [
+        "RL 20; Inner Sphere",
+        6
+      ],
+      [
+        "SRM 2 IOS; Inner Sphere",
+        6
+      ],
+      [
+        "RL 10; Inner Sphere (OmniPod)",
+        5
+      ],
+      [
+        "Bomb Bay; Inner Sphere",
+        5
+      ],
+      [
+        "Flamer (Vehicle); Inner Sphere",
+        5
+      ],
+      [
+        "ER Medium Laser; Inner Sphere (Turret)",
+        5
+      ],
+      [
+        "Laser Heat Sink; Clan (OmniPod)",
+        5
+      ],
+      [
+        "Machine Gun Array; Clan",
+        5
+      ],
+      [
+        "Arrow IV; Inner Sphere (Split)",
+        4
+      ],
+      [
+        "Mech Mortar-8; Clan (OmniPod)",
+        4
+      ],
+      [
+        "Enhanced LRM 5; Inner Sphere (OmniPod)",
+        4
+      ],
+      [
+        "TAG; Clan",
+        4
+      ],
+      [
+        "Light Machine Gun Array; Inner Sphere (OmniPod)",
+        4
+      ],
+      [
         "Laser AMS; Inner Sphere (OmniPod)",
-        8
+        4
+      ],
+      [
+        "Small Re-engineered Laser; Inner Sphere",
+        4
+      ],
+      [
+        "Streak SRM 2 OS; Inner Sphere",
+        3
+      ],
+      [
+        "Narc; Inner Sphere (OmniPod)",
+        3
+      ],
+      [
+        "Narc; Clan",
+        3
       ]
     ]
   },
@@ -366,19 +366,11 @@
     "unmapped_weapons_top": [
       [
         "ISMachine Gun",
-        120
+        78
       ],
       [
         "ISAntiMissileSystem",
-        69
-      ],
-      [
-        "CLLightMG",
-        62
-      ],
-      [
-        "CLAPGaussRifle",
-        57
+        65
       ],
       [
         "ISTAG",
@@ -386,86 +378,58 @@
       ],
       [
         "ISSRM6",
-        45
+        32
       ],
       [
-        "ISSRM2",
-        40
+        "CLLightMG",
+        31
+      ],
+      [
+        "CLAPGaussRifle",
+        29
       ],
       [
         "Light Machine Gun",
-        38
-      ],
-      [
-        "Machine Gun(ST)",
-        33
-      ],
-      [
-        "Vehicle Flamer",
-        31
-      ],
-      [
-        "Light PPC",
-        31
-      ],
-      [
-        "ISSRM4",
-        26
-      ],
-      [
-        "Flamer (Vehicle)",
         25
       ],
       [
-        "ISRotaryAC5",
-        22
+        "Vehicle Flamer",
+        23
       ],
       [
-        "ISLRM15",
-        22
+        "Light PPC",
+        23
       ],
       [
-        "ISLightMG",
-        22
+        "Machine Gun(ST)",
+        23
       ],
       [
-        "Light Machine Gun(ST)",
-        22
-      ],
-      [
-        "ISLRM5",
-        21
-      ],
-      [
-        "CLAPGaussRifle:OMNI",
+        "ISSRM2",
         20
       ],
       [
-        "Thunderbolt 5",
+        "ISRotaryAC5",
         18
       ],
       [
-        "ISLRM20",
+        "ISLRM15",
         16
       ],
       [
-        "ISRotaryAC2",
-        15
+        "ISLightMG",
+        16
       ],
       [
-        "ISUltraAC5",
-        15
+        "Flamer (Vehicle)",
+        13
       ],
       [
-        "Thunderbolt 10",
-        15
+        "ISSRM4",
+        12
       ],
       [
-        "ISSRM2IOS",
-        14
-      ],
-      [
-        "ISUltraAC10",
+        "ISLRM5",
         12
       ],
       [
@@ -473,39 +437,31 @@
         12
       ],
       [
-        "Light Auto Cannon/5",
+        "ISSRM2IOS",
         11
       ],
       [
-        "CLRocketLauncher15Prototype",
-        11
+        "Light Auto Cannon/5",
+        10
       ],
       [
         "ISLRM10",
         10
       ],
       [
-        "ISUltraAC20",
+        "Light Machine Gun(ST)",
         10
       ],
       [
-        "Heavy Machine Gun",
+        "ISLRM20",
         9
       ],
       [
-        "Light PPC:OMNI",
+        "ISRotaryAC2",
         9
       ],
       [
-        "Light Machine Gun:OMNI",
-        9
-      ],
-      [
-        "ISMediumXPulseLaser",
-        9
-      ],
-      [
-        "CLLargeChemLaser",
+        "ISUltraAC20",
         9
       ],
       [
@@ -513,47 +469,19 @@
         9
       ],
       [
-        "ISPPC",
+        "ISUltraAC5",
+        8
+      ],
+      [
+        "ISUltraAC10",
         8
       ],
       [
         "Heavy PPC",
-        8
-      ],
-      [
-        "ISNarc Pods",
-        8
-      ],
-      [
-        "CLUltraAC2",
-        8
-      ],
-      [
-        "ISRotaryAC5:OMNI",
-        8
-      ],
-      [
-        "Light Auto Cannon/5:OMNI",
-        8
-      ],
-      [
-        "Enhanced LRM 15",
-        8
-      ],
-      [
-        "MRM 20",
-        8
-      ],
-      [
-        "ISLPPC",
         7
       ],
       [
-        "Medium Re-engineered Laser",
-        7
-      ],
-      [
-        "CLRocketLauncher10Prototype",
+        "ISMediumXPulseLaser",
         7
       ],
       [
@@ -561,8 +489,80 @@
         7
       ],
       [
-        "Extended LRM 10",
-        7
+        "ISPPC",
+        6
+      ],
+      [
+        "Heavy Machine Gun",
+        6
+      ],
+      [
+        "CLAPGaussRifle:OMNI",
+        6
+      ],
+      [
+        "Light PPC:OMNI",
+        6
+      ],
+      [
+        "Light Machine Gun:OMNI",
+        6
+      ],
+      [
+        "CLTAG",
+        6
+      ],
+      [
+        "Thunderbolt 5",
+        6
+      ],
+      [
+        "ISMGA",
+        5
+      ],
+      [
+        "ISArrowIVSystem",
+        5
+      ],
+      [
+        "ISNarc Pods",
+        5
+      ],
+      [
+        "ISNarcBeacon",
+        5
+      ],
+      [
+        "CLUltraAC10",
+        5
+      ],
+      [
+        "ISRotaryAC5:OMNI",
+        5
+      ],
+      [
+        "Thunderbolt 10",
+        5
+      ],
+      [
+        "ISTAG:OMNI",
+        5
+      ],
+      [
+        "MRM 20",
+        5
+      ],
+      [
+        "CLHAG30",
+        4
+      ],
+      [
+        "Light Auto Cannon/5:OMNI",
+        4
+      ],
+      [
+        "ISLPPC",
+        4
       ]
     ]
   },
@@ -647,22 +647,10 @@
     "unmapped_weapons_top": [
       [
         "Heavy PPC",
-        15
+        14
       ],
       [
         "Light PPC",
-        13
-      ],
-      [
-        "Lifeboat (Atmospheric)",
-        12
-      ],
-      [
-        "CLImprovedMediumHeavyLaser:OMNI",
-        11
-      ],
-      [
-        "ISMediumXPulseLaser",
         10
       ],
       [
@@ -670,43 +658,15 @@
         9
       ],
       [
-        "MRM 10",
-        8
-      ],
-      [
-        "CLImprovedMediumHeavyLaser",
-        8
-      ],
-      [
         "ISLaserAntiMissileSystem",
         8
       ],
       [
-        "CLStreakSRM2 (IOS):OMNI",
-        8
-      ],
-      [
-        "ISRotaryAC5:OMNI",
-        8
-      ],
-      [
-        "ISNarc Pods",
-        8
-      ],
-      [
-        "ISLaserInsulator",
+        "ISMediumXPulseLaser",
         7
       ],
       [
-        "ISAntiMissileSystem",
-        6
-      ],
-      [
-        "CLRotaryAC5:OMNI",
-        6
-      ],
-      [
-        "Light Machine Gun",
+        "MRM 10",
         6
       ],
       [
@@ -722,10 +682,6 @@
         6
       ],
       [
-        "CLHeavyMG:OMNI",
-        6
-      ],
-      [
         "MRM 40",
         6
       ],
@@ -734,11 +690,19 @@
         6
       ],
       [
+        "ISRotaryAC5:OMNI",
+        6
+      ],
+      [
         "ISUltraAC10",
         5
       ],
       [
-        "ISNarc Pods:OMNI",
+        "CLRotaryAC5:OMNI",
+        5
+      ],
+      [
+        "CLImprovedMediumHeavyLaser:OMNI",
         5
       ],
       [
@@ -746,19 +710,11 @@
         5
       ],
       [
+        "ISLaserInsulator",
+        5
+      ],
+      [
         "Large Re-engineered Laser:OMNI",
-        5
-      ],
-      [
-        "Medium Re-engineered Laser",
-        5
-      ],
-      [
-        "MRM 40:OMNI",
-        5
-      ],
-      [
-        "ISAntiMissileSystem:OMNI",
         5
       ],
       [
@@ -766,11 +722,11 @@
         5
       ],
       [
-        "CLAPGaussRifle",
+        "ISAntiMissileSystem",
         4
       ],
       [
-        "CLImprovedSmallHeavyLaser",
+        "CLImprovedMediumHeavyLaser",
         4
       ],
       [
@@ -790,7 +746,7 @@
         4
       ],
       [
-        "CLSRM2 (IOS):OMNI",
+        "ISNarc Pods:OMNI",
         4
       ],
       [
@@ -798,23 +754,19 @@
         4
       ],
       [
-        "CLUltraAC10:OMNI",
+        "Medium Re-engineered Laser",
         4
       ],
       [
-        "CLERMicroLaser:OMNI",
+        "MRM 40:OMNI",
         4
-      ],
-      [
-        "CLiATM9:OMNI",
-        4
-      ],
-      [
-        "CLMediumChemicalLaser",
-        3
       ],
       [
         "PPC Capacitor:OMNI",
+        3
+      ],
+      [
+        "Light Machine Gun",
         3
       ],
       [
@@ -830,6 +782,18 @@
         3
       ],
       [
+        "CLUltraAC10:OMNI",
+        3
+      ],
+      [
+        "ISAntiMissileSystem:OMNI",
+        3
+      ],
+      [
+        "CLAPGaussRifle",
+        2
+      ],
+      [
         "Light Auto Cannon/5",
         2
       ],
@@ -838,11 +802,47 @@
         2
       ],
       [
+        "CLImprovedSmallHeavyLaser",
+        2
+      ],
+      [
+        "CLStreakSRM2 (IOS):OMNI",
+        2
+      ],
+      [
+        "CLHeavyMG:OMNI",
+        2
+      ],
+      [
         "Clan Heavy Machine Gun Array:OMNI",
         2
       ],
       [
+        "CLERMicroLaser:OMNI",
+        2
+      ],
+      [
         "ISTAG",
+        2
+      ],
+      [
+        "CLiATM9:OMNI",
+        2
+      ],
+      [
+        "MRM 30",
+        2
+      ],
+      [
+        "ISNarcBeacon",
+        2
+      ],
+      [
+        "ISNarc Pods",
+        2
+      ],
+      [
+        "Thunderbolt 10:OMNI",
         2
       ]
     ]

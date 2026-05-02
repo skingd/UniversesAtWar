@@ -336,9 +336,22 @@ def _extract_equipment_refs(data: dict, unit_type: str) -> list[str]:
         for _location_name, slot_list in loc.items():
             if not isinstance(slot_list, list):
                 continue
+            # Multi-slot weapons/equipment occupy multiple consecutive crit
+            # slots in the same location, each labelled with the item name.
+            # Collapse consecutive runs of the identical ref so each install
+            # counts once.
+            prev: str | None = None
             for slot in slot_list:
-                if isinstance(slot, str) and slot and not _is_ammo_text(slot):
-                    refs.append(slot)
+                if not isinstance(slot, str) or not slot:
+                    prev = None
+                    continue
+                if _is_ammo_text(slot):
+                    prev = None
+                    continue
+                if slot == prev:
+                    continue
+                refs.append(slot)
+                prev = slot
     return refs
 
 
@@ -361,9 +374,20 @@ def _extract_equipment_mounts(data: dict, unit_type: str) -> list[dict]:
         for location_name, slot_list in loc.items():
             if not isinstance(slot_list, list):
                 continue
+            # Collapse consecutive identical slots: a multi-slot weapon
+            # occupies N adjacent crit slots all labelled with the same name.
+            prev: str | None = None
             for slot in slot_list:
-                if isinstance(slot, str) and slot and not _is_ammo_text(slot):
-                    out.append({"ref": slot, "location": location_name})
+                if not isinstance(slot, str) or not slot:
+                    prev = None
+                    continue
+                if _is_ammo_text(slot):
+                    prev = None
+                    continue
+                if slot == prev:
+                    continue
+                out.append({"ref": slot, "location": location_name})
+                prev = slot
     return out
 
 

@@ -13,31 +13,31 @@
 
 | Weapon | Installations |
 | --- | ---: |
-| RL 10; Inner Sphere | 115 |
 | Anti-Missile System; Inner Sphere | 108 |
-| Light Auto Cannon/5; Inner Sphere | 102 |
 | TAG; Inner Sphere | 100 |
-| Large Re-engineered Laser; Inner Sphere | 80 |
-| LB 20-X AC; Inner Sphere (Split) | 55 |
-| Laser Heat Sink; Clan | 48 |
-| Heavy Gauss Rifle; Inner Sphere (Split) | 44 |
-| Narc; Inner Sphere | 42 |
-| RL 20; Inner Sphere | 42 |
-| Anti-Missile System; Clan (OmniPod) | 41 |
-| RL 15; Inner Sphere | 36 |
+| RL 10; Inner Sphere | 41 |
+| Anti-Missile System; Clan (OmniPod) | 38 |
+| Light Auto Cannon/5; Inner Sphere | 36 |
 | PPC Capacitor; Inner Sphere | 35 |
-| Medium Re-engineered Laser; Inner Sphere | 34 |
-| Binary Laser (Blazer) Cannon; Inner Sphere | 32 |
-| Arrow IV; Inner Sphere (Split) | 30 |
-| Laser AMS; Inner Sphere | 26 |
 | PPC Capacitor; Inner Sphere (OmniPod) | 25 |
 | Anti-Missile System; Clan | 23 |
+| Narc; Inner Sphere | 21 |
 | Light TAG; Clan (OmniPod) | 21 |
-| LB 10-X AC Prototype; Inner Sphere | 21 |
 | TAG; Inner Sphere (OmniPod) | 19 |
-| Bomb Bay; Inner Sphere | 18 |
+| Laser Heat Sink; Clan | 19 |
 | TAG; Clan (OmniPod) | 17 |
-| Light Auto Cannon/2; Inner Sphere | 17 |
+| Machine Gun Array; Clan (OmniPod) | 16 |
+| Large Re-engineered Laser; Inner Sphere | 15 |
+| Light Auto Cannon/2; Inner Sphere | 14 |
+| Laser AMS; Inner Sphere | 13 |
+| Light Machine Gun Array; Inner Sphere | 12 |
+| Narc; Clan (OmniPod) | 12 |
+| Medium Re-engineered Laser; Inner Sphere | 12 |
+| RL 15; Inner Sphere | 11 |
+| LB 20-X AC; Inner Sphere (Split) | 10 |
+| Laser AMS; Clan (OmniPod) | 10 |
+| Machine Gun Array; Inner Sphere | 9 |
+| Light TAG; Clan | 9 |
 
 ## vehicle
 
@@ -58,31 +58,31 @@
 
 | Weapon | Installations |
 | --- | ---: |
-| ISMachine Gun | 120 |
-| ISAntiMissileSystem | 69 |
-| CLLightMG | 62 |
-| CLAPGaussRifle | 57 |
+| ISMachine Gun | 78 |
+| ISAntiMissileSystem | 65 |
 | ISTAG | 52 |
-| ISSRM6 | 45 |
-| ISSRM2 | 40 |
-| Light Machine Gun | 38 |
-| Machine Gun(ST) | 33 |
-| Vehicle Flamer | 31 |
-| Light PPC | 31 |
-| ISSRM4 | 26 |
-| Flamer (Vehicle) | 25 |
-| ISRotaryAC5 | 22 |
-| ISLRM15 | 22 |
-| ISLightMG | 22 |
-| Light Machine Gun(ST) | 22 |
-| ISLRM5 | 21 |
-| CLAPGaussRifle:OMNI | 20 |
-| Thunderbolt 5 | 18 |
-| ISLRM20 | 16 |
-| ISRotaryAC2 | 15 |
-| ISUltraAC5 | 15 |
-| Thunderbolt 10 | 15 |
-| ISSRM2IOS | 14 |
+| ISSRM6 | 32 |
+| CLLightMG | 31 |
+| CLAPGaussRifle | 29 |
+| Light Machine Gun | 25 |
+| Vehicle Flamer | 23 |
+| Light PPC | 23 |
+| Machine Gun(ST) | 23 |
+| ISSRM2 | 20 |
+| ISRotaryAC5 | 18 |
+| ISLRM15 | 16 |
+| ISLightMG | 16 |
+| Flamer (Vehicle) | 13 |
+| ISSRM4 | 12 |
+| ISLRM5 | 12 |
+| ISSNPPC | 12 |
+| ISSRM2IOS | 11 |
+| Light Auto Cannon/5 | 10 |
+| ISLRM10 | 10 |
+| Light Machine Gun(ST) | 10 |
+| ISLRM20 | 9 |
+| ISRotaryAC2 | 9 |
+| ISUltraAC20 | 9 |
 
 ## aerospace
 
@@ -103,28 +103,28 @@
 
 | Weapon | Installations |
 | --- | ---: |
-| Heavy PPC | 15 |
-| Light PPC | 13 |
-| Lifeboat (Atmospheric) | 12 |
-| CLImprovedMediumHeavyLaser:OMNI | 11 |
-| ISMediumXPulseLaser | 10 |
+| Heavy PPC | 14 |
+| Light PPC | 10 |
 | CLUltraAC20:OMNI | 9 |
-| MRM 10 | 8 |
-| CLImprovedMediumHeavyLaser | 8 |
 | ISLaserAntiMissileSystem | 8 |
-| CLStreakSRM2 (IOS):OMNI | 8 |
-| ISRotaryAC5:OMNI | 8 |
-| ISNarc Pods | 8 |
-| ISLaserInsulator | 7 |
-| ISAntiMissileSystem | 6 |
-| CLRotaryAC5:OMNI | 6 |
-| Light Machine Gun | 6 |
+| ISMediumXPulseLaser | 7 |
+| MRM 10 | 6 |
 | Extended LRM 10 | 6 |
 | ISSNPPC | 6 |
 | ISRotaryAC5 | 6 |
-| CLHeavyMG:OMNI | 6 |
 | MRM 40 | 6 |
 | Large Re-engineered Laser | 6 |
+| ISRotaryAC5:OMNI | 6 |
 | ISUltraAC10 | 5 |
-| ISNarc Pods:OMNI | 5 |
+| CLRotaryAC5:OMNI | 5 |
+| CLImprovedMediumHeavyLaser:OMNI | 5 |
 | CLHAG40:OMNI | 5 |
+| ISLaserInsulator | 5 |
+| Large Re-engineered Laser:OMNI | 5 |
+| Heavy PPC:OMNI | 5 |
+| ISAntiMissileSystem | 4 |
+| CLImprovedMediumHeavyLaser | 4 |
+| ISUltraAC20 | 4 |
+| PPC Capacitor | 4 |
+| Binary Laser (Blazer) Cannon | 4 |
+| CLNarcBeacon:OMNI | 4 |

@@ -2,7 +2,7 @@
 
 STATUS: PASS
 
-**Total issues:** 148 error / 6087 warning
+**Total issues:** 148 error / 6023 warning
 
 ## Blocking issues
 _(none)_
@@ -42,24 +42,24 @@ _(none)_
 
 | Outcome | Count |
 |---|---|
-| Total references | 330556 |
-| Exact match | 10099 |
-| Tech-disambiguated match | 83453 |
-| Structural (skipped) | 236916 |
-| **Unresolved** | **88** |
+| Total references | 180388 |
+| Exact match | 7688 |
+| Tech-disambiguated match | 36985 |
+| Structural (skipped) | 135691 |
+| **Unresolved** | **24** |
 
-**Resolution rate (excluding structural):** 99.906%
-**Overall unresolved percentage:** 0.094%
-**Gated unresolved % (gate types: mech,vehicle,aerospace):** **0.096%**
+**Resolution rate (excluding structural):** 99.946%
+**Overall unresolved percentage:** 0.054%
+**Gated unresolved % (gate types: mech,vehicle,aerospace):** **0.056%**
 
 ### Per unit type
 
 | Unit Type | Total Refs | Structural | Resolved | Unresolved | Resolution Rate | Unresolved % |
 |---|---|---|---|---|---|---|
-| aerospace ✓ | 3640 | 5 | 3632 | 3 | 99.917% | 0.083% |
+| aerospace ✓ | 2741 | 5 | 2735 | 1 | 99.963% | 0.037% |
 | infantry | 2041 | 0 | 2041 | 0 | 100.0% | 0.0% |
-| mech ✓ | 317349 | 236878 | 80471 | 0 | 100.0% | 0.0% |
-| vehicle ✓ | 7526 | 33 | 7408 | 85 | 98.866% | 1.134% |
+| mech ✓ | 170301 | 135653 | 34648 | 0 | 100.0% | 0.0% |
+| vehicle ✓ | 5305 | 33 | 5249 | 23 | 99.564% | 0.436% |
 
 _✓ = counted toward FAIL gate_
 
@@ -67,14 +67,14 @@ _✓ = counted toward FAIL gate_
 
 | Reference | Frequency |
 |---|---|
-| `ISLongTomAmmo` | 44 |
-| `CLLargeChemLaserAmmo` | 30 |
-| `CLLargeChemLaserAmmo:OMNI` | 3 |
-| `ClanImprovedLRM20Ammo` | 3 |
-| `ISArmorPiercingMortarAmmo1` | 2 |
-| `ClanImprovedLRM10Ammo` | 2 |
-| `CLImpAmmoSRM6` | 2 |
+| `CLLargeChemLaserAmmo` | 9 |
+| `ISLongTomAmmo` | 8 |
 | `ISCruiseMissile50Ammo` | 2 |
+| `ISArmorPiercingMortarAmmo1` | 1 |
+| `ClanImprovedLRM10Ammo` | 1 |
+| `CLImpAmmoSRM6` | 1 |
+| `CLLargeChemLaserAmmo:OMNI` | 1 |
+| `ClanImprovedLRM20Ammo` | 1 |
 
 ## 4. Quirks
 - Total: 8548

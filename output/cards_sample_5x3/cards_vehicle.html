@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<title>Vehicle Detachments</title>
+<style>:root {
+  --band: #1f3a4d;
+  --band-text: #ffffff;
+  --rule: #cfd6db;
+  --row-alt: #f3f5f7;
+  --ink: #1a1a1a;
+  --muted: #5b6b75;
+  --card-w: 5in;
+  --card-h: 3in;
+}
+* { box-sizing: border-box; }
+body {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  background: #e7eaed;
+  margin: 0;
+  padding: 0.375in;
+  color: var(--ink);
+}
+h1.page-title {
+  font-family: 'Georgia', serif;
+  font-size: 18px;
+  margin: 0 0 0.2in 0;
+  color: var(--band);
+}
+/* Screen: wrap pairs in rows */
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15in;
+}
+.pair {
+  display: flex;
+  flex-direction: row;
+  gap: 0.1in;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+.card {
+  background: #fdfdfd;
+  border: 1px solid #b9c2c8;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  font-size: 9px;
+  line-height: 1.3;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: var(--card-w);
+  height: var(--card-h);
+  flex-shrink: 0;
+}
+.card .band {
+  background: var(--band);
+  color: var(--band-text);
+  text-align: center;
+  padding: 3px 8px;
+  font-variant: small-caps;
+  letter-spacing: 0.04em;
+  flex-shrink: 0;
+}
+.card .band .title {
+  font-size: 11px;
+  font-weight: bold;
+}
+.card .band .sub {
+  font-size: 8px;
+  opacity: 0.92;
+  margin-top: 1px;
+}
+.card .subband {
+  background: #e9eef2;
+  border-bottom: 1px solid var(--rule);
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 8px;
+  font-variant: small-caps;
+  font-size: 8px;
+  color: var(--muted);
+  letter-spacing: 0.05em;
+  flex-shrink: 0;
+}
+.card .body {
+  padding: 7px 8px;
+  flex: 1;
+  overflow: hidden;
+}
+.card table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 2px 0 5px 0;
+}
+.card th, .card td {
+  text-align: left;
+  padding: 2px 4px;
+  border-bottom: 1px solid var(--rule);
+  vertical-align: top;
+}
+.card th {
+  font-weight: bold;
+  font-size: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  background: #eef2f5;
+}
+.card tbody tr:nth-child(even) td { background: var(--row-alt); }
+.card .weapons-bullets {
+  margin: 2px 0 4px 14px;
+  padding: 0;
+}
+.card .weapons-bullets li { margin: 1px 0; }
+.card .section-h {
+  background: var(--band);
+  color: var(--band-text);
+  padding: 2px 7px;
+  font-variant: small-caps;
+  letter-spacing: 0.05em;
+  font-size: 9px;
+  font-weight: bold;
+  margin: 5px -8px 3px -8px;
+}
+.card .body > .section-h:first-child { margin-top: 0; }
+.card .special-rules {
+  font-size: 8px;
+  margin-top: 3px;
+}
+.card .special-rules .label {
+  font-variant: small-caps;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+.card .upgrade-line {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+  margin: 2px 0;
+}
+.card .upgrade-line .desc { white-space: nowrap; }
+.card .upgrade-line .dots {
+  flex: 1;
+  border-bottom: 2px dotted var(--muted);
+  transform: translateY(-3px);
+  margin: 0 3px;
+}
+.card .upgrade-line .cost {
+  font-weight: bold;
+  white-space: nowrap;
+}
+.card .description {
+  margin: 4px 0 6px 0;
+  font-style: italic;
+  color: var(--muted);
+}
+.card .points-line {
+  text-align: center;
+  font-size: 9px;
+  font-variant: small-caps;
+  letter-spacing: 0.06em;
+  background: #e9eef2;
+  border-bottom: 1px solid var(--rule);
+  padding: 3px 0;
+  flex-shrink: 0;
+}
+.card .points-line strong { font-size: 11px; }
+.empty { color: var(--muted); font-style: italic; }
+@media print {
+  @page { margin: 0.375in; }
+  body { background: white; padding: 0; }
+  h1.page-title { display: none; }
+  .pair {
+    break-after: always;
+    page-break-after: always;
+  }
+  .pair:last-child {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+  .card { box-shadow: none; border-color: #999; }
+}</style>
+</head>
+<body>
+<h1 class='page-title'>Vehicle Detachments <small style='font-size:0.6em;color:#5b6b75;'>(5in &times; 3in cards)</small></h1>
+<div class='cards'><div class='pair'><div class='card front'><div class='band'><div class='title'>Air Car</div><div class='sub'>Vehicle Lance</div></div><div class='subband'><span>Vehicle (2)</span><span>Detachment Size: 4</span></div><div class='body'><table class='stats'><thead><tr><th>Name</th><th>Movement</th><th>Save</th><th>W</th></tr></thead><tbody><tr><td>Air Car</td><td>13&quot;</td><td>5+</td><td>2</td></tr></tbody></table><div class='section-h'>Weapons</div><ul class='weapons-bullets'></ul><p class="empty">No weapons.</p></div></div><div class='card back'><div class='band'><div class='title'>Air Car</div><div class='sub'>Detachment Card &mdash; Reverse</div></div><div class='points-line'><em>Points TBD</em></div><div class='body'><p class='description'>A Air Car detachment consists of 4 Vehicles.</p><div class='section-h'>Upgrades</div><p style='margin:4px 0; font-size:10.5px;'>This detachment can purchase any of the following upgrades. It may purchase the same upgrade multiple times, to a maximum Detachment size of 12:</p><div class='upgrade-line'><span class='desc'>Increase the Detachment size by 4</span><span class='dots'></span><span class='cost'>+? points</span></div><div class='upgrade-line'><span class='desc'>Increase the Detachment size by 8</span><span class='dots'></span><span class='cost'>+? points</span></div></div></div></div><div class='pair'><div class='card front'><div class='band'><div class='title'>Puma Assault Tank PAT-001</div><div class='sub'>Vehicle Lance</div></div><div class='subband'><span>Vehicle (2)</span><span>Detachment Size: 4</span></div><div class='body'><table class='stats'><thead><tr><th>Name</th><th>Movement</th><th>Save</th><th>W</th></tr></thead><tbody><tr><td>Puma Assault Tank PAT-001</td><td>5&quot;</td><td>4+</td><td>3</td></tr></tbody></table><div class='section-h'>Weapons</div><ul class='weapons-bullets'><li>Inner Sphere Medium Laser</li><li>Inner Sphere SRM 4</li><li>Two Inner Sphere LRM 20</li><li>Inner Sphere Small Laser</li><li>Vehicle Flamer</li><li>Inner Sphere PPC</li></ul><table class='weapons'><thead><tr><th>Weapon</th><th>Range</th><th>Heat</th><th>Dice</th><th>To-Hit</th><th>AP</th><th>Type</th><th>Traits</th></tr></thead><tbody><tr><td>Inner Sphere Medium Laser</td><td>8&quot;</td><td>1</td><td>1</td><td>4+</td><td>-1</td><td>Energy</td><td>Anti-Tank, Arc(Front)</td></tr><tr><td>Inner Sphere SRM 4</td><td>8&quot;</td><td>2</td><td>2</td><td>5+</td><td>-2</td><td>Missile</td><td>Special Ammo, Anti-Tank, Arc(Front)</td></tr><tr><td>Inner Sphere LRM 20</td><td>4&quot;-20&quot;</td><td>2</td><td>4</td><td>5+</td><td>-1</td><td>Missile</td><td>Anti-Tank, Barrage, Special Ammo, Arc(Front)</td></tr><tr><td>Inner Sphere Small Laser</td><td>6&quot;</td><td>0</td><td>1</td><td>4+</td><td>-1</td><td>Energy</td><td>Light AT, Arc(Front)</td></tr><tr><td>Vehicle Flamer</td><td colspan='6' class='empty'>profile missing in WeaponRules.csv</td><td>Arc(Front)</td></tr><tr><td>Inner Sphere PPC</td><td>2&quot;-18&quot;</td><td>4</td><td>1</td><td>4+</td><td>-3</td><td>Energy</td><td>Shock Pulse</td></tr></tbody></table></div></div><div class='card back'><div class='band'><div class='title'>Puma Assault Tank PAT-001</div><div class='sub'>Detachment Card &mdash; Reverse</div></div><div class='points-line'><em>Points TBD</em></div><div class='body'><p class='description'>A Puma Assault Tank PAT-001 detachment consists of 4 Vehicles.</p><div class='section-h'>Upgrades</div><p style='margin:4px 0; font-size:10.5px;'>This detachment can purchase any of the following upgrades. It may purchase the same upgrade multiple times, to a maximum Detachment size of 12:</p><div class='upgrade-line'><span class='desc'>Increase the Detachment size by 4</span><span class='dots'></span><span class='cost'>+? points</span></div><div class='upgrade-line'><span class='desc'>Increase the Detachment size by 8</span><span class='dots'></span><span class='cost'>+? points</span></div><div class='section-h'>Special Ammunition</div><p style='margin:4px 0; font-size:10.5px;'>This detachment can take up to 3 Special Ammo choices from the Special Ammo list, provided all three are for one or more weapons listed in the Detachment&rsquo;s Weapons section.</p><div class='upgrade-line'><span class='desc'>Inferno ammo for Inner Sphere SRM 4</span><span class='dots'></span><span class='cost'>+5 points</span></div><div class='upgrade-line'><span class='desc'>Inferno-IV ammo for Inner Sphere LRM 20</span><span class='dots'></span><span class='cost'>+5 points</span></div><div class='upgrade-line'><span class='desc'>Swarm ammo for Inner Sphere LRM 20</span><span class='dots'></span><span class='cost'>+5 points</span></div><div class='upgrade-line'><span class='desc'>Semi-Guided ammo for Inner Sphere LRM 20</span><span class='dots'></span><span class='cost'>+5 points</span></div></div></div></div><div class='pair'><div class='card front'><div class='band'><div class='title'>Puma Assault Tank PAT-002</div><div class='sub'>Vehicle Lance</div></div><div class='subband'><span>Vehicle (2)</span><span>Detachment Size: 4</span></div><div class='body'><table class='stats'><thead><tr><th>Name</th><th>Movement</th><th>Save</th><th>W</th></tr></thead><tbody><tr><td>Puma Assault Tank PAT-002</td><td>5&quot;</td><td>4+</td><td>3</td></tr></tbody></table><div class='section-h'>Weapons</div><ul class='weapons-bullets'><li>Inner Sphere Medium Laser</li><li>Inner Sphere SRM 4</li><li>Two Inner Sphere LRM 20</li><li>Inner Sphere Small Laser</li><li>Vehicle Flamer</li><li>Inner Sphere PPC</li></ul><table class='weapons'><thead><tr><th>Weapon</th><th>Range</th><th>Heat</th><th>Dice</th><th>To-Hit</th><th>AP</th><th>Type</th><th>Traits</th></tr></thead><tbody><tr><td>Inner Sphere Medium Laser</td><td>8&quot;</td><td>1</td><td>1</td><td>4+</td><td>-1</td><td>Energy</td><td>Anti-Tank, Arc(Front)</td></tr><tr><td>Inner Sphere SRM 4</td><td>8&quot;</td><td>2</td><td>2</td><td>5+</td><td>-2</td><td>Missile</td><td>Special Ammo, Anti-Tank, Arc(Front)</td></tr><tr><td>Inner Sphere LRM 20</td><td>4&quot;-20&quot;</td><td>2</td><td>4</td><td>5+</td><td>-1</td><td>Missile</td><td>Anti-Tank, Barrage, Special Ammo, Arc(Front)</td></tr><tr><td>Inner Sphere Small Laser</td><td>6&quot;</td><td>0</td><td>1</td><td>4+</td><td>-1</td><td>Energy</td><td>Light AT, Arc(Front)</td></tr><tr><td>Vehicle Flamer</td><td colspan='6' class='empty'>profile missing in WeaponRules.csv</td><td>Arc(Front)</td></tr><tr><td>Inner Sphere PPC</td><td>2&quot;-18&quot;</td><td>4</td><td>1</td><td>4+</td><td>-3</td><td>Energy</td><td>Shock Pulse</td></tr></tbody></table></div></div><div class='card back'><div class='band'><div class='title'>Puma Assault Tank PAT-002</div><div class='sub'>Detachment Card &mdash; Reverse</div></div><div class='points-line'><em>Points TBD</em></div><div class='body'><p class='description'>A Puma Assault Tank PAT-002 detachment consists of 4 Vehicles.</p><div class='section-h'>Upgrades</div><p style='margin:4px 0; font-size:10.5px;'>This detachment can purchase any of the following upgrades. It may purchase the same upgrade multiple times, to a maximum Detachment size of 12:</p><div class='upgrade-line'><span class='desc'>Increase the Detachment size by 4</span><span class='dots'></span><span class='cost'>+? points</span></div><div class='upgrade-line'><span class='desc'>Increase the Detachment size by 8</span><span class='dots'></span><span class='cost'>+? points</span></div><div class='section-h'>Special Ammunition</div><p style='margin:4px 0; font-size:10.5px;'>This detachment can take up to 3 Special Ammo choices from the Special Ammo list, provided all three are for one or more weapons listed in the Detachment&rsquo;s Weapons section.</p><div class='upgrade-line'><span class='desc'>Inferno ammo for Inner Sphere SRM 4</span><span class='dots'></span><span class='cost'>+5 points</span></div><div class='upgrade-line'><span class='desc'>Inferno-IV ammo for Inner Sphere LRM 20</span><span class='dots'></span><span class='cost'>+5 points</span></div><div class='upgrade-line'><span class='desc'>Swarm ammo for Inner Sphere LRM 20</span><span class='dots'></span><span class='cost'>+5 points</span></div><div class='upgrade-line'><span class='desc'>Semi-Guided ammo for Inner Sphere LRM 20</span><span class='dots'></span><span class='cost'>+5 points</span></div></div></div></div></div>
+</body>
+</html>

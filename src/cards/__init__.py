@@ -1,0 +1,1 @@
+"""Detachment card renderer (HTML)."""

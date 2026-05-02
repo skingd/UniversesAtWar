@@ -15,6 +15,7 @@ this prose is stable text — only the per-profile rule data is volatile.
 """
 from __future__ import annotations
 
+import math
 from collections import Counter
 from dataclasses import dataclass, field
 from typing import Iterable, Optional
@@ -176,10 +177,41 @@ def _bullet_list(weapon_links: list[dict]) -> list[str]:
 
 # --- Upgrade options -------------------------------------------------------
 
-def _detachment_size_options(base: int, max_size: int) -> list[dict]:
-    if max_size <= base:
+def _size_increment(unit_type: str, tech_base: str) -> int:
+    """Number of models added per upgrade step."""
+    if unit_type == "vehicle":
+        return 5 if tech_base == "Clan" else 4
+    if unit_type == "aerospace":
+        return 1  # both Inner Sphere and Clan
+    return 0  # mechs have no size upgrades
+
+
+def _detachment_size_options(
+    unit_type: str,
+    tech_base: str,
+    base: int,
+    max_size: int,
+    points: Optional[int],
+) -> list[dict]:
+    """Build upgrade-step list for detachment size options.
+
+    Each entry is ``{"add": n_models, "cost": points_cost}`` where cost scales
+    linearly — each additional increment costs the same as the base detachment.
+    Mechs always return ``[]``.
+    """
+    increment = _size_increment(unit_type, tech_base)
+    if increment == 0 or max_size <= base:
         return []
-    return [{"size": n, "points": None} for n in range(base + 1, max_size + 1)]
+    out: list[dict] = []
+    step = 1
+    while True:
+        add = step * increment
+        if base + add > max_size:
+            break
+        cost = step * points if points is not None else None
+        out.append({"add": add, "cost": cost})
+        step += 1
+    return out
 
 
 def _special_ammo_links(
@@ -237,6 +269,7 @@ def build_detachment(
     ammo_index: dict[str, list[AmmoOption]],
     alias_index: Optional[AliasIndex],
     coverage: Coverage,
+    bv_cache: Optional[dict] = None,
 ) -> Optional[dict]:
     """Build a single detachment dict from an index record."""
     unit_type = record.get("unit_type") or coverage.unit_type
@@ -244,6 +277,15 @@ def build_detachment(
     if tech_base not in _VALID_TECH_BASES:
         coverage.skipped_unknown_tech_base += 1
         return None
+
+    # Resolve BV and derive points (25% of BV, floored).
+    mul_id = record.get("mul_id")
+    bv: Optional[int] = None
+    if bv_cache is not None and mul_id is not None:
+        raw_bv = bv_cache.get(str(mul_id))
+        if isinstance(raw_bv, int) and raw_bv > 0:
+            bv = raw_bv
+    points = math.floor(bv * 0.25) if bv is not None else None
 
     tonnage = record.get("tonnage")
     if tonnage is None:
@@ -303,7 +345,7 @@ def build_detachment(
     bulleted = _bullet_list(weapon_links)
     special_rules = special_rules_from_equipment(equipment_refs)
     special_ammo = _special_ammo_links(seen_weapon_names, ammo_index)
-    size_upgrades = _detachment_size_options(base, max_size)
+    size_upgrades = _detachment_size_options(unit_type, tech_base, base, max_size, points)
 
     coverage.emitted += 1
     return {
@@ -319,7 +361,7 @@ def build_detachment(
         "movement": movement,
         "wounds": tables.wounds(tonnage, unit_type),
         "detachment_size": {"base": base, "max": max_size},
-        "points": None,
+        "points": points,
         "weapons_bulleted": bulleted,
         "weapons": weapon_links,
         "upgrade_options": {
@@ -337,12 +379,13 @@ def build_all(
     weapon_index: WeaponIndex,
     ammo_index: dict[str, list[AmmoOption]],
     alias_index: Optional[AliasIndex] = None,
+    bv_cache: Optional[dict] = None,
 ) -> tuple[list[dict], Coverage]:
     coverage = Coverage(unit_type=unit_type)
     out: list[dict] = []
     for rec in records:
         coverage.total_records += 1
-        det = build_detachment(rec, weapon_index, ammo_index, alias_index, coverage)
+        det = build_detachment(rec, weapon_index, ammo_index, alias_index, coverage, bv_cache)
         if det is not None:
             out.append(det)
     return out, coverage

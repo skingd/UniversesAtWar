@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<title>Aerospace Detachments</title>
+<style>:root {
+  --band: #1f3a4d;
+  --band-text: #ffffff;
+  --rule: #cfd6db;
+  --row-alt: #f3f5f7;
+  --ink: #1a1a1a;
+  --muted: #5b6b75;
+  --card-w: 6in;
+  --card-h: 4in;
+}
+* { box-sizing: border-box; }
+body {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  background: #e7eaed;
+  margin: 0;
+  padding: 0.375in;
+  color: var(--ink);
+}
+h1.page-title {
+  font-family: 'Georgia', serif;
+  font-size: 22px;
+  margin: 0 0 0.2in 0;
+  color: var(--band);
+}
+/* Screen: wrap pairs in rows */
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15in;
+}
+.pair {
+  display: flex;
+  flex-direction: row;
+  gap: 0.1in;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+.card {
+  background: #fdfdfd;
+  border: 1px solid #b9c2c8;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  font-size: 11px;
+  line-height: 1.3;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: var(--card-w);
+  height: var(--card-h);
+  flex-shrink: 0;
+}
+.card .band {
+  background: var(--band);
+  color: var(--band-text);
+  text-align: center;
+  padding: 4px 10px;
+  font-variant: small-caps;
+  letter-spacing: 0.04em;
+  flex-shrink: 0;
+}
+.card .band .title {
+  font-size: 14px;
+  font-weight: bold;
+}
+.card .band .sub {
+  font-size: 10px;
+  opacity: 0.92;
+  margin-top: 1px;
+}
+.card .subband {
+  background: #e9eef2;
+  border-bottom: 1px solid var(--rule);
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 10px;
+  font-variant: small-caps;
+  font-size: 10px;
+  color: var(--muted);
+  letter-spacing: 0.05em;
+  flex-shrink: 0;
+}
+.card .body {
+  padding: 8px 10px;
+  flex: 1;
+  overflow: hidden;
+}
+.card table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 2px 0 5px 0;
+}
+.card th, .card td {
+  text-align: left;
+  padding: 2px 4px;
+  border-bottom: 1px solid var(--rule);
+  vertical-align: top;
+}
+.card th {
+  font-weight: bold;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  background: #eef2f5;
+}
+.card tbody tr:nth-child(even) td { background: var(--row-alt); }
+.card .weapons-bullets {
+  margin: 2px 0 4px 14px;
+  padding: 0;
+}
+.card .weapons-bullets li { margin: 1px 0; }
+.card .section-h {
+  background: var(--band);
+  color: var(--band-text);
+  padding: 2px 7px;
+  font-variant: small-caps;
+  letter-spacing: 0.05em;
+  font-size: 11px;
+  font-weight: bold;
+  margin: 5px -10px 3px -10px;
+}
+.card .body > .section-h:first-child { margin-top: 0; }
+.card .special-rules {
+  font-size: 10px;
+  margin-top: 3px;
+}
+.card .special-rules .label {
+  font-variant: small-caps;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+.card .upgrade-line {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+  margin: 2px 0;
+}
+.card .upgrade-line .desc { white-space: nowrap; }
+.card .upgrade-line .dots {
+  flex: 1;
+  border-bottom: 2px dotted var(--muted);
+  transform: translateY(-3px);
+  margin: 0 3px;
+}
+.card .upgrade-line .cost {
+  font-weight: bold;
+  white-space: nowrap;
+}
+.card .description {
+  margin: 4px 0 6px 0;
+  font-style: italic;
+  color: var(--muted);
+}
+.card .points-line {
+  text-align: center;
+  font-size: 11px;
+  font-variant: small-caps;
+  letter-spacing: 0.06em;
+  background: #e9eef2;
+  border-bottom: 1px solid var(--rule);
+  padding: 3px 0;
+  flex-shrink: 0;
+}
+.card .points-line strong { font-size: 14px; }
+.empty { color: var(--muted); font-style: italic; }
+@media print {
+  @page { margin: 0.375in; }
+  body { background: white; padding: 0; }
+  h1.page-title { display: none; }
+  .pair {
+    break-after: always;
+    page-break-after: always;
+  }
+  .pair:last-child {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+  .card { box-shadow: none; border-color: #999; }
+}</style>
+</head>
+<body>
+<h1 class='page-title'>Aerospace Detachments <small style='font-size:0.6em;color:#5b6b75;'>(6in &times; 4in cards)</small></h1>
+<div class='cards'><div class='pair'><div class='card front'><div class='band'><div class='title'>Boeing Jump Bomber</div><div class='sub'>Aerospace Lance</div></div><div class='subband'><span>Aerospace (2)</span><span>Detachment Size: 1</span></div><div class='body'><table class='stats'><thead><tr><th>Name</th><th>Movement</th><th>Save</th><th>W</th></tr></thead><tbody><tr><td>Boeing Jump Bomber</td><td>25&quot;</td><td>5+</td><td>1</td></tr></tbody></table><div class='section-h'>Weapons</div><ul class='weapons-bullets'></ul><p class="empty">No weapons.</p></div></div><div class='card back'><div class='band'><div class='title'>Boeing Jump Bomber</div><div class='sub'>Detachment Card &mdash; Reverse</div></div><div class='points-line'><strong>16</strong> Points</div><div class='body'><p class='description'>A Boeing Jump Bomber detachment consists of 1 Aerospace.</p><div class='section-h'>Upgrades</div><p style='margin:4px 0; font-size:10.5px;'>This detachment can purchase any of the following upgrades. It may purchase the same upgrade multiple times, to a maximum Detachment size of 4:</p><div class='upgrade-line'><span class='desc'>Increase the Detachment size by 1</span><span class='dots'></span><span class='cost'>+16 points</span></div><div class='upgrade-line'><span class='desc'>Increase the Detachment size by 2</span><span class='dots'></span><span class='cost'>+32 points</span></div><div class='upgrade-line'><span class='desc'>Increase the Detachment size by 3</span><span class='dots'></span><span class='cost'>+48 points</span></div></div></div></div><div class='pair'><div class='card front'><div class='band'><div class='title'>Boomerang Spotter Plane</div><div class='sub'>Aerospace Lance</div></div><div class='subband'><span>Aerospace (2)</span><span>Detachment Size: 1</span></div><div class='body'><table class='stats'><thead><tr><th>Name</th><th>Movement</th><th>Save</th><th>W</th></tr></thead><tbody><tr><td>Boomerang Spotter Plane</td><td>20&quot;</td><td>5+</td><td>1</td></tr></tbody></table><div class='section-h'>Weapons</div><ul class='weapons-bullets'></ul><p class="empty">No weapons.</p><div class='special-rules'><span class='label'>Special Rules:</span> Recon Camera, Prop Chassis Mod, Ultra Light Chassis Mod, STOL Chassis Mod</div></div></div><div class='card back'><div class='band'><div class='title'>Boomerang Spotter Plane</div><div class='sub'>Detachment Card &mdash; Reverse</div></div><div class='points-line'><em>Points TBD</em></div><div class='body'><p class='description'>A Boomerang Spotter Plane detachment consists of 1 Aerospace.</p><div class='section-h'>Upgrades</div><p style='margin:4px 0; font-size:10.5px;'>This detachment can purchase any of the following upgrades. It may purchase the same upgrade multiple times, to a maximum Detachment size of 4:</p><div class='upgrade-line'><span class='desc'>Increase the Detachment size by 1</span><span class='dots'></span><span class='cost'>+? points</span></div><div class='upgrade-line'><span class='desc'>Increase the Detachment size by 2</span><span class='dots'></span><span class='cost'>+? points</span></div><div class='upgrade-line'><span class='desc'>Increase the Detachment size by 3</span><span class='dots'></span><span class='cost'>+? points</span></div></div></div></div><div class='pair'><div class='card front'><div class='band'><div class='title'>Guardian Fighter B</div><div class='sub'>Aerospace Lance</div></div><div class='subband'><span>Aerospace (2)</span><span>Detachment Size: 1</span></div><div class='body'><table class='stats'><thead><tr><th>Name</th><th>Movement</th><th>Save</th><th>W</th></tr></thead><tbody><tr><td>Guardian Fighter B</td><td>22&quot;</td><td>5+</td><td>1</td></tr></tbody></table><div class='section-h'>Weapons</div><ul class='weapons-bullets'><li>Inner Sphere Medium Laser</li></ul><table class='weapons'><thead><tr><th>Weapon</th><th>Range</th><th>Heat</th><th>Dice</th><th>To-Hit</th><th>AP</th><th>Type</th><th>Traits</th></tr></thead><tbody><tr><td>Inner Sphere Medium Laser</td><td>8&quot;</td><td>1</td><td>1</td><td>4+</td><td>-1</td><td>Energy</td><td>Anti-Tank, Arc(Front)</td></tr></tbody></table></div></div><div class='card back'><div class='band'><div class='title'>Guardian Fighter B</div><div class='sub'>Detachment Card &mdash; Reverse</div></div><div class='points-line'><strong>31</strong> Points</div><div class='body'><p class='description'>A Guardian Fighter B detachment consists of 1 Aerospace.</p><div class='section-h'>Upgrades</div><p style='margin:4px 0; font-size:10.5px;'>This detachment can purchase any of the following upgrades. It may purchase the same upgrade multiple times, to a maximum Detachment size of 4:</p><div class='upgrade-line'><span class='desc'>Increase the Detachment size by 1</span><span class='dots'></span><span class='cost'>+31 points</span></div><div class='upgrade-line'><span class='desc'>Increase the Detachment size by 2</span><span class='dots'></span><span class='cost'>+62 points</span></div><div class='upgrade-line'><span class='desc'>Increase the Detachment size by 3</span><span class='dots'></span><span class='cost'>+93 points</span></div></div></div></div></div>
+</body>
+</html>

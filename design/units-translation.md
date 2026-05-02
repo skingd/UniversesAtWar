@@ -226,6 +226,29 @@ Exceptions: Any TURRET mounted weapons and bombs are EXEMPT from Arc(Front). The
 | Heavy | 5 | 15 |
 | Assault | 1 | 5 |
 
+## Point Translation
+Points are generated based on 25% of the bv. This should be added to the detachment output.
+
+### Vehicle and Aerospace Detachment Size Upgrade
+Vehicles and Aerospace fighters can add more models to their detachment for the same number of points as the default selection. This should be added to their detachment upgrade section in the following format:
+
+**Clan Aerospace**: +1 model up to maximum
+**Clan Vehicles**: +5 models up to maximum
+**Inner Sphere Vehicles**: +4 models up to maximum
+**Inner Sphere Aerospace**: +1 model up to maximum
+**All Mechs**: Exactly 1 per detachment (no option to increase size)
+
+**Example**: An Inner Sphere Vehicle detachment starts with 4 vehicles of the same exact type for 150 points. They can add 4 more vehicles for another +150 points or 8 more vehicles for +300 points
+
+## Detachment Upgrades
+The bottom section of the detachment card will have the optional upgrades. This should include a note about special ammunition if any weapons have the Special Ammo trait. It also includes the size upgrade options.
+
+**Size Upgrade format**:
+Increase the Detachment Size by 4....................................+150 points
+Increase the Detachment Size by 8....................................+300 points
+
+**Special Ammo Upgrade Format**
+This detachment can take up to 3 Special Ammo choices from the Special Ammo list, provided all three are for one or more weapons listed in the Detachment's Weapons section.
 
 ## Equipment Translation
 **Ammunition**: Ignore ammo. It it will not be listed or represented in the detachment profile. Instead, players will use the Special Ammo rule. Normal ammunition is functionally infinite except for the Limited (x) special rule.

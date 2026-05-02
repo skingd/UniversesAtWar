@@ -77,6 +77,9 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--ammo-rules", type=Path,
         default=Path("data/AmmunitionRules.csv"),
         help="Path to AmmunitionRules.csv (default: data/AmmunitionRules.csv).")
+    parser.add_argument("--bv-cache", type=Path,
+        default=Path("output/bv_cache.json"),
+        help="Path to BV cache JSON for points calculation (default: output/bv_cache.json).")
     parser.add_argument("--output-dir", type=Path,
         default=Path("output/detachments"),
         help="Where to write detachments_<type>.json + coverage (default: output/detachments).")
@@ -126,6 +129,15 @@ def main(argv: list[str] | None = None) -> int:
     print(f"[detachments]   weapon index: {len(weapon_index.by_name_key)} by-name, "
           f"{len(weapon_index.by_canonical_id)} by-canonical-id")
 
+    bv_cache: dict | None = None
+    if args.bv_cache.exists():
+        print(f"[detachments] loading BV cache: {args.bv_cache}")
+        bv_cache = _load_json(args.bv_cache)  # type: ignore[assignment]
+        valid_count = sum(1 for v in bv_cache.values() if isinstance(v, int) and v > 0)
+        print(f"[detachments]   {valid_count}/{len(bv_cache)} entries with valid BV")
+    else:
+        print(f"[detachments]   (no BV cache at {args.bv_cache} — points will be None)")
+
     coverage_per_type: dict[str, Coverage] = {}
     for unit_type in args.types:
         idx_path = args.index_dir / _INDEX_FILES[unit_type]
@@ -139,7 +151,7 @@ def main(argv: list[str] | None = None) -> int:
                   file=sys.stderr)
             continue
         detachments, cov = build_all(
-            records, unit_type, weapon_index, ammo_index, alias_index,
+            records, unit_type, weapon_index, ammo_index, alias_index, bv_cache,
         )
         out_file = args.output_dir / f"detachments_{unit_type}.json"
         with open(out_file, "w", encoding="utf-8") as f:

@@ -95,7 +95,7 @@
     "raw_examples": [
       "Clan AMS"
     ],
-    "ref_count": 2,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": "Clan",
     "unit_types": [
@@ -112,7 +112,7 @@
     "raw_examples": [
       "IS AMS"
     ],
-    "ref_count": 6,
+    "ref_count": 4,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -129,7 +129,7 @@
     "raw_examples": [
       "Angel ECM Suite; Inner Sphere (Armored)"
     ],
-    "ref_count": 2,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -215,7 +215,7 @@
     "raw_examples": [
       "Arrow IV; Inner Sphere (Split)"
     ],
-    "ref_count": 30,
+    "ref_count": 4,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -266,7 +266,7 @@
     "raw_examples": [
       "ATM 12; Clan (Turret) (OmniPod)"
     ],
-    "ref_count": 10,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -283,7 +283,7 @@
     "raw_examples": [
       "ATM 6; Clan (Turret)"
     ],
-    "ref_count": 3,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -506,7 +506,7 @@
     "raw_examples": [
       "Autocannon/10 Primitive; Inner Sphere"
     ],
-    "ref_count": 7,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -557,7 +557,7 @@
     "raw_examples": [
       "Backhoe; Inner Sphere"
     ],
-    "ref_count": 48,
+    "ref_count": 8,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -626,7 +626,7 @@
     "raw_examples": [
       "Binary Laser (Blazer) Cannon; Inner Sphere"
     ],
-    "ref_count": 48,
+    "ref_count": 12,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -677,7 +677,7 @@
     "raw_examples": [
       "Bloodhound Active Probe; Inner Sphere (Armored)"
     ],
-    "ref_count": 3,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -728,7 +728,7 @@
     "raw_examples": [
       "Bomb Bay; Inner Sphere"
     ],
-    "ref_count": 24,
+    "ref_count": 9,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -745,7 +745,7 @@
     "raw_examples": [
       "Bombast Laser; Inner Sphere (Turret)"
     ],
-    "ref_count": 3,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -797,7 +797,7 @@
     "raw_examples": [
       "Cargo (1 ton); Clan"
     ],
-    "ref_count": 2,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": "Clan",
     "unit_types": [
@@ -814,7 +814,7 @@
     "raw_examples": [
       "Cargo (1 ton); Inner Sphere"
     ],
-    "ref_count": 66,
+    "ref_count": 19,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -831,7 +831,7 @@
     "raw_examples": [
       "Cargo (1.5 tons); Inner Sphere"
     ],
-    "ref_count": 8,
+    "ref_count": 4,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -848,7 +848,7 @@
     "raw_examples": [
       "Cargo (2 tons); Inner Sphere"
     ],
-    "ref_count": 6,
+    "ref_count": 3,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -865,7 +865,7 @@
     "raw_examples": [
       "Cargo (2.5 tons); Inner Sphere"
     ],
-    "ref_count": 3,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -882,7 +882,7 @@
     "raw_examples": [
       "Cargo (3 tons); Inner Sphere"
     ],
-    "ref_count": 6,
+    "ref_count": 2,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -899,7 +899,7 @@
     "raw_examples": [
       "Cargo (5 tons); Inner Sphere"
     ],
-    "ref_count": 20,
+    "ref_count": 4,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -933,7 +933,7 @@
     "raw_examples": [
       "Cargo Container (10 tons)"
     ],
-    "ref_count": 19,
+    "ref_count": 10,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -950,7 +950,7 @@
     "raw_examples": [
       "Cargo Container (10 tons); Inner Sphere"
     ],
-    "ref_count": 7,
+    "ref_count": 4,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -1003,7 +1003,7 @@
       "Cargo:SIZE:1.0; Inner Sphere",
       "Cargo:size:1.0; Inner Sphere"
     ],
-    "ref_count": 38,
+    "ref_count": 15,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -1020,7 +1020,7 @@
     "raw_examples": [
       "Cargo:size:11.0; Inner Sphere"
     ],
-    "ref_count": 22,
+    "ref_count": 2,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -1037,7 +1037,7 @@
     "raw_examples": [
       "Cargo:SIZE:12.0; Inner Sphere"
     ],
-    "ref_count": 24,
+    "ref_count": 2,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -1055,7 +1055,7 @@
       "Cargo:size:2.0; Inner Sphere",
       "Cargo:SIZE:2.0; Inner Sphere"
     ],
-    "ref_count": 18,
+    "ref_count": 9,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -1072,7 +1072,7 @@
     "raw_examples": [
       "Cargo:SIZE:3.5; Inner Sphere"
     ],
-    "ref_count": 8,
+    "ref_count": 2,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -1089,7 +1089,7 @@
     "raw_examples": [
       "Cargo:SIZE:4.0; Inner Sphere"
     ],
-    "ref_count": 4,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -1106,7 +1106,7 @@
     "raw_examples": [
       "Cargo:SIZE:8.0; Inner Sphere"
     ],
-    "ref_count": 8,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -1123,7 +1123,7 @@
     "raw_examples": [
       "Centurion Weapon System"
     ],
-    "ref_count": 2,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -1141,7 +1141,7 @@
       "Chain Whip; Inner Sphere",
       "Chain Whip; Inner Sphere (OmniPod)"
     ],
-    "ref_count": 12,
+    "ref_count": 6,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -1175,7 +1175,7 @@
     "raw_examples": [
       "Chainsaw; Clan"
     ],
-    "ref_count": 5,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": "Clan",
     "unit_types": [
@@ -1192,7 +1192,7 @@
     "raw_examples": [
       "Chainsaw; Inner Sphere"
     ],
-    "ref_count": 110,
+    "ref_count": 22,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -1243,7 +1243,7 @@
     "raw_examples": [
       "CLAPGaussRifle(ST)"
     ],
-    "ref_count": 8,
+    "ref_count": 6,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -1260,7 +1260,7 @@
     "raw_examples": [
       "CLSRM2 (IOS):OMNI"
     ],
-    "ref_count": 4,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -1278,7 +1278,7 @@
       "CLStreakSRM2 (IOS)",
       "CLStreakSRM2 (IOS):OMNI"
     ],
-    "ref_count": 10,
+    "ref_count": 3,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -1313,7 +1313,7 @@
     "raw_examples": [
       "Cockpit (Armored)"
     ],
-    "ref_count": 23,
+    "ref_count": 21,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -1382,7 +1382,7 @@
     "raw_examples": [
       "Combine; Inner Sphere"
     ],
-    "ref_count": 44,
+    "ref_count": 11,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -1435,7 +1435,7 @@
       "Communications Equipment (1 ton); Inner Sphere",
       "Communications Equipment (1 ton); Inner Sphere (OmniPod)"
     ],
-    "ref_count": 4,
+    "ref_count": 2,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -1487,7 +1487,7 @@
     "raw_examples": [
       "Communications Equipment (2 ton); Inner Sphere"
     ],
-    "ref_count": 6,
+    "ref_count": 3,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -1522,7 +1522,7 @@
     "raw_examples": [
       "Communications Equipment (3 ton); Inner Sphere"
     ],
-    "ref_count": 9,
+    "ref_count": 3,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -1556,7 +1556,7 @@
     "raw_examples": [
       "Communications Equipment (4 ton); Inner Sphere"
     ],
-    "ref_count": 8,
+    "ref_count": 2,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -1659,7 +1659,7 @@
     "raw_examples": [
       "Communications Equipment:size:2.0; Inner Sphere"
     ],
-    "ref_count": 2,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -1866,7 +1866,7 @@
     "raw_examples": [
       "Dual Saw; Inner Sphere"
     ],
-    "ref_count": 49,
+    "ref_count": 7,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -1985,7 +1985,7 @@
     "raw_examples": [
       "Emergency C 3 Master; Inner Sphere"
     ],
-    "ref_count": 2,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -2002,7 +2002,7 @@
     "raw_examples": [
       "Enhanced LRM 10"
     ],
-    "ref_count": 5,
+    "ref_count": 4,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -2019,7 +2019,7 @@
     "raw_examples": [
       "Enhanced LRM 10; Inner Sphere"
     ],
-    "ref_count": 4,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -2036,7 +2036,7 @@
     "raw_examples": [
       "Enhanced LRM 15"
     ],
-    "ref_count": 8,
+    "ref_count": 4,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -2071,7 +2071,7 @@
       "Enhanced LRM 5; Inner Sphere (OmniPod)",
       "Enhanced LRM 5; Inner Sphere"
     ],
-    "ref_count": 22,
+    "ref_count": 7,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -2088,7 +2088,7 @@
     "raw_examples": [
       "Extended Fuel Tank; Inner Sphere"
     ],
-    "ref_count": 6,
+    "ref_count": 4,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -2122,7 +2122,7 @@
     "raw_examples": [
       "Extended Fuel Tank (3 tons); Inner Sphere"
     ],
-    "ref_count": 3,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -2139,7 +2139,7 @@
     "raw_examples": [
       "External Stores Hardpoint"
     ],
-    "ref_count": 52,
+    "ref_count": 9,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -2191,7 +2191,7 @@
     "raw_examples": [
       "Ferro-Fibrous Prototype; Inner Sphere"
     ],
-    "ref_count": 32,
+    "ref_count": 13,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -2209,7 +2209,7 @@
       "FieldKitchen:OMNI",
       "FieldKitchen"
     ],
-    "ref_count": 14,
+    "ref_count": 11,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -2279,7 +2279,7 @@
     "raw_examples": [
       "Flamer (Vehicle)"
     ],
-    "ref_count": 26,
+    "ref_count": 14,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -2296,7 +2296,7 @@
     "raw_examples": [
       "Flamer (Vehicle); Inner Sphere"
     ],
-    "ref_count": 7,
+    "ref_count": 5,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -2330,7 +2330,7 @@
     "raw_examples": [
       "ER Flamer; Inner Sphere (Turret) (OmniPod)"
     ],
-    "ref_count": 4,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": "",
     "unit_types": [
@@ -2416,7 +2416,7 @@
     "raw_examples": [
       "Fusion Engine; Clan (Armored)"
     ],
-    "ref_count": 14,
+    "ref_count": 4,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -2433,7 +2433,7 @@
     "raw_examples": [
       "Fusion Engine; Inner Sphere (Armored)"
     ],
-    "ref_count": 55,
+    "ref_count": 17,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -2569,7 +2569,7 @@
     "raw_examples": [
       "Gauss Rifle; Clan (Turret)"
     ],
-    "ref_count": 6,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -2586,7 +2586,7 @@
     "raw_examples": [
       "Gauss Rifle; Inner Sphere (Turret)"
     ],
-    "ref_count": 7,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -2722,7 +2722,7 @@
     "raw_examples": [
       "Gyro; Clan (Armored)"
     ],
-    "ref_count": 18,
+    "ref_count": 5,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -2739,7 +2739,7 @@
     "raw_examples": [
       "Gyro; Inner Sphere (Armored)"
     ],
-    "ref_count": 26,
+    "ref_count": 10,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -2858,7 +2858,7 @@
     "raw_examples": [
       "Har Jel III Self-Repair System; Clan"
     ],
-    "ref_count": 26,
+    "ref_count": 13,
     "source": "harvested-from-unit-references",
     "tech_base": "Clan",
     "unit_types": [
@@ -2892,7 +2892,7 @@
     "raw_examples": [
       "Har Jel Repair Systems (Har Jel III); Inner Sphere"
     ],
-    "ref_count": 6,
+    "ref_count": 3,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -2926,7 +2926,7 @@
     "raw_examples": [
       "Heavy Gauss Rifle; Inner Sphere (Split)"
     ],
-    "ref_count": 44,
+    "ref_count": 8,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -2943,7 +2943,7 @@
     "raw_examples": [
       "Heavy Large Laser; Clan (Turret)"
     ],
-    "ref_count": 3,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -2960,7 +2960,7 @@
     "raw_examples": [
       "Heavy PPC; Inner Sphere (Turret) (OmniPod)"
     ],
-    "ref_count": 4,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -2977,7 +2977,7 @@
     "raw_examples": [
       "Heavy Rifle; Inner Sphere (Turret)"
     ],
-    "ref_count": 3,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -2994,7 +2994,7 @@
     "raw_examples": [
       "Heavy-Duty Pile Driver; Inner Sphere"
     ],
-    "ref_count": 24,
+    "ref_count": 3,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -3011,7 +3011,7 @@
     "raw_examples": [
       "HHSearchlight"
     ],
-    "ref_count": 44,
+    "ref_count": 23,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -3098,7 +3098,7 @@
     "raw_examples": [
       "Hyper Velocity Auto Cannon/10"
     ],
-    "ref_count": 8,
+    "ref_count": 6,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -3116,7 +3116,7 @@
     "raw_examples": [
       "Hyper Velocity Auto Cannon/10; Inner Sphere"
     ],
-    "ref_count": 24,
+    "ref_count": 4,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -3133,7 +3133,7 @@
     "raw_examples": [
       "Hyper Velocity Auto Cannon/2"
     ],
-    "ref_count": 7,
+    "ref_count": 5,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -3220,7 +3220,7 @@
     "raw_examples": [
       "Improved Autocannon/5; Inner Sphere"
     ],
-    "ref_count": 4,
+    "ref_count": 2,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -3288,7 +3288,7 @@
     "raw_examples": [
       "ImprovedLargePulseLaser"
     ],
-    "ref_count": 2,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -3322,7 +3322,7 @@
     "raw_examples": [
       "Improved LRM 15; Inner Sphere"
     ],
-    "ref_count": 4,
+    "ref_count": 2,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -3356,7 +3356,7 @@
     "raw_examples": [
       "Improved LRM 20; Clan"
     ],
-    "ref_count": 4,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": "Clan",
     "unit_types": [
@@ -3424,7 +3424,7 @@
     "raw_examples": [
       "Improved SRM 6; Clan"
     ],
-    "ref_count": 4,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": "Clan",
     "unit_types": [
@@ -3441,7 +3441,7 @@
     "raw_examples": [
       "Improved SRM 6; Inner Sphere"
     ],
-    "ref_count": 4,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -3458,7 +3458,7 @@
     "raw_examples": [
       "Industrial TSM; Inner Sphere"
     ],
-    "ref_count": 96,
+    "ref_count": 35,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -4617,7 +4617,7 @@
     "raw_examples": [
       "ISSRM2IOS"
     ],
-    "ref_count": 14,
+    "ref_count": 11,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -4703,7 +4703,7 @@
     "raw_examples": [
       "ISSRT6"
     ],
-    "ref_count": 4,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -4805,7 +4805,7 @@
     "raw_examples": [
       "Jump Booster; Inner Sphere"
     ],
-    "ref_count": 12,
+    "ref_count": 6,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -4823,7 +4823,7 @@
       "Light Auto Cannon/2",
       "Light Auto Cannon/2:OMNI"
     ],
-    "ref_count": 13,
+    "ref_count": 6,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -4840,7 +4840,7 @@
     "raw_examples": [
       "Light Auto Cannon/2; Inner Sphere"
     ],
-    "ref_count": 17,
+    "ref_count": 14,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -4858,7 +4858,7 @@
       "Light Auto Cannon/5",
       "Light Auto Cannon/5:OMNI"
     ],
-    "ref_count": 22,
+    "ref_count": 17,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -4877,7 +4877,7 @@
       "Light Auto Cannon/5; Inner Sphere",
       "Light Auto Cannon/5; Inner Sphere (OmniPod)"
     ],
-    "ref_count": 130,
+    "ref_count": 48,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -4946,7 +4946,7 @@
       "CLLargeChemLaser",
       "CLLargeChemLaser:OMNI"
     ],
-    "ref_count": 12,
+    "ref_count": 5,
     "source": "harvested-from-unit-references",
     "tech_base": "Clan",
     "unit_types": [
@@ -4963,7 +4963,7 @@
     "raw_examples": [
       "CLLargeChemicalLaser"
     ],
-    "ref_count": 11,
+    "ref_count": 4,
     "source": "harvested-from-unit-references",
     "tech_base": "Clan",
     "unit_types": [
@@ -4997,7 +4997,7 @@
     "raw_examples": [
       "ER Large Laser; Inner Sphere (Turret)"
     ],
-    "ref_count": 2,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": "",
     "unit_types": [
@@ -5015,7 +5015,7 @@
       "Large Re-engineered Laser",
       "Large Re-engineered Laser:OMNI"
     ],
-    "ref_count": 15,
+    "ref_count": 14,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -5033,7 +5033,7 @@
     "raw_examples": [
       "Large Re-engineered Laser; Clan (OmniPod)"
     ],
-    "ref_count": 10,
+    "ref_count": 2,
     "source": "harvested-from-unit-references",
     "tech_base": "Clan",
     "unit_types": [
@@ -5051,7 +5051,7 @@
       "Large Re-engineered Laser; Inner Sphere",
       "Large Re-engineered Laser; Inner Sphere (OmniPod)"
     ],
-    "ref_count": 110,
+    "ref_count": 21,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -5306,7 +5306,7 @@
     "raw_examples": [
       "Laser Rifle (Mauser IIC IAS)"
     ],
-    "ref_count": 6,
+    "ref_count": 5,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -5341,7 +5341,7 @@
     "raw_examples": [
       "LB 20-X AC; Inner Sphere (Split)"
     ],
-    "ref_count": 55,
+    "ref_count": 10,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -5375,7 +5375,7 @@
     "raw_examples": [
       "Lifeboat (Atmospheric)"
     ],
-    "ref_count": 12,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -5392,7 +5392,7 @@
     "raw_examples": [
       "Lifeboat (Maritime)"
     ],
-    "ref_count": 21,
+    "ref_count": 9,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -5410,7 +5410,7 @@
     "raw_examples": [
       "Lift Hoist"
     ],
-    "ref_count": 19,
+    "ref_count": 10,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -5428,7 +5428,7 @@
       "Lift Hoist; Inner Sphere (R)",
       "Lift Hoist; Inner Sphere"
     ],
-    "ref_count": 135,
+    "ref_count": 44,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -5446,7 +5446,7 @@
       "Lift Hoist/Arresting Hoist",
       "Lift Hoist/Arresting Hoist:OMNI"
     ],
-    "ref_count": 37,
+    "ref_count": 23,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -5465,7 +5465,7 @@
       "Lift Hoist/Arresting Hoist; Inner Sphere (R)",
       "Lift Hoist/Arresting Hoist; Inner Sphere"
     ],
-    "ref_count": 132,
+    "ref_count": 44,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -5482,7 +5482,7 @@
     "raw_examples": [
       "Light Blazer; Inner Sphere"
     ],
-    "ref_count": 16,
+    "ref_count": 6,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -5516,7 +5516,7 @@
     "raw_examples": [
       "Light Machine Gun (ST)"
     ],
-    "ref_count": 4,
+    "ref_count": 2,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -5533,7 +5533,7 @@
     "raw_examples": [
       "Light Machine Gun(ST)"
     ],
-    "ref_count": 22,
+    "ref_count": 10,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -5551,7 +5551,7 @@
       "Light PPC; Inner Sphere (Turret)",
       "Light PPC; Inner Sphere (Turret) (OmniPod)"
     ],
-    "ref_count": 6,
+    "ref_count": 3,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -5620,7 +5620,7 @@
       "Liquid Storage (1 ton); Clan (OmniPod)",
       "Liquid Storage (1 ton); Clan"
     ],
-    "ref_count": 7,
+    "ref_count": 6,
     "source": "harvested-from-unit-references",
     "tech_base": "Clan",
     "unit_types": [
@@ -5638,7 +5638,7 @@
       "Liquid Storage (1 ton); Inner Sphere",
       "Liquid Storage (1 ton); Inner Sphere (OmniPod)"
     ],
-    "ref_count": 14,
+    "ref_count": 10,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -5723,7 +5723,7 @@
     "raw_examples": [
       "Liquid Storage:SIZE:1.0; Inner Sphere"
     ],
-    "ref_count": 2,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -5740,7 +5740,7 @@
     "raw_examples": [
       "Liquid Storage:size:2.0; Inner Sphere"
     ],
-    "ref_count": 4,
+    "ref_count": 2,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -5774,7 +5774,7 @@
     "raw_examples": [
       "ISLongTom"
     ],
-    "ref_count": 6,
+    "ref_count": 5,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -5861,7 +5861,7 @@
     "raw_examples": [
       "LRM 15; Clan (Turret) (OmniPod)"
     ],
-    "ref_count": 12,
+    "ref_count": 2,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -5878,7 +5878,7 @@
     "raw_examples": [
       "LRM 20; Clan (Turret) (OmniPod)"
     ],
-    "ref_count": 4,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -5895,7 +5895,7 @@
     "raw_examples": [
       "LRM 20; Inner Sphere (Turret)"
     ],
-    "ref_count": 10,
+    "ref_count": 2,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -5946,7 +5946,7 @@
     "raw_examples": [
       "LRT 20"
     ],
-    "ref_count": 8,
+    "ref_count": 5,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -5963,7 +5963,7 @@
     "raw_examples": [
       "Mace; Inner Sphere"
     ],
-    "ref_count": 81,
+    "ref_count": 15,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -6031,7 +6031,7 @@
     "raw_examples": [
       "Machine Gun (Support)"
     ],
-    "ref_count": 13,
+    "ref_count": 12,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -6066,7 +6066,7 @@
     "raw_examples": [
       "Machine Gun(ST)"
     ],
-    "ref_count": 33,
+    "ref_count": 23,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -6083,7 +6083,7 @@
     "raw_examples": [
       "ISMagshotGR(ST)"
     ],
-    "ref_count": 20,
+    "ref_count": 12,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -6100,7 +6100,7 @@
     "raw_examples": [
       "Manipulator"
     ],
-    "ref_count": 2,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -6117,7 +6117,7 @@
     "raw_examples": [
       "Manipulator (Non-Mech/Non-Battle Armor)"
     ],
-    "ref_count": 6,
+    "ref_count": 5,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -6134,7 +6134,7 @@
     "raw_examples": [
       "Manipulator [Non-Mech/Non-Battle Armor]"
     ],
-    "ref_count": 10,
+    "ref_count": 8,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -6291,7 +6291,7 @@
     "raw_examples": [
       "IS Mech Mortar-2"
     ],
-    "ref_count": 3,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -6309,7 +6309,7 @@
       "Mech Mortar-4; Clan",
       "Mech Mortar-4; Clan (OmniPod)"
     ],
-    "ref_count": 14,
+    "ref_count": 5,
     "source": "harvested-from-unit-references",
     "tech_base": "Clan",
     "unit_types": [
@@ -6328,7 +6328,7 @@
       "Mech Mortar-8; Clan",
       "Clan Mech Mortar-8"
     ],
-    "ref_count": 25,
+    "ref_count": 8,
     "source": "harvested-from-unit-references",
     "tech_base": "Clan",
     "unit_types": [
@@ -6346,7 +6346,7 @@
     "raw_examples": [
       "IS Mech Mortar-8"
     ],
-    "ref_count": 3,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -6414,7 +6414,7 @@
     "raw_examples": [
       "ER Medium Laser; Clan (Turret)"
     ],
-    "ref_count": 6,
+    "ref_count": 2,
     "source": "harvested-from-unit-references",
     "tech_base": "",
     "unit_types": [
@@ -6449,7 +6449,7 @@
       "ER Medium Laser; Inner Sphere (Turret)",
       "ER Medium Laser; Inner Sphere (Turret) (OmniPod)"
     ],
-    "ref_count": 10,
+    "ref_count": 6,
     "source": "harvested-from-unit-references",
     "tech_base": "",
     "unit_types": [
@@ -6466,7 +6466,7 @@
     "raw_examples": [
       "Medium Laser; Inner Sphere (Turret) (OmniPod)"
     ],
-    "ref_count": 2,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -6483,7 +6483,7 @@
     "raw_examples": [
       "Medium Pulse Laser; Clan (Turret) (OmniPod)"
     ],
-    "ref_count": 4,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -6500,7 +6500,7 @@
     "raw_examples": [
       "Medium Re-engineered Laser"
     ],
-    "ref_count": 12,
+    "ref_count": 7,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -6519,7 +6519,7 @@
       "Medium Re-engineered Laser; Clan",
       "Medium Re-engineered Laser; Clan (OmniPod)"
     ],
-    "ref_count": 12,
+    "ref_count": 3,
     "source": "harvested-from-unit-references",
     "tech_base": "Clan",
     "unit_types": [
@@ -6537,7 +6537,7 @@
       "Medium Re-engineered Laser; Inner Sphere",
       "Medium Re-engineered Laser; Inner Sphere (OmniPod)"
     ],
-    "ref_count": 66,
+    "ref_count": 25,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -6588,7 +6588,7 @@
     "raw_examples": [
       "Medium X-Pulse Laser; Inner Sphere (Turret)"
     ],
-    "ref_count": 4,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -6605,7 +6605,7 @@
     "raw_examples": [
       "ISMekMortar1"
     ],
-    "ref_count": 2,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -6707,7 +6707,7 @@
     "raw_examples": [
       "MML 3; Inner Sphere (Turret) (OmniPod)"
     ],
-    "ref_count": 4,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -6724,7 +6724,7 @@
     "raw_examples": [
       "MML 7; Inner Sphere (Turret)"
     ],
-    "ref_count": 4,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -6742,7 +6742,7 @@
       "ISMobileFieldBase",
       "ISMobileFieldBase:OMNI"
     ],
-    "ref_count": 7,
+    "ref_count": 6,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -6793,7 +6793,7 @@
     "raw_examples": [
       "Nail Gun; Inner Sphere"
     ],
-    "ref_count": 2,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -6810,7 +6810,7 @@
     "raw_examples": [
       "Nail/Rivet Gun; Inner Sphere"
     ],
-    "ref_count": 4,
+    "ref_count": 3,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -6981,7 +6981,7 @@
       "Paramedic Equipment",
       "Paramedic Equipment:OMNI"
     ],
-    "ref_count": 61,
+    "ref_count": 26,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -7033,7 +7033,7 @@
     "raw_examples": [
       "Pile Driver; Inner Sphere"
     ],
-    "ref_count": 8,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -7067,7 +7067,7 @@
     "raw_examples": [
       "Plasma Rifle (Man-Portable)"
     ],
-    "ref_count": 9,
+    "ref_count": 6,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -7085,7 +7085,7 @@
     "raw_examples": [
       "Plasma Rifle; Inner Sphere (Turret) (OmniPod)"
     ],
-    "ref_count": 2,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -7120,7 +7120,7 @@
       "ER PPC; Clan (Turret) (OmniPod)",
       "ER PPC; Clan (Turret)"
     ],
-    "ref_count": 6,
+    "ref_count": 3,
     "source": "harvested-from-unit-references",
     "tech_base": "",
     "unit_types": [
@@ -7137,7 +7137,7 @@
     "raw_examples": [
       "ER PPC; Inner Sphere (Armored)"
     ],
-    "ref_count": 3,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": "",
     "unit_types": [
@@ -7154,7 +7154,7 @@
     "raw_examples": [
       "PPC; Inner Sphere (Turret)"
     ],
-    "ref_count": 3,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -7171,7 +7171,7 @@
     "raw_examples": [
       "ER PPC; Inner Sphere (Turret)"
     ],
-    "ref_count": 3,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": "",
     "unit_types": [
@@ -7188,7 +7188,7 @@
     "raw_examples": [
       "Primitive Prototype PPC; Inner Sphere"
     ],
-    "ref_count": 9,
+    "ref_count": 3,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -7375,7 +7375,7 @@
     "raw_examples": [
       "Rifle (Cannon, Heavy); Inner Sphere"
     ],
-    "ref_count": 3,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -7392,7 +7392,7 @@
     "raw_examples": [
       "Rifle (Cannon, Heavy); Inner Sphere (Turret)"
     ],
-    "ref_count": 3,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -7597,7 +7597,7 @@
       "RL10",
       "RL10:OMNI"
     ],
-    "ref_count": 60,
+    "ref_count": 25,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -7615,7 +7615,7 @@
     "raw_examples": [
       "RL15"
     ],
-    "ref_count": 41,
+    "ref_count": 12,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -7633,7 +7633,7 @@
     "raw_examples": [
       "RL15(ST)"
     ],
-    "ref_count": 6,
+    "ref_count": 2,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -7650,7 +7650,7 @@
     "raw_examples": [
       "RL20"
     ],
-    "ref_count": 9,
+    "ref_count": 4,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -7685,7 +7685,7 @@
     "raw_examples": [
       "Rock Cutter; Inner Sphere"
     ],
-    "ref_count": 50,
+    "ref_count": 10,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -7702,7 +7702,7 @@
     "raw_examples": [
       "Salvage Arm; Inner Sphere"
     ],
-    "ref_count": 38,
+    "ref_count": 19,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -7720,7 +7720,7 @@
       "Searchlight",
       "Searchlight:OMNI"
     ],
-    "ref_count": 51,
+    "ref_count": 45,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -7738,7 +7738,7 @@
       "Searchlight; Inner Sphere",
       "Searchlight; Inner Sphere (R)"
     ],
-    "ref_count": 82,
+    "ref_count": 70,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -7755,7 +7755,7 @@
     "raw_examples": [
       "Sensors (Armored)"
     ],
-    "ref_count": 7,
+    "ref_count": 6,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -7875,7 +7875,7 @@
       "Small Re-engineered Laser; Inner Sphere",
       "Small Re-engineered Laser; Inner Sphere (OmniPod)"
     ],
-    "ref_count": 6,
+    "ref_count": 5,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -8028,7 +8028,7 @@
     "raw_examples": [
       "ISSpaceMineDispenser"
     ],
-    "ref_count": 2,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -8148,7 +8148,7 @@
     "raw_examples": [
       "SRM 2 IOS; Inner Sphere"
     ],
-    "ref_count": 9,
+    "ref_count": 6,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -8199,7 +8199,7 @@
     "raw_examples": [
       "SRM 2; Clan (IOS) (OmniPod)"
     ],
-    "ref_count": 14,
+    "ref_count": 2,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -8267,7 +8267,7 @@
     "raw_examples": [
       "SRM 4; Clan (Turret)"
     ],
-    "ref_count": 2,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -8301,7 +8301,7 @@
     "raw_examples": [
       "SRM 6 IOS; Inner Sphere (OmniPod)"
     ],
-    "ref_count": 2,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -8318,7 +8318,7 @@
     "raw_examples": [
       "SRM 6 OS; Inner Sphere"
     ],
-    "ref_count": 2,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -8335,7 +8335,7 @@
     "raw_examples": [
       "SRM 6; Clan (IOS) (OmniPod)"
     ],
-    "ref_count": 4,
+    "ref_count": 3,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -8352,7 +8352,7 @@
     "raw_examples": [
       "SRM 6; Clan (Turret)"
     ],
-    "ref_count": 2,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -8386,7 +8386,7 @@
     "raw_examples": [
       "SRM Launcher (Light)"
     ],
-    "ref_count": 5,
+    "ref_count": 2,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -8492,7 +8492,7 @@
       "Streak SRM 2; Clan (IOS) (OmniPod)",
       "Streak SRM 2; Clan (IOS)"
     ],
-    "ref_count": 6,
+    "ref_count": 4,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -8646,7 +8646,7 @@
     "raw_examples": [
       "Support Laser"
     ],
-    "ref_count": 6,
+    "ref_count": 5,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -8821,7 +8821,7 @@
     "raw_examples": [
       "Tank Sprayer"
     ],
-    "ref_count": 18,
+    "ref_count": 16,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -8924,7 +8924,7 @@
       "TSEMP Cannon",
       "TSEMP Cannon:OMNI"
     ],
-    "ref_count": 6,
+    "ref_count": 5,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -8942,7 +8942,7 @@
       "TSEMP Cannon; Clan (OmniPod)",
       "TSEMP Cannon; Clan"
     ],
-    "ref_count": 45,
+    "ref_count": 9,
     "source": "harvested-from-unit-references",
     "tech_base": "Clan",
     "unit_types": [
@@ -8960,7 +8960,7 @@
       "TSEMP Cannon; Inner Sphere",
       "TSEMP Cannon; Inner Sphere (OmniPod)"
     ],
-    "ref_count": 121,
+    "ref_count": 25,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -8977,7 +8977,7 @@
     "raw_examples": [
       "TSEMP One-Shot; Clan (OmniPod)"
     ],
-    "ref_count": 3,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": "Clan",
     "unit_types": [
@@ -8994,7 +8994,7 @@
     "raw_examples": [
       "TSEMP One-Shot; Inner Sphere"
     ],
-    "ref_count": 3,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -9012,7 +9012,7 @@
       "TSEMP Repeating Cannon; Inner Sphere",
       "TSEMP Repeating Cannon; Inner Sphere (OmniPod)"
     ],
-    "ref_count": 14,
+    "ref_count": 2,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -9098,7 +9098,7 @@
     "raw_examples": [
       "Vehicle Flamer"
     ],
-    "ref_count": 31,
+    "ref_count": 23,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -9132,7 +9132,7 @@
     "raw_examples": [
       "Vehicle Flamer; Inner Sphere"
     ],
-    "ref_count": 2,
+    "ref_count": 1,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [
@@ -9150,7 +9150,7 @@
       "VehicleJumpJet",
       "VehicleJumpJet:OMNI"
     ],
-    "ref_count": 55,
+    "ref_count": 8,
     "source": "harvested-from-unit-references",
     "tech_base": null,
     "unit_types": [
@@ -9167,7 +9167,7 @@
     "raw_examples": [
       "IS Vehicular Stealth"
     ],
-    "ref_count": 72,
+    "ref_count": 39,
     "source": "harvested-from-unit-references",
     "tech_base": "Inner Sphere",
     "unit_types": [

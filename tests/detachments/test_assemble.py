@@ -230,17 +230,17 @@ class TestVehicle:
         assert d["movement"] == "5\""    # cruise 3 → 5"
         assert d["armor_save"] == "4+"   # 200 → 100-299 → 4+ (vehicle table)
         assert d["detachment_size"] == {"base": 4, "max": 12}
-        # 4→12: 8 placeholder upgrade rows.
+        # IS vehicles: +4 per step; no BV in test fixtures so cost is None.
         ups = d["upgrade_options"]["detachment_size"]
-        assert [u["size"] for u in ups] == [5, 6, 7, 8, 9, 10, 11, 12]
-        assert all(u["points"] is None for u in ups)
+        assert ups == [{"add": 4, "cost": None}, {"add": 8, "cost": None}]
 
     def test_clan_vehicle_size_and_label(self, weapon_index, ammo_index):
         d = build_detachment(_clan_vehicle_record(), weapon_index, ammo_index, None, Coverage("vehicle"))
         assert d["detachment"] == "Vehicle Star"
         assert d["detachment_size"] == {"base": 5, "max": 15}
+        # Clan vehicles: +5 per step; no BV in test fixtures so cost is None.
         ups = d["upgrade_options"]["detachment_size"]
-        assert [u["size"] for u in ups] == list(range(6, 16))
+        assert ups == [{"add": 5, "cost": None}, {"add": 10, "cost": None}]
 
 
 class TestAerospace:

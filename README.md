@@ -41,13 +41,47 @@ uaw-base-ranges [--index-dir data/index] [--output-dir output/base-value-ranges]
 Outputs `base_ranges.json` and a Markdown summary to `output/base-value-ranges/`.
 
 ### `uaw-detachments`
-Assembles full detachment stat blocks (armor save, movement, weapons, upgrade options) for each unit type.
+Assembles full detachment stat blocks (armor save, movement, weapons, upgrade options, and points) for each unit type. Weapon profiles are stored as links only — full profile data is joined from `data/WeaponRules.csv` at render time.
 
 ```
-uaw-detachments [--index-dir data/index] [--weapons-csv data/WeaponRules.csv] [--ammo-csv data/AmmunitionRules.csv] [--output-dir output/detachments]
+uaw-detachments [--index-dir data/index] [--weapon-rules data/WeaponRules.csv] [--ammo-rules data/AmmunitionRules.csv] [--bv-cache output/bv_cache.json] [--output-dir output/detachments]
 ```
 
 Outputs `detachments_mech.json`, `detachments_vehicle.json`, `detachments_aerospace.json`, and a coverage report to `output/detachments/`.
+
+**Points** are derived as 25% of Battle Value (floor), sourced from `output/bv_cache.json`. The cache is built by scraping the [Master Unit List](https://www.masterunitlist.info) — see `scripts/gen_point_assessment.py` for the one-time fetch script. If no cache is found, points default to `null`.
+
+### `uaw-cards` — Detachment Card Generator
+
+Renders every detachment record into a two-sided HTML card page — one HTML file per unit type. Cards match the *Legions Imperialis* card format:
+
+- **Front**: name/detachment-type header, unit type and scale, detachment size, stat row (Movement, Armor Save, Wounds), weapon bullet list, full weapon profile table (Range, Heat, Dice, To-Hit, AP, Type, Traits), special rules.
+- **Back**: points cost, detachment description, size upgrade options with dotted-leader costs, special ammo choices.
+
+```
+uaw-cards [--detachments-dir output/detachments] [--weapon-rules data/WeaponRules.csv] [--ammo-rules data/AmmunitionRules.csv] [--output-dir output/cards] [--types mech vehicle aerospace] [--limit N]
+```
+
+Outputs `output/cards/cards_mech.html`, `cards_vehicle.html`, and `cards_aerospace.html`.
+
+Use `--limit N` to render only the first `N` detachments per type — useful for a quick spot-check without generating the full files:
+
+```
+uaw-cards --limit 10 --output-dir output/cards_sample
+```
+
+**Full pipeline** (from raw data files through to final cards):
+
+```
+# 1. Build canonical indices from raw BattleTech data files
+uaw-datacheck --data-dir <path-to-BT-data-files> --index-dir data/index
+
+# 2. Assemble detachment records (with points via BV cache)
+uaw-detachments
+
+# 3. Render HTML cards
+uaw-cards
+```
 
 ## Running Tests
 
@@ -63,8 +97,12 @@ pytest
 | `src/itemization/` | Weapon/equipment catalogues and translation bands |
 | `src/baseranges/` | Movement and armor range analysis |
 | `src/detachments/` | Detachment stat block assembly |
+| `src/cards/` | HTML card renderer |
 | `data/index/` | Generated canonical JSON indices |
 | `data/WeaponRules.csv` | Translated weapon stat rules |
 | `data/AmmunitionRules.csv` | Translated ammo rules |
 | `design/` | Game design documents and translation tables |
-| `output/` | Generated reports (not committed) |
+| `output/detachments/` | Generated detachment JSON + coverage report |
+| `output/cards/` | Generated HTML card pages |
+| `output/bv_cache.json` | Cached Battle Value lookups from Master Unit List |
+| `output/` | All generated reports (not committed) |
