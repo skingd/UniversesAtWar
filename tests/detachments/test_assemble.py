@@ -137,7 +137,7 @@ class TestAtlas:
         assert d["unit_type"] == "BattleMech"
         assert d["tech_base"] == "Inner Sphere"
         assert d["tonnage"] == 100.0
-        assert d["armor_save"] == "3+"   # 304 → 300-400 → 3+
+        assert d["armor_save"] == "1+"   # 304 → 301+ → 1+ (mech table)
         assert d["movement"] == "5\""    # walk 3 → 5"
         assert d["wounds"] == 8          # assault
         assert d["scale"] == 4
@@ -177,7 +177,7 @@ class TestAtlas:
 class TestLocust:
     def test_core_stats(self, weapon_index, ammo_index):
         d = build_detachment(_locust_record(), weapon_index, ammo_index, None, Coverage("mech"))
-        assert d["armor_save"] == "5+"  # 64 → 5+
+        assert d["armor_save"] == "4+"  # 64 → 21-80 → 4+ (mech table)
         assert d["movement"] == "10\""  # walk 8 → 10"
         assert d["wounds"] == 2
         assert d["scale"] == 2
@@ -203,7 +203,7 @@ class TestVehicle:
         assert d["scale"] == 2
         assert d["wounds"] == 3
         assert d["movement"] == "5\""    # cruise 3 → 5"
-        assert d["armor_save"] == "3+"   # 200 → 81-250 → 3+
+        assert d["armor_save"] == "4+"   # 200 → 100-299 → 4+ (vehicle table)
         assert d["detachment_size"] == {"base": 4, "max": 12}
         # 4→12: 8 placeholder upgrade rows.
         ups = d["upgrade_options"]["detachment_size"]

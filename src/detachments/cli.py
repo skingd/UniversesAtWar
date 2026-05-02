@@ -49,7 +49,8 @@ def _coverage_markdown(per_type: dict[str, Coverage]) -> str:
             lines.append("  - Examples:")
             for s in sample:
                 lines.append(
-                    f"    - {s['unit']} (speed={s['speed']} → {s['fallback_movement']})"
+                    f"    - {s['unit']} (speed={s['speed']} -> {s['fallback_movement']})"
+
                 )
         lines.append(f"- Distinct unmapped weapon names: {len(cov.unmapped_weapons)}")
         if cov.unmapped_weapons:
@@ -143,7 +144,7 @@ def main(argv: list[str] | None = None) -> int:
         out_file = args.output_dir / f"detachments_{unit_type}.json"
         with open(out_file, "w", encoding="utf-8") as f:
             json.dump(detachments, f, indent=2, ensure_ascii=False)
-        print(f"[detachments]   wrote {len(detachments)} → {out_file}")
+        print(f"[detachments]   wrote {len(detachments)} -> {out_file}")
         print(f"[detachments]   coverage: {cov.emitted}/{cov.total_records} emitted, "
               f"{len(cov.unmapped_weapons)} unmapped weapon names, "
               f"{len(cov.missing_speed)} speed gaps")

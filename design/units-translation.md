@@ -20,10 +20,12 @@ Every detachment will have a profile. This will consist of the following informa
 ### Mech Armor
 | Armor Range | Saving Throw |
 |-|-|
-| 0 - 99      | 5+           |
-| 100 - 299 | 4+ |
-| 300 - 400 | 3+ |
-| 401+ | 2+ |
+| 0 - 20      | 5+           |
+| 21 - 80 | 4+ |
+| 81 - 250 | 3+ |
+| 251 - 300 | 2+ |
+| 301+ | 1+ |
+
 
 ### Aerospace Armor
 | Armor Range | Saving Throw |
@@ -37,11 +39,10 @@ Every detachment will have a profile. This will consist of the following informa
 ### Vehicle Armor
 | Armor Range | Saving Throw |
 |-|-|
-| 0 - 20      | 5+           |
-| 21 - 80 | 4+ |
-| 81 - 250 | 3+ |
-| 251 - 300 | 2+ |
-| 301+ | 1+ |
+| 0 - 99      | 5+           |
+| 100 - 299 | 4+ |
+| 300 - 400 | 3+ |
+| 401+ | 2+ |
 
 ## Speed Translation
 
