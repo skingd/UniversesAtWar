@@ -1,0 +1,108 @@
+canonical_id,display_name,category,tech_base
+is-gauss-rifle,Inner Sphere Gauss Rifle,ballistic,Inner Sphere
+is-heavy-gauss-rifle,Inner Sphere Heavy Gauss Rifle,ballistic,Inner Sphere
+is-heavy-machine-gun,Inner Sphere Heavy Machine Gun,ballistic,Inner Sphere
+is-heavy-rifle,Inner Sphere Heavy Rifle,ballistic,Inner Sphere
+is-improved-gauss-rifle,Inner Sphere Improved Gauss Rifle,ballistic,Inner Sphere
+is-improved-heavy-gauss-rifle,Inner Sphere Improved Heavy Gauss Rifle,ballistic,Inner Sphere
+is-light-ac-2,Inner Sphere Light AC/2,ballistic,Inner Sphere
+is-light-ac-5,Inner Sphere Light AC/5,ballistic,Inner Sphere
+is-light-gauss-rifle,Inner Sphere Light Gauss Rifle,ballistic,Inner Sphere
+is-light-machine-gun,Inner Sphere Light Machine Gun,ballistic,Inner Sphere
+is-long-tom-cannon,Inner Sphere Long Tom Cannon,ballistic,Inner Sphere
+is-magshot-gauss-rifle,Inner Sphere MagShot Gauss Rifle,ballistic,Inner Sphere
+is-rotary-ac-2,Inner Sphere Rotary AC/2,ballistic,Inner Sphere
+is-rotary-ac-5,Inner Sphere Rotary AC/5,ballistic,Inner Sphere
+is-sniper-cannon,Inner Sphere Sniper Cannon,ballistic,Inner Sphere
+is-thumper-cannon,Inner Sphere Thumper Cannon,ballistic,Inner Sphere
+is-ultra-ac-10,Inner Sphere Ultra AC/10,ballistic,Inner Sphere
+is-ultra-ac-2,Inner Sphere Ultra AC/2,ballistic,Inner Sphere
+is-ultra-ac-20,Inner Sphere Ultra AC/20,ballistic,Inner Sphere
+is-ultra-ac-5,Inner Sphere Ultra AC/5,ballistic,Inner Sphere
+is-blazer-cannon,Inner Sphere Blazer Cannon,energy,Inner Sphere
+is-bombast-laser,Inner Sphere Bombast Laser,energy,Inner Sphere
+is-er-flamer,Inner Sphere ER Flamer,energy,Inner Sphere
+is-er-large-laser,Inner Sphere ER Large Laser,energy,Inner Sphere
+is-er-medium-laser,Inner Sphere ER Medium Laser,energy,Inner Sphere
+is-er-small-laser,Inner Sphere ER Small Laser,energy,Inner Sphere
+is-heavy-flamer,Inner Sphere Heavy Flamer,energy,Inner Sphere
+is-heavy-large-laser,Inner Sphere Heavy Large Laser,energy,Inner Sphere
+is-heavy-medium-laser,Inner Sphere Heavy Medium Laser,energy,Inner Sphere
+is-heavy-ppc,Inner Sphere Heavy PPC,energy,Inner Sphere
+is-heavy-small-laser,Inner Sphere Heavy Small Laser,energy,Inner Sphere
+is-large-pulse-laser,Inner Sphere Large Pulse Laser,energy,Inner Sphere
+is-large-vsp-laser,Inner Sphere Large VSP Laser,energy,Inner Sphere
+is-large-x-pulse-laser,Inner Sphere Large X-Pulse Laser,energy,Inner Sphere
+is-light-ppc,Inner Sphere Light PPC,energy,Inner Sphere
+is-medium-pulse-laser,Inner Sphere Medium Pulse Laser,energy,Inner Sphere
+is-medium-vsp-laser,Inner Sphere Medium VSP Laser,energy,Inner Sphere
+is-medium-x-pulse-laser,Inner Sphere Medium X-Pulse Laser,energy,Inner Sphere
+is-plasma-rifle,Inner Sphere Plasma Rifle,energy,Inner Sphere
+is-risc-hyper-laser,Inner Sphere RISC Hyper Laser,energy,Inner Sphere
+is-small-pulse-laser,Inner Sphere Small Pulse Laser,energy,Inner Sphere
+is-small-vsp-laser,Inner Sphere Small VSP Laser,energy,Inner Sphere
+is-small-x-pulse-laser,Inner Sphere Small X-Pulse Laser,energy,Inner Sphere
+is-snub-nose-ppc,Inner Sphere Snub-Nose PPC,energy,Inner Sphere
+clan-iatm-6,Clan iATM 6,missile,Clan
+clan-narc-missile-beacon,Clan Narc Missile Beacon,missile,Clan
+is-arrow-iv,Inner Sphere Arrow IV,missile,Inner Sphere
+is-battlemech-taser,Inner Sphere BattleMech Taser,missile,Inner Sphere
+is-extended-lrm-10,Inner Sphere Extended LRM 10,missile,Inner Sphere
+is-extended-lrm-15,Inner Sphere Extended LRM 15,missile,Inner Sphere
+is-extended-lrm-20,Inner Sphere Extended LRM 20,missile,Inner Sphere
+is-extended-lrm-5,Inner Sphere Extended LRM 5,missile,Inner Sphere
+is-inarc-launcher,Inner Sphere iNarc Launcher,missile,Inner Sphere
+is-mrm-40,Inner Sphere MRM 40,missile,Inner Sphere
+is-narc-missile-beacon,Inner Sphere Narc Missile Beacon,missile,Inner Sphere
+is-rocket-launcher-10,Inner Sphere Rocket Launcher 10,missile,Inner Sphere
+is-rocket-launcher-15,Inner Sphere Rocket Launcher 15,missile,Inner Sphere
+is-rocket-launcher-20,Inner Sphere Rocket Launcher 20,missile,Inner Sphere
+is-streak-srm-2,Inner Sphere Streak SRM 2,missile,Inner Sphere
+is-streak-srm-4,Inner Sphere Streak SRM 4,missile,Inner Sphere
+is-streak-srm-6,Inner Sphere Streak SRM 6,missile,Inner Sphere
+is-thunderbolt-10,Inner Sphere Thunderbolt 10,missile,Inner Sphere
+is-thunderbolt-15,Inner Sphere Thunderbolt 15,missile,Inner Sphere
+is-thunderbolt-20,Inner Sphere Thunderbolt 20,missile,Inner Sphere
+is-thunderbolt-5,Inner Sphere Thunderbolt 5,missile,Inner Sphere
+is-claw,Inner Sphere Claw,physical,Inner Sphere
+is-hatchet,Inner Sphere Hatchet,physical,Inner Sphere
+is-large-vibroblade,Inner Sphere Large Vibroblade,physical,Inner Sphere
+is-medium-vibroblade,Inner Sphere Medium Vibroblade,physical,Inner Sphere
+is-retractable-blade,Inner Sphere Retractable Blade,physical,Inner Sphere
+is-small-vibroblade,Inner Sphere Small Vibroblade,physical,Inner Sphere
+is-sword,Inner Sphere Sword,physical,Inner Sphere
+index,index,infantry,
+clan-laser-anti-missile-system,Clan Laser Anti-Missile System,equipment,Clan
+is-aes,Inner Sphere AES,equipment,Inner Sphere
+is-angel-ecm-suite,Inner Sphere Angel ECM Suite,equipment,Inner Sphere
+is-anti-missile-system,Inner Sphere Anti-Missile System,equipment,Inner Sphere
+is-apollo-fcs,Inner Sphere Apollo FCS,equipment,Inner Sphere
+is-artemis-iv-fcs,Inner Sphere Artemis IV FCS,equipment,Inner Sphere
+is-b-pod,Inner Sphere B-Pod,equipment,Inner Sphere
+is-beagle-active-probe,Inner Sphere Beagle Active Probe,equipment,Inner Sphere
+is-bloodhound-active-probe,Inner Sphere Bloodhound Active Probe,equipment,Inner Sphere
+is-boosted-c3-master,Inner Sphere Boosted C3 Master,equipment,Inner Sphere
+is-boosted-c3-slave,Inner Sphere Boosted C3 Slave,equipment,Inner Sphere
+is-c3-computer-master,Inner Sphere C3 Computer (Master),equipment,Inner Sphere
+is-c3-computer-slave,Inner Sphere C3 Computer (Slave),equipment,Inner Sphere
+is-chameleon-lps,Inner Sphere Chameleon LPS,equipment,Inner Sphere
+is-double-heat-sink,Inner Sphere Double Heat Sink,equipment,Inner Sphere
+is-guardian-ecm-suite,Inner Sphere Guardian ECM Suite,equipment,Inner Sphere
+is-heat-sink,Inner Sphere Heat Sink,equipment,Inner Sphere
+is-improved-c3-computer,Inner Sphere Improved C3 Computer,equipment,Inner Sphere
+is-improved-jump-jet,Inner Sphere Improved Jump Jet,equipment,Inner Sphere
+is-large-shield,Inner Sphere Large Shield,equipment,Inner Sphere
+is-laser-anti-missile-system,Inner Sphere Laser Anti-Missile System,equipment,Inner Sphere
+is-light-tag,Inner Sphere Light TAG,equipment,Inner Sphere
+is-m-pod,Inner Sphere M-Pod,equipment,Inner Sphere
+is-masc,Inner Sphere MASC,equipment,Inner Sphere
+is-mechanical-jump-booster,Inner Sphere Mechanical Jump Booster,equipment,Inner Sphere
+is-medium-shield,Inner Sphere Medium Shield,equipment,Inner Sphere
+is-modular-armor,Inner Sphere Modular Armor,equipment,Inner Sphere
+is-null-signature-system,Inner Sphere Null Signature System,equipment,Inner Sphere
+is-partial-wing,Inner Sphere Partial Wing,equipment,Inner Sphere
+is-small-shield,Inner Sphere Small Shield,equipment,Inner Sphere
+is-supercharger,Inner Sphere Supercharger,equipment,Inner Sphere
+is-umu,Inner Sphere UMU,equipment,Inner Sphere
+unit-derived-is-lac-2,Light Auto Cannon/2,unit-derived,Inner Sphere
+unit-derived-is-lac-5,Light Auto Cannon/5,unit-derived,Inner Sphere

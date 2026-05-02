@@ -61,6 +61,26 @@ The Narc system does no damage on a successful hit. Instead, place a narc beacon
 
 **INarc**: Improved Narc systems are an advanced version of the standard Narc system that provides even greater benefits to missile weapon accuracy. They function exactly like normal Narc systems, but in addition to the standard Narc effects, all missile weapons get +1 to-hit against the target and ECM Suites have no effect (though Angel ECM Suites still block INarc).
 
+Rule: The INarc system does no damage on a successful hit. Instead, place an INarc beacon on a single model in an enemy detachment if a hit is scored. All missile weapons that target that detachment can be allocated to the model with the beacon as if they were precision shots. In addition, they do not suffer from any indirect fire penalties and gain +1 to hit. ECM Suites have no effect against INarc beacons.
+
+**Variable Output**: Variable Output weapons have two or more profiles. Each time the weapon is fired, the owning player can choose which profile to use for that attack. Only one profile can be used each time the weapon is fired, but a different profile can be selected each time. For example, a Variable Output weapon might have one profile that does more damage but generates more heat, and another profile that does less damage but generates less heat. This allows for greater tactical flexibility, as players can choose the profile that best suits the situation at hand.
+
+Rule: Each time the weapon is fired, the owning player can choose which profile to use for that attack. Only one profile can be used each time the weapon is fired, but a different profile can be selected each time.
+
+**Dumbfire**: Weapons with the Dumbfire trait cannot benefit from Artemis or Narc systems, and do not gain any bonuses from targeting computers. They are also unaffected by ECM Suites. This represents the fact that these weapons are unguided and rely solely on the skill of the operator to hit their target.
+
+Rule: Weapons with the Dumbfire trait cannot benefit from Artemis or Narc systems, and do not gain any bonuses from targeting computers. They are also unaffected by ECM Suites.
+
+**Special Ammo**: Weapons with the Special Ammo trait have access to a variety of different ammunition types that can be used to enhance their performance in different ways. When selecting a detachment that includes a weapon with the Special Ammo trait, the owning player can choose up to three special ammunition types from the Ammunition list. The same ammunition type can be selected multiple times. Each selection adds the points cost of that ammunition type to the detachment's total cost. 
+
+When firing a weapon with the Special Ammo trait, the owning player can choose to use one of the selected ammunition types for that attack, as long as it is compatible with the weapon. The effects of the chosen ammunition replace the profile of the weapon for that attack.
+
+After the attack is resolved, the chosen ammunition type is expended and cannot be used again for the rest of the game. This represents the fact that special ammunition is often in limited supply and must be used strategically.
+
+The best way to track this is to place ammo tokens on the detachment card to represent the available ammunition types. When a weapon with the Special Ammo trait is fired and a special ammunition type is chosen, remove one of the corresponding ammo tokens from the detachment card to indicate that it has been expended.
+
+Rule: A unit with a weapon with the special weapon trait can purchase up to 3 ammo types for that detachment. These replace the weapon's profile when used, and are expended after use. The same ammo type can be selected multiple times.
+
 
 ## Equipment Rules
 
