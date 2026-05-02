@@ -1,6 +1,6 @@
 Weapon Name,Range,Heat,Dice,To-Hit,AP,Type,Traits
 Clan AP Gauss Rifle,"8""",0,2,5+,-1,Ballistic,"Light, Rapid Fire"
-Clan Arrow IV,"8"" -100""",4,2,5+,-3,Missile,"Barrage, Special Ammo, 5"" Blast, Demolisher"
+Clan Arrow IV,"8"" -100""",4,2,5+,-3,Missile,"Barrage, Special Ammo, 5"" Blast"
 Clan ATM 12,"2""-14""",4,4,5+,-1,Missile,"Artemis IV, Barrage, Special Ammo, Anti-Tank"
 Clan ATM 3,"2""-14""",1,1,5+,-1,Missile,"Artemis IV, Barrage, Special Ammo, Anti-Tank"
 Clan ATM 6,"2""-14""",2,2,5+,-1,Missile,"Artemis IV, Barrage, Special Ammo, Anti-Tank"
@@ -75,7 +75,7 @@ Inner Sphere AC/10,"14""",1,1,5+,-2,Ballistic,"Anti-Tank, Special Ammo"
 Inner Sphere AC/2,"2""-20""",1,4,5+,-1,Ballistic,"Light AT, Special Ammo, Skyfire"
 Inner Sphere AC/20,"8""",2,1,5+,-3,Ballistic,"Anti-Tank, Special Ammo"
 Inner Sphere AC/5,"2""-18""",1,2,5+,-1,Ballistic,"Light AT, Special Ammo"
-Inner Sphere Arrow IV,"12"" -100""",4,2,5+,-3,Missile,"Barrage, Special Ammo, Blast (5""), Demolisher"
+Inner Sphere Arrow IV,"12"" -100""",4,2,5+,-3,Missile,"Barrage, Special Ammo, Blast (5"")"
 Inner Sphere BattleMech Taser,"8""",2,1,5+,0,Ballistic,Shock Pulse
 Inner Sphere Blazer Cannon,"12""",3,2,4+,-3,Ballistic,"Accurate, Anti-Tank"
 Inner Sphere Bombast Laser,"14""",*,*,4+,*,Energy,Power Capacitor
@@ -104,7 +104,7 @@ Inner Sphere Heavy Small Laser,"6""",1,1,4+,-1,Energy,Light AT
 Inner Sphere Improved Gauss Rifle,"1""-20""",1,1,4+,-4,Ballistic,"Anti-Tank"
 Inner Sphere Improved Heavy Gauss Rifle,"2""-18""",1,2,4+,-4,Ballistic,"Anti-Tank"
 Inner Sphere iNarc Launcher,"14""",,,,,Missile,"Narc, Special Ammo"
-Inner Sphere Lance,Melee,,,,,Support,
+Inner Sphere Lance,Melee,,,,,Support,Reach
 Inner Sphere Large Laser,"14""",2,1,4+,-2,Energy,Anti-Armor
 Inner Sphere Large Pulse Laser,"8""",3,1,4+,-1,Energy,"Anti-Armor, Accurate"
 Inner Sphere Large Vibroblade,Melee,,,,,Support,"Rend, Shred"
@@ -119,7 +119,7 @@ Inner Sphere Light AC/5,"14""",1,2,5+,-1,Ballistic,"Light AT, Special Ammo"
 Inner Sphere Light Gauss Rifle,"2""-20""",0,1,4+,-2,Ballistic,Anti-Tank
 Inner Sphere Light Machine Gun,"8""",0,2,5+,0,Ballistic,"Light, Rapid Fire"
 Inner Sphere Light PPC,"2""-18""",2,1,4+,-2,Energy,Shock Pulse
-Inner Sphere Long Tom Cannon,"2""-20""",5,2,5+,-3,Ballistic,"Barrage, Demolisher, Siege"
+Inner Sphere Long Tom Cannon,"2""-55""",5,2,5+,-3,Ballistic,"Heavy Barrage, Siege Weapon"
 Inner Sphere LRM 10,"4""-20""",1,2,5+,-1,Missile,"Anti-Tank, Barrage, Special Ammo"
 Inner Sphere LRM 15,"4""-20""",2,3,5+,-1,Missile,"Anti-Tank, Barrage, Special Ammo"
 Inner Sphere LRM 20,"4""-20""",2,4,5+,-1,Missile,"Anti-Tank, Barrage, Special Ammo"
@@ -144,9 +144,9 @@ Inner Sphere Plasma Rifle,"14""",4,3,4+,-1,Energy,"Plasma, Light, Ignores Cover"
 Inner Sphere PPC,"2""-18""",4,1,4+,-3,Energy,Shock Pulse
 Inner Sphere Retractable Blade,Melee,,,,,Support,
 Inner Sphere RISC Hyper Laser,"20""",7,5,4+,-4,Energy,Anti-Tank
-Inner Sphere Rocket Launcher 10,"18""",2,3,5+,-2,Missile,"Single Use, Dumb Fire"
-Inner Sphere Rocket Launcher 15,"18""",2,5,5+,-2,Missile,"Single Use, Dumb Fire"
-Inner Sphere Rocket Launcher 20,"18""",3,7,5+,-2,Missile,"One-Shot, Barrage"
+Inner Sphere Rocket Launcher 10,"18""",2,3,5+,-2,Missile,"Limited(1), Dumbfire"
+Inner Sphere Rocket Launcher 15,"18""",2,5,5+,-2,Missile,"Limited(1), Dumbfire"
+Inner Sphere Rocket Launcher 20,"18""",3,7,5+,-2,Missile,"Limited(1), Dumbfire"
 Inner Sphere Rotary AC/2,"18""",1,5,5+,-1,Ballistic,"Light AT, Assault"
 Inner Sphere Rotary AC/5,"14""",1,3,5+,-1,Ballistic,"Light AT, Assault"
 Inner Sphere Silver Bullet Gauss Rifle,"1""-20""",1,5,5+,-2,Ballistic,Light AT
