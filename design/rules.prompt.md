@@ -145,9 +145,9 @@ Rule: If a unit with CASE is hit by a weapon that does additional wounds, reduce
 
 Rule: If a unit with CASE II is hit by a weapon that does additional wounds, reduce those additional wounds by d3.
 
-**Jump Jets**: Jump Jets are fusion powered thrusters that allow mechs to quickly move to higher positions or dodge incoming attacks. The elevation gain is relatively low and cannot be sustained, but is nevertheless effective at quickly relocating. The mech gains the skimmer special rule, can move half its movement and gains +1 heat. It can gain +2 heat to gain its full movement as a skimmer.
+**Jump Jets**: Jump Jets are fusion powered thrusters that allow mechs to quickly move to higher positions or dodge incoming attacks. The elevation gain is relatively low and is not true flight, but is nevertheless effective at quickly relocating. Before a mech with Jump Jets moves for the first time each turn, the owning player can declare that it is using its jump jets. If they do so, the mech immediately gains 1 heat and the Skimmer special rule until the end of the turn. If the mech moves more than its normal movement range after declaring the use of Jump Jets, it generates an additional +1 heat.
 
-Rule: The mech gains the skimmer special rule, can move half its movement and gains +1 heat. It can gain +2 heat to gain its full movement as a skimmer.
+Rule: Before a mech with Jump Jets moves for the first time each turn, the owning player can declare that it is using its jump jets. If they do so, the mech immediately gains 1 heat and the Skimmer special rule until the end of the turn. If the mech moves more than its normal movement range after declaring the use of Jump Jets, it generates an additional +1 heat.
 
 **Improved Jump Jets**: They function exactly like normal Jump Jets, but generate only +1 heat regardless of how far the mech moves.
 
@@ -167,14 +167,6 @@ Rule: Once per game, before rolling for heat effects, a mech with a coolant pod 
 - Autocannon/x
   - Autocannon/x (Bearhunter Superheavy), Autocannon/x (Semi-Portable), Autocannon/x Primitive
 
-## Weapon Profiles
-| Name   | Range  | Heat | Dice | To-Hit | Type | Traits |
-| ATM 6  | 2"-30" | 2    | 2    | 5+ | Missile | Artemis IV, Special Ammo, Barrage |
-| ATM 12 | 2"-30" | 2    | 3    | 5+ | Missile | Artemis IV, Special Ammo, Barrage |
-|Autocannon/2 | 
-|Autocannon/5
-|Autocannon/10
-|Autocannon/20
 
 ### Mech Weapons
 

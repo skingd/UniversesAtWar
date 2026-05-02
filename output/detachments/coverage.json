@@ -9,7 +9,7 @@
     "skipped_missing_tonnage": 0,
     "missing_speed_count": 0,
     "missing_speed_samples": [],
-    "unmapped_weapons_count": 123,
+    "unmapped_weapons_count": 124,
     "unmapped_weapons_top": [
       [
         "RL 10; Inner Sphere",
@@ -98,6 +98,10 @@
       [
         "TAG; Inner Sphere (OmniPod)",
         19
+      ],
+      [
+        "Bomb Bay; Inner Sphere",
+        18
       ],
       [
         "TAG; Clan (OmniPod)",
@@ -205,10 +209,6 @@
       ],
       [
         "Laser AMS; Inner Sphere (OmniPod)",
-        8
-      ],
-      [
-        "Rocket Launcher 10 Prototype; Clan",
         8
       ]
     ]

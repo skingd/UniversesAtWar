@@ -99,6 +99,10 @@ _WEAPON_HINT_TOKENS: tuple[str, ...] = (
     "rocket launcher", "mortar", "machine gun", "machinegun", "mg",
     "uac", "lb ", "lb-", "hag", "arrow iv", "thunderbolt", "narc",
     "tag", "flamer", "plasma", "snub", "snub-nose", "bombard",
+    # Aerospace ordnance: bombs are weapons (with Arc(Front) exemption
+    # handled in the assembler). Listed last so "bombard" still matches
+    # via earlier substring scans.
+    "bomb",
 )
 
 

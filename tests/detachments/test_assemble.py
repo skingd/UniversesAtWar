@@ -90,6 +90,10 @@ def _is_vehicle_record():
         "tech_base": "Inner Sphere",
         "unit_type": "vehicle",
         "raw_equipment_refs": ["AC/20", "AC/20"],
+        "raw_equipment_mounts": [
+            {"ref": "AC/20", "location": "Turret"},
+            {"ref": "AC/20", "location": "Front"},
+        ],
     }
 
 
@@ -104,6 +108,9 @@ def _clan_vehicle_record():
         "tech_base": "Clan",
         "unit_type": "vehicle",
         "raw_equipment_refs": ["Medium Laser"],
+        "raw_equipment_mounts": [
+            {"ref": "Medium Laser", "location": "Turret"},
+        ],
     }
 
 
@@ -117,7 +124,11 @@ def _aero_record():
         "armor_total": 240.0,
         "tech_base": "Inner Sphere",
         "unit_type": "aerospace",
-        "raw_equipment_refs": ["LRM 20"],
+        "raw_equipment_refs": ["LRM 20", "HE Bomb"],
+        "raw_equipment_mounts": [
+            {"ref": "LRM 20", "location": "Nose"},
+            {"ref": "HE Bomb", "location": "Fuselage"},
+        ],
     }
 
 
@@ -152,8 +163,18 @@ class TestAtlas:
         assert names == ["AC/20", "Medium Laser", "Medium Laser", "LRM 20", "SRM 6"]
         ac20 = d["weapons"][0]
         assert ac20["unmapped"] is False
-        assert ac20["dice"] == 4
-        assert ac20["heat"] == 7
+        # Link-only schema: no embedded profile data, no Arc(Front) on mechs.
+        assert "dice" not in ac20
+        assert "heat" not in ac20
+        assert ac20["traits_added"] == []
+        assert ac20["mount_location"] is None
+
+    def test_weapons_bulleted_aggregates(self, weapon_index, ammo_index):
+        d = build_detachment(_atlas_record(), weapon_index, ammo_index, None, Coverage("mech"))
+        # AC/20 (1), Medium Laser (2 → "Two Medium Lasers"), LRM 20 (1), SRM 6 (1)
+        assert d["weapons_bulleted"] == [
+            "AC/20", "Two Medium Lasers", "LRM 20", "SRM 6",
+        ]
 
     def test_special_rules_drop_ferro_endo_ammo(self, weapon_index, ammo_index):
         d = build_detachment(_atlas_record(), weapon_index, ammo_index, None, Coverage("mech"))
@@ -166,8 +187,12 @@ class TestAtlas:
         d = build_detachment(_atlas_record(), weapon_index, ammo_index, None, Coverage("mech"))
         ammo = d["upgrade_options"]["special_ammo"]
         assert len(ammo) == 1
-        assert ammo[0]["name"] == "Inferno"
-        assert ammo[0]["weapon_name"] == "LRM 20"
+        # Link-only ammo entry: just ammo_name + weapon_name + points.
+        assert ammo[0] == {
+            "ammo_name": "Inferno",
+            "weapon_name": "LRM 20",
+            "points": 10,
+        }
 
     def test_mech_no_size_upgrades(self, weapon_index, ammo_index):
         d = build_detachment(_atlas_record(), weapon_index, ammo_index, None, Coverage("mech"))
@@ -227,6 +252,47 @@ class TestAerospace:
         assert d["wounds"] == 4          # 200t → super heavy → 4
         assert d["tier"] == "superheavy"
         assert d["detachment_size"] == {"base": 1, "max": 1}
+
+
+class TestArcFront:
+    def test_vehicle_turret_no_arc_front_demolisher(self, weapon_index, ammo_index):
+        d = build_detachment(_is_vehicle_record(), weapon_index, ammo_index, None, Coverage("vehicle"))
+        # Demolisher has one Turret AC/20 and one Front AC/20.
+        by_loc = {w["mount_location"]: w["traits_added"] for w in d["weapons"]}
+        assert by_loc["Turret"] == []
+        assert by_loc["Front"] == ["Arc(Front)"]
+
+    def test_clan_vehicle_turret_only(self, weapon_index, ammo_index):
+        d = build_detachment(_clan_vehicle_record(), weapon_index, ammo_index, None, Coverage("vehicle"))
+        assert d["weapons"][0]["mount_location"] == "Turret"
+        assert d["weapons"][0]["traits_added"] == []
+
+    def test_aero_nose_gets_arc_front_bomb_does_not(self, weapon_index, ammo_index):
+        d = build_detachment(_aero_record(), weapon_index, ammo_index, None, Coverage("aerospace"))
+        by_name = {w["name"]: w for w in d["weapons"]}
+        assert by_name["LRM 20"]["traits_added"] == ["Arc(Front)"]
+        # HE Bomb is unmapped (not in fixture catalogue) but bomb-by-name → no Arc(Front).
+        assert by_name["HE Bomb"]["traits_added"] == []
+        assert by_name["HE Bomb"]["unmapped"] is True
+
+    def test_mech_never_gets_arc_front(self, weapon_index, ammo_index):
+        d = build_detachment(_atlas_record(), weapon_index, ammo_index, None, Coverage("mech"))
+        assert all(w["traits_added"] == [] for w in d["weapons"])
+        assert all(w["mount_location"] is None for w in d["weapons"])
+
+
+class TestBulletList:
+    def test_singletons_have_no_count_word(self, weapon_index, ammo_index):
+        d = build_detachment(_locust_record(), weapon_index, ammo_index, None, Coverage("mech"))
+        # 1\u00d7 Medium Laser, 2\u00d7 Machine Gun. "Machine Gun" ends in a letter \u2192 plural "Machine Guns".
+        assert d["weapons_bulleted"] == ["Medium Laser", "Two Machine Guns"]
+
+    def test_lrm20_keeps_singular_form_when_multiple(self, weapon_index, ammo_index):
+        # Build a record with 4\u00d7 LRM 20 to verify pluralization rule keeps "LRM 20".
+        rec = _atlas_record()
+        rec["raw_equipment_refs"] = ["LRM 20"] * 4
+        d = build_detachment(rec, weapon_index, ammo_index, None, Coverage("mech"))
+        assert d["weapons_bulleted"] == ["Four LRM 20"]
 
 
 class TestSkipBehavior:

@@ -236,6 +236,7 @@ def build_unit_index(
             "source": data.get("Source"),
             "manufacturers": data.get("Manufacturers") or _split_manufacturer(data.get("Manufacturer")),
             "raw_equipment_refs": _extract_equipment_refs(data, unit_type),
+            "raw_equipment_mounts": _extract_equipment_mounts(data, unit_type),
             "raw_quirks": data.get("Quirks") or [],
             "source_path": str(p),
         }
@@ -339,6 +340,31 @@ def _extract_equipment_refs(data: dict, unit_type: str) -> list[str]:
                 if isinstance(slot, str) and slot and not _is_ammo_text(slot):
                     refs.append(slot)
     return refs
+
+
+def _extract_equipment_mounts(data: dict, unit_type: str) -> list[dict]:
+    """Like :func:`_extract_equipment_refs` but preserves mount-location info.
+
+    Only emitted for vehicle / aerospace records (mechs don't need it for
+    Arc(Front) trait derivation). Each entry is ``{"ref": str, "location": str}``.
+    Returns an empty list for mechs and infantry.
+    """
+    if unit_type not in ("vehicle", "aerospace"):
+        return []
+    eq = data.get("Equipment")
+    if not isinstance(eq, list):
+        return []
+    out: list[dict] = []
+    for loc in eq:
+        if not isinstance(loc, dict):
+            continue
+        for location_name, slot_list in loc.items():
+            if not isinstance(slot_list, list):
+                continue
+            for slot in slot_list:
+                if isinstance(slot, str) and slot and not _is_ammo_text(slot):
+                    out.append({"ref": slot, "location": location_name})
+    return out
 
 
 # --- Top-level orchestrator ------------------------------------------------

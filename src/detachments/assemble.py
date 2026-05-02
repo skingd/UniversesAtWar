@@ -1,10 +1,21 @@
 """Assemble per-unit detachment records.
 
-Stitches together translation tables, weapon catalogue, and equipment
+Stitches together translation tables, the weapon catalogue, and equipment
 passthrough into the final schema documented in ``plans/units.prompt.md``.
+
+Per the design spec, weapon and ammo profiles are **not** hardcoded into
+the detachment JSON. Each weapon entry is a **link** (a name that the
+document generator joins to ``data/WeaponRules.csv`` at render time) plus
+a ``traits_added`` list capturing per-mount-location dynamic traits like
+``Arc(Front)`` for vehicle/aerospace hull mounts.
+
+The hardcoded ``weapons_bulleted`` field carries the human-readable
+bullet list (e.g. ``"Two Inner Sphere LRM 20"``). It is hardcoded because
+this prose is stable text — only the per-profile rule data is volatile.
 """
 from __future__ import annotations
 
+from collections import Counter
 from dataclasses import dataclass, field
 from typing import Iterable, Optional
 
@@ -63,49 +74,123 @@ def _display_name(record: dict) -> str:
     return chassis or model or record.get("canonical_id") or ""
 
 
-def _weapon_entry(
+# --- Arc(Front) derivation -------------------------------------------------
+
+def _is_turret_location(location: Optional[str]) -> bool:
+    if not location:
+        return False
+    return "turret" in location.lower()
+
+
+def _is_bomb(name: str) -> bool:
+    """Bombs are exempt from Arc(Front). Detect by name token."""
+    return "bomb" in (name or "").lower()
+
+
+def _arc_front_traits(
+    unit_type: str,
+    location: Optional[str],
+    weapon_name: str,
+) -> list[str]:
+    """Return ``["Arc(Front)"]`` if this mount auto-gains Arc(Front), else ``[]``.
+
+    Per ``design/units-translation.md``: vehicle hull mounts (anything not
+    a turret) and aerospace fighter weapons all gain Arc(Front), with
+    bombs and turret-mounted weapons exempt.
+    """
+    if unit_type not in ("vehicle", "aerospace"):
+        return []
+    if _is_turret_location(location):
+        return []
+    if _is_bomb(weapon_name):
+        return []
+    return ["Arc(Front)"]
+
+
+# --- Weapon link entry -----------------------------------------------------
+
+def _weapon_link(
     raw_ref: str,
     profile: Optional[WeaponProfile],
+    location: Optional[str],
+    unit_type: str,
 ) -> dict:
-    if profile is not None:
-        return {
-            "name": profile.name,
-            "range": profile.range,
-            "dice": profile.dice,
-            "to_hit": profile.to_hit,
-            "ap": profile.ap,
-            "heat": profile.heat,
-            "type": profile.type,
-            "traits": list(profile.traits),
-            "unmapped": False,
-            "raw_ref": raw_ref,
-        }
+    """Build a *link-only* weapon entry. Profile data is **not** embedded."""
+    name = profile.name if profile is not None else raw_ref
     return {
-        "name": raw_ref,
-        "range": None,
-        "dice": None,
-        "to_hit": None,
-        "ap": None,
-        "heat": None,
-        "type": None,
-        "traits": [],
-        "unmapped": True,
+        "name": name,
         "raw_ref": raw_ref,
+        "mount_location": location,
+        "traits_added": _arc_front_traits(unit_type, location, name),
+        "unmapped": profile is None,
     }
 
 
+# --- Bulleted list ---------------------------------------------------------
+
+_NUMBER_WORDS: dict[int, str] = {
+    1: "One", 2: "Two", 3: "Three", 4: "Four", 5: "Five",
+    6: "Six", 7: "Seven", 8: "Eight", 9: "Nine", 10: "Ten",
+    11: "Eleven", 12: "Twelve",
+}
+
+
+def _count_word(n: int) -> str:
+    return _NUMBER_WORDS.get(n, str(n))
+
+
+def _pluralize(name: str) -> str:
+    """Append ``s`` only when the name ends in a letter — keeps tokens like
+    ``LRM 20`` unchanged while pluralizing ``Medium Laser`` → ``Medium Lasers``.
+    """
+    if not name:
+        return name
+    return name + "s" if name[-1].isalpha() else name
+
+
+def _bullet_list(weapon_links: list[dict]) -> list[str]:
+    """Aggregate weapon links by name (first-occurrence order) and produce
+    a list of strings like ``"Two Inner Sphere LRM 20"``.
+
+    Singletons render as bare names per the design example, which only
+    shows count words for multiples.
+    """
+    counts: dict[str, int] = {}
+    order: list[str] = []
+    for w in weapon_links:
+        name = w["name"]
+        if name not in counts:
+            counts[name] = 0
+            order.append(name)
+        counts[name] += 1
+
+    out: list[str] = []
+    for name in order:
+        n = counts[name]
+        if n == 1:
+            out.append(name)
+        else:
+            out.append(f"{_count_word(n)} {_pluralize(name)}")
+    return out
+
+
+# --- Upgrade options -------------------------------------------------------
+
 def _detachment_size_options(base: int, max_size: int) -> list[dict]:
-    """Generate placeholder upgrade entries for every size above the base."""
     if max_size <= base:
         return []
     return [{"size": n, "points": None} for n in range(base + 1, max_size + 1)]
 
 
-def _special_ammo_options(
+def _special_ammo_links(
     weapon_names: Iterable[str],
     ammo_index: dict[str, list[AmmoOption]],
 ) -> list[dict]:
-    """Union of ammo options for the unique weapon names present, deduped."""
+    """Link-only union of ammo options for the unique weapon names present.
+
+    Each entry is just ``{ammo_name, weapon_name, points}`` — the renderer
+    joins to ``AmmunitionRules.csv`` for full profile data at document time.
+    """
     out: list[dict] = []
     seen: set[tuple[str, str]] = set()
     for wname in weapon_names:
@@ -114,9 +199,37 @@ def _special_ammo_options(
             if key in seen:
                 continue
             seen.add(key)
-            out.append(opt.to_dict())
+            out.append({
+                "ammo_name": opt.name,
+                "weapon_name": opt.weapon_name,
+                "points": opt.points,
+            })
     return out
 
+
+# --- Mount iteration -------------------------------------------------------
+
+def _iter_mounts(record: dict) -> list[tuple[str, Optional[str]]]:
+    """Yield ``(ref, location)`` pairs for every weapon/equipment install.
+
+    Prefer the structured ``raw_equipment_mounts`` field (vehicle/aerospace)
+    when present; otherwise fall back to ``raw_equipment_refs`` with
+    ``location=None`` (mechs, infantry).
+    """
+    mounts = record.get("raw_equipment_mounts")
+    if isinstance(mounts, list) and mounts:
+        out: list[tuple[str, Optional[str]]] = []
+        for m in mounts:
+            if isinstance(m, dict):
+                ref = m.get("ref")
+                if isinstance(ref, str) and ref:
+                    out.append((ref, m.get("location")))
+        return out
+    refs = record.get("raw_equipment_refs") or []
+    return [(r, None) for r in refs if isinstance(r, str) and r]
+
+
+# --- Build -----------------------------------------------------------------
 
 def build_detachment(
     record: dict,
@@ -125,11 +238,7 @@ def build_detachment(
     alias_index: Optional[AliasIndex],
     coverage: Coverage,
 ) -> Optional[dict]:
-    """Build a single detachment dict from an index record.
-
-    Returns ``None`` (and increments the appropriate coverage counter) if
-    the record lacks a usable tech_base, tonnage, armor, or movement.
-    """
+    """Build a single detachment dict from an index record."""
     unit_type = record.get("unit_type") or coverage.unit_type
     tech_base = record.get("tech_base")
     if tech_base not in _VALID_TECH_BASES:
@@ -162,30 +271,38 @@ def build_detachment(
 
     base_max = tables.detachment_size(tonnage, unit_type, tech_base)
     if base_max is None:
-        # Tier resolved but no entry — treat as missing config; do NOT skip
-        # entirely (mechs always succeed). Use (1,1) as a safe default.
         base_max = (1, 1)
     base, max_size = base_max
 
-    raw_refs = record.get("raw_equipment_refs") or []
+    # Walk mounts (preserves location for vehicle/aerospace) and partition.
+    mounts = _iter_mounts(record)
+    raw_refs = [ref for ref, _loc in mounts]
     weapon_refs, equipment_refs = partition_refs(raw_refs, weapon_index, alias_index)
 
-    weapons: list[dict] = []
-    weapons_seen_names: list[str] = []
-    seen_weapon_names: set[str] = set()
-    for ref in weapon_refs:
-        prof, kind = weapon_index.resolve(ref, alias_index=alias_index)
-        entry = _weapon_entry(ref, prof)
-        weapons.append(entry)
-        wname = entry["name"]
-        if entry["unmapped"]:
-            coverage.unmapped_weapons[wname] = coverage.unmapped_weapons.get(wname, 0) + 1
-        if wname not in seen_weapon_names:
-            seen_weapon_names.add(wname)
-            weapons_seen_names.append(wname)
+    # Re-walk mounts in order, consuming each weapon ref occurrence to
+    # preserve duplicate counts and keep mount locations aligned.
+    weapon_links: list[dict] = []
+    seen_weapon_names: list[str] = []
+    seen_set: set[str] = set()
+    remaining = Counter(weapon_refs)
+    for ref, loc in mounts:
+        if remaining.get(ref, 0) <= 0:
+            continue
+        remaining[ref] -= 1
+        prof, _kind = weapon_index.resolve(ref, alias_index=alias_index)
+        link = _weapon_link(ref, prof, loc, unit_type)
+        weapon_links.append(link)
+        if link["unmapped"]:
+            coverage.unmapped_weapons[link["name"]] = (
+                coverage.unmapped_weapons.get(link["name"], 0) + 1
+            )
+        if link["name"] not in seen_set:
+            seen_set.add(link["name"])
+            seen_weapon_names.append(link["name"])
 
+    bulleted = _bullet_list(weapon_links)
     special_rules = special_rules_from_equipment(equipment_refs)
-    special_ammo = _special_ammo_options(weapons_seen_names, ammo_index)
+    special_ammo = _special_ammo_links(seen_weapon_names, ammo_index)
     size_upgrades = _detachment_size_options(base, max_size)
 
     coverage.emitted += 1
@@ -203,7 +320,8 @@ def build_detachment(
         "wounds": tables.wounds(tonnage, unit_type),
         "detachment_size": {"base": base, "max": max_size},
         "points": None,
-        "weapons": weapons,
+        "weapons_bulleted": bulleted,
+        "weapons": weapon_links,
         "upgrade_options": {
             "special_ammo": special_ammo,
             "detachment_size": size_upgrades,

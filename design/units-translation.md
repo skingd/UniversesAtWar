@@ -160,18 +160,34 @@ Every detachment will have a profile. This will consist of the following informa
 **Aerospace** `Aerospace`
 
 ## Weapons
-Weapons are listed individually in the Weapons section. For example, if a mech has 2 LRM 20s and 4 medium lasers, the weapons will be listed as
 
-LRM 20
-LRM 20
-Medium Laser
-Medium Laser
-Medium Laser
-Medium Laser
+Weapon equipment is displayed in the Weapons section under the unit attribute line. This is displayed as a bullited list
 
-Do not compress using nomenclature like x2 or (2) to denote multiple weapons.
+- Two Inner Sphere LRM 20
+- Four Inner Sphere Medium Lasers.
+
+Weapons attributes are listed individually in the Weapon sub section. For example, if a mech has 2 LRM 20s and 4 medium lasers, the weapons will be listed as:
+
+|Weapon | Range | Heat | Dice| To-Hit | AP |Type| Traits|
+|-----------|-------|------|-----|--------|----|----|-------|
+Inner Sphere LRM 20|4"-20"|2|4|5+|-1|Missile|Anti-Tank, Barrage, Special Ammo|
+Inner Sphere Medium Laser|8"|1|1|4+|-1|Energy|Anti-Tank|
+
+Do not compress by using nomenclature like x2 or (2) to denote multiple weapon profiles.
 
 Each weapon will have its full profile listed.
+
+See \examples\new-data-cards-and-some-odd-ones-v0-15ganu05u9jd1.webp for an example.
+
+### Weapon Linking
+Don't hardcode weapons into the detachment json. Instead, only create a link that will be used at document creation time. This cuts down on the need to regenerate full lists for weapon changes and vice versa.
+
+DO HARDCODE the bullited list, as this is peristant text without any ingame rules that could change.
+
+## Weapon Locations on Vehicles and Aerospace
+Any weapons mounted in the hull of a vehicle or Aerospace fighter automatically gainst th Arc(Front) trait. This needs to be dynamically added.
+
+Exceptions: Any TURRET mounted weapons and bombs are EXEMPT from Arc(Front). These never gain the Arc(Front) trait.
 
 ## Detachment Size
 

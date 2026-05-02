@@ -9,7 +9,7 @@
 - Skipped — missing armor: 0
 - Skipped — missing movement: 1
 - Speed gap fall-backs: 0
-- Distinct unmapped weapon names: 123
+- Distinct unmapped weapon names: 124
 
 | Weapon | Installations |
 | --- | ---: |
@@ -35,9 +35,9 @@
 | Light TAG; Clan (OmniPod) | 21 |
 | LB 10-X AC Prototype; Inner Sphere | 21 |
 | TAG; Inner Sphere (OmniPod) | 19 |
+| Bomb Bay; Inner Sphere | 18 |
 | TAG; Clan (OmniPod) | 17 |
 | Light Auto Cannon/2; Inner Sphere | 17 |
-| Enhanced LRM 5; Inner Sphere (OmniPod) | 16 |
 
 ## vehicle
 
