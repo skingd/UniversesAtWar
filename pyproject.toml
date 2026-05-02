@@ -22,6 +22,7 @@ dev = [
 uaw-datacheck = "src.datacheck.cli:main"
 uaw-itemize = "src.itemization.cli:main"
 uaw-base-ranges = "src.baseranges.cli:main"
+uaw-detachments = "src.detachments.cli:main"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
