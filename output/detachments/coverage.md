@@ -54,7 +54,7 @@
     - Gabriel Reconnaissance Hovercraft (ERSL) (speed=13 -> 14")
     - Gabriel Reconnaissance Hovercraft (TDF) (speed=13 -> 14")
     - Gabriel Reconnaissance Hovercraft (speed=13 -> 14")
-- Distinct unmapped weapon names: 139
+- Distinct unmapped weapon names: 145
 
 | Weapon | Installations |
 | --- | ---: |
@@ -77,12 +77,12 @@
 | ISLRM10 | 10 |
 | Light Machine Gun(ST) | 10 |
 | ISLRM20 | 9 |
+| Inner Sphere AC/10 | 8 |
 | Heavy PPC | 7 |
 | SRM 2(ST) | 7 |
 | ISPPC | 6 |
 | Heavy Machine Gun | 6 |
 | Light PPC:OMNI | 6 |
-| Light Machine Gun:OMNI | 6 |
 
 ## aerospace
 

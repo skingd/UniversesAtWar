@@ -362,7 +362,7 @@
         "fallback_movement": "14\""
       }
     ],
-    "unmapped_weapons_count": 139,
+    "unmapped_weapons_count": 145,
     "unmapped_weapons_top": [
       [
         "ISMachine Gun",
@@ -441,6 +441,10 @@
         9
       ],
       [
+        "Inner Sphere AC/10",
+        8
+      ],
+      [
         "Heavy PPC",
         7
       ],
@@ -471,6 +475,10 @@
       [
         "Thunderbolt 5",
         6
+      ],
+      [
+        "ISLongTom",
+        5
       ],
       [
         "ISMGA",
@@ -553,15 +561,7 @@
         3
       ],
       [
-        "CLAntiMissileSystem",
-        3
-      ],
-      [
-        "CLLightTAG",
-        3
-      ],
-      [
-        "CLTAG:OMNI",
+        "Inner Sphere AC/20",
         3
       ]
     ]

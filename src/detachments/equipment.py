@@ -105,6 +105,10 @@ _WEAPON_HINT_TOKENS: tuple[str, ...] = (
     # handled in the assembler). Listed last so "bombard" still matches
     # via earlier substring scans.
     "bomb",
+    # Artillery / special weapons that lack a generic token above.
+    "long tom",
+    # IS/Clan abbreviated autocannon refs e.g. "ISAC10", "ISAC20".
+    "isac",
 )
 
 
@@ -115,6 +119,26 @@ def _looks_like_weapon(normalized: str) -> bool:
     if "anti-missile" in normalized:
         return False
     return any(tok in normalized for tok in _WEAPON_HINT_TOKENS)
+
+
+# Exact-match name corrections for special rules (case-insensitive key lookup).
+_SR_NAME_CORRECTIONS: dict[str, str] = {
+    # C3 unit refs lose their "C" prefix through parse_reference CamelCase splitting.
+    "3 slave unit": "C3 Slave Unit",
+    "3 master unit": "C3 Master Unit",
+    "3 master computer": "C3 Master Computer",
+    "3 boosted system slave unit": "C3 Boosted System Slave Unit",
+    "3 master boosted system unit": "C3 Master Boosted System Unit",
+    "3 sensors": "C3 Sensors",
+    "3 remote sensor launcher": "C3 Remote Sensor Launcher",
+    "mga": "Machine Gun Array",
+    "iscase": "CASE",
+    "clcase": "CASE",
+}
+
+
+def _correct_sr_name(name: str) -> str:
+    return _SR_NAME_CORRECTIONS.get(name.casefold(), name)
 
 
 def special_rules_from_equipment(equipment_refs: Iterable[str]) -> list[str]:
@@ -140,6 +164,7 @@ def special_rules_from_equipment(equipment_refs: Iterable[str]) -> list[str]:
             continue
         if _is_drop_equipment(name):
             continue
+        name = _correct_sr_name(name)
         key = name.casefold()
         if key in seen:
             continue

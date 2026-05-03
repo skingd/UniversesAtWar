@@ -142,6 +142,28 @@ def _arc_front_traits(
     return ["Arc(Front)"]
 
 
+# Exact-match corrections for unmapped weapon display names.
+_WEAPON_NAME_CORRECTIONS: dict[str, str] = {
+    "isac2": "Inner Sphere AC/2",
+    "isac5": "Inner Sphere AC/5",
+    "isac10": "Inner Sphere AC/10",
+    "isac20": "Inner Sphere AC/20",
+}
+
+
+def _correct_weapon_name(name: str) -> str:
+    """Apply name corrections to unmapped weapon display names."""
+    corrected = _WEAPON_NAME_CORRECTIONS.get(name.casefold())
+    if corrected:
+        return corrected
+    # Prefix expansions: "IS " → "Inner Sphere ", "CL " → "Clan "
+    if name.startswith("IS "):
+        return "Inner Sphere " + name[3:]
+    if name.startswith("CL "):
+        return "Clan " + name[3:]
+    return name
+
+
 # --- Weapon link entry -----------------------------------------------------
 
 def _weapon_link(
@@ -156,7 +178,7 @@ def _weapon_link(
     else:
         # For unmapped weapons strip tech/qualifier suffixes from the raw ref
         # e.g. "Some Gun; Inner Sphere (Armored)" → "Some Gun"
-        name = raw_ref.split(";")[0].strip()
+        name = _correct_weapon_name(raw_ref.split(";")[0].strip())
     return {
         "name": name,
         "raw_ref": raw_ref,
@@ -324,7 +346,7 @@ def build_detachment(
         raw_bv = bv_cache.get(str(mul_id))
         if isinstance(raw_bv, int) and raw_bv > 0:
             bv = raw_bv
-    points = math.floor(bv * 0.25) if bv is not None else None
+    points = math.floor(bv * 0.15) if bv is not None else None
 
     tonnage = record.get("tonnage")
     if tonnage is None:
