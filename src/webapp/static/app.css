@@ -248,6 +248,9 @@ button { cursor: pointer; }
 /* ===== Unit card modal ===== */
 body.modal-open { overflow: hidden; }
 
+.card-modal-backdrop[hidden],
+.card-modal[hidden] { display: none !important; }
+
 .card-modal-backdrop {
   position: fixed; inset: 0; z-index: 400;
   background: rgba(0,0,0,.7);
