@@ -280,10 +280,16 @@ async function openCardModal(unit) {
     });
     if (!res.ok) throw new Error(await res.text());
     const html = await res.text();
-    // Extract just the body content of the rendered card page
-    const doc = new DOMParser().parseFromString(html, "text/html");
-    const inner = doc.body.innerHTML;
-    els.cardModalBody.innerHTML = inner;
+    // Render in an isolated iframe so the card's styles don't bleed into the SPA
+    const iframe = document.createElement("iframe");
+    iframe.className = "card-modal-frame";
+    iframe.setAttribute("title", unit.name);
+    els.cardModalBody.innerHTML = "";
+    els.cardModalBody.appendChild(iframe);
+    const doc = iframe.contentDocument || iframe.contentWindow.document;
+    doc.open();
+    doc.write(html);
+    doc.close();
   } catch (err) {
     els.cardModalBody.innerHTML = `<p class="card-modal-error">Could not load card: ${esc(err.message)}</p>`;
   }
