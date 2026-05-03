@@ -24,7 +24,6 @@ import re
 from dataclasses import dataclass, field
 from typing import Iterable
 
-from rapidfuzz import process, fuzz
 
 
 # These tokens are mech crit slot occupants that are NOT weapons/equipment per se;
@@ -276,6 +275,7 @@ class AliasIndex:
 
     def fuzzy_suggest(self, parsed: ParsedRef, *, score_cutoff: int = 85) -> list[tuple[str, str, int]]:
         """Return up to 3 fuzzy matches (canonical_id, candidate_key, score)."""
+        from rapidfuzz import process, fuzz  # lazy import — not needed on render path
         if is_structural(parsed):
             return []
         key = parsed.normalized_key
