@@ -64,4 +64,3 @@ jobs:
           app-name: 'universesatwar'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CF340D827CB4475F84AB1BE352990B0C }}
-          startup-command: 'gunicorn --bind=0.0.0.0:8000 --timeout 600 "src.webapp.app:create_app()"'
