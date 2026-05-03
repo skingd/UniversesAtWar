@@ -2161,8 +2161,7 @@
     },
     "points": 65,
     "weapons_bulleted": [
-      "Two Inner Sphere SRM 4",
-      "Two ISAntiMissileSystems"
+      "Two Inner Sphere SRM 4"
     ],
     "weapons": [
       {
@@ -2175,15 +2174,6 @@
         "unmapped": false
       },
       {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Nose",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
-      {
         "name": "Inner Sphere SRM 4",
         "raw_ref": "SRM 4",
         "mount_location": "Aft",
@@ -2191,15 +2181,6 @@
           "Arc(Front)"
         ],
         "unmapped": false
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Aft",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
       }
     ],
     "upgrade_options": {
@@ -2226,6 +2207,7 @@
       ]
     },
     "special_rules": [
+      "AMS",
       "Refueling Drogue",
       "Advanced Fire Control",
       "Armored Chassis"
@@ -6397,7 +6379,6 @@
     "weapons_bulleted": [
       "Clan ER PPC",
       "Clan Improved Heavy Large Laser",
-      "CLLaserAntiMissileSystem",
       "Two Clan LRM 20",
       "Two Clan Medium Pulse Lasers"
     ],
@@ -6419,15 +6400,6 @@
           "Arc(Front)"
         ],
         "unmapped": false
-      },
-      {
-        "name": "CLLaserAntiMissileSystem",
-        "raw_ref": "CLLaserAntiMissileSystem",
-        "mount_location": "Nose",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
       },
       {
         "name": "Clan LRM 20",
@@ -6494,6 +6466,7 @@
       ]
     },
     "special_rules": [
+      "Laser Anti Missile System",
       "CASE",
       "Artemis V",
       "Coolant Pod"
@@ -6850,8 +6823,7 @@
     },
     "points": 140,
     "weapons_bulleted": [
-      "Three Inner Sphere ER Medium Lasers",
-      "Three ISLaserAntiMissileSystems"
+      "Three Inner Sphere ER Medium Lasers"
     ],
     "weapons": [
       {
@@ -6864,15 +6836,6 @@
         "unmapped": false
       },
       {
-        "name": "ISLaserAntiMissileSystem",
-        "raw_ref": "ISLaserAntiMissileSystem",
-        "mount_location": "Nose",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
-      {
         "name": "Inner Sphere ER Medium Laser",
         "raw_ref": "ISERMediumLaser",
         "mount_location": "Left Wing",
@@ -6882,15 +6845,6 @@
         "unmapped": false
       },
       {
-        "name": "ISLaserAntiMissileSystem",
-        "raw_ref": "ISLaserAntiMissileSystem",
-        "mount_location": "Left Wing",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
-      {
         "name": "Inner Sphere ER Medium Laser",
         "raw_ref": "ISERMediumLaser",
         "mount_location": "Right Wing",
@@ -6898,15 +6852,6 @@
           "Arc(Front)"
         ],
         "unmapped": false
-      },
-      {
-        "name": "ISLaserAntiMissileSystem",
-        "raw_ref": "ISLaserAntiMissileSystem",
-        "mount_location": "Right Wing",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
       }
     ],
     "upgrade_options": {
@@ -6926,7 +6871,9 @@
         }
       ]
     },
-    "special_rules": [],
+    "special_rules": [
+      "Laser Anti Missile System"
+    ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\aerospace\\ProtoTypes\\Sabre SB-31D.yml"
   },
   {
@@ -7032,8 +6979,7 @@
     "weapons_bulleted": [
       "MRM 20",
       "Two Inner Sphere ER PPCs",
-      "Two PPC Capacitors",
-      "ISLaserAntiMissileSystem"
+      "Two PPC Capacitors"
     ],
     "weapons": [
       {
@@ -7080,15 +7026,6 @@
           "Arc(Front)"
         ],
         "unmapped": true
-      },
-      {
-        "name": "ISLaserAntiMissileSystem",
-        "raw_ref": "ISLaserAntiMissileSystem",
-        "mount_location": "Aft",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
       }
     ],
     "upgrade_options": {
@@ -7108,7 +7045,9 @@
         }
       ]
     },
-    "special_rules": [],
+    "special_rules": [
+      "Laser Anti Missile System"
+    ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\aerospace\\ProtoTypes\\Suzaku SU-14.yml"
   },
   {
@@ -7220,8 +7159,7 @@
     "weapons_bulleted": [
       "Clan LRM 20",
       "Clan ER Medium Laser",
-      "Two Clan Improved Heavy Large Lasers",
-      "CLLaserAntiMissileSystem"
+      "Two Clan Improved Heavy Large Lasers"
     ],
     "weapons": [
       {
@@ -7259,15 +7197,6 @@
           "Arc(Front)"
         ],
         "unmapped": false
-      },
-      {
-        "name": "CLLaserAntiMissileSystem",
-        "raw_ref": "CLLaserAntiMissileSystem",
-        "mount_location": "Aft",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
       }
     ],
     "upgrade_options": {
@@ -7299,7 +7228,8 @@
     },
     "special_rules": [
       "Artemis V",
-      "CASE"
+      "CASE",
+      "Laser Anti Missile System"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\aerospace\\ProtoTypes\\Tyre 3.yml"
   },
@@ -7480,8 +7410,7 @@
     "weapons_bulleted": [
       "Inner Sphere ER Large Laser",
       "Three Inner Sphere MML 5",
-      "Inner Sphere ER Medium Laser",
-      "ISAntiMissileSystem"
+      "Inner Sphere ER Medium Laser"
     ],
     "weapons": [
       {
@@ -7528,15 +7457,6 @@
           "Arc(Front)"
         ],
         "unmapped": false
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Aft",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
       }
     ],
     "upgrade_options": {
@@ -7556,7 +7476,9 @@
         }
       ]
     },
-    "special_rules": [],
+    "special_rules": [
+      "AMS"
+    ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\aerospace\\ProtoTypes\\Wildkatze WKT-2S.yml"
   },
   {
@@ -17637,7 +17559,6 @@
     "points": 131,
     "weapons_bulleted": [
       "Clan Machine Gun",
-      "CLMGA:OMNI",
       "Two Clan ER Small Lasers"
     ],
     "weapons": [
@@ -17649,15 +17570,6 @@
           "Arc(Front)"
         ],
         "unmapped": false
-      },
-      {
-        "name": "CLMGA:OMNI",
-        "raw_ref": "CLMGA:OMNI",
-        "mount_location": "Nose",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
       },
       {
         "name": "Clan ER Small Laser",
@@ -17700,6 +17612,7 @@
       ]
     },
     "special_rules": [
+      "Machine Gun Array",
       "CASE"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\aerospace\\TRO3055U\\Bashkir E.yml"
@@ -21527,7 +21440,6 @@
     "points": 527,
     "weapons_bulleted": [
       "Three Clan Large Pulse Lasers",
-      "CLAntiMissileSystem:OMNI",
       "Clan Medium Pulse Laser"
     ],
     "weapons": [
@@ -21539,15 +21451,6 @@
           "Arc(Front)"
         ],
         "unmapped": false
-      },
-      {
-        "name": "CLAntiMissileSystem:OMNI",
-        "raw_ref": "CLAntiMissileSystem:OMNI",
-        "mount_location": "Nose",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
       },
       {
         "name": "Clan Large Pulse Laser",
@@ -21599,6 +21502,7 @@
       ]
     },
     "special_rules": [
+      "AMS",
       "CLTargeting Computer",
       "CASE"
     ],
@@ -28819,8 +28723,7 @@
     "points": 382,
     "weapons_bulleted": [
       "Clan Improved Heavy Large Laser",
-      "Two Clan Streak LRM 15",
-      "CLLaserAntiMissileSystem"
+      "Two Clan Streak LRM 15"
     ],
     "weapons": [
       {
@@ -28849,15 +28752,6 @@
           "Arc(Front)"
         ],
         "unmapped": false
-      },
-      {
-        "name": "CLLaserAntiMissileSystem",
-        "raw_ref": "CLLaserAntiMissileSystem",
-        "mount_location": "Aft",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
       }
     ],
     "upgrade_options": {
@@ -28882,7 +28776,8 @@
       ]
     },
     "special_rules": [
-      "CASE"
+      "CASE",
+      "Laser Anti Missile System"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\aerospace\\XTRs\\Clans\\Ammon-XR.yml"
   },
@@ -29237,8 +29132,7 @@
     },
     "points": 132,
     "weapons_bulleted": [
-      "Three Inner Sphere ER Medium Lasers",
-      "Three ISLaserAntiMissileSystems"
+      "Three Inner Sphere ER Medium Lasers"
     ],
     "weapons": [
       {
@@ -29251,15 +29145,6 @@
         "unmapped": false
       },
       {
-        "name": "ISLaserAntiMissileSystem",
-        "raw_ref": "ISLaserAntiMissileSystem",
-        "mount_location": "Nose",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
-      {
         "name": "Inner Sphere ER Medium Laser",
         "raw_ref": "ISERMediumLaser",
         "mount_location": "Left Wing",
@@ -29269,15 +29154,6 @@
         "unmapped": false
       },
       {
-        "name": "ISLaserAntiMissileSystem",
-        "raw_ref": "ISLaserAntiMissileSystem",
-        "mount_location": "Left Wing",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
-      {
         "name": "Inner Sphere ER Medium Laser",
         "raw_ref": "ISERMediumLaser",
         "mount_location": "Right Wing",
@@ -29285,15 +29161,6 @@
           "Arc(Front)"
         ],
         "unmapped": false
-      },
-      {
-        "name": "ISLaserAntiMissileSystem",
-        "raw_ref": "ISLaserAntiMissileSystem",
-        "mount_location": "Right Wing",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
       }
     ],
     "upgrade_options": {
@@ -29313,7 +29180,9 @@
         }
       ]
     },
-    "special_rules": [],
+    "special_rules": [
+      "Laser Anti Missile System"
+    ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\aerospace\\XTRs\\Corporations\\Sabre SB-31D Defense Special.yml"
   },
   {
@@ -29611,7 +29480,6 @@
     "weapons_bulleted": [
       "Binary Laser (Blazer) Cannon",
       "MRM 30",
-      "ISLaserAntiMissileSystem",
       "Two Inner Sphere ER Medium Lasers",
       "Inner Sphere Medium Pulse Laser"
     ],
@@ -29628,15 +29496,6 @@
       {
         "name": "MRM 30",
         "raw_ref": "MRM 30",
-        "mount_location": "Nose",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
-      {
-        "name": "ISLaserAntiMissileSystem",
-        "raw_ref": "ISLaserAntiMissileSystem",
         "mount_location": "Nose",
         "traits_added": [
           "Arc(Front)"
@@ -29690,6 +29549,7 @@
     },
     "special_rules": [
       "Apollo",
+      "Laser Anti Missile System",
       "Vehicular Stealth",
       "Angel ECM Suite"
     ],
@@ -33655,8 +33515,7 @@
     },
     "points": 226,
     "weapons_bulleted": [
-      "Two Inner Sphere ER Medium Lasers",
-      "Two ISAntiMissileSystem:OMNIs"
+      "Two Inner Sphere ER Medium Lasers"
     ],
     "weapons": [
       {
@@ -33669,15 +33528,6 @@
         "unmapped": false
       },
       {
-        "name": "ISAntiMissileSystem:OMNI",
-        "raw_ref": "ISAntiMissileSystem:OMNI",
-        "mount_location": "Left Wing",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
-      {
         "name": "Inner Sphere ER Medium Laser",
         "raw_ref": "ISERMediumLaser:OMNI",
         "mount_location": "Right Wing",
@@ -33685,15 +33535,6 @@
           "Arc(Front)"
         ],
         "unmapped": false
-      },
-      {
-        "name": "ISAntiMissileSystem:OMNI",
-        "raw_ref": "ISAntiMissileSystem:OMNI",
-        "mount_location": "Right Wing",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
       }
     ],
     "upgrade_options": {
@@ -33715,6 +33556,7 @@
     },
     "special_rules": [
       "Beagle Active Probe",
+      "AMS",
       "Guardian ECM Suite"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\aerospace\\TRO3145\\Steiner\\Sternensturm STM-OB.yml"
@@ -39409,21 +39251,11 @@
     },
     "points": 336,
     "weapons_bulleted": [
-      "ISAntiMissileSystem:OMNI",
       "Inner Sphere Plasma Rifle",
       "Two Inner Sphere ER Medium Lasers",
       "Two ISSNPPC:OMNIs"
     ],
     "weapons": [
-      {
-        "name": "ISAntiMissileSystem:OMNI",
-        "raw_ref": "ISAntiMissileSystem:OMNI",
-        "mount_location": "Nose",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
       {
         "name": "Inner Sphere Plasma Rifle",
         "raw_ref": "ISPlasmaRifle:OMNI",
@@ -39488,6 +39320,7 @@
       ]
     },
     "special_rules": [
+      "AMS",
       "Guardian ECM Suite"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\aerospace\\TRO3067 Unabridged\\IS Aerospace\\Tatsu MIK-OE.yml"
@@ -39513,8 +39346,7 @@
     "points": 223,
     "weapons_bulleted": [
       "Heavy PPC",
-      "Two Inner Sphere Small VSP Lasers",
-      "ISAntiMissileSystem"
+      "Two Inner Sphere Small VSP Lasers"
     ],
     "weapons": [
       {
@@ -39543,15 +39375,6 @@
           "Arc(Front)"
         ],
         "unmapped": false
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Aft",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
       }
     ],
     "upgrade_options": {
@@ -39573,6 +39396,7 @@
     },
     "special_rules": [
       "RL10",
+      "AMS",
       "CASE"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\aerospace\\TRO3067 Unabridged\\IS Aerospace\\Troika CMT-6T.yml"

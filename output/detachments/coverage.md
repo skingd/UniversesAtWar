@@ -54,12 +54,11 @@
     - Gabriel Reconnaissance Hovercraft (ERSL) (speed=13 -> 14")
     - Gabriel Reconnaissance Hovercraft (TDF) (speed=13 -> 14")
     - Gabriel Reconnaissance Hovercraft (speed=13 -> 14")
-- Distinct unmapped weapon names: 145
+- Distinct unmapped weapon names: 130
 
 | Weapon | Installations |
 | --- | ---: |
 | ISMachine Gun | 78 |
-| ISAntiMissileSystem | 65 |
 | ISTAG | 52 |
 | ISSRM6 | 32 |
 | Light Machine Gun | 25 |
@@ -78,6 +77,7 @@
 | Light Machine Gun(ST) | 10 |
 | ISLRM20 | 9 |
 | Inner Sphere AC/10 | 8 |
+| Inner Sphere Medium Laser | 8 |
 | Heavy PPC | 7 |
 | SRM 2(ST) | 7 |
 | ISPPC | 6 |
@@ -99,13 +99,12 @@
     - Bashkir C (speed=13 -> 28")
     - Bashkir D (speed=13 -> 28")
     - Bashkir E (speed=13 -> 28")
-- Distinct unmapped weapon names: 51
+- Distinct unmapped weapon names: 45
 
 | Weapon | Installations |
 | --- | ---: |
 | Heavy PPC | 14 |
 | Light PPC | 10 |
-| ISLaserAntiMissileSystem | 8 |
 | MRM 10 | 6 |
 | Extended LRM 10 | 6 |
 | ISSNPPC | 6 |
@@ -115,7 +114,6 @@
 | ISLaserInsulator | 5 |
 | Large Re-engineered Laser:OMNI | 5 |
 | Heavy PPC:OMNI | 5 |
-| ISAntiMissileSystem | 4 |
 | PPC Capacitor | 4 |
 | Binary Laser (Blazer) Cannon | 4 |
 | CLHAG30:OMNI | 4 |
@@ -123,8 +121,10 @@
 | MRM 40:OMNI | 4 |
 | PPC Capacitor:OMNI | 3 |
 | Light Machine Gun | 3 |
-| CLLaserAntiMissileSystem | 3 |
 | CLHAG20:OMNI | 3 |
-| ISAntiMissileSystem:OMNI | 3 |
 | Light Auto Cannon/5 | 2 |
 | Bombast Laser | 2 |
+| CLStreakSRM2 (IOS):OMNI | 2 |
+| Clan Heavy Machine Gun Array:OMNI | 2 |
+| ISTAG | 2 |
+| MRM 30 | 2 |

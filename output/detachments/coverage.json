@@ -362,15 +362,11 @@
         "fallback_movement": "14\""
       }
     ],
-    "unmapped_weapons_count": 145,
+    "unmapped_weapons_count": 130,
     "unmapped_weapons_top": [
       [
         "ISMachine Gun",
         78
-      ],
-      [
-        "ISAntiMissileSystem",
-        65
       ],
       [
         "ISTAG",
@@ -445,6 +441,10 @@
         8
       ],
       [
+        "Inner Sphere Medium Laser",
+        8
+      ],
+      [
         "Heavy PPC",
         7
       ],
@@ -481,10 +481,6 @@
         5
       ],
       [
-        "ISMGA",
-        5
-      ],
-      [
         "ISArrowIVSystem",
         5
       ],
@@ -513,10 +509,6 @@
         4
       ],
       [
-        "ISERMediumLaser(ST)",
-        4
-      ],
-      [
         "Enhanced LRM 15",
         4
       ],
@@ -533,14 +525,6 @@
         4
       ],
       [
-        "Medium Laser(ST)",
-        4
-      ],
-      [
-        "ISAntiMissileSystem(ST)",
-        4
-      ],
-      [
         "InfantryAssaultRifle(PT):SIZE:10.0",
         4
       ],
@@ -553,15 +537,31 @@
         4
       ],
       [
-        "ISAntiMissileSystem:OMNI",
-        4
-      ],
-      [
         "Light Auto Cannon/2",
         3
       ],
       [
         "Inner Sphere AC/20",
+        3
+      ],
+      [
+        "Inner Sphere AC/2",
+        3
+      ],
+      [
+        "CLLightTAG",
+        3
+      ],
+      [
+        "CLTAG:OMNI",
+        3
+      ],
+      [
+        "CLHAG20",
+        3
+      ],
+      [
+        "Medium Re-engineered Laser",
         3
       ]
     ]
@@ -643,7 +643,7 @@
         "fallback_movement": "28\""
       }
     ],
-    "unmapped_weapons_count": 51,
+    "unmapped_weapons_count": 45,
     "unmapped_weapons_top": [
       [
         "Heavy PPC",
@@ -652,10 +652,6 @@
       [
         "Light PPC",
         10
-      ],
-      [
-        "ISLaserAntiMissileSystem",
-        8
       ],
       [
         "MRM 10",
@@ -694,10 +690,6 @@
         5
       ],
       [
-        "ISAntiMissileSystem",
-        4
-      ],
-      [
         "PPC Capacitor",
         4
       ],
@@ -726,15 +718,7 @@
         3
       ],
       [
-        "CLLaserAntiMissileSystem",
-        3
-      ],
-      [
         "CLHAG20:OMNI",
-        3
-      ],
-      [
-        "ISAntiMissileSystem:OMNI",
         3
       ],
       [
@@ -794,15 +778,7 @@
         1
       ],
       [
-        "CLMGA:OMNI",
-        1
-      ],
-      [
         "CLTAG:OMNI",
-        1
-      ],
-      [
-        "CLAntiMissileSystem:OMNI",
         1
       ],
       [
@@ -843,6 +819,10 @@
       ],
       [
         "MRM 10:OMNI",
+        1
+      ],
+      [
+        "MRM 30:OMNI",
         1
       ]
     ]

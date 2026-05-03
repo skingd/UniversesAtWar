@@ -170,6 +170,10 @@ _WEAPON_NAME_CORRECTIONS: dict[str, str] = {
     "isac5": "Inner Sphere AC/5",
     "isac10": "Inner Sphere AC/10",
     "isac20": "Inner Sphere AC/20",
+    # ISERMediumLaser(ST) — (ST) suffix denotes a sub-turret mount, not an ER variant.
+    # User correction: treat as standard Inner Sphere Medium Laser.
+    "isermediumlaser(st)": "Inner Sphere Medium Laser",
+    "medium laser(st)": "Inner Sphere Medium Laser",
 }
 
 

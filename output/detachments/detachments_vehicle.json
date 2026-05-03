@@ -10381,18 +10381,8 @@
       "max": 12
     },
     "points": 39,
-    "weapons_bulleted": [
-      "ISAntiMissileSystem"
-    ],
-    "weapons": [
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Turret",
-        "traits_added": [],
-        "unmapped": true
-      }
-    ],
+    "weapons_bulleted": [],
+    "weapons": [],
     "upgrade_options": {
       "special_ammo": [],
       "detachment_size": [
@@ -10407,7 +10397,8 @@
       ]
     },
     "special_rules": [
-      "3i Unit"
+      "3i Unit",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3050U\\Beagle Hover Scout (C3i).yml"
   },
@@ -12100,20 +12091,8 @@
       "max": 12
     },
     "points": 106,
-    "weapons_bulleted": [
-      "ISAntiMissileSystem"
-    ],
-    "weapons": [
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Front",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      }
-    ],
+    "weapons_bulleted": [],
+    "weapons": [],
     "upgrade_options": {
       "special_ammo": [],
       "detachment_size": [
@@ -12128,7 +12107,8 @@
       ]
     },
     "special_rules": [
-      "RL15"
+      "RL15",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3050U\\Lightning Attack Hovercraft (RL).yml"
   },
@@ -12221,8 +12201,7 @@
     "points": 124,
     "weapons_bulleted": [
       "Three Inner Sphere Medium Lasers",
-      "Inner Sphere Machine Gun",
-      "ISMGA"
+      "Inner Sphere Machine Gun"
     ],
     "weapons": [
       {
@@ -12242,15 +12221,6 @@
           "Arc(Front)"
         ],
         "unmapped": false
-      },
-      {
-        "name": "ISMGA",
-        "raw_ref": "ISMGA",
-        "mount_location": "Front",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
       },
       {
         "name": "Inner Sphere Medium Laser",
@@ -12286,7 +12256,8 @@
     },
     "special_rules": [
       "CASE",
-      "3i Unit"
+      "3i Unit",
+      "Machine Gun Array"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3050U\\Magi Infantry Support Vehicle (UCSV).yml"
   },
@@ -12845,7 +12816,6 @@
       "Three Inner Sphere MML 7",
       "Inner Sphere Medium Laser",
       "Two Inner Sphere Machine Guns",
-      "Two ISMGAs",
       "Inner Sphere Small Laser",
       "Vehicle Flamer",
       "Heavy PPC"
@@ -12888,15 +12858,6 @@
         "unmapped": false
       },
       {
-        "name": "ISMGA",
-        "raw_ref": "ISMGA",
-        "mount_location": "Right",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
-      {
         "name": "Inner Sphere MML 7",
         "raw_ref": "ISMML7",
         "mount_location": "Left",
@@ -12913,15 +12874,6 @@
           "Arc(Front)"
         ],
         "unmapped": false
-      },
-      {
-        "name": "ISMGA",
-        "raw_ref": "ISMGA",
-        "mount_location": "Left",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
       },
       {
         "name": "Inner Sphere Small Laser",
@@ -12964,7 +12916,8 @@
     },
     "special_rules": [
       "3i Unit",
-      "ISB Pod"
+      "ISB Pod",
+      "Machine Gun Array"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3050U\\Puma Assault Tank PAT-007.yml"
   },
@@ -12988,21 +12941,11 @@
     },
     "points": 244,
     "weapons_bulleted": [
-      "Five ISAntiMissileSystems",
       "Three Inner Sphere MML 9",
       "Inner Sphere ER PPC"
     ],
     "weapons": [
       {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Front",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
-      {
         "name": "Inner Sphere MML 9",
         "raw_ref": "ISMML9",
         "mount_location": "Front",
@@ -13010,15 +12953,6 @@
           "Arc(Front)"
         ],
         "unmapped": false
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Right",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
       },
       {
         "name": "Inner Sphere MML 9",
@@ -13030,15 +12964,6 @@
         "unmapped": false
       },
       {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Left",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
-      {
         "name": "Inner Sphere MML 9",
         "raw_ref": "ISMML9",
         "mount_location": "Left",
@@ -13046,22 +12971,6 @@
           "Arc(Front)"
         ],
         "unmapped": false
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Rear",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Turret",
-        "traits_added": [],
-        "unmapped": true
       },
       {
         "name": "Inner Sphere ER PPC",
@@ -13087,6 +12996,7 @@
     "special_rules": [
       "Guardian ECM Suite",
       "ISTargeting Computer",
+      "AMS",
       "Artemis IV",
       "ISB Pod"
     ],
@@ -14676,8 +14586,7 @@
     "weapons_bulleted": [
       "Clan AP Gauss Rifle",
       "Clan ER Large Laser",
-      "Clan LRM 15",
-      "CLAntiMissileSystem"
+      "Clan LRM 15"
     ],
     "weapons": [
       {
@@ -14702,13 +14611,6 @@
         "mount_location": "Turret",
         "traits_added": [],
         "unmapped": false
-      },
-      {
-        "name": "CLAntiMissileSystem",
-        "raw_ref": "CLAntiMissileSystem",
-        "mount_location": "Turret",
-        "traits_added": [],
-        "unmapped": true
       }
     ],
     "upgrade_options": {
@@ -14734,7 +14636,8 @@
       "CLTargeting Computer",
       "CLECM Suite",
       "CASE",
-      "Artemis IV"
+      "Artemis IV",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3058Uu\\Axel Heavy Tank IIC (XL).yml"
   },
@@ -16183,8 +16086,7 @@
       "Clan Heavy Machine Gun",
       "Clan Heavy Machine Gun Array:OMNI",
       "Clan ER Medium Laser",
-      "Clan Light Machine Gun",
-      "CLLMGA:OMNI"
+      "Clan Light Machine Gun"
     ],
     "weapons": [
       {
@@ -16218,13 +16120,6 @@
         "mount_location": "Turret",
         "traits_added": [],
         "unmapped": false
-      },
-      {
-        "name": "CLLMGA:OMNI",
-        "raw_ref": "CLLMGA:OMNI",
-        "mount_location": "Turret",
-        "traits_added": [],
-        "unmapped": true
       }
     ],
     "upgrade_options": {
@@ -16243,7 +16138,8 @@
     "special_rules": [
       "CASE",
       "Active Probe",
-      "CLECM Suite"
+      "CLECM Suite",
+      "Light Machine Gun Array"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3058Uu\\Bandit (C) Hovercraft G.yml"
   },
@@ -17890,8 +17786,7 @@
       "Inner Sphere Small Pulse Laser",
       "Inner Sphere Gauss Rifle",
       "Inner Sphere LB 10-X AC",
-      "ISLRM10",
-      "ISAntiMissileSystem"
+      "ISLRM10"
     ],
     "weapons": [
       {
@@ -17950,13 +17845,6 @@
         "mount_location": "Turret",
         "traits_added": [],
         "unmapped": true
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Turret",
-        "traits_added": [],
-        "unmapped": true
       }
     ],
     "upgrade_options": {
@@ -17979,7 +17867,8 @@
       ]
     },
     "special_rules": [
-      "Artemis IV"
+      "Artemis IV",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3058Uu\\Challenger X MBT.yml"
   },
@@ -18619,7 +18508,6 @@
     "points": 125,
     "weapons_bulleted": [
       "Inner Sphere Machine Gun",
-      "ISAntiMissileSystem",
       "Inner Sphere ER Medium Laser",
       "Inner Sphere LRM 10",
       "Inner Sphere SRM 6"
@@ -18633,15 +18521,6 @@
           "Arc(Front)"
         ],
         "unmapped": false
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Front",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
       },
       {
         "name": "Inner Sphere ER Medium Laser",
@@ -18699,7 +18578,9 @@
         }
       ]
     },
-    "special_rules": [],
+    "special_rules": [
+      "AMS"
+    ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3058Uu\\Goblin II Infantry Support Vehicle.yml"
   },
   {
@@ -18723,7 +18604,6 @@
     "points": 118,
     "weapons_bulleted": [
       "Inner Sphere Machine Gun",
-      "ISAntiMissileSystem",
       "Inner Sphere Large Pulse Laser",
       "Inner Sphere SRM 6"
     ],
@@ -18736,15 +18616,6 @@
           "Arc(Front)"
         ],
         "unmapped": false
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Front",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
       },
       {
         "name": "Inner Sphere Large Pulse Laser",
@@ -18780,7 +18651,9 @@
         }
       ]
     },
-    "special_rules": [],
+    "special_rules": [
+      "AMS"
+    ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3058Uu\\Goblin Infantry Support Vehicle.yml"
   },
   {
@@ -21508,19 +21381,9 @@
     },
     "points": 166,
     "weapons_bulleted": [
-      "ISAntiMissileSystem",
       "Inner Sphere LRM 20"
     ],
     "weapons": [
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Front",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
       {
         "name": "Inner Sphere LRM 20",
         "raw_ref": "LRM 20",
@@ -21560,7 +21423,9 @@
         }
       ]
     },
-    "special_rules": [],
+    "special_rules": [
+      "AMS"
+    ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3058Uu\\Padilla Heavy Artillery Tank (LRM).yml"
   },
   {
@@ -21585,7 +21450,6 @@
     "weapons_bulleted": [
       "ISArrowIVSystem",
       "Inner Sphere Medium Pulse Laser",
-      "ISAntiMissileSystem",
       "ISTAG"
     ],
     "weapons": [
@@ -21606,15 +21470,6 @@
           "Arc(Front)"
         ],
         "unmapped": false
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Front",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
       },
       {
         "name": "ISTAG",
@@ -21639,7 +21494,9 @@
         }
       ]
     },
-    "special_rules": [],
+    "special_rules": [
+      "AMS"
+    ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3058Uu\\Padilla Heavy Artillery Tank.yml"
   },
   {
@@ -27750,22 +27607,12 @@
     "points": 91,
     "weapons_bulleted": [
       "Light Auto Cannon/5",
-      "ISLMGA",
       "Inner Sphere Light Machine Gun"
     ],
     "weapons": [
       {
         "name": "Light Auto Cannon/5",
         "raw_ref": "Light Auto Cannon/5",
-        "mount_location": "Front",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
-      {
-        "name": "ISLMGA",
-        "raw_ref": "ISLMGA",
         "mount_location": "Front",
         "traits_added": [
           "Arc(Front)"
@@ -27796,6 +27643,7 @@
       ]
     },
     "special_rules": [
+      "Light Machine Gun Array",
       "RL15"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3060u\\Gladius Medium Hover Tank Mk II.yml"
@@ -29637,7 +29485,6 @@
     "points": 210,
     "weapons_bulleted": [
       "Clan ER Medium Laser",
-      "CLAntiMissileSystem",
       "Clan LRM 15",
       "Clan LB 10-X AC",
       "Clan Ultra AC/10"
@@ -29651,15 +29498,6 @@
           "Arc(Front)"
         ],
         "unmapped": false
-      },
-      {
-        "name": "CLAntiMissileSystem",
-        "raw_ref": "CLAntiMissileSystem",
-        "mount_location": "Front",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
       },
       {
         "name": "Clan LRM 15",
@@ -29716,6 +29554,7 @@
     },
     "special_rules": [
       "CASE",
+      "AMS",
       "Artemis IV"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3060u\\Ishtar Heavy Fire Support Tank.yml"
@@ -32467,8 +32306,7 @@
     },
     "points": 55,
     "weapons_bulleted": [
-      "Inner Sphere Medium Laser",
-      "Two ISAntiMissileSystems"
+      "Inner Sphere Medium Laser"
     ],
     "weapons": [
       {
@@ -32479,24 +32317,6 @@
           "Arc(Front)"
         ],
         "unmapped": false
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Front",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Rear",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
       }
     ],
     "upgrade_options": {
@@ -32513,7 +32333,8 @@
       ]
     },
     "special_rules": [
-      "Communications Equipment (7 ton)"
+      "Communications Equipment (7 ton)",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3075\\Cobra Transport VTOL (Command).yml"
   },
@@ -32537,8 +32358,7 @@
     },
     "points": 55,
     "weapons_bulleted": [
-      "Inner Sphere Medium Laser",
-      "Two ISAntiMissileSystems"
+      "Inner Sphere Medium Laser"
     ],
     "weapons": [
       {
@@ -32549,24 +32369,6 @@
           "Arc(Front)"
         ],
         "unmapped": false
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Front",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Rear",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
       }
     ],
     "upgrade_options": {
@@ -32583,7 +32385,8 @@
       ]
     },
     "special_rules": [
-      "Paramedic Equipment"
+      "Paramedic Equipment",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3075\\Cobra Transport VTOL (MASH.).yml"
   },
@@ -32656,8 +32459,7 @@
     },
     "points": 55,
     "weapons_bulleted": [
-      "Inner Sphere Medium Laser",
-      "Two ISAntiMissileSystems"
+      "Inner Sphere Medium Laser"
     ],
     "weapons": [
       {
@@ -32668,24 +32470,6 @@
           "Arc(Front)"
         ],
         "unmapped": false
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Front",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Rear",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
       }
     ],
     "upgrade_options": {
@@ -32701,7 +32485,9 @@
         }
       ]
     },
-    "special_rules": [],
+    "special_rules": [
+      "AMS"
+    ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3075\\Cobra Transport VTOL.yml"
   },
   {
@@ -32726,8 +32512,7 @@
     "weapons_bulleted": [
       "Inner Sphere Machine Gun",
       "Inner Sphere ER Large Laser",
-      "Inner Sphere LRM 15",
-      "ISAntiMissileSystem"
+      "Inner Sphere LRM 15"
     ],
     "weapons": [
       {
@@ -32754,13 +32539,6 @@
         "mount_location": "Turret",
         "traits_added": [],
         "unmapped": false
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Turret",
-        "traits_added": [],
-        "unmapped": true
       }
     ],
     "upgrade_options": {
@@ -32793,7 +32571,8 @@
       ]
     },
     "special_rules": [
-      "Guardian ECM Suite"
+      "Guardian ECM Suite",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3075\\Condor Heavy Hover Tank (Upgrade Laser).yml"
   },
@@ -33135,8 +32914,7 @@
     "points": 111,
     "weapons_bulleted": [
       "ISTAG",
-      "Inner Sphere ER Large Laser",
-      "Two ISAntiMissileSystems"
+      "Inner Sphere ER Large Laser"
     ],
     "weapons": [
       {
@@ -33156,24 +32934,6 @@
           "Arc(Front)"
         ],
         "unmapped": false
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Right",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Left",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
       }
     ],
     "upgrade_options": {
@@ -33190,7 +32950,8 @@
       ]
     },
     "special_rules": [
-      "Beagle Active Probe"
+      "Beagle Active Probe",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3075\\Cyrano Gunship (Royal).yml"
   },
@@ -34092,17 +33853,9 @@
     },
     "points": 188,
     "weapons_bulleted": [
-      "ISAntiMissileSystem",
       "Inner Sphere Gauss Rifle"
     ],
     "weapons": [
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Turret",
-        "traits_added": [],
-        "unmapped": true
-      },
       {
         "name": "Inner Sphere Gauss Rifle",
         "raw_ref": "ISGaussRifle",
@@ -34124,7 +33877,9 @@
         }
       ]
     },
-    "special_rules": [],
+    "special_rules": [
+      "AMS"
+    ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3075\\Fury Command Tank (Royal).yml"
   },
   {
@@ -35867,7 +35622,6 @@
     "weapons_bulleted": [
       "Inner Sphere LRM 10",
       "Inner Sphere Medium Pulse Laser",
-      "ISAntiMissileSystem",
       "Two Inner Sphere LRM 20"
     ],
     "weapons": [
@@ -35886,13 +35640,6 @@
         "mount_location": "Turret",
         "traits_added": [],
         "unmapped": false
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Turret",
-        "traits_added": [],
-        "unmapped": true
       },
       {
         "name": "Inner Sphere LRM 20",
@@ -35955,7 +35702,8 @@
     },
     "special_rules": [
       "Guardian ECM Suite",
-      "Artemis IV"
+      "Artemis IV",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3075\\Rhino Fire Support Tank (Royal).yml"
   },
@@ -36374,8 +36122,7 @@
     "points": 182,
     "weapons_bulleted": [
       "Clan LB 20-X AC",
-      "Clan Light Machine Gun",
-      "CLLMGA"
+      "Clan Light Machine Gun"
     ],
     "weapons": [
       {
@@ -36393,13 +36140,6 @@
         "mount_location": "Turret",
         "traits_added": [],
         "unmapped": false
-      },
-      {
-        "name": "CLLMGA",
-        "raw_ref": "CLLMGA",
-        "mount_location": "Turret",
-        "traits_added": [],
-        "unmapped": true
       }
     ],
     "upgrade_options": {
@@ -36423,7 +36163,8 @@
     },
     "special_rules": [
       "Light Active Probe",
-      "CASE"
+      "CASE",
+      "Light Machine Gun Array"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3075\\SM Tank Destroyer SM1A.yml"
   },
@@ -36949,7 +36690,6 @@
     "points": 106,
     "weapons_bulleted": [
       "Inner Sphere Machine Gun",
-      "ISAntiMissileSystem",
       "Inner Sphere Large Laser"
     ],
     "weapons": [
@@ -36961,13 +36701,6 @@
           "Arc(Front)"
         ],
         "unmapped": false
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Turret",
-        "traits_added": [],
-        "unmapped": true
       },
       {
         "name": "Inner Sphere Large Laser",
@@ -36991,7 +36724,8 @@
       ]
     },
     "special_rules": [
-      "C3 Master Unit"
+      "C3 Master Unit",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3075\\Turhan Urban Combat Vehicle (C3).yml"
   },
@@ -38243,11 +37977,10 @@
     "points": 336,
     "weapons_bulleted": [
       "Inner Sphere Improved Heavy Gauss Rifle",
-      "ISAntiMissileSystem",
       "Vehicle Flamer",
       "Inner Sphere Small Laser",
       "Inner Sphere SRM 4",
-      "Two ISERMediumLaser(ST)",
+      "Two Inner Sphere Medium Lasers",
       "Two Light Machine Guns"
     ],
     "weapons": [
@@ -38259,15 +37992,6 @@
           "Arc(Front)"
         ],
         "unmapped": false
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Front",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
       },
       {
         "name": "Vehicle Flamer",
@@ -38297,7 +38021,7 @@
         "unmapped": false
       },
       {
-        "name": "ISERMediumLaser(ST)",
+        "name": "Inner Sphere Medium Laser",
         "raw_ref": "ISERMediumLaser(ST)",
         "mount_location": "Front Right",
         "traits_added": [
@@ -38315,7 +38039,7 @@
         "unmapped": true
       },
       {
-        "name": "ISERMediumLaser(ST)",
+        "name": "Inner Sphere Medium Laser",
         "raw_ref": "ISERMediumLaser(ST)",
         "mount_location": "Front Left",
         "traits_added": [
@@ -38345,7 +38069,8 @@
     },
     "special_rules": [
       "CASE",
-      "Sponson Turret"
+      "Sponson Turret",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3150\\Devastator II Superheavy Tank .yml"
   },
@@ -38503,8 +38228,7 @@
     "points": 262,
     "weapons_bulleted": [
       "Inner Sphere Improved Heavy Gauss Rifle",
-      "Inner Sphere LRM 10",
-      "Two ISAntiMissileSystems"
+      "Inner Sphere LRM 10"
     ],
     "weapons": [
       {
@@ -38524,24 +38248,6 @@
           "Arc(Front)"
         ],
         "unmapped": false
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Front",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Rear",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
       }
     ],
     "upgrade_options": {
@@ -38578,7 +38284,8 @@
       "Guardian ECM Suite",
       "CASE",
       "ISTargeting Computer",
-      "Artemis IV"
+      "Artemis IV",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3150\\Fensalir Combat WiGE (Stealth).yml"
   },
@@ -38602,12 +38309,12 @@
     },
     "points": 84,
     "weapons_bulleted": [
-      "Two ISERMediumLaser(ST)",
+      "Two Inner Sphere Medium Lasers",
       "Inner Sphere Thumper Cannon"
     ],
     "weapons": [
       {
-        "name": "ISERMediumLaser(ST)",
+        "name": "Inner Sphere Medium Laser",
         "raw_ref": "ISERMediumLaser(ST)",
         "mount_location": "Right",
         "traits_added": [
@@ -38616,7 +38323,7 @@
         "unmapped": true
       },
       {
-        "name": "ISERMediumLaser(ST)",
+        "name": "Inner Sphere Medium Laser",
         "raw_ref": "ISERMediumLaser(ST)",
         "mount_location": "Left",
         "traits_added": [
@@ -39135,8 +38842,7 @@
     "points": 158,
     "weapons_bulleted": [
       "Heavy PPC",
-      "Inner Sphere SRM 2",
-      "ISAntiMissileSystem"
+      "Inner Sphere SRM 2"
     ],
     "weapons": [
       {
@@ -39152,13 +38858,6 @@
         "mount_location": "Turret",
         "traits_added": [],
         "unmapped": false
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Turret",
-        "traits_added": [],
-        "unmapped": true
       }
     ],
     "upgrade_options": {
@@ -39182,7 +38881,8 @@
     },
     "special_rules": [
       "Armored Motive System",
-      "CASE"
+      "CASE",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3150\\Schildkrote Line Tank (HPPC).yml"
   },
@@ -39206,8 +38906,7 @@
     },
     "points": 143,
     "weapons_bulleted": [
-      "Inner Sphere Light Gauss Rifle",
-      "ISAntiMissileSystem"
+      "Inner Sphere Light Gauss Rifle"
     ],
     "weapons": [
       {
@@ -39216,13 +38915,6 @@
         "mount_location": "Turret",
         "traits_added": [],
         "unmapped": false
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Turret",
-        "traits_added": [],
-        "unmapped": true
       }
     ],
     "upgrade_options": {
@@ -39241,7 +38933,8 @@
     "special_rules": [
       "Armored Motive System",
       "CASE",
-      "ISTargeting Computer"
+      "ISTargeting Computer",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3150\\Schildkrote Line Tank (Light Gauss).yml"
   },
@@ -39265,19 +38958,11 @@
     },
     "points": 165,
     "weapons_bulleted": [
-      "ISAntiMissileSystem",
       "Inner Sphere Plasma Rifle",
       "Inner Sphere MML 7",
       "ISTAG"
     ],
     "weapons": [
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Turret",
-        "traits_added": [],
-        "unmapped": true
-      },
       {
         "name": "Inner Sphere Plasma Rifle",
         "raw_ref": "ISPlasmaRifle",
@@ -39316,6 +39001,7 @@
     "special_rules": [
       "Armored Motive System",
       "CASE",
+      "AMS",
       "Artemis IV"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3150\\Schildkrote Line Tank (Plasma).yml"
@@ -43371,8 +43057,7 @@
     },
     "points": 302,
     "weapons_bulleted": [
-      "Thunderbolt 10",
-      "Two ISAntiMissileSystems"
+      "Thunderbolt 10"
     ],
     "weapons": [
       {
@@ -43380,24 +43065,6 @@
         "raw_ref": "Thunderbolt 10",
         "mount_location": "Turret",
         "traits_added": [],
-        "unmapped": true
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Rear Right",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Rear Left",
-        "traits_added": [
-          "Arc(Front)"
-        ],
         "unmapped": true
       }
     ],
@@ -43410,7 +43077,8 @@
       "Armored Chassis",
       "Advanced Fire Control",
       "Supercharger",
-      "Communications Equipment:SIZE:8.0"
+      "Communications Equipment:SIZE:8.0",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\ProtoTypes\\Nishikigoi Support Aircraft Koi.yml"
   },
@@ -44331,20 +43999,10 @@
     },
     "points": 209,
     "weapons_bulleted": [
-      "CLAntiMissileSystem",
       "CLLargeChemLaser",
       "Clan LRM 15"
     ],
     "weapons": [
-      {
-        "name": "CLAntiMissileSystem",
-        "raw_ref": "CLAntiMissileSystem",
-        "mount_location": "Front",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
       {
         "name": "CLLargeChemLaser",
         "raw_ref": "CLLargeChemLaser",
@@ -44380,6 +44038,7 @@
       ]
     },
     "special_rules": [
+      "AMS",
       "Artemis V"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\ProtoTypes\\Vidar Heavy Defense Tank.yml"
@@ -45036,7 +44695,7 @@
     "points": null,
     "weapons_bulleted": [
       "Inner Sphere Improved Heavy Gauss Rifle",
-      "Two Medium Laser(ST)"
+      "Two Inner Sphere Medium Lasers"
     ],
     "weapons": [
       {
@@ -45049,7 +44708,7 @@
         "unmapped": false
       },
       {
-        "name": "Medium Laser(ST)",
+        "name": "Inner Sphere Medium Laser",
         "raw_ref": "Medium Laser(ST)",
         "mount_location": "Right",
         "traits_added": [
@@ -45058,7 +44717,7 @@
         "unmapped": true
       },
       {
-        "name": "Medium Laser(ST)",
+        "name": "Inner Sphere Medium Laser",
         "raw_ref": "Medium Laser(ST)",
         "mount_location": "Left",
         "traits_added": [
@@ -45858,20 +45517,10 @@
     },
     "points": 89,
     "weapons_bulleted": [
-      "ISAntiMissileSystem",
       "Inner Sphere Machine Gun",
       "Inner Sphere Medium Laser"
     ],
     "weapons": [
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Front",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
       {
         "name": "Inner Sphere Machine Gun",
         "raw_ref": "Machine Gun",
@@ -45903,7 +45552,8 @@
       ]
     },
     "special_rules": [
-      "Guardian ECM Suite"
+      "Guardian ECM Suite",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\XTRs\\Gunslingers\\Cyrano Gunship (Fury).yml"
   },
@@ -45927,20 +45577,10 @@
     },
     "points": 236,
     "weapons_bulleted": [
-      "ISAntiMissileSystem",
       "Two Inner Sphere LRM 20",
       "Two Inner Sphere Medium Lasers"
     ],
     "weapons": [
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Front",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
       {
         "name": "Inner Sphere LRM 20",
         "raw_ref": "LRM 20",
@@ -45999,7 +45639,9 @@
         }
       ]
     },
-    "special_rules": [],
+    "special_rules": [
+      "AMS"
+    ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\XTRs\\Gunslingers\\Rhino Fire Support Tank (Hagar).yml"
   },
   {
@@ -47161,8 +46803,7 @@
     "points": 158,
     "weapons_bulleted": [
       "Extended LRM 5",
-      "Two Machine Gun(ST)",
-      "Two ISMGA(ST)"
+      "Two Machine Gun(ST)"
     ],
     "weapons": [
       {
@@ -47182,26 +46823,8 @@
         "unmapped": true
       },
       {
-        "name": "ISMGA(ST)",
-        "raw_ref": "ISMGA(ST)",
-        "mount_location": "Front Right",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
-      {
         "name": "Machine Gun(ST)",
         "raw_ref": "Machine Gun(ST)",
-        "mount_location": "Front Left",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
-      {
-        "name": "ISMGA(ST)",
-        "raw_ref": "ISMGA(ST)",
         "mount_location": "Front Left",
         "traits_added": [
           "Arc(Front)"
@@ -47219,6 +46842,7 @@
       "Advanced Fire Control",
       "Lift Hoist/Arresting Hoist",
       "Hyper Velocity Auto Cannon/2",
+      "Machine Gun Array",
       "Sponson Turret"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\XTRs\\Periphery\\Dreadnought Mk II Land Train.yml"
@@ -47526,7 +47150,6 @@
     "points": 117,
     "weapons_bulleted": [
       "Two Light Machine Gun(ST)",
-      "Two ISLMGA(ST)",
       "ISSNPPC"
     ],
     "weapons": [
@@ -47540,26 +47163,8 @@
         "unmapped": true
       },
       {
-        "name": "ISLMGA(ST)",
-        "raw_ref": "ISLMGA(ST)",
-        "mount_location": "Right",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
-      {
         "name": "Light Machine Gun(ST)",
         "raw_ref": "Light Machine Gun(ST)",
-        "mount_location": "Left",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
-      {
-        "name": "ISLMGA(ST)",
-        "raw_ref": "ISLMGA(ST)",
         "mount_location": "Left",
         "traits_added": [
           "Arc(Front)"
@@ -47588,7 +47193,8 @@
       ]
     },
     "special_rules": [
-      "Sponson Turret"
+      "Sponson Turret",
+      "Light Machine Gun Array"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\XTRs\\Pirates\\Myrmidon Medium Tank P (Tate).yml"
   },
@@ -49522,8 +49128,7 @@
     "weapons_bulleted": [
       "ISSNPPC",
       "Inner Sphere LB 2-X AC",
-      "Two Light Machine Gun(ST)",
-      "Two ISAntiMissileSystem(ST)"
+      "Two Light Machine Gun(ST)"
     ],
     "weapons": [
       {
@@ -49550,26 +49155,8 @@
         "unmapped": true
       },
       {
-        "name": "ISAntiMissileSystem(ST)",
-        "raw_ref": "ISAntiMissileSystem(ST)",
-        "mount_location": "Front Right",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
-      {
         "name": "Light Machine Gun(ST)",
         "raw_ref": "Light Machine Gun(ST)",
-        "mount_location": "Front Left",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
-      {
-        "name": "ISAntiMissileSystem(ST)",
-        "raw_ref": "ISAntiMissileSystem(ST)",
         "mount_location": "Front Left",
         "traits_added": [
           "Arc(Front)"
@@ -49599,7 +49186,8 @@
     "special_rules": [
       "Communications Equipment (3 ton)",
       "Guardian ECM Suite",
-      "CASE"
+      "CASE",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\XTRs\\Republic I\\Hexareme HQ Hovercraft.yml"
   },
@@ -50925,21 +50513,11 @@
     },
     "points": 148,
     "weapons_bulleted": [
-      "ISAntiMissileSystem",
       "Inner Sphere Flamer",
       "Inner Sphere Streak SRM 4",
       "Inner Sphere Ultra AC/10"
     ],
     "weapons": [
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Front",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
       {
         "name": "Inner Sphere Flamer",
         "raw_ref": "Flamer",
@@ -50983,7 +50561,9 @@
         }
       ]
     },
-    "special_rules": [],
+    "special_rules": [
+      "AMS"
+    ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\Turning Points\\JTP Atreus\\Tokugawa Heavy Tank SD2.yml"
   },
   {
@@ -53556,8 +53136,7 @@
     },
     "points": null,
     "weapons_bulleted": [
-      "Inner Sphere Small Pulse Laser",
-      "ISAntiMissileSystem"
+      "Inner Sphere Small Pulse Laser"
     ],
     "weapons": [
       {
@@ -53566,13 +53145,6 @@
         "mount_location": "Turret",
         "traits_added": [],
         "unmapped": false
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Turret",
-        "traits_added": [],
-        "unmapped": true
       }
     ],
     "upgrade_options": {
@@ -53590,7 +53162,8 @@
     },
     "special_rules": [
       "Advanced Fire Control",
-      "Armored Chassis"
+      "Armored Chassis",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\TRO Vehicle Annex\\Wheeled\\Bailey Armored Car.yml"
   },
@@ -57015,20 +56588,10 @@
     },
     "points": 144,
     "weapons_bulleted": [
-      "ISAntiMissileSystem",
       "Light Auto Cannon/5",
       "Medium Re-engineered Laser"
     ],
     "weapons": [
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Front",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
       {
         "name": "Light Auto Cannon/5",
         "raw_ref": "Light Auto Cannon/5",
@@ -57058,7 +56621,8 @@
       ]
     },
     "special_rules": [
-      "ISTargeting Computer"
+      "ISTargeting Computer",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\Rec Guides ilClan\\Vol 26\\Condor Heavy Hover Tank (LAC).yml"
   },
@@ -57205,7 +56769,6 @@
       "Two Inner Sphere MML 5",
       "Two ISSRM2IOSs",
       "Inner Sphere Machine Gun",
-      "ISMGA",
       "Inner Sphere Streak SRM 6"
     ],
     "weapons": [
@@ -57253,13 +56816,6 @@
         "unmapped": false
       },
       {
-        "name": "ISMGA",
-        "raw_ref": "ISMGA",
-        "mount_location": "Turret",
-        "traits_added": [],
-        "unmapped": true
-      },
-      {
         "name": "Inner Sphere Streak SRM 6",
         "raw_ref": "ISStreakSRM6",
         "mount_location": "Turret",
@@ -57280,7 +56836,9 @@
         }
       ]
     },
-    "special_rules": [],
+    "special_rules": [
+      "Machine Gun Array"
+    ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\Rec Guides ilClan\\Vol 26\\Maxim Heavy Hover Transport (Escort).yml"
   },
   {
@@ -57488,7 +57046,7 @@
     "points": 114,
     "weapons_bulleted": [
       "ISTAG",
-      "Two Medium Laser(ST)",
+      "Two Inner Sphere Medium Lasers",
       "Light PPC"
     ],
     "weapons": [
@@ -57502,7 +57060,7 @@
         "unmapped": true
       },
       {
-        "name": "Medium Laser(ST)",
+        "name": "Inner Sphere Medium Laser",
         "raw_ref": "Medium Laser(ST)",
         "mount_location": "Right",
         "traits_added": [
@@ -57511,7 +57069,7 @@
         "unmapped": true
       },
       {
-        "name": "Medium Laser(ST)",
+        "name": "Inner Sphere Medium Laser",
         "raw_ref": "Medium Laser(ST)",
         "mount_location": "Left",
         "traits_added": [
@@ -57566,20 +57124,10 @@
     },
     "points": 90,
     "weapons_bulleted": [
-      "ISAntiMissileSystem",
       "Two Machine Gun(ST)",
       "Inner Sphere ER Medium Laser"
     ],
     "weapons": [
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Front",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
       {
         "name": "Machine Gun(ST)",
         "raw_ref": "Machine Gun(ST)",
@@ -57621,7 +57169,8 @@
     },
     "special_rules": [
       "Sponson Turret",
-      "CASE"
+      "CASE",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\Rec Guides ilClan\\Vol 27\\Galleon Light Tank GAL-106M.yml"
   },
@@ -59109,18 +58658,8 @@
       "max": 12
     },
     "points": 56,
-    "weapons_bulleted": [
-      "ISAntiMissileSystem"
-    ],
-    "weapons": [
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Turret",
-        "traits_added": [],
-        "unmapped": true
-      }
-    ],
+    "weapons_bulleted": [],
+    "weapons": [],
     "upgrade_options": {
       "special_ammo": [],
       "detachment_size": [
@@ -59137,7 +58676,8 @@
     "special_rules": [
       "Communications Equipment:SIZE:4.0",
       "Guardian ECM Suite",
-      "CASE"
+      "CASE",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\Rec Guides ilClan\\Vol 29\\Browning Mobile HQ (Half Track).yml"
   },
@@ -59160,18 +58700,8 @@
       "max": 12
     },
     "points": 54,
-    "weapons_bulleted": [
-      "ISAntiMissileSystem"
-    ],
-    "weapons": [
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Turret",
-        "traits_added": [],
-        "unmapped": true
-      }
-    ],
+    "weapons_bulleted": [],
+    "weapons": [],
     "upgrade_options": {
       "special_ammo": [],
       "detachment_size": [
@@ -59188,7 +58718,8 @@
     "special_rules": [
       "Communications Equipment:SIZE:4.0",
       "Guardian ECM Suite",
-      "CASE"
+      "CASE",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\Rec Guides ilClan\\Vol 29\\Browning Mobile HQ.yml"
   },
@@ -59637,9 +59168,7 @@
     "weapons_bulleted": [
       "Clan Large Pulse Laser",
       "Clan Gauss Rifle",
-      "CLAntiMissileSystem:OMNI",
-      "Clan Machine Gun",
-      "CLMGA:OMNI"
+      "Clan Machine Gun"
     ],
     "weapons": [
       {
@@ -59657,25 +59186,11 @@
         "unmapped": false
       },
       {
-        "name": "CLAntiMissileSystem:OMNI",
-        "raw_ref": "CLAntiMissileSystem:OMNI",
-        "mount_location": "Turret",
-        "traits_added": [],
-        "unmapped": true
-      },
-      {
         "name": "Clan Machine Gun",
         "raw_ref": "CLMG:OMNI",
         "mount_location": "Turret",
         "traits_added": [],
         "unmapped": false
-      },
-      {
-        "name": "CLMGA:OMNI",
-        "raw_ref": "CLMGA:OMNI",
-        "mount_location": "Turret",
-        "traits_added": [],
-        "unmapped": true
       }
     ],
     "upgrade_options": {
@@ -59691,7 +59206,10 @@
         }
       ]
     },
-    "special_rules": [],
+    "special_rules": [
+      "AMS",
+      "Machine Gun Array"
+    ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\Rec Guides ilClan\\Vol 29\\Eurus MBT Prime.yml"
   },
   {
@@ -61319,18 +60837,8 @@
       "max": 12
     },
     "points": 40,
-    "weapons_bulleted": [
-      "ISAntiMissileSystem"
-    ],
-    "weapons": [
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Turret",
-        "traits_added": [],
-        "unmapped": true
-      }
-    ],
+    "weapons_bulleted": [],
+    "weapons": [],
     "upgrade_options": {
       "special_ammo": [],
       "detachment_size": [
@@ -61346,7 +60854,8 @@
     },
     "special_rules": [
       "CASE",
-      "MASH Equipment:SIZE:5.0"
+      "MASH Equipment:SIZE:5.0",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\Rec Guides ilClan\\Vol 31\\MASH Truck (AMS).yml"
   },
@@ -64407,8 +63916,7 @@
     },
     "points": 63,
     "weapons_bulleted": [
-      "Inner Sphere ER Medium Laser",
-      "ISLaserAntiMissileSystem"
+      "Inner Sphere ER Medium Laser"
     ],
     "weapons": [
       {
@@ -64419,15 +63927,6 @@
           "Arc(Front)"
         ],
         "unmapped": false
-      },
-      {
-        "name": "ISLaserAntiMissileSystem",
-        "raw_ref": "ISLaserAntiMissileSystem",
-        "mount_location": "Front",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
       }
     ],
     "upgrade_options": {
@@ -64447,6 +63946,7 @@
       "Guardian ECM Suite",
       "Bloodhound Active Probe",
       "Communications Equipment (5 ton)",
+      "Laser Anti Missile System",
       "Remote Sensor Dispenser"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\Era Digests\\Dark Age\\Tribune Mobile Tactical Command HQ.yml"
@@ -65689,25 +65189,14 @@
     "points": 428,
     "weapons_bulleted": [
       "Light Machine Gun",
-      "Two ISAntiMissileSystems",
       "Inner Sphere Long Tom Cannon",
       "Inner Sphere ER Medium Laser",
-      "Two ISAntiMissileSystem(ST)",
       "Two Light Machine Gun(ST)"
     ],
     "weapons": [
       {
         "name": "Light Machine Gun",
         "raw_ref": "Light Machine Gun",
-        "mount_location": "Rear",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
         "mount_location": "Rear",
         "traits_added": [
           "Arc(Front)"
@@ -65729,34 +65218,9 @@
         "unmapped": false
       },
       {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Turret",
-        "traits_added": [],
-        "unmapped": true
-      },
-      {
-        "name": "ISAntiMissileSystem(ST)",
-        "raw_ref": "ISAntiMissileSystem(ST)",
-        "mount_location": "Front Right",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
-      {
         "name": "Light Machine Gun(ST)",
         "raw_ref": "Light Machine Gun(ST)",
         "mount_location": "Front Right",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
-      {
-        "name": "ISAntiMissileSystem(ST)",
-        "raw_ref": "ISAntiMissileSystem(ST)",
-        "mount_location": "Front Left",
         "traits_added": [
           "Arc(Front)"
         ],
@@ -65788,7 +65252,8 @@
       "Communications Equipment:SIZE:1.0",
       "Guardian ECM Suite",
       "C3 Slave Unit",
-      "Hitch"
+      "Hitch",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3145\\Davion\\Destrier Siege Vehicle.yml"
   },
@@ -66354,19 +65819,9 @@
     },
     "points": 132,
     "weapons_bulleted": [
-      "ISAntiMissileSystem",
       "Light PPC"
     ],
     "weapons": [
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Front",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
       {
         "name": "Light PPC",
         "raw_ref": "Light PPC",
@@ -66393,7 +65848,8 @@
     "special_rules": [
       "Armored Motive System",
       "C3 Slave Unit",
-      "Guardian ECM Suite"
+      "Guardian ECM Suite",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3145\\Davion\\Sortek Assault Craft (Interdictor).yml"
   },
@@ -66417,8 +65873,7 @@
     },
     "points": 140,
     "weapons_bulleted": [
-      "Inner Sphere Rotary AC/2",
-      "ISAntiMissileSystem"
+      "Inner Sphere Rotary AC/2"
     ],
     "weapons": [
       {
@@ -66429,15 +65884,6 @@
           "Arc(Front)"
         ],
         "unmapped": false
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Front",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
       }
     ],
     "upgrade_options": {
@@ -66453,7 +65899,9 @@
         }
       ]
     },
-    "special_rules": [],
+    "special_rules": [
+      "AMS"
+    ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3145\\Davion\\Sortek Assault Craft.yml"
   },
   {
@@ -66527,8 +65975,7 @@
     "weapons_bulleted": [
       "Inner Sphere ER Medium Laser",
       "Inner Sphere LB 10-X AC",
-      "Light Machine Gun:OMNI",
-      "ISLMGA:OMNI"
+      "Light Machine Gun:OMNI"
     ],
     "weapons": [
       {
@@ -66548,13 +65995,6 @@
       {
         "name": "Light Machine Gun:OMNI",
         "raw_ref": "Light Machine Gun:OMNI",
-        "mount_location": "Turret",
-        "traits_added": [],
-        "unmapped": true
-      },
-      {
-        "name": "ISLMGA:OMNI",
-        "raw_ref": "ISLMGA:OMNI",
         "mount_location": "Turret",
         "traits_added": [],
         "unmapped": true
@@ -66580,7 +66020,8 @@
       ]
     },
     "special_rules": [
-      "CASE"
+      "CASE",
+      "Light Machine Gun Array"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3145\\Davion\\Zibler Fast Strike Tank (B).yml"
   },
@@ -67006,7 +66447,6 @@
     "weapons_bulleted": [
       "Two Light Machine Guns",
       "ISSNPPC",
-      "ISAntiMissileSystem",
       "MRM 40"
     ],
     "weapons": [
@@ -67036,13 +66476,6 @@
         "unmapped": true
       },
       {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Turret",
-        "traits_added": [],
-        "unmapped": true
-      },
-      {
         "name": "MRM 40",
         "raw_ref": "MRM 40",
         "mount_location": "Turret",
@@ -67066,6 +66499,7 @@
     "special_rules": [
       "CASE",
       "Limited Amphibious Chassis",
+      "AMS",
       "Apollo"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3145\\Kurita\\Mamono IFV.yml"
@@ -67090,20 +66524,10 @@
     },
     "points": 257,
     "weapons_bulleted": [
-      "Two ISAntiMissileSystems",
       "Inner Sphere PPC",
       "Inner Sphere Gauss Rifle"
     ],
     "weapons": [
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Front",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
       {
         "name": "Inner Sphere PPC",
         "raw_ref": "PPC",
@@ -67117,13 +66541,6 @@
         "mount_location": "Turret",
         "traits_added": [],
         "unmapped": false
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Turret",
-        "traits_added": [],
-        "unmapped": true
       }
     ],
     "upgrade_options": {
@@ -67140,7 +66557,8 @@
       ]
     },
     "special_rules": [
-      "CASE"
+      "CASE",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3145\\Kurita\\Narukami Heavy Tank NK-1C.yml"
   },
@@ -67164,28 +66582,11 @@
     },
     "points": 278,
     "weapons_bulleted": [
-      "Two ISAntiMissileSystems",
       "Inner Sphere Gauss Rifle",
       "Light PPC",
       "ISSRM2IOS"
     ],
     "weapons": [
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Front",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Turret",
-        "traits_added": [],
-        "unmapped": true
-      },
       {
         "name": "Inner Sphere Gauss Rifle",
         "raw_ref": "ISGaussRifle",
@@ -67223,7 +66624,8 @@
     },
     "special_rules": [
       "C3 Boosted System Slave Unit",
-      "CASE"
+      "CASE",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3145\\Kurita\\Narukami Heavy Tank NK-BC3.yml"
   },
@@ -68043,29 +67445,10 @@
     },
     "points": 210,
     "weapons_bulleted": [
-      "Two ISAntiMissileSystems",
       "Inner Sphere Medium VSP Laser",
       "Inner Sphere Arrow IV"
     ],
     "weapons": [
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Right",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Left",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
       {
         "name": "Inner Sphere Medium VSP Laser",
         "raw_ref": "ISMediumVSPLaser",
@@ -68106,7 +67489,8 @@
       ]
     },
     "special_rules": [
-      "CASE"
+      "CASE",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3145\\Liao\\Arrow IV Assault Vehicle.yml"
   },
@@ -71413,17 +70797,9 @@
     },
     "points": 103,
     "weapons_bulleted": [
-      "ISAntiMissileSystem",
       "Inner Sphere SRM 6"
     ],
     "weapons": [
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Turret",
-        "traits_added": [],
-        "unmapped": true
-      },
       {
         "name": "Inner Sphere SRM 6",
         "raw_ref": "SRM 6",
@@ -71453,7 +70829,8 @@
     },
     "special_rules": [
       "Guardian ECM Suite",
-      "Thumper"
+      "Thumper",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3145\\NTNU\\Padilla Tube Artillery Tank (AMS).yml"
   },
@@ -73670,8 +73047,7 @@
     "points": 484,
     "weapons_bulleted": [
       "Inner Sphere Gauss Rifle",
-      "Inner Sphere Long Tom Cannon",
-      "ISAntiMissileSystem:OMNI"
+      "Inner Sphere Long Tom Cannon"
     ],
     "weapons": [
       {
@@ -73687,13 +73063,6 @@
         "mount_location": "Rear Turret",
         "traits_added": [],
         "unmapped": false
-      },
-      {
-        "name": "ISAntiMissileSystem:OMNI",
-        "raw_ref": "ISAntiMissileSystem:OMNI",
-        "mount_location": "Rear Turret",
-        "traits_added": [],
-        "unmapped": true
       }
     ],
     "upgrade_options": {
@@ -73708,7 +73077,8 @@
     },
     "special_rules": [
       "Guardian ECM Suite",
-      "CASE"
+      "CASE",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3145\\Steiner\\Gulltoppr OmniMonitor (Prime).yml"
   },
@@ -73858,8 +73228,7 @@
     "points": 151,
     "weapons_bulleted": [
       "Inner Sphere LB 10-X AC",
-      "Light PPC",
-      "ISAntiMissileSystem"
+      "Light PPC"
     ],
     "weapons": [
       {
@@ -73872,13 +73241,6 @@
       {
         "name": "Light PPC",
         "raw_ref": "Light PPC",
-        "mount_location": "Turret",
-        "traits_added": [],
-        "unmapped": true
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
         "mount_location": "Turret",
         "traits_added": [],
         "unmapped": true
@@ -73905,7 +73267,8 @@
     },
     "special_rules": [
       "CASE",
-      "Armored Motive System"
+      "Armored Motive System",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3145\\Steiner\\Schildkrote Line Tank.yml"
   },
@@ -74505,7 +73868,6 @@
     "weapons_bulleted": [
       "Inner Sphere Machine Gun",
       "Inner Sphere Light Gauss Rifle",
-      "ISAntiMissileSystem:OMNI",
       "ISTAG:OMNI"
     ],
     "weapons": [
@@ -74524,13 +73886,6 @@
         "mount_location": "Turret",
         "traits_added": [],
         "unmapped": false
-      },
-      {
-        "name": "ISAntiMissileSystem:OMNI",
-        "raw_ref": "ISAntiMissileSystem:OMNI",
-        "mount_location": "Turret",
-        "traits_added": [],
-        "unmapped": true
       },
       {
         "name": "ISTAG:OMNI",
@@ -74557,7 +73912,8 @@
       "Vehicular Stealth",
       "ISTargeting Computer",
       "Guardian ECM Suite",
-      "C3 Slave Unit"
+      "C3 Slave Unit",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3085u\\Cutting Edge\\Bolla Stealth Tank A.yml"
   },
@@ -74738,8 +74094,7 @@
     "points": 150,
     "weapons_bulleted": [
       "Inner Sphere Machine Gun",
-      "Inner Sphere Light Gauss Rifle",
-      "ISAntiMissileSystem:OMNI"
+      "Inner Sphere Light Gauss Rifle"
     ],
     "weapons": [
       {
@@ -74757,13 +74112,6 @@
         "mount_location": "Turret",
         "traits_added": [],
         "unmapped": false
-      },
-      {
-        "name": "ISAntiMissileSystem:OMNI",
-        "raw_ref": "ISAntiMissileSystem:OMNI",
-        "mount_location": "Turret",
-        "traits_added": [],
-        "unmapped": true
       }
     ],
     "upgrade_options": {
@@ -74782,7 +74130,8 @@
     "special_rules": [
       "Vehicular Stealth",
       "3i Unit",
-      "Guardian ECM Suite"
+      "Guardian ECM Suite",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3085u\\Cutting Edge\\Bolla Stealth Tank Comminus.yml"
   },
@@ -78586,9 +77935,7 @@
     "weapons_bulleted": [
       "Inner Sphere ER Small Laser",
       "Inner Sphere Light Machine Gun",
-      "ISLMGA",
-      "ISMachine Gun",
-      "ISMGA"
+      "ISMachine Gun"
     ],
     "weapons": [
       {
@@ -78608,22 +77955,8 @@
         "unmapped": false
       },
       {
-        "name": "ISLMGA",
-        "raw_ref": "ISLMGA",
-        "mount_location": "Turret",
-        "traits_added": [],
-        "unmapped": true
-      },
-      {
         "name": "ISMachine Gun",
         "raw_ref": "ISMachine Gun",
-        "mount_location": "Turret",
-        "traits_added": [],
-        "unmapped": true
-      },
-      {
-        "name": "ISMGA",
-        "raw_ref": "ISMGA",
         "mount_location": "Turret",
         "traits_added": [],
         "unmapped": true
@@ -78642,7 +77975,10 @@
         }
       ]
     },
-    "special_rules": [],
+    "special_rules": [
+      "Light Machine Gun Array",
+      "Machine Gun Array"
+    ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3085u\\Cutting Edge\\Ranger Armored Fighting Vehicle VV1.yml"
   },
   {
@@ -79519,7 +78855,6 @@
     "points": 232,
     "weapons_bulleted": [
       "Inner Sphere Streak SRM 6",
-      "ISAntiMissileSystem",
       "Inner Sphere LRM 15",
       "Light PPC"
     ],
@@ -79532,15 +78867,6 @@
           "Arc(Front)"
         ],
         "unmapped": false
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Front",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
       },
       {
         "name": "Inner Sphere LRM 15",
@@ -79588,7 +78914,8 @@
     },
     "special_rules": [
       "ISTargeting Computer",
-      "CASE"
+      "CASE",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3085u\\Cutting Edge\\Winston Combat Vehicle.yml"
   },
@@ -80085,8 +79412,7 @@
       "Inner Sphere Small Pulse Laser",
       "Inner Sphere ER Large Laser",
       "Inner Sphere LB 10-X AC",
-      "Inner Sphere MML 7",
-      "ISAntiMissileSystem"
+      "Inner Sphere MML 7"
     ],
     "weapons": [
       {
@@ -80145,13 +79471,6 @@
         "mount_location": "Turret",
         "traits_added": [],
         "unmapped": false
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Turret",
-        "traits_added": [],
-        "unmapped": true
       }
     ],
     "upgrade_options": {
@@ -80174,7 +79493,8 @@
       ]
     },
     "special_rules": [
-      "ISSRT4"
+      "ISSRT4",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3085u\\ONN\\Challenger XIVs MBT.yml"
   },
@@ -80555,7 +79875,6 @@
     "points": 134,
     "weapons_bulleted": [
       "ISMachine Gun",
-      "ISAntiMissileSystem",
       "ISSNPPC",
       "ISSRM6"
     ],
@@ -80563,15 +79882,6 @@
       {
         "name": "ISMachine Gun",
         "raw_ref": "ISMachine Gun",
-        "mount_location": "Front",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
         "mount_location": "Front",
         "traits_added": [
           "Arc(Front)"
@@ -80606,7 +79916,9 @@
         }
       ]
     },
-    "special_rules": [],
+    "special_rules": [
+      "AMS"
+    ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3085u\\ONN\\Goblin Infantry Support Vehicle (Sealed).yml"
   },
   {
@@ -80768,8 +80080,7 @@
     "points": 172,
     "weapons_bulleted": [
       "Heavy PPC",
-      "Inner Sphere MML 7",
-      "ISAntiMissileSystem"
+      "Inner Sphere MML 7"
     ],
     "weapons": [
       {
@@ -80785,13 +80096,6 @@
         "mount_location": "Turret",
         "traits_added": [],
         "unmapped": false
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Turret",
-        "traits_added": [],
-        "unmapped": true
       }
     ],
     "upgrade_options": {
@@ -80808,7 +80112,8 @@
       ]
     },
     "special_rules": [
-      "ISTargeting Computer"
+      "ISTargeting Computer",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3085u\\ONN\\Manticore Heavy Tank (HPPC).yml"
   },
@@ -80972,8 +80277,7 @@
     "weapons_bulleted": [
       "Inner Sphere Machine Gun",
       "Inner Sphere LB 10-X AC",
-      "Inner Sphere AC/2",
-      "ISAntiMissileSystem"
+      "Inner Sphere AC/2"
     ],
     "weapons": [
       {
@@ -80998,13 +80302,6 @@
         "mount_location": "Turret",
         "traits_added": [],
         "unmapped": false
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Turret",
-        "traits_added": [],
-        "unmapped": true
       }
     ],
     "upgrade_options": {
@@ -81032,7 +80329,8 @@
       ]
     },
     "special_rules": [
-      "C3 Slave Unit"
+      "C3 Slave Unit",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3085u\\ONN\\Partisan Air Defense Tank (Cell).yml"
   },
@@ -81057,8 +80355,7 @@
     "points": 195,
     "weapons_bulleted": [
       "Inner Sphere Machine Gun",
-      "Four Inner Sphere LRM 15",
-      "ISAntiMissileSystem"
+      "Four Inner Sphere LRM 15"
     ],
     "weapons": [
       {
@@ -81097,13 +80394,6 @@
         "mount_location": "Turret",
         "traits_added": [],
         "unmapped": false
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Turret",
-        "traits_added": [],
-        "unmapped": true
       }
     ],
     "upgrade_options": {
@@ -81137,7 +80427,8 @@
     },
     "special_rules": [
       "C3 Slave Unit",
-      "Artemis IV"
+      "Artemis IV",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3085u\\ONN\\Partisan Air Defense Tank (LRM).yml"
   },
@@ -81453,20 +80744,10 @@
     },
     "points": 148,
     "weapons_bulleted": [
-      "ISAntiMissileSystem",
       "ISPPC",
       "ISLPPC"
     ],
     "weapons": [
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Front",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
       {
         "name": "ISPPC",
         "raw_ref": "ISPPC",
@@ -81497,7 +80778,8 @@
     },
     "special_rules": [
       "Guardian ECM Suite",
-      "C3 Master Computer"
+      "C3 Master Computer",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3085u\\ONN\\Schrek PPC Carrier (C3M).yml"
   },
@@ -81817,21 +81099,11 @@
     },
     "points": 109,
     "weapons_bulleted": [
-      "ISAntiMissileSystem",
       "Inner Sphere Machine Gun",
       "Two Inner Sphere SRM 2",
       "Inner Sphere LB 10-X AC"
     ],
     "weapons": [
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Front",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
       {
         "name": "Inner Sphere Machine Gun",
         "raw_ref": "Machine Gun",
@@ -81891,7 +81163,8 @@
     },
     "special_rules": [
       "C3 Slave Unit",
-      "CASE"
+      "CASE",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3085u\\ONN\\Vedette Medium Tank (Cell).yml"
   },
@@ -82288,7 +81561,6 @@
     "points": 281,
     "weapons_bulleted": [
       "Inner Sphere Arrow IV",
-      "Three ISAntiMissileSystems",
       "Two Light Machine Guns"
     ],
     "weapons": [
@@ -82300,15 +81572,6 @@
           "Arc(Front)"
         ],
         "unmapped": false
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Front",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
       },
       {
         "name": "Light Machine Gun",
@@ -82323,24 +81586,6 @@
         "name": "Light Machine Gun",
         "raw_ref": "Light Machine Gun",
         "mount_location": "Rear",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Front Right",
-        "traits_added": [
-          "Arc(Front)"
-        ],
-        "unmapped": true
-      },
-      {
-        "name": "ISAntiMissileSystem",
-        "raw_ref": "ISAntiMissileSystem",
-        "mount_location": "Front Left",
         "traits_added": [
           "Arc(Front)"
         ],
@@ -82366,6 +81611,7 @@
       "Guardian ECM Suite",
       "CASE",
       "Communications Equipment (3 ton)",
+      "AMS",
       "Hitch",
       "Sniper"
     ],
@@ -83467,18 +82713,10 @@
     },
     "points": 175,
     "weapons_bulleted": [
-      "ISAntiMissileSystem:OMNI",
       "Inner Sphere LRM 10",
       "Light PPC:OMNI"
     ],
     "weapons": [
-      {
-        "name": "ISAntiMissileSystem:OMNI",
-        "raw_ref": "ISAntiMissileSystem:OMNI",
-        "mount_location": "Turret",
-        "traits_added": [],
-        "unmapped": true
-      },
       {
         "name": "Inner Sphere LRM 10",
         "raw_ref": "LRM 10:OMNI",
@@ -83524,7 +82762,8 @@
       ]
     },
     "special_rules": [
-      "CASE"
+      "CASE",
+      "AMS"
     ],
     "source_path": "C:\\Users\\Stephen\\OneDrive\\Gaming\\battletech\\Data Files\\vehicles\\3067 Unabridged\\IS Vehicles\\Manteuffel Attack Tank D.yml"
   },

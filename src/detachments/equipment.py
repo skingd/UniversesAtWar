@@ -116,7 +116,15 @@ def _looks_like_weapon(normalized: str) -> bool:
     if not normalized:
         return False
     # Anti-Missile System contains "missile" but is defensive equipment, not a weapon.
-    if "anti-missile" in normalized:
+    # The hyphenated form arises from MTF refs with explicit spaces ("Anti-Missile System");
+    # the unhyphenated form arises from CamelCase splitting of "ISAntiMissileSystem".
+    if "anti-missile" in normalized or "anti missile" in normalized:
+        return False
+    # Machine Gun Array (MGA) contains "mg" but is a special rule, not a weapon profile.
+    # Matches "mga", "ismga", "clmga" — CamelCase variants where IS/CL prefix isn't
+    # space-separated so _TECH_PREFIX_RE doesn't strip it.
+    # Also handles "(ST)" sub-turret suffix variants like "ISMGA(ST)".
+    if normalized.split("(")[0].strip().endswith("mga"):
         return False
     return any(tok in normalized for tok in _WEAPON_HINT_TOKENS)
 
@@ -132,8 +140,24 @@ _SR_NAME_CORRECTIONS: dict[str, str] = {
     "3 sensors": "C3 Sensors",
     "3 remote sensor launcher": "C3 Remote Sensor Launcher",
     "mga": "Machine Gun Array",
+    # IS/CL prefix not stripped (no space in raw ref) — correct raw forms directly.
+    # Also handles "(ST)" sub-turret suffix variants.
+    "ismga": "Machine Gun Array",
+    "ismga(st)": "Machine Gun Array",
+    "clmga": "Machine Gun Array",
+    "islmga": "Light Machine Gun Array",
+    "islmga(st)": "Light Machine Gun Array",
+    "cllmga": "Light Machine Gun Array",
     "iscase": "CASE",
     "clcase": "CASE",
+    # Anti-Missile System → AMS.
+    # "anti-missile system" comes from mechs (IS prefix stripped, hyphen preserved).
+    # "anti missile system" comes from CamelCase-split ISAntiMissileSystem (no hyphen).
+    # "(st)" variants arise when the ref carries a sub-turret mount suffix.
+    "anti-missile system": "AMS",
+    "anti missile system": "AMS",
+    "anti-missile system(st)": "AMS",
+    "anti missile system(st)": "AMS",
 }
 
 

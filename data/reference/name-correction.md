@@ -14,6 +14,8 @@
 `ISAC2` Replace with `Inner Sphere AC/2`
 `ISCASE` Replace with `CASE`
 `CLCASE` Replace with `CASE`
-
+`ISAntiMissileSystem` Replace with `AMS`
+`ISERMediumLaser(ST)` Replae with `Inner Sphere Medium Laser`
 
 `Long Tom Cannon` This is the `Long Tom Cannon` Weapon, not a Special Rule
+`Anti-Missile System` is AMS and is a Special Rule, not a weapon
