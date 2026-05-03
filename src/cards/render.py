@@ -138,6 +138,13 @@ h1.page-title {{
   width: 100%;
   margin: 2px 0 5px 0;
 }}
+.card table.stats {{
+  table-layout: fixed;
+}}
+.card table.stats th,
+.card table.stats td {{
+  width: 20%;
+}}
 .card th, .card td {{
   text-align: left;
   padding: 2px 4px;
@@ -155,6 +162,7 @@ h1.page-title {{
 .card .weapons-bullets {{
   margin: 2px 0 4px 14px;
   padding: 0;
+  column-gap: 0.2in;
 }}
 .card .weapons-bullets li {{ margin: 1px 0; }}
 .card .section-h {{
@@ -329,6 +337,7 @@ def render_front(detachment: dict, profiles: dict[str, WeaponProfile]) -> str:
     scale = detachment.get("scale")
     save = detachment.get("armor_save") or ""
     movement = detachment.get("movement") or ""
+    heat_threshold = detachment.get("heat_threshold")
     wounds = detachment.get("wounds")
     ds = detachment.get("detachment_size") or {}
     base_size = ds.get("base") or 1
@@ -337,6 +346,9 @@ def render_front(detachment: dict, profiles: dict[str, WeaponProfile]) -> str:
 
     bullets = detachment.get("weapons_bulleted") or []
     bullet_html = "".join(f"<li>{_h(b)}</li>" for b in bullets)
+    # Use CSS multi-column: at most 4 bullets per column before wrapping.
+    n_cols = max(1, (len(bullets) + 3) // 4)
+    col_style = f" style='column-count:{n_cols};'" if n_cols > 1 else ""
 
     weapons_html = _render_weapon_table(detachment.get("weapons") or [], profiles)
 
@@ -358,12 +370,16 @@ def render_front(detachment: dict, profiles: dict[str, WeaponProfile]) -> str:
         "</div>"
         "<div class='body'>"
         "<table class='stats'><thead><tr>"
-        "<th>Name</th><th>Movement</th><th>Save</th><th>W</th>"
-        "</tr></thead><tbody><tr>"
-        f"<td>{_h(name)}</td><td>{_h(movement)}</td><td>{_h(save)}</td><td>{_h(wounds)}</td>"
-        "</tr></tbody></table>"
+        + ("<th>Name</th><th>Movement</th><th>HT</th><th>Save</th><th>W</th>"
+           if heat_threshold is not None else
+           "<th>Name</th><th>Movement</th><th>Save</th><th>W</th>")
+        + "</tr></thead><tbody><tr>"
+        + (f"<td>{_h(name)}</td><td>{_h(movement)}</td><td>{_h(heat_threshold)}</td><td>{_h(save)}</td><td>{_h(wounds)}</td>"
+           if heat_threshold is not None else
+           f"<td>{_h(name)}</td><td>{_h(movement)}</td><td>{_h(save)}</td><td>{_h(wounds)}</td>")
+        + "</tr></tbody></table>"
         "<div class='section-h'>Weapons</div>"
-        f"<ul class='weapons-bullets'>{bullet_html}</ul>"
+        f"<ul class='weapons-bullets'{col_style}>{bullet_html}</ul>"
         f"{weapons_html}"
         f"{sr_html}"
         "</div>"

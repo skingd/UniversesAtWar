@@ -15,7 +15,10 @@ this prose is stable text — only the per-profile rule data is volatile.
 """
 from __future__ import annotations
 
+import json
 import math
+import pathlib
+import re
 from collections import Counter
 from dataclasses import dataclass, field
 from typing import Iterable, Optional
@@ -65,6 +68,37 @@ class Coverage:
                 self.unmapped_weapons.items(), key=lambda kv: -kv[1],
             )[:50],
         }
+
+
+_HS_HEADER_RE = re.compile(r"(\d+)\s+(single|double)", re.IGNORECASE)
+
+
+def _heat_threshold(record: dict, unit_type: str) -> Optional[int]:
+    """Return ceil(dissipation / 4) for mechs; None for everything else.
+
+    Dissipation = declared HS count × 2 (Double) or × 1 (Single).
+    The declared count in the source 'Heat Sinks' field is authoritative —
+    crit slots are NOT counted to avoid over-counting IS 3-slot / Clan 2-slot DHS.
+    """
+    if unit_type.lower() != "mech":
+        return None
+    sp = record.get("source_path")
+    if not sp or not pathlib.Path(sp).exists():
+        return None
+    try:
+        raw = json.load(open(sp, encoding="utf-8-sig"))
+    except Exception:
+        return None
+    hs_str = str(raw.get("Heat Sinks") or "").strip()
+    match = _HS_HEADER_RE.match(hs_str)
+    if not match:
+        return None
+    count = int(match.group(1))
+    if count == 0:
+        return None
+    multiplier = 2 if match.group(2).lower() == "double" else 1
+    dissipation = count * multiplier
+    return math.ceil(dissipation / 4)
 
 
 def _display_name(record: dict) -> str:
@@ -117,7 +151,12 @@ def _weapon_link(
     unit_type: str,
 ) -> dict:
     """Build a *link-only* weapon entry. Profile data is **not** embedded."""
-    name = profile.name if profile is not None else raw_ref
+    if profile is not None:
+        name = profile.name
+    else:
+        # For unmapped weapons strip tech/qualifier suffixes from the raw ref
+        # e.g. "Some Gun; Inner Sphere (Armored)" → "Some Gun"
+        name = raw_ref.split(";")[0].strip()
     return {
         "name": name,
         "raw_ref": raw_ref,
@@ -359,6 +398,7 @@ def build_detachment(
         "tonnage": tonnage,
         "armor_save": save,
         "movement": movement,
+        "heat_threshold": _heat_threshold(record, unit_type),
         "wounds": tables.wounds(tonnage, unit_type),
         "detachment_size": {"base": base, "max": max_size},
         "points": points,

@@ -158,6 +158,17 @@ class WeaponIndex:
         if parsed.is_ammo:
             return None, "ammo"
 
+        # 0. Try the raw ref itself (colon-tags stripped, normalized) directly
+        #    in the alias index.  Handles MTF CamelCase refs like "ISNarcBeacon"
+        #    or "CLNarcBeacon:OMNI" that are registered from mtf_reference fields
+        #    in equipment records but whose camel-split form loses information.
+        if alias_index is not None:
+            raw_clean = _normalize_key(raw_ref.split(":")[0])
+            if raw_clean:
+                cid = alias_index.exact.get(raw_clean)
+                if cid and cid in self.by_canonical_id:
+                    return self.by_canonical_id[cid], "canonical"
+
         # 1. Canonical id route via alias index.
         if alias_index is not None:
             cid, _kind = alias_index.lookup(parsed)
@@ -185,6 +196,23 @@ class WeaponIndex:
                     sub = key[len(prefix):]
                     if sub in self.by_name_key:
                         return self.by_name_key[sub], "name"
+
+        # 5. Narc / iNarc keyword fallback.
+        #    Bare "Narc" refs and MTF abbreviations like "ISImprovedNarc" don't
+        #    match any exact key.  Ammo pods (key contains "pods") are excluded.
+        if key and "narc" in key and "pods" not in key:
+            tech_lower = "clan" if parsed.tech_base == "Clan" else "inner sphere"
+            if "inarc" in key or "improved narc" in key:
+                probe = f"{tech_lower} inarc launcher"
+            else:
+                probe = f"{tech_lower} narc missile beacon"
+            if probe in self.by_name_key:
+                return self.by_name_key[probe], "name"
+            # Tech fallback: try the other tech variant if preferred not present.
+            alt = "clan" if tech_lower == "inner sphere" else "inner sphere"
+            alt_probe = f"{alt} narc missile beacon"
+            if alt_probe in self.by_name_key:
+                return self.by_name_key[alt_probe], "name"
 
         return None, "miss"
 

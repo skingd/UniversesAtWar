@@ -250,10 +250,23 @@ Increase the Detachment Size by 8....................................+300 points
 **Special Ammo Upgrade Format**
 This detachment can take up to 3 Special Ammo choices from the Special Ammo list, provided all three are for one or more weapons listed in the Detachment's Weapons section.
 
+## Heat Sink/Heat Threshold Translation
+All mechs have a heat threshold. This is calculated from the total heat dissipation value of the mech divided by 4, rounded up. A mech with 15 heat dissipation will have a heat threshold of 4.  
+
 ## Equipment Translation
 **Ammunition**: Ignore ammo. It it will not be listed or represented in the detachment profile. Instead, players will use the Special Ammo rule. Normal ammunition is functionally infinite except for the Limited (x) special rule.
 
 **Armor and Structure Types**: Any armor or structure without bespoke rules that impact gameplay are ignore. This includes Ferro-Fiberous and Endosteel. These are distilled away as they do not have a combat effect. Any armor or structure like Stealth Armor will be translated in the chart below.
+
+### Equipment to exclude from the detachment profile
+- Ferro-Fiberous
+- Endo Steel
+- Heat Sinks
+- Double Heat Sinks
+- Quad Turret
+- Ejection Seat (Industrial Mech)
+- Shoulder Turret
+
 
 **Special Rule Assignment**: Equipment is translated into `Special Rules` on the mech, vehicle, aerospace or infantry detachment that they would normally be installed on. Players will have access to the special rules that they apply, so for the purposes of this we are only listing the special rules in the detachment profile. These get listed at the very bottom in a comma seperated fashion.
 

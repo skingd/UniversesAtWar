@@ -36,6 +36,8 @@ _DROP_SUBSTRINGS: tuple[str, ...] = (
     "reflective armor",
     "hardened armor",
     "patchwork armor",
+    # Heat sinks are mechanical components — no game rule effect.
+    "heat sink",
 )
 
 
@@ -81,11 +83,11 @@ def partition_refs(
             continue
         if parsed.is_ammo:
             continue
-        # Heuristic: if the ref's normalized name contains "laser", "ppc",
-        # "cannon", "missile", "gauss", "rifle", "mortar", "machine gun",
-        # "ac/", "lrm", "srm", "atm", "lb ", "uac", "mml", treat as a
-        # weapon (unmapped). Otherwise classify as equipment.
+        # Narc / iNarc ammo pods are not a weapon profile and not a special rule.
+        # MTF refs: "ISNarc Pods", "CLNarc Pods", "ISiNarc Pods", etc.
         nk = parsed.normalized_key
+        if "narc" in nk and "pods" in nk:
+            continue
         if _looks_like_weapon(nk):
             weapon_refs.append(ref)
         else:
@@ -109,6 +111,9 @@ _WEAPON_HINT_TOKENS: tuple[str, ...] = (
 def _looks_like_weapon(normalized: str) -> bool:
     if not normalized:
         return False
+    # Anti-Missile System contains "missile" but is defensive equipment, not a weapon.
+    if "anti-missile" in normalized:
+        return False
     return any(tok in normalized for tok in _WEAPON_HINT_TOKENS)
 
 
@@ -127,6 +132,10 @@ def special_rules_from_equipment(equipment_refs: Iterable[str]) -> list[str]:
             continue
         parsed = parse_reference(ref)
         name = parsed.name.strip()
+        # Strip tech/qualifier suffixes not caught by parse_reference:
+        # e.g. "Artemis IV FCS; Clan (Turret)" → "Artemis IV FCS"
+        if ";" in name:
+            name = name.split(";")[0].strip()
         if not name:
             continue
         if _is_drop_equipment(name):
