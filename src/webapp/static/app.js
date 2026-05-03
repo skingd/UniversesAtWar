@@ -51,6 +51,10 @@ const els = {
   overlay:       $("overlay"),
   drawerFilters: $("drawer-filters"),
   drawerCart:    $("drawer-cart"),
+  cardModal:        $("card-modal"),
+  cardModalBackdrop:$("card-modal-backdrop"),
+  cardModalTitle:   $("card-modal-title"),
+  cardModalBody:    $("card-modal-body"),
 };
 
 // ------------------------------------------------------------------
@@ -151,7 +155,10 @@ function buildTile(u, inCart) {
   div.className = `unit-tile${inCartClass}`;
   div.dataset.id = u.id;
   div.innerHTML = `
-    <div class="tile-name" title="${esc(u.name)}">${esc(u.name)}</div>
+    <div class="tile-name">
+      <span class="tile-name-text" title="${esc(u.name)}">${esc(u.name)}</span>
+      <button class="btn-info" data-info-id="${esc(u.id)}" aria-label="View unit card for ${esc(u.name)}">&#9432;</button>
+    </div>
     <div class="tile-meta">
       <span class="tag tag-type">${esc(u.unit_type)}</span>
       <span class="tag ${techClass}">${esc(u.tech_base)}</span>
@@ -253,6 +260,39 @@ function refreshTileState(id, inCart) {
     btn.textContent = inCart ? "✓ In Collection" : "+ Add to Collection";
     btn.closest(".unit-tile").classList.toggle("in-cart", inCart);
   });
+}
+
+// ------------------------------------------------------------------
+// Unit card modal
+// ------------------------------------------------------------------
+async function openCardModal(unit) {
+  els.cardModalTitle.textContent = unit.name;
+  els.cardModalBody.innerHTML = `<div class="card-modal-loading">Loading…</div>`;
+  els.cardModalBackdrop.hidden = false;
+  els.cardModal.hidden = false;
+  document.body.classList.add("modal-open");
+
+  try {
+    const res = await fetch("/api/render-cards", {
+      method: "POST",
+      headers: {"Content-Type": "application/json"},
+      body: JSON.stringify({unit_ids: [unit.id]}),
+    });
+    if (!res.ok) throw new Error(await res.text());
+    const html = await res.text();
+    // Extract just the body content of the rendered card page
+    const doc = new DOMParser().parseFromString(html, "text/html");
+    const inner = doc.body.innerHTML;
+    els.cardModalBody.innerHTML = inner;
+  } catch (err) {
+    els.cardModalBody.innerHTML = `<p class="card-modal-error">Could not load card: ${esc(err.message)}</p>`;
+  }
+}
+
+function closeCardModal() {
+  els.cardModal.hidden = true;
+  els.cardModalBackdrop.hidden = true;
+  document.body.classList.remove("modal-open");
 }
 
 // ------------------------------------------------------------------
@@ -430,6 +470,22 @@ function bindEvents() {
     } else {
       cartAdd(unit);
     }
+  });
+
+  // --- Info button: open unit card modal ---
+  els.grid.addEventListener("click", e => {
+    const btn = e.target.closest(".btn-info");
+    if (!btn) return;
+    const id = btn.dataset.infoId;
+    const unit = state.units.find(u => u.id === id);
+    if (unit) openCardModal(unit);
+  });
+
+  // Close modal
+  $("btn-close-card-modal").addEventListener("click", closeCardModal);
+  els.cardModalBackdrop.addEventListener("click", closeCardModal);
+  document.addEventListener("keydown", e => {
+    if (e.key === "Escape" && !els.cardModal.hidden) closeCardModal();
   });
 
   // --- Cart delegation (remove) ---

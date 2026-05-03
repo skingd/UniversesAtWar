@@ -119,6 +119,18 @@
 <!-- Rule popout tooltip -->
 <div class="rule-tooltip" id="rule-tooltip" hidden role="tooltip"></div>
 
+<!-- Unit card modal -->
+<div class="card-modal-backdrop" id="card-modal-backdrop" hidden></div>
+<div class="card-modal" id="card-modal" hidden role="dialog" aria-modal="true" aria-labelledby="card-modal-title">
+  <div class="card-modal-header">
+    <span class="card-modal-title" id="card-modal-title"></span>
+    <button class="btn-close" id="btn-close-card-modal" aria-label="Close">&times;</button>
+  </div>
+  <div class="card-modal-body" id="card-modal-body">
+    <div class="card-modal-loading">Loading…</div>
+  </div>
+</div>
+
 <script src="/static/app.js"></script>
 </body>
 </html>
