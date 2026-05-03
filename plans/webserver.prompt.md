@@ -84,6 +84,13 @@ Single file: `src/webapp/templates/index.html` (Jinja2 template). Static assets 
 15. **`requirements.txt`**: `flask`, `gunicorn`.
 16. **Azure startup command**: `gunicorn -w 4 -b 0.0.0.0:8000 "src.webapp.app:create_app()"`.
 17. **Commit `output/webapp/`** to the repository — Azure cold start has all data without needing BattleTech source files on the server.
+18. **Continuous Deployment** — use the GitHub CD integration built into Azure Web App creation (Deployment Center). Azure creates the GitHub Actions workflow automatically; no manual workflow file needed. The generated workflow file in `.github/workflows/` should be committed and left as-is.
+19. **Secrets management** — the only secret needed is `SECRET_KEY` for Flask's session signing. Set it in Azure Portal → App Service → Configuration → Application Settings (never in the repo). Add a `.env.example` file documenting the expected variables. Add `.env` to `.gitignore`. No Managed Identity or Azure-to-Azure connections are required for this app.
+20. **`.env.example`** — commit this file with placeholder values so contributors know what to supply locally:
+    ```
+    SECRET_KEY=change-me-in-production
+    FLASK_ENV=development
+    ```
 
 ---
 
@@ -107,6 +114,8 @@ Single file: `src/webapp/templates/index.html` (Jinja2 template). Static assets 
 | `output/webapp/weapons.json` | **Generated** |
 | `output/webapp/ammo.json` | **Generated** |
 | `requirements.txt` | **New** |
+| `.env.example` | **New** — placeholder env vars for contributors |
+| `.gitignore` | Add `.env` entry |
 | `pyproject.toml` | Add flask + gunicorn dependencies |
 
 ---
@@ -119,3 +128,6 @@ Single file: `src/webapp/templates/index.html` (Jinja2 template). Static assets 
 - `source` field in `rules-glossary.json` controls the LI vs UAW rule boundary — edit the JSON file to update.
 - Era derived in Python pipeline (clean, not fragile client-side path parsing).
 - `output/webapp/` committed to repo so Azure deployment works without BT source files.
+- Deployment via Azure Web App's built-in GitHub CD (Deployment Center) — Azure generates and maintains the workflow file.
+- No Managed Identity or Azure-to-Azure service connections needed. Only secret is `SECRET_KEY`, set in App Service Application Settings (never in repo).
+- `.env.example` committed; `.env` in `.gitignore`.

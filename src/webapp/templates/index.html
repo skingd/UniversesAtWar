@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Universes at War — Unit Browser</title>
+  <link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+
+<!-- Top bar -->
+<header class="topbar">
+  <span class="topbar-title">Universes at War</span>
+  <div class="topbar-actions">
+    <button class="btn btn-ghost" id="btn-filters" aria-expanded="false">&#9776; Filters</button>
+    <button class="btn btn-ghost" id="btn-cart" aria-label="Open collection">
+      &#9673; Collection
+      <span class="cart-badge" id="cart-badge" hidden>0</span>
+    </button>
+    <button class="btn btn-primary" id="btn-print">Print Collection</button>
+  </div>
+</header>
+
+<!-- Filter drawer (left) -->
+<div class="drawer drawer-left" id="drawer-filters" aria-hidden="true">
+  <div class="drawer-inner">
+    <div class="drawer-header">
+      <h2>Filters</h2>
+      <button class="btn-close" id="btn-close-filters" aria-label="Close filters">&times;</button>
+    </div>
+
+    <label class="filter-label" for="search-name">Name</label>
+    <input type="search" id="search-name" class="filter-input" placeholder="Search…" autocomplete="off">
+
+    <fieldset class="filter-group">
+      <legend>Type</legend>
+      <label><input type="checkbox" name="type" value="BattleMech" checked> Mech</label>
+      <label><input type="checkbox" name="type" value="Vehicle" checked> Vehicle</label>
+      <label><input type="checkbox" name="type" value="Aerospace" checked> Aerospace</label>
+    </fieldset>
+
+    <fieldset class="filter-group">
+      <legend>Faction</legend>
+      <label><input type="checkbox" name="tech" value="Inner Sphere" checked> Inner Sphere</label>
+      <label><input type="checkbox" name="tech" value="Clan" checked> Clan</label>
+    </fieldset>
+
+    <label class="filter-label" for="filter-era">Era</label>
+    <select id="filter-era" class="filter-input">
+      <option value="">All Eras</option>
+      <option>Age of War</option>
+      <option>Star League</option>
+      <option>Succession Wars</option>
+      <option>Clan Invasion</option>
+      <option>Jihad</option>
+      <option>Dark Age</option>
+      <option>ilClan</option>
+      <option>Other</option>
+    </select>
+
+    <label class="filter-label">
+      Tonnage
+      <span class="range-readout" id="tonnage-readout">0 – 600</span>
+    </label>
+    <div class="range-row">
+      <input type="range" id="tonnage-min" min="0" max="600" step="5" value="0">
+      <input type="range" id="tonnage-max" min="0" max="600" step="5" value="600">
+    </div>
+
+    <label class="filter-label">
+      Points
+      <span class="range-readout" id="points-readout">0 – 603</span>
+    </label>
+    <div class="range-row">
+      <input type="range" id="points-min" min="0" max="603" step="5" value="0">
+      <input type="range" id="points-max" min="0" max="603" step="5" value="603">
+    </div>
+    <label class="filter-checkbox">
+      <input type="checkbox" id="show-no-points" checked> Include units with no points value
+    </label>
+
+    <div class="filter-footer">
+      <button class="btn btn-ghost btn-sm" id="btn-reset-filters">Reset</button>
+    </div>
+  </div>
+</div>
+
+<!-- Overlay -->
+<div class="overlay" id="overlay" hidden></div>
+
+<!-- Collection drawer (right) -->
+<div class="drawer drawer-right" id="drawer-cart" aria-hidden="true">
+  <div class="drawer-inner">
+    <div class="drawer-header">
+      <h2>Collection</h2>
+      <button class="btn-close" id="btn-close-cart" aria-label="Close collection">&times;</button>
+    </div>
+    <div id="cart-items" class="cart-items">
+      <p class="cart-empty">No units added yet.</p>
+    </div>
+    <div class="cart-footer">
+      <span class="cart-total">Total: <strong id="cart-total-pts">0 pts</strong></span>
+      <button class="btn btn-primary btn-block" id="btn-print-cart">Print Collection</button>
+    </div>
+  </div>
+</div>
+
+<!-- Main content -->
+<main class="main">
+  <div class="results-header">
+    <span id="result-count">Loading…</span>
+  </div>
+  <div id="results-grid" class="results-grid"></div>
+  <div id="load-more-wrap" class="load-more-wrap" hidden>
+    <button class="btn btn-ghost" id="btn-load-more">Show more</button>
+  </div>
+</main>
+
+<!-- Rule popout tooltip -->
+<div class="rule-tooltip" id="rule-tooltip" hidden role="tooltip"></div>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

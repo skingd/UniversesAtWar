@@ -1,0 +1,354 @@
+{
+  "_comment": "Rules glossary for popout tooltips. source='uaw' shows full description; source='li_rulebook' shows book icon + 'Refer to the Legions Imperialis rulebook.'",
+
+  "CASE": {
+    "description": "Cellular Ammunition Storage Equipment. If this unit is destroyed by an ammunition explosion, remove it rather than applying a chain-reaction blast to nearby units.",
+    "source": "uaw"
+  },
+  "CASE II": {
+    "description": "Advanced CASE. As CASE, but the unit survives an internal ammunition explosion on a 4+. Remove the unit on a fail.",
+    "source": "uaw"
+  },
+  "Jump Jet": {
+    "description": "This unit may move up to its full movement distance ignoring intervening terrain. Place it in any valid position within range. It cannot move further in the same activation.",
+    "source": "uaw"
+  },
+  "Improved Jump Jet": {
+    "description": "As Jump Jet. Improved Jump Jets provide additional distance or flexibility compared to standard Jump Jets.",
+    "source": "uaw"
+  },
+  "MASC": {
+    "description": "Myomer Accelerator Signal Circuitry. Once per game, this unit may double its Movement distance for one activation.",
+    "source": "uaw"
+  },
+  "Supercharger": {
+    "description": "Once per game, this unit may increase its Movement by 2\" for one activation.",
+    "source": "uaw"
+  },
+  "Targeting Computer": {
+    "description": "All weapons on this unit gain the Accurate trait.",
+    "source": "uaw"
+  },
+  "Guardian ECM Suite": {
+    "description": "Friendly units within 3\" of this unit cannot be targeted by weapons with the Narc trait. Enemy units within 3\" lose the benefit of their active probes and C3 networks.",
+    "source": "uaw"
+  },
+  "ECM Suite": {
+    "description": "This unit projects an ECM bubble. Enemy units within 3\" cannot benefit from C3 networks or advanced targeting systems.",
+    "source": "uaw"
+  },
+  "Angel ECM Suite": {
+    "description": "Advanced ECM. As Guardian ECM Suite, but also negates Artemis FCS bonuses for enemy units within 3\".",
+    "source": "uaw"
+  },
+  "Active Probe": {
+    "description": "Enemy units within 6\" of this unit cannot benefit from Stealth or Hidden rules.",
+    "source": "uaw"
+  },
+  "Beagle Active Probe": {
+    "description": "As Active Probe. Enemy units within 6\" cannot benefit from Stealth or Hidden rules.",
+    "source": "uaw"
+  },
+  "Bloodhound Active Probe": {
+    "description": "Advanced active probe with 9\" detection range. Enemy units within 9\" cannot benefit from Stealth or Hidden rules.",
+    "source": "uaw"
+  },
+  "Light Active Probe": {
+    "description": "As Active Probe with a reduced 4\" detection range.",
+    "source": "uaw"
+  },
+  "Artemis IV FCS": {
+    "description": "Fire Control System. LRM and SRM weapons on this unit gain the Narc trait (they auto-hit on any roll that would normally miss by 1).",
+    "source": "uaw"
+  },
+  "Artemis IV": {
+    "description": "Fire Control System. This weapon gains the Narc trait.",
+    "source": "uaw"
+  },
+  "Artemis V FCS": {
+    "description": "Advanced Fire Control System. As Artemis IV FCS with improved range.",
+    "source": "uaw"
+  },
+  "Artemis V": {
+    "description": "Advanced Fire Control System. As Artemis IV with improved range.",
+    "source": "uaw"
+  },
+  "C3 Slave Unit": {
+    "description": "This unit participates in a C3 network. When it fires, it may use the shortest range to the target from any other C3-networked unit within 12\".",
+    "source": "uaw"
+  },
+  "C3 Master Unit": {
+    "description": "This unit anchors a C3 network, sharing targeting data with up to 3 C3 Slave units within 12\".",
+    "source": "uaw"
+  },
+  "C3 Computer (Slave)": {
+    "description": "As C3 Slave Unit.",
+    "source": "uaw"
+  },
+  "C3 Computer (Master)": {
+    "description": "As C3 Master Unit.",
+    "source": "uaw"
+  },
+  "C3 Master Computer": {
+    "description": "As C3 Master Unit.",
+    "source": "uaw"
+  },
+  "Improved C3 Computer": {
+    "description": "Enhanced C3 network allowing up to 6 units to share targeting data within 12\".",
+    "source": "uaw"
+  },
+  "C3 Boosted System Slave Unit": {
+    "description": "As C3 Slave Unit but with extended 18\" network range.",
+    "source": "uaw"
+  },
+  "C3 Master Boosted System Unit": {
+    "description": "As C3 Master Unit but with extended 18\" network range.",
+    "source": "uaw"
+  },
+  "C3 Sensors": {
+    "description": "Sensor array that integrates with a C3 network.",
+    "source": "uaw"
+  },
+  "C3 Remote Sensor Launcher": {
+    "description": "Launches remote sensors that feed targeting data into the C3 network.",
+    "source": "uaw"
+  },
+  "Armored Chassis": {
+    "description": "This unit has reinforced protection. It ignores the first point of damage from each attack.",
+    "source": "uaw"
+  },
+  "Machine Gun Array": {
+    "description": "Multiple linked machine guns that can sweep infantry formations. Gains bonus dice against infantry targets.",
+    "source": "uaw"
+  },
+  "Anti-Missile System": {
+    "description": "Point defence system. Once per turn, when this unit is hit by a weapon with the Blast trait, roll a die — on a 4+ the hit is cancelled.",
+    "source": "uaw"
+  },
+  "AMS": {
+    "description": "Anti-Missile System. Point defence. Once per turn, on a 4+ cancels a hit from a weapon with the Blast trait.",
+    "source": "uaw"
+  },
+  "Nova CEWS": {
+    "description": "Combined ECM/Active Probe system. Functions as both an ECM Suite and an Active Probe simultaneously.",
+    "source": "uaw"
+  },
+  "Watchdog CEWS": {
+    "description": "Combined ECM/Active Probe system. Functions as both an ECM Suite and a Light Active Probe simultaneously.",
+    "source": "uaw"
+  },
+  "Searchlight": {
+    "description": "Negates night-fighting penalties for this unit when active.",
+    "source": "uaw"
+  },
+  "Lift Hoist": {
+    "description": "This unit can lift and carry objects or disabled vehicles.",
+    "source": "uaw"
+  },
+  "Partial Wing": {
+    "description": "Aerodynamic wings that allow gliding. This unit may add 2\" to its jump distance.",
+    "source": "uaw"
+  },
+  "TSM": {
+    "description": "Triple-Strength Myomer. When this unit has taken 1 or more wounds, its melee attacks gain +1 Dice.",
+    "source": "uaw"
+  },
+  "Industrial TSM": {
+    "description": "Industrial grade Triple-Strength Myomer. Provides enhanced strength for lifting and labour tasks.",
+    "source": "uaw"
+  },
+  "TSEMP Cannon": {
+    "description": "Tight-Stream Electromagnetic Pulse weapon. On a hit, the target unit cannot activate next turn.",
+    "source": "uaw"
+  },
+  "Vehicular Stealth": {
+    "description": "This unit counts as having cover even in the open. Enemy units must re-roll successful To-Hit rolls against it.",
+    "source": "uaw"
+  },
+  "AES": {
+    "description": "Actuator Enhancement System. Improves the precision of limb actuators for melee combat. Melee attacks by this unit gain Accurate.",
+    "source": "uaw"
+  },
+  "Advanced Fire Control": {
+    "description": "Sophisticated fire control system that improves targeting. This unit re-rolls To-Hit rolls of 1.",
+    "source": "uaw"
+  },
+  "Basic Fire Control": {
+    "description": "Standard fire control system.",
+    "source": "uaw"
+  },
+  "Avionics": {
+    "description": "Advanced flight control systems for aerospace units.",
+    "source": "uaw"
+  },
+  "Landing Gear": {
+    "description": "This aerospace unit can land and take off from a planetary surface.",
+    "source": "uaw"
+  },
+  "MASC": {
+    "description": "Myomer Accelerator Signal Circuitry. Once per game, this unit may double its Movement distance for one activation.",
+    "source": "uaw"
+  },
+  "UMU": {
+    "description": "Underwater Maneuvering Unit. This unit can operate underwater and uses its full movement when submerged.",
+    "source": "uaw"
+  },
+  "Tracks": {
+    "description": "This unit uses tracks rather than legs or wheels, improving cross-country mobility.",
+    "source": "uaw"
+  },
+
+  "_trait_section": "--- Weapon Traits ---",
+
+  "Accurate": {
+    "description": "Re-roll To-Hit rolls of 1 when using this weapon.",
+    "source": "uaw"
+  },
+  "Anti-Armor": {
+    "description": "This weapon is effective against armoured targets. It ignores the effects of Armored Chassis.",
+    "source": "uaw"
+  },
+  "Anti-Tank": {
+    "description": "This weapon is designed to defeat armoured vehicles. Roll an additional die when targeting vehicles.",
+    "source": "uaw"
+  },
+  "Arc(Front)": {
+    "description": "This weapon can only fire into the front arc of the mounting unit.",
+    "source": "uaw"
+  },
+  "Armorbane": {
+    "description": "This weapon ignores saving throw bonuses from cover.",
+    "source": "uaw"
+  },
+  "Assault": {
+    "description": "This weapon may be fired even after this unit has moved its full distance this activation.",
+    "source": "uaw"
+  },
+  "Barrage": {
+    "description": "This weapon fires a burst that covers an area. Place a 3\" blast marker on the target point.",
+    "source": "uaw"
+  },
+  "Heavy Barrage": {
+    "description": "As Barrage, but using a 5\" blast marker.",
+    "source": "uaw"
+  },
+  "Blast (3\")": {
+    "description": "Place a 3\" blast marker centred on the target. All models under the template are hit.",
+    "source": "uaw"
+  },
+  "Blast (5\")": {
+    "description": "Place a 5\" blast marker centred on the target. All models under the template are hit.",
+    "source": "uaw"
+  },
+  "5\" Blast": {
+    "description": "Place a 5\" blast marker centred on the target. All models under the template are hit.",
+    "source": "uaw"
+  },
+  "Demolisher": {
+    "description": "This weapon is exceptionally effective against structures and fortifications.",
+    "source": "uaw"
+  },
+  "Dumbfire": {
+    "description": "This weapon does not require a target lock to fire. It may target empty ground.",
+    "source": "uaw"
+  },
+  "Firestorm": {
+    "description": "On a hit, place a Firestorm token on the target. Units in or moving through Firestorm tokens take automatic hits.",
+    "source": "uaw"
+  },
+  "Heavy": {
+    "description": "This weapon is particularly massive. Counts as two weapons for the purposes of transport and attachment limits.",
+    "source": "uaw"
+  },
+  "Ignores Cover": {
+    "description": "This weapon ignores the saving throw bonus granted by cover.",
+    "source": "uaw"
+  },
+  "Light": {
+    "description": "This weapon is small and light. It may be fired in addition to one other weapon in the same activation.",
+    "source": "uaw"
+  },
+  "Light AT": {
+    "description": "Light Anti-Tank. This weapon is mildly effective against armoured vehicles.",
+    "source": "uaw"
+  },
+  "Light-AT": {
+    "description": "Light Anti-Tank. This weapon is mildly effective against armoured vehicles.",
+    "source": "uaw"
+  },
+  "Limited(1)": {
+    "description": "This weapon can only be used once per game.",
+    "source": "uaw"
+  },
+  "Narc": {
+    "description": "On a hit, place a Narc beacon on the target. All subsequent attacks against the target this turn re-roll To-Hit rolls of 1.",
+    "source": "uaw"
+  },
+  "Plasma": {
+    "description": "This weapon generates intense heat. On a hit against a mech, the target gains +1 HT marker.",
+    "source": "uaw"
+  },
+  "Power Capacitor": {
+    "description": "This weapon stores charge between shots. It may not fire on consecutive activations, but gains bonus dice when fired.",
+    "source": "uaw"
+  },
+  "Pulse Shock": {
+    "description": "On a hit, the target unit must pass a Nerve test or be Shaken.",
+    "source": "uaw"
+  },
+  "Rapid Fire": {
+    "description": "This weapon may fire twice in one activation. Each shot is resolved separately.",
+    "source": "uaw"
+  },
+  "Reach": {
+    "description": "This melee weapon has extended reach. It may strike targets up to 2\" away rather than the standard 1\".",
+    "source": "uaw"
+  },
+  "Rend": {
+    "description": "This melee weapon tears through armour. Hits from this weapon reduce the target's save by 1.",
+    "source": "uaw"
+  },
+  "Rending": {
+    "description": "As Rend. Hits reduce the target's armour save by 1.",
+    "source": "uaw"
+  },
+  "Shock Pulse": {
+    "description": "On a hit, the target unit is Shaken until its next activation.",
+    "source": "uaw"
+  },
+  "Shred": {
+    "description": "This weapon tears through light armour. It may re-roll failed wound rolls against targets with a save of 5+ or worse.",
+    "source": "uaw"
+  },
+  "Siege Weapon": {
+    "description": "This weapon is effective against fortifications and buildings. It rolls double dice against structures.",
+    "source": "uaw"
+  },
+  "Skyfire": {
+    "description": "This weapon can engage aerospace targets. It may target flying units as though they were on the ground.",
+    "source": "uaw"
+  },
+  "Special Ammo": {
+    "description": "This weapon can be loaded with specialist ammunition. See the upgrade options for available ammo types.",
+    "source": "uaw"
+  },
+  "Variable": {
+    "description": "This weapon has multiple output settings. Choose the output level before rolling To-Hit.",
+    "source": "uaw"
+  },
+  "Variable Output": {
+    "description": "As Variable. Choose the output level before rolling To-Hit.",
+    "source": "uaw"
+  },
+  "Wrecker": {
+    "description": "This melee weapon is designed to destroy vehicles. It gains bonus dice against vehicle targets.",
+    "source": "uaw"
+  },
+
+  "_ht_section": "--- Heat Threshold ---",
+
+  "HT": {
+    "description": "Heat Threshold. Mechs generate heat when firing weapons or jumping. Each weapon fired adds its Heat value to the running total. If the total equals or exceeds the Heat Threshold, the mech suffers a heat effect. The counter resets each round.",
+    "source": "uaw"
+  }
+}

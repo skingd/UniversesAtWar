@@ -1,0 +1,1 @@
+"""UniversesAtWar web app package."""

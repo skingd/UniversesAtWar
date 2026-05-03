@@ -38,6 +38,28 @@ from src.detachments.weapons import (
 
 _VALID_TECH_BASES: frozenset[str] = frozenset({"Inner Sphere", "Clan"})
 
+# --- Era lookup ------------------------------------------------------------
+
+def _load_era_mapping() -> dict[str, dict]:
+    p = pathlib.Path(__file__).parent.parent.parent / "data" / "era-mapping.json"
+    try:
+        return {
+            k: v for k, v in json.load(open(p, encoding="utf-8")).items()
+            if not k.startswith("_")
+        }
+    except Exception:
+        return {}
+
+_ERA_MAPPING: dict[str, dict] = _load_era_mapping()
+_ERA_DEFAULT = {"label": "Other", "sort": 99}
+
+
+def _era_from_source_path(source_path: Optional[str]) -> str:
+    if not source_path:
+        return _ERA_DEFAULT["label"]
+    folder = pathlib.Path(source_path).parent.name
+    return _ERA_MAPPING.get(folder, _ERA_DEFAULT)["label"]
+
 
 @dataclass
 class Coverage:
@@ -417,6 +439,7 @@ def build_detachment(
         "scale": tables.scale(tonnage, unit_type),
         "tier": tables.tier(tonnage, unit_type),
         "tech_base": tech_base,
+        "era": _era_from_source_path(record.get("source_path")),
         "tonnage": tonnage,
         "armor_save": save,
         "movement": movement,
