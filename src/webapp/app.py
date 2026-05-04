@@ -72,7 +72,33 @@ def create_app() -> Flask:
         raw = json.loads(path.read_text(encoding="utf-8"))
         # Strip internal comment keys before serving
         cleaned = {k: v for k, v in raw.items() if not k.startswith("_")}
+        # Merge live rule definitions parsed from design/rules.prompt.md so
+        # tooltips reflect the latest rule text. Markdown-sourced entries
+        # win on conflict.
+        from src.webapp.info_pages import parse_rule_definitions
+        cleaned.update(parse_rule_definitions())
         return _json_response(json.dumps(cleaned, ensure_ascii=False))
+
+    # ------------------------------------------------------------------
+    # Info pages (Rules / How to Play / Disclaimer)
+    # ------------------------------------------------------------------
+
+    @app.route("/api/info/<slug>")
+    def info_page(slug: str) -> Response:
+        from src.webapp.info_pages import get_page_title, render_info_page
+        html = render_info_page(slug)
+        if html is None:
+            abort(404)
+        title = get_page_title(slug) or slug
+        body = (
+            f'<article class="info-page">'
+            f'<h1 class="info-page-title">{title}</h1>'
+            f'{html}'
+            f'</article>'
+        )
+        resp = Response(body, mimetype="text/html")
+        resp.headers["Cache-Control"] = "public, max-age=300"
+        return resp
 
     # ------------------------------------------------------------------
     # Card render endpoint

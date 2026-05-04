@@ -25,6 +25,11 @@ button { cursor: pointer; }
   margin-right: auto;
 }
 .topbar-actions { display: flex; align-items: center; gap: 8px; }
+.topbar-sep {
+  width: 1px; height: 20px;
+  background: #0f3460;
+  margin: 0 4px;
+}
 
 /* ===== Buttons ===== */
 .btn {
@@ -292,4 +297,35 @@ body.modal-open { overflow: hidden; }
 }
 .card-modal-error {
   color: #e94560; font-size: 0.85rem; padding: 20px 0;
+}
+
+/* ===== Info modal (Rules / How to Play / Disclaimer) ===== */
+.info-modal { width: min(820px, 95vw); max-height: 90vh; }
+.info-modal-body { padding: 20px 28px; color: #d8d8e8; line-height: 1.55; }
+.info-modal-body .info-page-title {
+  font-size: 1.5rem; color: #e94560; margin-bottom: 16px;
+  border-bottom: 1px solid #0f3460; padding-bottom: 8px;
+}
+.info-modal-body h1,
+.info-modal-body h2,
+.info-modal-body h3,
+.info-modal-body h4 {
+  color: #f5b14a; margin: 18px 0 8px;
+}
+.info-modal-body h2 { font-size: 1.2rem; }
+.info-modal-body h3 { font-size: 1.05rem; color: #7ec8e3; }
+.info-modal-body h4 { font-size: 0.95rem; color: #b9c6d4; }
+.info-modal-body p { margin: 8px 0; }
+.info-modal-body ul,
+.info-modal-body ol { margin: 8px 0 8px 22px; }
+.info-modal-body li { margin: 4px 0; }
+.info-modal-body strong { color: #f0e6d2; }
+.info-modal-body a { color: #7ec8e3; }
+.info-modal-body code {
+  background: #0f1c2e; padding: 1px 5px; border-radius: 3px;
+  font-family: ui-monospace, "Cascadia Code", Consolas, monospace;
+  font-size: 0.85em;
+}
+.info-modal-body hr {
+  border: 0; border-top: 1px solid #0f3460; margin: 16px 0;
 }

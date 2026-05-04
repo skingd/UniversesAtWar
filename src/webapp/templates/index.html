@@ -22,6 +22,10 @@
 <header class="topbar">
   <span class="topbar-title">Universes at War</span>
   <div class="topbar-actions">
+    <button class="btn btn-ghost" data-info-page="extended-rules">Rules</button>
+    <button class="btn btn-ghost" data-info-page="how-to-play">How to Play</button>
+    <button class="btn btn-ghost" data-info-page="disclaimer">Disclaimer</button>
+    <span class="topbar-sep" aria-hidden="true"></span>
     <button class="btn btn-ghost" id="btn-filters" aria-expanded="false">&#9776; Filters</button>
     <button class="btn btn-ghost" id="btn-cart" aria-label="Open collection">
       &#9673; Collection
@@ -128,6 +132,18 @@
 
 <!-- Rule popout tooltip -->
 <div class="rule-tooltip" id="rule-tooltip" hidden role="tooltip"></div>
+
+<!-- Generic info modal (Rules / How to Play / Disclaimer) -->
+<div class="card-modal-backdrop" id="info-modal-backdrop" hidden></div>
+<div class="card-modal info-modal" id="info-modal" hidden role="dialog" aria-modal="true" aria-labelledby="info-modal-title">
+  <div class="card-modal-header">
+    <span class="card-modal-title" id="info-modal-title"></span>
+    <button class="btn-close" id="btn-close-info-modal" aria-label="Close">&times;</button>
+  </div>
+  <div class="card-modal-body info-modal-body" id="info-modal-body">
+    <div class="card-modal-loading">Loading…</div>
+  </div>
+</div>
 
 <!-- Unit card modal -->
 <div class="card-modal-backdrop" id="card-modal-backdrop" hidden></div>

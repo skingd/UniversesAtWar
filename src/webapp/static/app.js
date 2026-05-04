@@ -55,6 +55,10 @@ const els = {
   cardModalBackdrop:$("card-modal-backdrop"),
   cardModalTitle:   $("card-modal-title"),
   cardModalBody:    $("card-modal-body"),
+  infoModal:        $("info-modal"),
+  infoModalBackdrop:$("info-modal-backdrop"),
+  infoModalTitle:   $("info-modal-title"),
+  infoModalBody:    $("info-modal-body"),
 };
 
 // ------------------------------------------------------------------
@@ -302,6 +306,38 @@ function closeCardModal() {
 }
 
 // ------------------------------------------------------------------
+// Info modal (Rules / How to Play / Disclaimer)
+// ------------------------------------------------------------------
+const _infoCache = {};
+
+async function openInfoModal(slug, label) {
+  els.infoModalTitle.textContent = label || "";
+  els.infoModalBody.innerHTML = `<div class="card-modal-loading">Loading…</div>`;
+  els.infoModalBackdrop.hidden = false;
+  els.infoModal.hidden = false;
+  document.body.classList.add("modal-open");
+
+  try {
+    let html = _infoCache[slug];
+    if (!html) {
+      const res = await fetch(`/api/info/${encodeURIComponent(slug)}`);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      html = await res.text();
+      _infoCache[slug] = html;
+    }
+    els.infoModalBody.innerHTML = html;
+  } catch (err) {
+    els.infoModalBody.innerHTML = `<p class="card-modal-error">Could not load page: ${esc(err.message)}</p>`;
+  }
+}
+
+function closeInfoModal() {
+  els.infoModal.hidden = true;
+  els.infoModalBackdrop.hidden = true;
+  if (els.cardModal.hidden) document.body.classList.remove("modal-open");
+}
+
+// ------------------------------------------------------------------
 // Print
 // ------------------------------------------------------------------
 async function printCollection() {
@@ -492,6 +528,18 @@ function bindEvents() {
   els.cardModalBackdrop.addEventListener("click", closeCardModal);
   document.addEventListener("keydown", e => {
     if (e.key === "Escape" && !els.cardModal.hidden) closeCardModal();
+  });
+
+  // --- Info pages (Rules / How to Play / Disclaimer) ---
+  document.querySelectorAll("[data-info-page]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      openInfoModal(btn.dataset.infoPage, btn.textContent.trim());
+    });
+  });
+  $("btn-close-info-modal").addEventListener("click", closeInfoModal);
+  els.infoModalBackdrop.addEventListener("click", closeInfoModal);
+  document.addEventListener("keydown", e => {
+    if (e.key === "Escape" && !els.infoModal.hidden) closeInfoModal();
   });
 
   // --- Cart delegation (remove) ---
