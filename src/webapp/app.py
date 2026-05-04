@@ -25,6 +25,9 @@ def _json_response(data: str, *, max_age: int = 3600) -> Response:
 def create_app() -> Flask:
     app = Flask(__name__, template_folder="templates", static_folder="static")
     app.config["SECRET_KEY"] = os.environ.get("SECRET_KEY", "dev-insecure-change-me")
+    # Optional Google Analytics tag ID. Forks should set their own GA_MEASUREMENT_ID
+    # env var (or leave unset to disable analytics).
+    app.config["GA_MEASUREMENT_ID"] = os.environ.get("GA_MEASUREMENT_ID", "").strip()
 
     # ------------------------------------------------------------------
     # Static data endpoints
@@ -128,6 +131,6 @@ def create_app() -> Flask:
     @app.route("/")
     def index() -> Response:
         from flask import render_template
-        return render_template("index.html")
+        return render_template("index.html", ga_measurement_id=app.config["GA_MEASUREMENT_ID"])
 
     return app
