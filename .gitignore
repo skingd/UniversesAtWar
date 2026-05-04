@@ -26,3 +26,7 @@ Thumbs.db
 # Local environment — never commit
 .env
 
+# Azure log downloads
+/_logs/
+/logs.zip
+
