@@ -276,3 +276,12 @@ Example:
 |-|
 |ECM Suite, Artemis IV, MASC|
 
+### Item Profile Mapping
+- AMS
+  - Anti-Missile System, Anti Missile System (ST), Anti-Missile System (Titan), Anti-Missile System (Vehicle), Anti-Missile System (Vehicle)(ST), Anti-Missile System; Inner Sphere (Turret), Anti-Missile System; Clan (Turret), Anti-Missile System; Inner Sphere (Split)
+- ATM x
+  - ATM x; Clan (Turret), ATM x; Inner Sphere (Turret), ATM x; Inner Sphere (Split)
+- Arrow IV
+  - Arrow IV; Clan (Turret), Arrow IV; Inner Sphere (Turret), Arrow IV; Inner Sphere (Split)
+- Autocannon/x
+  - Autocannon/x (Bearhunter Superheavy), Autocannon/x (Semi-Portable), Autocannon/x Primitive
