@@ -82,7 +82,10 @@ def render_info_page(slug: str) -> str | None:
     for _heading, src in _INFO_PAGES[slug]["sources"]:
         if not src.exists():
             continue
-        parts.append(src.read_text(encoding="utf-8"))
+        body = src.read_text(encoding="utf-8")
+        # Drop a leading H1 from each source - it's an authoring description.
+        body = re.sub(r"\A\s*#\s+[^\n]*\n", "", body)
+        parts.append(body)
     raw = "\n\n".join(parts)
     raw = _sanitize_markdown(raw)
     html = md.markdown(raw, extensions=["extra", "sane_lists"])
