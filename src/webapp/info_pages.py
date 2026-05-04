@@ -42,6 +42,25 @@ _INFO_PAGES: Dict[str, dict] = {
 
 _cache: Dict[str, str] = {}
 
+# Lines like:    `Button Label` Disclaimer
+# These were authoring notes (the literal button label), not page content.
+_BUTTON_LABEL_RE = re.compile(r"^\s*`Button Label`.*$", re.MULTILINE | re.IGNORECASE)
+# Any paragraph that references a `.md` filename in inline code is an
+# authoring/meta note (e.g. "`rules.prompt.md` contains the rules...").
+# Strip the whole paragraph it appears in.
+_MD_REF_PARA_RE = re.compile(
+    r"(?:^|\n)[^\n]*`[^`\n]+\.md`[^\n]*(?:\n[^\n]+)*",
+    re.IGNORECASE,
+)
+
+
+def _sanitize_markdown(text: str) -> str:
+    text = _BUTTON_LABEL_RE.sub("", text)
+    text = _MD_REF_PARA_RE.sub("\n", text)
+    # Collapse 3+ blank lines that the deletions may have introduced.
+    text = re.sub(r"\n{3,}", "\n\n", text)
+    return text.strip() + "\n"
+
 
 def list_pages() -> list[str]:
     return list(_INFO_PAGES.keys())
@@ -65,6 +84,7 @@ def render_info_page(slug: str) -> str | None:
             continue
         parts.append(src.read_text(encoding="utf-8"))
     raw = "\n\n".join(parts)
+    raw = _sanitize_markdown(raw)
     html = md.markdown(raw, extensions=["extra", "sane_lists"])
     _cache[slug] = html
     return html
