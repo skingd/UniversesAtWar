@@ -30,3 +30,5 @@ Thumbs.db
 /_logs/
 /logs.zip
 
+# Local data caches (sparse clones of upstream MegaMek data, etc.)
+/.cache/

@@ -5,15 +5,15 @@ Clan ATM 12,"2""-14""",4,4,5+,-1,Missile,"Artemis IV, Barrage, Special Ammo, Ant
 Clan ATM 3,"2""-14""",1,1,5+,-1,Missile,"Artemis IV, Barrage, Special Ammo, Anti-Tank"
 Clan ATM 6,"2""-14""",2,2,5+,-1,Missile,"Artemis IV, Barrage, Special Ammo, Anti-Tank"
 Clan ATM 9,"2""-14""",3,3,5+,-1,Missile,"Artemis IV, Barrage, Special Ammo, Anti-Tank"
-Clan ER Flamer,"8""",2,2,4+,0,Energy,"Light, Ignores Cover"
+Clan ATM 9,"8""",2,2,4+,0,Energy,"Light, Ignores Cover"
 Clan ER Large Laser,"20""",3,1,4+,-3,Energy,Anti-Tank
-Clan ER Large Pulse Laser,"20""",3,1,4+,-2,Energy,"Accurate, Anti-Tank"
+Clan ER Large Pulse Laser,"20""",3,1,4+,-2,Energy,Anti-Tank
 Clan ER Medium Laser,"14""",2,1,4+,-2,Energy,Anti-Tank
-Clan ER Medium Pulse Laser,"14""",2,1,4+,-1,Energy,"Accurate"
+Clan ER Medium Pulse Laser,"14""",2,1,4+,-1,Energy,"Accurate, Anti-Tank"
 Clan ER Micro Laser,"8""",0,1,4+,-1,Energy,Light AT
 Clan ER PPC,"20""",4,2,4+,-3,Energy,Shock Pulse
 Clan ER Small Laser,"8""",1,1,4+,-1,Energy,Light AT
-Clan ER Small Pulse Laser,"8""",1,1,4+,0,Energy,"Accurate"
+Clan ER Small Pulse Laser,"8""",1,1,4+,0,Energy,Accurate
 Clan Flamer,"6""",1,2,4+,0,Energy,"Light, Ignores Cover"
 Clan Gauss Rifle,"1""-20""",0,1,4+,-4,Ballistic,Anti-Tank
 Clan HAG/20,"1""-20""",1,3,5+,-2,Ballistic,"Light AT, Assault"
@@ -28,10 +28,10 @@ Clan iATM 12,"2""-14""",4,4,5+,-1,Missile,"Accurate, Artemis V, Barrage, Special
 Clan iATM 3,"2""-14""",1,1,5+,-1,Missile,"Accurate, Artemis V, Barrage, Special Ammo, Anti-Tank"
 Clan iATM 6,"2""-14""",2,2,5+,-1,Missile,"Accurate, Artemis V, Barrage, Special Ammo, Anti-Tank"
 Clan iATM 9,"2""-14""",3,3,5+,-1,Missile,"Accurate, Artemis V, Barrage, Special Ammo, Anti-Tank"
-Clan Improved Gauss Rifle,"1""-20""",0,1,4+,-4,Ballistic,"Anti-Tank"
-Clan Improved Heavy Large Laser,"14""",5,1,4+,-2,Energy,"Anti-Tank"
-Clan Improved Heavy Medium Laser,"8""",3,1,4+,-2,Energy,"Light-AT"
-Clan Improved Heavy Small Laser,"6""",2,1,4+,-1,Energy,"Light-AT"
+Clan Improved Gauss Rifle,"1""-20""",0,1,4+,-4,Ballistic,Anti-Tank
+Clan Improved Heavy Large Laser,"14""",5,1,4+,-2,Energy,Anti-Tank
+Clan Improved Heavy Medium Laser,"8""",3,1,4+,-2,Energy,Light-AT
+Clan Improved Heavy Small Laser,"6""",2,1,4+,-1,Energy,Light-AT
 Clan Large Laser,"14""",2,1,4+,-2,Energy,Anti-Tank
 Clan Large Pulse Laser,"20""",3,1,4+,-1,Energy,Accurate
 Clan LB 10-X AC,"18""",0,4,5+,-1,Ballistic,"Light AT, Skyfire"
@@ -62,7 +62,7 @@ Clan SRM 6,"8""",2,3,5+,-2,Missile,"Special Ammo, Anti-Tank"
 Clan Streak LRM 10,"20""",2,2,5+,-1,Missile,"Anti-Tank, Barrage, Special Ammo"
 Clan Streak LRM 15,"20""",2,3,5+,-1,Missile,"Anti-Tank, Barrage, Special Ammo"
 Clan Streak LRM 20,"20""",2,4,5+,-1,Missile,"Anti-Tank, Barrage, Special Ammo"
-Clan Streak LRM 5,"20""",1,1,5+,-1,Missile,"Anti-Tank, Barrage, Special Ammo"
+Clan Streak LRM 5,"20""",1,1,5+,-1,Missile,"Anti-Tank, Accurate, Special Ammo"
 Clan Streak SRM 2,"12""",1,1,5+,-2,Missile,"Accurate, Anti-Tank, Special Ammo"
 Clan Streak SRM 4,"12""",1,2,5+,-2,Missile,"Accurate, Anti-Tank, Special Ammo"
 Clan Streak SRM 6,"12""",2,3,5+,-2,Missile,"Accurate, Anti-Tank, Special Ammo"
@@ -101,14 +101,14 @@ Inner Sphere Heavy Medium Laser,"8""",2,1,4+,-2,Energy,Heavy
 Inner Sphere Heavy PPC,"2""-18""",4,1,4+,-3,Energy,Shock Pulse
 Inner Sphere Heavy Rifle,"18""",1,1,5+,-2,Ballistic,Anti-Tank
 Inner Sphere Heavy Small Laser,"6""",1,1,4+,-1,Energy,Light AT
-Inner Sphere Improved Gauss Rifle,"1""-20""",1,1,4+,-4,Ballistic,"Anti-Tank"
-Inner Sphere Improved Heavy Gauss Rifle,"2""-18""",1,2,4+,-4,Ballistic,"Anti-Tank"
+Inner Sphere Improved Gauss Rifle,"1""-20""",1,1,4+,-4,Ballistic,Anti-Tank
+Inner Sphere Improved Heavy Gauss Rifle,"2""-18""",1,2,4+,-4,Ballistic,Anti-Tank
 Inner Sphere iNarc Launcher,"14""",,,,,Missile,"Narc, Special Ammo"
 Inner Sphere Lance,Melee,,,,,Support,Reach
 Inner Sphere Large Laser,"14""",2,1,4+,-2,Energy,Anti-Armor
 Inner Sphere Large Pulse Laser,"8""",3,1,4+,-1,Energy,"Anti-Armor, Accurate"
 Inner Sphere Large Vibroblade,Melee,,,,,Support,"Rend, Shred"
-Inner Sphere Large VSP Laser,"14""",3/2/1,3/2/1,4+/5+/6+,-2,Energy,"Variable Output, Anti-Tank"
+Inner Sphere Large VSP Laser,"14""",3/2/2001,3/2/2001,4+/5+/6+,-2,Energy,"Variable Output, Anti-Tank"
 Inner Sphere Large X-Pulse Laser,"14""",4,1,4+,-2,Energy,"Anti-Tank, Accurate"
 Inner Sphere LB 10-X AC,"18""",2,3,5+,-1,Ballistic,"Light AT, Special Ammo"
 Inner Sphere LB 2-X AC,"2""-20""",1,1,5+,-1,Ballistic,"Light AT, Special Ammo, Skyfire"
@@ -127,14 +127,14 @@ Inner Sphere LRM 5,"4""-20""",1,1,5+,-1,Missile,"Anti-Tank, Barrage, Special Amm
 Inner Sphere Machine Gun,"6""",0,2,5+,0,Ballistic,"Light, Rapid Fire"
 Inner Sphere MagShot Gauss Rifle,"8""",0,2,5+,0,Ballistic,"Light, Assault"
 Inner Sphere Medium Laser,"8""",1,1,4+,-1,Energy,Anti-Tank
-Inner Sphere Medium Pulse Laser,"8""",2,1,4+,0,Energy,Accurate
+Inner Sphere Medium Pulse Laser,"8""",2,1,4+,0,Energy,"Accurate, Anti-Tank"
 Inner Sphere Medium Vibroblade,Melee,,,,,Support,"Shred, Rend"
-Inner Sphere Medium VSP Laser,"8""",2/1,2/1,4+/5+,-1,Energy,"Variable, Anti-Tank"
+Inner Sphere Medium VSP Laser,"8""", 1 , 1 ,4+,-1,Energy,"Variable, Anti-Tank"
 Inner Sphere Medium X-Pulse Laser,"8""",2,1,4+,-1,Energy,"Accurate, Anti-Tank"
-Inner Sphere MML 3,"8""/4"" - 20""",1,3/2,5+,-2/-1,Missile,"Special Ammo, (Barrage)"
-Inner Sphere MML 5,"8""/4"" - 20""",2,5/4,5+,-2/-1,Missile,"Special Ammo, (Barrage)"
-Inner Sphere MML 7,"8""/4"" - 20""",3,7/6,5+,-2/-1,Missile,"Special Ammo, (Barrage)"
-Inner Sphere MML 9,"8""/4"" - 20""",4,9/8,5+,-2/-1,Missile,"Special Ammo, (Barrage)"
+Inner Sphere MML 3,"8""/4"" - 20""",1, 2 ,5+,2,Missile,"Special Ammo, (Barrage)"
+Inner Sphere MML 5,"8""/4"" - 20""",2, 4 ,5+,2,Missile,"Special Ammo, (Barrage)"
+Inner Sphere MML 7,"8""/4"" - 20""",3, 6 ,5+,2,Missile,"Special Ammo, (Barrage)"
+Inner Sphere MML 9,"8""/4"" - 20""",4, 8 ,5+,2,Missile,"Special Ammo, (Barrage)"
 Inner Sphere MRM 10,"14""",2,3,5+,-1,Missile,"Special Ammo, Dumbfire, Assault"
 Inner Sphere MRM 20,"14""",3,5,5+,-1,Missile,"Special Ammo, Dumbfire, Assault"
 Inner Sphere MRM 30,"14""",4,7,5+,-1,Missile,"Special Ammo, Dumbfire, Assault"
@@ -153,16 +153,16 @@ Inner Sphere Silver Bullet Gauss Rifle,"1""-20""",1,5,5+,-2,Ballistic,Light AT
 Inner Sphere Small Laser,"6""",0,1,4+,-1,Energy,Light AT
 Inner Sphere Small Pulse Laser,"6""",1,1,4+,0,Energy,"Light AT, Accurate"
 Inner Sphere Small Vibroblade,Melee,,,,,Support,
-Inner Sphere Small VSP Laser,"6""",1/0,1,4+,-1/0,Energy,"Variable Output, Light AT"
+Inner Sphere Small VSP Laser,"6""",Jan-00,1,4+,#DIV/0!,Energy,"Variable Output, Light AT"
 Inner Sphere Small X-Pulse Laser,"8""",2,1,4+,-1,Energy,"Accurate, Light AT"
 Inner Sphere Sniper Cannon,"2""-14""",4,2,5+,-2,Ballistic,"Demolisher, Blast (3""), Ignores Cover"
-Inner Sphere Snub-Nose PPC,"8""/12""/14""",4,3/2/1,4+,-3/-2/-1,Energy,"Pulse Shock, Variable Output"
+Inner Sphere Snub-Nose PPC,"8""/12""/14""",4,3/2/2001,4+,-1.5,Energy,"Pulse Shock, Variable Output"
 Inner Sphere SRM 2,"8""",1,1,5+,-2,Missile,"Special Ammo, Anti-Tank"
 Inner Sphere SRM 4,"8""",2,2,5+,-2,Missile,"Special Ammo, Anti-Tank"
 Inner Sphere SRM 6,"8""",3,3,5+,-2,Missile,"Special Ammo, Anti-Tank"
-Inner Sphere Streak SRM 2,"8""",1,1,5+,-2,Missile,"Accurate"
-Inner Sphere Streak SRM 4,"8""",2,2,5+,-2,Missile,"Accurate"
-Inner Sphere Streak SRM 6,"8""",3,3,5+,-2,Missile,"Accurate"
+Inner Sphere Streak SRM 2,"8""",1,1,5+,-2,Missile,Accurate
+Inner Sphere Streak SRM 4,"8""",2,2,5+,-2,Missile,Accurate
+Inner Sphere Streak SRM 6,"8""",3,3,5+,-2,Missile,Accurate
 Inner Sphere Sword,Melee,,,,,Support,
 Inner Sphere Thumper Cannon,"2""-18""",3,3,5+,-2,Ballistic,"Special Ammo, Demolisher, Wrecker, Blast (3"")"
 Inner Sphere Thunderbolt 10,"4""-18""",3,2,5+,-3,Missile,"Dumbfire, Anti-Tank"
