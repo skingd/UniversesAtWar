@@ -139,11 +139,7 @@ h1.page-title {{
   margin: 2px 0 5px 0;
 }}
 .card table.stats {{
-  table-layout: fixed;
-}}
-.card table.stats th,
-.card table.stats td {{
-  width: 20%;
+  table-layout: auto;
 }}
 .card th, .card td {{
   text-align: left;
@@ -339,6 +335,8 @@ def render_front(detachment: dict, profiles: dict[str, WeaponProfile]) -> str:
     movement = detachment.get("movement") or ""
     heat_threshold = detachment.get("heat_threshold")
     wounds = detachment.get("wounds")
+    caf = detachment.get("caf") or "—"
+    morale = detachment.get("morale") or "—"
     ds = detachment.get("detachment_size") or {}
     base_size = ds.get("base") or 1
 
@@ -370,13 +368,13 @@ def render_front(detachment: dict, profiles: dict[str, WeaponProfile]) -> str:
         "</div>"
         "<div class='body'>"
         "<table class='stats'><thead><tr>"
-        + ("<th>Name</th><th>Movement</th><th>HT</th><th>Save</th><th>W</th>"
+        + ("<th>Name</th><th>Movement</th><th>Save</th><th>CAF</th><th>Morale</th><th>W</th><th>HT</th>"
            if heat_threshold is not None else
-           "<th>Name</th><th>Movement</th><th>Save</th><th>W</th>")
+           "<th>Name</th><th>Movement</th><th>Save</th><th>CAF</th><th>Morale</th><th>W</th>")
         + "</tr></thead><tbody><tr>"
-        + (f"<td>{_h(name)}</td><td>{_h(movement)}</td><td>{_h(heat_threshold)}</td><td>{_h(save)}</td><td>{_h(wounds)}</td>"
+        + (f"<td>{_h(name)}</td><td>{_h(movement)}</td><td>{_h(save)}</td><td>{_h(caf)}</td><td>{_h(morale)}</td><td>{_h(wounds)}</td><td>{_h(heat_threshold)}</td>"
            if heat_threshold is not None else
-           f"<td>{_h(name)}</td><td>{_h(movement)}</td><td>{_h(save)}</td><td>{_h(wounds)}</td>")
+           f"<td>{_h(name)}</td><td>{_h(movement)}</td><td>{_h(save)}</td><td>{_h(caf)}</td><td>{_h(morale)}</td><td>{_h(wounds)}</td>")
         + "</tr></tbody></table>"
         "<div class='section-h'>Weapons</div>"
         f"<ul class='weapons-bullets'{col_style}>{bullet_html}</ul>"
