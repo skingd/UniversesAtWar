@@ -26,6 +26,7 @@ _UNIT_FILES = {
     "mech": DETACHMENTS / "detachments_mech.json",
     "vehicle": DETACHMENTS / "detachments_vehicle.json",
     "aerospace": DETACHMENTS / "detachments_aerospace.json",
+    "battlearmor": DETACHMENTS / "detachments_battlearmor.json",
 }
 
 

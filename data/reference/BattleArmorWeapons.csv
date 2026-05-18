@@ -3,7 +3,7 @@ Assault Rifle,"6""",1,5+,0,"light, Rapid Fire"
 Battle Armor David Light Gauss Rifle,"8""",2,4+,-2,"light, rapid fire"
 Battle Armor Heavy Battle Claw,Melee,,,,Shred
 Battle Armor Heavy Battle Claw (Vibro),Melee,,,,"Shred, Rend"
-Battle Armor Mine Launcher,"4""",,,,Special Ammo
+Battle Armor Mine Launcher,"4""",0,0,0,"Mine Field, Limited [2]"
 Clan AP Gauss Rifle,"8""",1,4+,-1,Light AT
 Clan Advanced SRM 2,"12""",2,5+,-2,"Anti-Tank, Special Ammo"
 Clan Advanced SRM 2 (One Shot),"12""",2,5+,-2,"Anti-Tank, Limited(1)"
@@ -18,22 +18,22 @@ Clan ER Small Laser,"8""",1,4+,-1,Light AT
 Clan ER Small Pulse Laser,"8""",1,4+,0,Accurate
 Clan Flamer,"6""",2,4+,0,"Light, Ignores Cover"
 Clan Heavy Flamer,"8""",2,4+,-1,"Light, Firestorm, Ignores Cover"
-Clan Heavy Grenade Launcher,"6""",,,,Special Ammo
+Clan Heavy Grenade Launcher,"6""",2,5+,-2,Light AT
 Clan Heavy Machine Gun,"4""",2,5+,0,"Light, Rapid Fire"
-Clan Heavy Mortar,"4""-16""",,,,Special Ammo
-Clan Heavy Recoilless Rifle,"10""",,,,
+Clan Heavy Mortar,"4""-16""",2,4+,-1,"Barrage, Light"
+Clan Heavy Recoilless Rifle,"10""",3,5+,-2,Light AT
 Clan LRM 2 (One Shot),"20""",1,5+,-2,"Anti-Armor, Limited(1), Special Ammo"
 Clan LRM 3,"20""",2,5+,-2,"Anti-Armor, Special Ammo"
 Clan LRM 4,"20""",3,4+,-2,"Anti-Armor, Special Ammo"
 Clan LRM 5 (One Shot),"20""",4,4+,-2,"Anti-Armor, Limited(1), Special Ammo"
 Clan Light Machine Gun,"8""",2,5+,0,"light, rapid fire"
-Clan Light Mortar,"4""-12""",,,,Special Ammo
-Clan Light Recoilless Rifle,"6""",,,,
+Clan Light Mortar,"4""-12""",1,4+,0,"Barrage, Light"
+Clan Light Recoilless Rifle,"6""",1,4+,-1,Light AT
 Clan Light TAG,"8""",1,4+,0,TAG
 Clan Machine Gun,"6""",2,5+,0,"light, rapid fire"
 Clan Medium Pulse Laser,"12""",1,4+,-1,"Anti-Tank, Accurate"
-Clan Medium Recoilless Rifle,"8""",,,,
-Clan Micro Bomb,"2""",,,,
+Clan Medium Recoilless Rifle,"8""",2,5+,-1,Light AT
+Clan Micro Bomb,"2""",4,4+,-1,"Light AT, Blast(3"")"
 Clan Micro Pulse Laser,"6""",1,4+,0,"Light, Accurate"
 Clan SRM 1,"8""",1,5+,-2,"Anti-Tank, Special Ammo"
 Clan SRM 1 (One Shot),"8""",1,5+,-2,"Anti-Tank, Limited(1)"
@@ -47,35 +47,49 @@ Clan SRM 5 (One Shot),"8""",5,5+,-2,"Anti-Tank, Limited(1)"
 Clan SRM 6,"8""",6,5+,-2,"Anti-Tank, Special Ammo"
 Clan Small Laser,"6""",1,4+,-1,Light AT
 Clan Small Pulse Laser,"8""",1,4+,0,"Accurate, Light AT"
-Inner Sphere ER Medium Laser,"12""",1,4+,-2,Anti-Tank
-Inner Sphere ER Small Laser,"8""",1,4+,-1,"Accurate, Anti-Tank"
-Inner Sphere Firedrake Needler,"4""",,,,
-Inner Sphere Heavy Machine Gun,"4""",2,5+,-1,"light, rapid fire"
-Inner Sphere King David Light Gauss Rifle,"8""",2,4+,-2,"Light, Rapid Fire"
-Inner Sphere LRM 2 (One Shot),"4""-20""",1,5+,-2,"Anti-Tank, Limited(1), Special Ammo"
-Inner Sphere LRM 3,"4""-20""",2,5+,-2,"Anti-Tank, Special Ammo"
-Inner Sphere LRM 5,"4""-20""",3,5+,-2,"Anti-Tank, Special Ammo"
-Inner Sphere Magshot Gauss Rifle,"8""",2,5+,-1,"Light, Assault"
-Inner Sphere Medium Laser,"8""",1,4+,-2,Anti-Armor
-Inner Sphere Medium Pulse Laser,"8""",1,4+,-1,"Anti-Armor, Accurate"
-Inner Sphere Medium VSP Laser,"8""",1,4+,-1,"Variable, Anti-Tank"
-Inner Sphere Micro Grenade Launcher,"4""",,,,
-Inner Sphere Plasma Rifle,"14""",3,4+,-1,"Plasma, Light, Ignores Cover"
-Inner Sphere SRM 1,"8""",1,5+,-2,"Anti-Tank, Special Ammo"
-Inner Sphere SRM 1 (One Shot),"8""",1,5+,-2,"Anti-Tank, Limited(1)"
-Inner Sphere SRM 2,"8""",2,5+,-2,"Anti-Tank, Special Ammo"
-Inner Sphere SRM 2 (One Shot),"8""",2,5+,-2,"Anti-Tank, Limited(1)"
-Inner Sphere SRM 3,"8""",3,5+,-2,"Anti-Tank, Special Ammo"
-Inner Sphere SRM 3 (One Shot),"8""",3,5+,-2,"Anti-Tank, Limited(1)"
-Inner Sphere SRM 4,"8""",4,5+,-2,"Anti-Tank, Special Ammo"
-Inner Sphere SRM 4 (One Shot),"8""",4,5+,-2,"Anti-Tank, Limited(1)"
-Inner Sphere SRM 5,"8""",5,5+,-2,"Anti-Tank, Special Ammo"
-Inner Sphere SRM 5 (One Shot),"8""",5,5+,-2,"Anti-Tank, Limited(1)"
-Inner Sphere SRM 6,"8""",6,5+,-2,"Anti-Tank, Special Ammo"
-Inner Sphere SRM 6 (One Shot),"8""",6,5+,-2,"Anti-Tank, Limited(1)"
-Inner Sphere Small Laser,"6""",1,4+,-1,Light AT
-Inner Sphere Small Pulse Laser,"6""",1,4+,0,"Light At, Accurate"
-Inner Sphere Small VSP Laser,"6""",1,4+,-1,Variable
-Inner Sphere Tsunami Heavy Gauss Rifle,"8""",,,,
-Laser Rifle (Mauser 960),"8""",,,,
-Mauser IIC IAS Laser Rifle,"8""",,,,
+ER Medium Laser,"12""",1,4+,-2,Anti-Tank
+ER Small Laser,"8""",1,4+,-1,"Accurate, Anti-Tank"
+Firedrake Needler,"4""",3,4+,0,Rapid Fire
+Heavy Machine Gun,"4""",2,5+,-1,"light, rapid fire"
+King David Light Gauss Rifle,"8""",2,4+,-2,"Light, Rapid Fire"
+LRM 2 (One Shot),"4""-20""",1,5+,-2,"Anti-Tank, Limited(1), Special Ammo"
+LRM 3,"4""-20""",2,5+,-2,"Anti-Tank, Special Ammo"
+LRM 5,"4""-20""",3,5+,-2,"Anti-Tank, Special Ammo"
+Magshot Gauss Rifle,"8""",2,5+,-1,"Light, Assault"
+Medium Laser,"8""",1,4+,-2,Anti-Armor
+Medium Pulse Laser,"8""",1,4+,-1,"Anti-Armor, Accurate"
+Medium VSP Laser,"8""",1,4+,-1,"Variable, Anti-Tank"
+Micro Grenade Launcher,"4""",2,5+,-1,"Barrage, Light"
+Plasma Rifle,"14""",3,4+,-1,"Plasma, Light, Ignores Cover"
+SRM 1,"8""",1,5+,-2,"Anti-Tank, Special Ammo"
+SRM 1 (One Shot),"8""",1,5+,-2,"Anti-Tank, Limited(1)"
+SRM 2,"8""",2,5+,-2,"Anti-Tank, Special Ammo"
+SRM 2 (One Shot),"8""",2,5+,-2,"Anti-Tank, Limited(1)"
+SRM 3,"8""",3,5+,-2,"Anti-Tank, Special Ammo"
+SRM 3 (One Shot),"8""",3,5+,-2,"Anti-Tank, Limited(1)"
+SRM 4,"8""",4,5+,-2,"Anti-Tank, Special Ammo"
+SRM 4 (One Shot),"8""",4,5+,-2,"Anti-Tank, Limited(1)"
+SRM 5,"8""",5,5+,-2,"Anti-Tank, Special Ammo"
+SRM 5 (One Shot),"8""",5,5+,-2,"Anti-Tank, Limited(1)"
+SRM 6,"8""",6,5+,-2,"Anti-Tank, Special Ammo"
+SRM 6 (One Shot),"8""",6,5+,-2,"Anti-Tank, Limited(1)"
+Small Laser,"6""",1,4+,-1,Light AT
+Small Pulse Laser,"6""",1,4+,0,"Light At, Accurate"
+Small VSP Laser,"6""",1,4+,-1,Variable
+Tsunami Heavy Gauss Rifle,"8""",1,5+,-2,Light
+Laser Rifle (Mauser 960),"8""",1,5+,-1,"Light, Rapid Fire"
+Mauser IIC IAS Laser Rifle,"8""",2,5+,-1,Light
+Battle Armor Battle Claw,Melee,,,,Shred
+Battle Armor Battle Claw (Magnets),Melee,,,,Shred
+Battle Armor Battle Claw (Vibro),Melee,,,,"Shred, Rend"
+Battle Armor Bearhunter Autocannon,"4""",2,5+,-1,Light AT
+Battle Armor LB-X Autocannon,"8""",2,4+,-1,"Anti-Tank, Special Ammo"
+Clan Heavy Small Laser,"6""",2,4+,-1,Light AT
+Mini-Rocket Pod 1,"4""",1,5+,-1,"Light AT, Limited(1)"
+Mini-Rocket Pod 5,"4""",5,5+,-1,"Light AT, Limited(1)"
+Rocket Launcher 1,"8""",1,5+,-2,"Anti-Tank, Limited(1)"
+Rocket Launcher 2,"8""",2,5+,-2,"Anti-Tank, Limited(1)"
+Rocket Launcher 4,"8""",4,5+,-2,"Anti-Tank, Limited(1)"
+Rocket Launcher 5,"8""",5,5+,-2,"Anti-Tank, Limited(1)"
+Support PPC,"10""",1,4+,-2,"Anti-Tank, Shock Pulse"
+Tube Artillery,"4""-16""",2,4+,-1,"Barrage, Light"

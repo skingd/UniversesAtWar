@@ -173,3 +173,108 @@ The Inner Sphere represents the core factions spread across the outward expansio
 The Clans are a civilization that left the Inner Sphere in self-exile, living for centuries outside of the influence of the Inner Sphere and its political machinations. They developed a strict eugenics program to create a caste of "True Born" warriors. Their bushido-like culture created a new code of honor and conduct called Zellbrigen. By avoiding unregulated warfare and destruction that has plagued the Inner Sphere for centuries, the Clans have been able to make major technological advancements that provide them a substantial edge on the battlefield. However, their rigid social structure and code of honor can also be a weakness, as it can limit their strategic options and make them predictable and fewer in number than their Inner Sphere counterparts.
 
 `CASE` All Clan mechs automatically come equipped with CASE, unless they have CASE II.
+
+## Weapon Types
+
+Weapon types determine how certain equipment and rules interact with weapons, such as Targeting Computers, Artemis systems, and AMS. Every ranged weapon belongs to one of the three types below.
+
+### Ballistic Weapons
+Ballistic weapons use physical projectiles, explosive charges, or unguided rockets to deal damage. They are unaffected by ECM Suites and do not benefit from Artemis systems.
+
+- Assault Rifle
+- Battle Armor Bearhunter Autocannon
+- Battle Armor David Light Gauss Rifle
+- Battle Armor LB-X Autocannon
+- Battle Armor Mine Launcher
+- Clan AP Gauss Rifle
+- Clan Heavy Grenade Launcher
+- Clan Heavy Machine Gun
+- Clan Heavy Mortar
+- Clan Heavy Recoilless Rifle
+- Clan Light Machine Gun
+- Clan Light Mortar
+- Clan Light Recoilless Rifle
+- Clan Machine Gun
+- Clan Medium Recoilless Rifle
+- Clan Micro Bomb
+- Firedrake Needler
+- Heavy Machine Gun
+- King David Light Gauss Rifle
+- Magshot Gauss Rifle
+- Micro Grenade Launcher
+- Mini-Rocket Pod 1
+- Mini-Rocket Pod 5
+- Rocket Launcher 1
+- Rocket Launcher 2
+- Rocket Launcher 4
+- Rocket Launcher 5
+- Tube Artillery
+- Tsunami Heavy Gauss Rifle
+
+### Energy Weapons
+Energy weapons fire concentrated beams of charged particles, photons, or superheated plasma. They never run out of ammunition but may generate significant heat.
+
+- Clan ER Medium Laser
+- Clan ER Medium Pulse Laser
+- Clan ER Micro Laser
+- Clan ER Small Laser
+- Clan ER Small Pulse Laser
+- Clan Flamer
+- Clan Heavy Flamer
+- Clan Heavy Small Laser
+- Clan Light TAG
+- Clan Medium Pulse Laser
+- Clan Micro Pulse Laser
+- Clan Small Laser
+- Clan Small Pulse Laser
+- ER Medium Laser
+- ER Small Laser
+- Laser Rifle (Mauser 960)
+- Mauser IIC IAS Laser Rifle
+- Medium Laser
+- Medium Pulse Laser
+- Medium VSP Laser
+- Plasma Rifle
+- Small Laser
+- Small Pulse Laser
+- Small VSP Laser
+- Support PPC
+
+### Missile Weapons
+Missile weapons fire guided or semi-guided explosive warheads. They interact with Artemis, Narc, INarc, and AMS systems, and can benefit from special ammunition types.
+
+- Clan Advanced SRM 2
+- Clan Advanced SRM 2 (One Shot)
+- Clan Advanced SRM 3
+- Clan Advanced SRM 4 (One Shot)
+- Clan Advanced SRM 5
+- Clan Advanced SRM 6
+- Clan LRM 2 (One Shot)
+- Clan LRM 3
+- Clan LRM 4
+- Clan LRM 5 (One Shot)
+- Clan SRM 1
+- Clan SRM 1 (One Shot)
+- Clan SRM 2
+- Clan SRM 2 (One Shot)
+- Clan SRM 3
+- Clan SRM 3 (One Shot)
+- Clan SRM 4
+- Clan SRM 5
+- Clan SRM 5 (One Shot)
+- Clan SRM 6
+- LRM 2 (One Shot)
+- LRM 3
+- LRM 5
+- SRM 1
+- SRM 1 (One Shot)
+- SRM 2
+- SRM 2 (One Shot)
+- SRM 3
+- SRM 3 (One Shot)
+- SRM 4
+- SRM 4 (One Shot)
+- SRM 5
+- SRM 5 (One Shot)
+- SRM 6
+- SRM 6 (One Shot)
