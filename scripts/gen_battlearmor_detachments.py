@@ -412,7 +412,10 @@ for path in files:
 
     name_raw  = (unit.get("Name") or "").strip()
     model_raw = (unit.get("Model") or "").strip()
-    full_name = f"{name_raw} {model_raw}".strip() if model_raw else name_raw
+    # Strip parenthetical tags like (Interdictor)(Sqd5) — type and squad size
+    # are captured in other fields; keep bracket notation like [ERSPL].
+    model_clean = re.sub(r'\([^)]*\)', '', model_raw).strip()
+    full_name = f"{name_raw} {model_clean}".strip() if model_clean else name_raw
 
     mul_id = (unit.get("mul id:") or "").strip()
     try:
@@ -552,7 +555,7 @@ for path in files:
         },
         "caf":            f"+{caf}",
         "morale":         "3+",
-        "special_rules":  ["Skimmer", f"CAF: +{caf}"],
+        "special_rules":  ["Skimmer"],
     })
 
 # ── Sort & write ──────────────────────────────────────────────────────────────
