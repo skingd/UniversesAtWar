@@ -435,9 +435,9 @@ for path in files:
 
     # ── Detachment size ───────────────────────────────────────────────────────
     if tb == "Clan":
-        det_base, det_max = 5, 10
+        det_base, det_max = 5, 15   # base 5 stars; can upgrade +5 or +10
     else:
-        det_base, det_max = 4, 8
+        det_base, det_max = 4, 12   # base 4 squads; can upgrade +4 or +8
 
     # ── Parse equipment ───────────────────────────────────────────────────────
     eq_lines  = get_equipment(unit)
@@ -526,8 +526,12 @@ for path in files:
         upgrade_size_add = 5
     else:
         upgrade_size_add = 4
-    upgrade_cost = (points * upgrade_size_add) if points else None
-    detachment_size_upgrades = [{"add": upgrade_size_add, "cost": upgrade_cost}]
+    step1_cost = (points * upgrade_size_add)       if points else None
+    step2_cost = (points * upgrade_size_add * 2)   if points else None
+    detachment_size_upgrades = [
+        {"add": upgrade_size_add,     "cost": step1_cost},
+        {"add": upgrade_size_add * 2, "cost": step2_cost},
+    ]
 
     # ── Assemble detachment entry ─────────────────────────────────────────────
     det_id = slugify(full_name)
