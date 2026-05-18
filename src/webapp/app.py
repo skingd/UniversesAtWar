@@ -111,6 +111,9 @@ def create_app() -> Flask:
         if "profiles" not in _render_cache:
             from src.detachments.weapons import load_ammunition_rules, load_weapon_rules
             profiles = {p.name: p for p in load_weapon_rules(_ROOT / "data" / "WeaponRules.csv")}
+            ba_csv = _ROOT / "data" / "reference" / "BattleArmorWeapons.csv"
+            if ba_csv.exists():
+                profiles.update({p.name: p for p in load_weapon_rules(ba_csv)})
             ammo_index = load_ammunition_rules(_ROOT / "data" / "AmmunitionRules.csv")
             _render_cache["profiles"] = profiles
             _render_cache["ammo_index"] = ammo_index
