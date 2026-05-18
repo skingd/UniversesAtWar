@@ -429,15 +429,16 @@ for path in files:
 
     tb = tech_base(unit)
 
-    # ── BV → points ──────────────────────────────────────────────────────────
-    bv = bv_cache.get(mul_id) if mul_id else None
-    points = round(bv / 10) if bv and bv > 0 else None
-
     # ── Detachment size ───────────────────────────────────────────────────────
     if tb == "Clan":
         det_base, det_max = 5, 15   # base 5 stars; can upgrade +5 or +10
     else:
         det_base, det_max = 4, 12   # base 4 squads; can upgrade +4 or +8
+
+    # ── BV → points (total detachment cost, same convention as vehicles) ──────
+    bv = bv_cache.get(mul_id) if mul_id else None
+    per_unit_points = round(bv / 10) if bv and bv > 0 else None
+    points = (per_unit_points * det_base) if per_unit_points else None
 
     # ── Parse equipment ───────────────────────────────────────────────────────
     eq_lines  = get_equipment(unit)
@@ -526,8 +527,8 @@ for path in files:
         upgrade_size_add = 5
     else:
         upgrade_size_add = 4
-    step1_cost = (points * upgrade_size_add)       if points else None
-    step2_cost = (points * upgrade_size_add * 2)   if points else None
+    step1_cost = points                if points else None
+    step2_cost = (points * 2)          if points else None
     detachment_size_upgrades = [
         {"add": upgrade_size_add,     "cost": step1_cost},
         {"add": upgrade_size_add * 2, "cost": step2_cost},
