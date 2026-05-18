@@ -189,14 +189,10 @@ function buildTile(u, inCart) {
         <span class="tile-stat-val">${u.wounds ?? "—"}</span>
         <span class="tile-stat-lbl">W</span>
       </div>
-      ${u.heat_threshold != null ? `<div class="tile-stat">
+      ${u.unit_type === "BattleMech" && u.heat_threshold != null ? `<div class="tile-stat">
         <span class="tile-stat-val">${u.heat_threshold}</span>
         <span class="tile-stat-lbl">HT</span>
       </div>` : ""}
-      <div class="tile-stat">
-        <span class="tile-stat-val">${tonnageStr}</span>
-        <span class="tile-stat-lbl">Tons</span>
-      </div>
     </div>
     <div class="tile-points">${pts}</div>
     <div class="tile-footer">
