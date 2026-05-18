@@ -9,7 +9,7 @@
     "skipped_missing_tonnage": 0,
     "missing_speed_count": 0,
     "missing_speed_samples": [],
-    "unmapped_weapons_count": 75,
+    "unmapped_weapons_count": 72,
     "unmapped_weapons_top": [
       [
         "TAG",
@@ -18,10 +18,6 @@
       [
         "PPC Capacitor",
         61
-      ],
-      [
-        "RL 10",
-        47
       ],
       [
         "Light Auto Cannon/5",
@@ -60,10 +56,6 @@
         14
       ],
       [
-        "RL 15",
-        11
-      ],
-      [
         "Laser Insulator",
         11
       ],
@@ -90,10 +82,6 @@
       [
         "Enhanced LRM 5",
         7
-      ],
-      [
-        "RL 20",
-        6
       ],
       [
         "SRM 2 IOS",
@@ -209,6 +197,18 @@
       ],
       [
         "Improved SRM 6",
+        1
+      ],
+      [
+        "Enhanced ER PPC",
+        1
+      ],
+      [
+        "SRM 2 OS",
+        1
+      ],
+      [
+        "Streak SRM 6 Prototype",
         1
       ]
     ]
@@ -377,15 +377,15 @@
         32
       ],
       [
-        "Light Machine Gun",
-        25
+        "ISMML7",
+        31
       ],
       [
         "Vehicle Flamer",
         23
       ],
       [
-        "Light PPC",
+        "ISMML5",
         23
       ],
       [
@@ -397,7 +397,19 @@
         20
       ],
       [
+        "ISRotaryAC5",
+        18
+      ],
+      [
+        "ISMML9",
+        18
+      ],
+      [
         "ISLRM15",
+        16
+      ],
+      [
+        "ISLightMG",
         16
       ],
       [
@@ -437,7 +449,23 @@
         9
       ],
       [
+        "ISRotaryAC2",
+        9
+      ],
+      [
+        "ISUltraAC20",
+        9
+      ],
+      [
         "Inner Sphere AC/10",
+        8
+      ],
+      [
+        "ISUltraAC5",
+        8
+      ],
+      [
+        "ISUltraAC10",
         8
       ],
       [
@@ -445,7 +473,15 @@
         8
       ],
       [
-        "Heavy PPC",
+        "ISMML3",
+        8
+      ],
+      [
+        "ISERPPC",
+        7
+      ],
+      [
+        "ISMediumXPulseLaser",
         7
       ],
       [
@@ -457,23 +493,7 @@
         6
       ],
       [
-        "Heavy Machine Gun",
-        6
-      ],
-      [
-        "Light PPC:OMNI",
-        6
-      ],
-      [
-        "Light Machine Gun:OMNI",
-        6
-      ],
-      [
         "CLTAG",
-        6
-      ],
-      [
-        "Thunderbolt 5",
         6
       ],
       [
@@ -485,15 +505,11 @@
         5
       ],
       [
-        "Thunderbolt 10",
+        "ISRotaryAC5:OMNI",
         5
       ],
       [
         "ISTAG:OMNI",
-        5
-      ],
-      [
-        "MRM 20",
         5
       ],
       [
@@ -514,10 +530,6 @@
       ],
       [
         "Enhanced LRM 10",
-        4
-      ],
-      [
-        "Extended LRM 10",
         4
       ],
       [
@@ -549,19 +561,7 @@
         3
       ],
       [
-        "CLLightTAG",
-        3
-      ],
-      [
-        "CLTAG:OMNI",
-        3
-      ],
-      [
-        "CLHAG20",
-        3
-      ],
-      [
-        "Medium Re-engineered Laser",
+        "ISMRM20",
         3
       ]
     ]
@@ -643,35 +643,51 @@
         "fallback_movement": "28\""
       }
     ],
-    "unmapped_weapons_count": 45,
+    "unmapped_weapons_count": 46,
     "unmapped_weapons_top": [
       [
-        "Heavy PPC",
+        "ISERPPC",
+        18
+      ],
+      [
+        "ISERPPC:OMNI",
         14
       ],
       [
-        "Light PPC",
+        "ISMML5",
         10
       ],
       [
-        "MRM 10",
-        6
+        "ISMML7:OMNI",
+        9
       ],
       [
-        "Extended LRM 10",
-        6
+        "ISMML7",
+        8
+      ],
+      [
+        "ISMediumXPulseLaser",
+        7
       ],
       [
         "ISSNPPC",
         6
       ],
       [
-        "MRM 40",
+        "ISRotaryAC5",
         6
       ],
       [
         "Large Re-engineered Laser",
         6
+      ],
+      [
+        "ISRotaryAC5:OMNI",
+        6
+      ],
+      [
+        "ISUltraAC10",
+        5
       ],
       [
         "CLHAG40:OMNI",
@@ -686,8 +702,8 @@
         5
       ],
       [
-        "Heavy PPC:OMNI",
-        5
+        "ISUltraAC20",
+        4
       ],
       [
         "PPC Capacitor",
@@ -706,7 +722,7 @@
         4
       ],
       [
-        "MRM 40:OMNI",
+        "ISMML9:OMNI",
         4
       ],
       [
@@ -714,7 +730,7 @@
         3
       ],
       [
-        "Light Machine Gun",
+        "ISLargeXPulseLaser",
         3
       ],
       [
@@ -726,7 +742,7 @@
         2
       ],
       [
-        "Bombast Laser",
+        "ISMML3",
         2
       ],
       [
@@ -742,14 +758,6 @@
         2
       ],
       [
-        "MRM 30",
-        2
-      ],
-      [
-        "Thunderbolt 10:OMNI",
-        2
-      ],
-      [
         "CLHAG40",
         2
       ],
@@ -758,15 +766,15 @@
         2
       ],
       [
+        "ISUltraAC20:OMNI",
+        2
+      ],
+      [
         "ISSRM6OS",
         1
       ],
       [
         "CLMediumChemicalLaser",
-        1
-      ],
-      [
-        "MRM 20",
         1
       ],
       [
@@ -782,15 +790,19 @@
         1
       ],
       [
+        "ISRotaryAC2",
+        1
+      ],
+      [
+        "ISUltraAC5",
+        1
+      ],
+      [
         "Enhanced LRM 5",
         1
       ],
       [
         "ISSRM4IOS",
-        1
-      ],
-      [
-        "Extended LRM 15",
         1
       ],
       [
@@ -806,7 +818,7 @@
         1
       ],
       [
-        "Extended LRM 20",
+        "ISMML5:OMNI",
         1
       ],
       [
@@ -814,15 +826,7 @@
         1
       ],
       [
-        "MRM 20:OMNI",
-        1
-      ],
-      [
-        "MRM 10:OMNI",
-        1
-      ],
-      [
-        "MRM 30:OMNI",
+        "ISUltraAC5:OMNI",
         1
       ]
     ]

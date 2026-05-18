@@ -20,6 +20,7 @@ DETACHMENTS = ROOT / "output" / "detachments"
 _META_FIELDS = {
     "id", "name", "unit_type", "tier", "tech_base", "era",
     "tonnage", "points", "armor_save", "movement", "wounds", "heat_threshold",
+    "caf", "morale",
 }
 
 _UNIT_FILES = {

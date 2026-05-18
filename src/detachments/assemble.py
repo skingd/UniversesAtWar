@@ -95,6 +95,34 @@ class Coverage:
 _HS_HEADER_RE = re.compile(r"(\d+)\s+(single|double)", re.IGNORECASE)
 
 
+def _has_hand_actuator(record: dict) -> bool:
+    """Return True if the mech's equipment list includes a Hand Actuator."""
+    refs = record.get("raw_equipment_refs") or []
+    return any(str(r).strip().lower() == "hand actuator" for r in refs)
+
+
+def _caf(record: dict, unit_type: str) -> str:
+    """Return the Close Assault Factor string for this unit type."""
+    ut = unit_type.lower()
+    if ut == "mech":
+        return "+8" if _has_hand_actuator(record) else "+4"
+    if ut == "vehicle":
+        return "+2"
+    if ut == "aerospace":
+        return "+0"
+    return "+0"
+
+
+def _morale(unit_type: str, tech_base: str) -> str:
+    """Return the Morale value string for this unit type and tech base."""
+    ut = unit_type.lower()
+    if ut == "mech":
+        return "1+"
+    if ut in ("vehicle", "aerospace"):
+        return "4+" if tech_base == "Clan" else "3+"
+    return "3+"
+
+
 def _heat_threshold(record: dict, unit_type: str) -> Optional[int]:
     """Return ceil(dissipation / 4) for mechs; None for everything else.
 
@@ -457,6 +485,8 @@ def build_detachment(
             "special_ammo": special_ammo,
             "detachment_size": size_upgrades,
         },
+        "caf": _caf(record, unit_type),
+        "morale": _morale(unit_type, tech_base),
         "special_rules": special_rules,
         "source_path": record.get("source_path"),
     }

@@ -550,6 +550,8 @@ for path in files:
             "special_ammo":    special_ammo,
             "detachment_size": detachment_size_upgrades,
         },
+        "caf":            f"+{caf}",
+        "morale":         "3+",
         "special_rules":  ["Skimmer", f"CAF: +{caf}"],
     })
 

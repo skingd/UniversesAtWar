@@ -178,6 +178,14 @@ function buildTile(u, inCart) {
         <span class="tile-stat-lbl">Save</span>
       </div>
       <div class="tile-stat">
+        <span class="tile-stat-val">${esc(u.caf || "—")}</span>
+        <span class="tile-stat-lbl">CAF</span>
+      </div>
+      <div class="tile-stat">
+        <span class="tile-stat-val">${esc(u.morale || "—")}</span>
+        <span class="tile-stat-lbl">Morale</span>
+      </div>
+      <div class="tile-stat">
         <span class="tile-stat-val">${u.wounds ?? "—"}</span>
         <span class="tile-stat-lbl">W</span>
       </div>
