@@ -16,7 +16,7 @@ const state = {
 // Filter state
 const filters = {
   name: "",
-  types: new Set(["BattleMech", "Vehicle", "Aerospace"]),
+  types: new Set(["BattleMech", "Vehicle", "Aerospace", "Battle Armor"]),
   techs: new Set(["Inner Sphere", "Clan"]),
   era: "",
   tonnageMin: 0,
@@ -564,7 +564,7 @@ function bindEvents() {
 // ------------------------------------------------------------------
 function resetFilters() {
   filters.name = "";
-  filters.types = new Set(["BattleMech", "Vehicle", "Aerospace"]);
+  filters.types = new Set(["BattleMech", "Vehicle", "Aerospace", "Battle Armor"]);
   filters.techs = new Set(["Inner Sphere", "Clan"]);
   filters.era = "";
   filters.tonnageMin = 0; filters.tonnageMax = 600;

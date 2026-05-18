@@ -150,6 +150,14 @@ def main() -> None:
     )
     print(f"  Wrote {len(aerospace)} aerospace entries")
 
+    print("Building units-battlearmor.json...")
+    battlearmor = [u for u in units if (u.get("unit_type") or "").lower() == "battle armor"]
+    (OUTPUT / "units-battlearmor.json").write_text(
+        json.dumps(battlearmor, ensure_ascii=False, separators=(",", ":")),
+        encoding="utf-8",
+    )
+    print(f"  Wrote {len(battlearmor)} battle armor entries")
+
     print("Building weapons.json...")
     weapons = _load_weapons()
     (OUTPUT / "weapons.json").write_text(

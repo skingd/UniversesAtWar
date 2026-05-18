@@ -42,7 +42,7 @@ def create_app() -> Flask:
 
     @app.route("/data/units/<unit_type>.json")
     def units_by_type(unit_type: str) -> Response:
-        allowed = {"mech", "vehicle", "aerospace"}
+        allowed = {"mech", "vehicle", "aerospace", "battlearmor"}
         if unit_type not in allowed:
             abort(404)
         path = _WEBAPP_DATA / f"units-{unit_type}.json"
@@ -128,7 +128,7 @@ def create_app() -> Flask:
 
         # Build id → record lookup from all unit files
         lookup: dict[str, dict] = {}
-        for unit_type in ("mech", "vehicle", "aerospace"):
+        for unit_type in ("mech", "vehicle", "aerospace", "battlearmor"):
             path = _WEBAPP_DATA / f"units-{unit_type}.json"
             if path.exists():
                 for rec in json.loads(path.read_text(encoding="utf-8")):
