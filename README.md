@@ -3,7 +3,7 @@
 You can find the website with all the detachments and rules: https://universesatwar.magnaverse.net/
 
 A Python toolkit that translates BattleTech units into *Legions Imperialis*-style stat blocks and unit cards, enabling BattleTech mechs, vehicles, aerospace fighters, and infantry to be used in the *Universes at War* fan ruleset.
-
+ 
 ## Requirements
 
 - Python 3.11+

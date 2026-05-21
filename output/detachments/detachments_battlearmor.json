@@ -21447,7 +21447,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 1",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -21505,7 +21511,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 1",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -21563,7 +21575,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 1",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -22223,7 +22241,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 1",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -22289,7 +22313,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 1",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -22355,7 +22385,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 1",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -26303,7 +26339,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -26353,7 +26395,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -26403,7 +26451,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -31087,7 +31141,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 1",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -31153,7 +31213,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 1",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -31219,7 +31285,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 1",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -31493,7 +31565,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 3",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -31551,7 +31629,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 3",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -31609,7 +31693,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 3",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -32089,7 +32179,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -32155,7 +32251,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -32221,7 +32323,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -32437,7 +32545,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -32503,7 +32617,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -32569,7 +32689,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -32635,7 +32761,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 5",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -32701,7 +32833,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 5",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -32767,7 +32905,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 5",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -32833,7 +32977,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -32899,7 +33049,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -32965,7 +33121,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -33023,7 +33185,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 5",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -33081,7 +33249,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 5",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -33139,7 +33313,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 5",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -33205,7 +33385,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -33271,7 +33457,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -33337,7 +33529,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -33601,7 +33799,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -33667,7 +33871,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -33733,7 +33943,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -35417,7 +35633,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 5",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 5",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 5",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -35483,7 +35715,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 5",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 5",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 5",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -35549,7 +35797,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 5",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 5",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 5",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -40917,7 +41181,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -40975,7 +41245,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -41033,7 +41309,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -48747,7 +49029,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 3",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -48813,7 +49101,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 3",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -48879,7 +49173,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 3",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -49511,7 +49811,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 2",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -49569,7 +49875,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 2",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -49627,7 +49939,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 2",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -49685,7 +50003,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 2",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -49743,7 +50067,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 2",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -49801,7 +50131,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 2",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -50721,7 +51057,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -50795,7 +51137,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -50869,7 +51217,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -50935,7 +51289,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -51001,7 +51361,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -51067,7 +51433,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -55447,7 +55819,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 3",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 3",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 3",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -55513,7 +55901,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 3",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 3",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 3",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -55579,7 +55983,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 3",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 3",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 3",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -59253,7 +59673,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -59303,7 +59729,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,
@@ -59353,7 +59785,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 4,

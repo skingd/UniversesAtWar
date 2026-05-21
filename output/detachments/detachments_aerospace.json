@@ -289,7 +289,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 6",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -354,7 +360,18 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "AP",
+          "weapon_name": "AC/10",
+          "points": 10
+        },
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 2",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -438,7 +455,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 10",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 10",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 10",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -512,7 +545,18 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "AP",
+          "weapon_name": "AC/10",
+          "points": 10
+        },
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -734,7 +778,18 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "AP",
+          "weapon_name": "AC/10",
+          "points": 10
+        },
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -919,7 +974,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -974,7 +1035,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -1158,7 +1225,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -1213,7 +1286,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 5",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 5",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 5",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -1368,7 +1457,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 6",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -1423,7 +1518,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "AP",
+          "weapon_name": "AC/20",
+          "points": 10
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -1496,7 +1597,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 5",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 5",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 5",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -1560,7 +1677,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 5",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 5",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 5",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -1636,7 +1769,28 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 2",
+          "points": 5
+        },
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 5",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 5",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 5",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -1710,7 +1864,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -1784,7 +1944,28 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 2",
+          "points": 5
+        },
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 5",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 5",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 5",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -1858,7 +2039,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "AP",
+          "weapon_name": "AC/5",
+          "points": 10
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -1965,7 +2152,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -2033,7 +2226,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -4111,7 +4310,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 2",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -4185,7 +4390,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 10",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 10",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 10",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -4259,7 +4480,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 10",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 10",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 10",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -4448,7 +4685,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 15",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -4950,7 +5203,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 15",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -5520,7 +5789,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "AP",
+          "weapon_name": "AC/20",
+          "points": 10
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -5613,7 +5888,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "AP",
+          "weapon_name": "AC/20",
+          "points": 10
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -5880,7 +6161,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 2",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -6538,7 +6825,18 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Cluster",
+          "weapon_name": "Arrow IV",
+          "points": 10
+        },
+        {
+          "ammo_name": "Homing",
+          "weapon_name": "Arrow IV",
+          "points": 10
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -6958,7 +7256,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Cluster",
+          "weapon_name": "Long Tom Cannon",
+          "points": 10
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -7424,7 +7728,28 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 6",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -8780,7 +9105,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 6",
+          "points": 5
+        }
+      ],
       "detachment_size": []
     },
     "caf": "+0",
@@ -9159,7 +9490,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -9402,7 +9739,28 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 6",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -9506,7 +9864,28 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 6",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -9610,7 +9989,28 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 6",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -9742,7 +10142,28 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 6",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -10314,7 +10735,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 6",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -10418,7 +10845,28 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 6",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -10522,7 +10970,28 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 6",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -10616,7 +11085,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 20",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -10710,7 +11195,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 20",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -10880,7 +11381,33 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "AP",
+          "weapon_name": "AC/20",
+          "points": 10
+        },
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 10",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 10",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 10",
+          "points": 5
+        },
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 6",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -10963,7 +11490,18 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "AP",
+          "weapon_name": "AC/20",
+          "points": 10
+        },
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 6",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -11047,7 +11585,33 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "AP",
+          "weapon_name": "AC/20",
+          "points": 10
+        },
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 10",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 10",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 10",
+          "points": 5
+        },
+        {
+          "ammo_name": "AP",
+          "weapon_name": "AC/5",
+          "points": 10
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -11131,7 +11695,33 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "AP",
+          "weapon_name": "AC/20",
+          "points": 10
+        },
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 10",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 10",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 10",
+          "points": 5
+        },
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 6",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -11204,7 +11794,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 6",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -11290,7 +11886,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 10",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 10",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 10",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -11438,7 +12050,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -12708,7 +13326,28 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -12802,7 +13441,18 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "AP",
+          "weapon_name": "AC/2",
+          "points": 10
+        },
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -12896,7 +13546,28 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -13063,7 +13734,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -13302,7 +13979,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "AP",
+          "weapon_name": "AC/10",
+          "points": 10
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -13404,7 +14087,28 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 6",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -13506,7 +14210,28 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 6",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -13608,7 +14333,28 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 6",
+          "points": 5
+        },
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 15",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -13989,7 +14735,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 2",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -14322,7 +15074,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "AP",
+          "weapon_name": "AC/5",
+          "points": 10
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -14517,7 +15275,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 10",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 10",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 10",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -14703,7 +15477,28 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 6",
+          "points": 5
+        },
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 20",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -14833,7 +15628,28 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 6",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -14929,7 +15745,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 20",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -15051,7 +15883,28 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -15154,7 +16007,28 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -15676,7 +16550,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "AP",
+          "weapon_name": "AC/20",
+          "points": 10
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -15962,7 +16842,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "AP",
+          "weapon_name": "AC/20",
+          "points": 10
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -16017,7 +16903,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "AP",
+          "weapon_name": "AC/20",
+          "points": 10
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -24066,7 +24958,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 6",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -24233,7 +25131,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "AP",
+          "weapon_name": "AC/10",
+          "points": 10
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -25127,7 +26031,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 6",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -25531,7 +26441,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "AP",
+          "weapon_name": "AC/10",
+          "points": 10
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -25623,7 +26539,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "AP",
+          "weapon_name": "AC/20",
+          "points": 10
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -26114,7 +27036,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "AP",
+          "weapon_name": "AC/20",
+          "points": 10
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -26623,7 +27551,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 20",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -26743,7 +27687,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 15",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -26857,7 +27817,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "AP",
+          "weapon_name": "AC/10",
+          "points": 10
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -26970,7 +27936,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 20",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -27065,7 +28047,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 15",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -27158,7 +28156,28 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "AP",
+          "weapon_name": "AC/10",
+          "points": 10
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -27251,7 +28270,38 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 20",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -27344,7 +28394,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 10",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 10",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 10",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -27449,7 +28515,18 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 6",
+          "points": 5
+        },
+        {
+          "ammo_name": "AP",
+          "weapon_name": "AC/10",
+          "points": 10
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -27552,7 +28629,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 6",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -27655,7 +28738,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 6",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -28516,7 +29605,18 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Cluster",
+          "weapon_name": "Arrow IV",
+          "points": 10
+        },
+        {
+          "ammo_name": "Homing",
+          "weapon_name": "Arrow IV",
+          "points": 10
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -29872,7 +30972,18 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 6",
+          "points": 5
+        },
+        {
+          "ammo_name": "AP",
+          "weapon_name": "AC/10",
+          "points": 10
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -30144,7 +31255,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -30201,7 +31318,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 5",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 5",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 5",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -30259,7 +31392,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -31473,6 +32612,11 @@
     "upgrade_options": {
       "special_ammo": [
         {
+          "ammo_name": "Cluster",
+          "weapon_name": "Long Tom Cannon",
+          "points": 10
+        },
+        {
           "ammo_name": "Precision",
           "weapon_name": "Clan Ultra AC/20",
           "points": 10
@@ -31568,7 +32712,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 15",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -32311,7 +33471,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 20",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -33154,7 +34330,28 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 6",
+          "points": 5
+        },
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 15",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -34852,6 +36049,26 @@
           "ammo_name": "Explosive",
           "weapon_name": "Clan Narc Missile Beacon",
           "points": 5
+        },
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 6",
+          "points": 5
         }
       ],
       "detachment_size": [
@@ -34965,7 +36182,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 15",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -35124,7 +36357,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 6",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -35211,7 +36450,28 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "AP",
+          "weapon_name": "AC/20",
+          "points": 10
+        },
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 20",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -35297,7 +36557,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 15",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -35569,7 +36845,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 15",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -36188,7 +37480,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 15",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -37972,7 +39280,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 10",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 10",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 10",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -39598,7 +40922,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 6",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -40141,7 +41471,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 2",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -40520,7 +41856,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 15",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -40624,7 +41976,28 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 6",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -40784,7 +42157,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 10",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 10",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 10",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -40889,7 +42278,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -40982,7 +42377,33 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        },
+        {
+          "ammo_name": "AP",
+          "weapon_name": "AC/5",
+          "points": 10
+        },
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 20",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -41132,7 +42553,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 10",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 10",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 10",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -41453,7 +42890,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 6",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -41558,7 +43001,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 10",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 10",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 10",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -41642,7 +43101,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 20",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -42036,7 +43511,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 15",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -42206,7 +43697,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 20",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -42637,6 +44144,26 @@
           "ammo_name": "Explosive",
           "weapon_name": "Clan Narc Missile Beacon",
           "points": 5
+        },
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 6",
+          "points": 5
         }
       ],
       "detachment_size": [
@@ -42913,7 +44440,28 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 20",
+          "points": 5
+        },
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 6",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -43026,7 +44574,28 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 4",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -43138,7 +44707,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 15",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -43250,7 +44835,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 15",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -43362,7 +44963,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 15",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -43474,7 +45091,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 6",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -43529,7 +45152,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "AP",
+          "weapon_name": "AC/20",
+          "points": 10
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -44136,7 +45765,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 6",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -44219,7 +45854,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 6",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -44387,7 +46028,28 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "AP",
+          "weapon_name": "AC/20",
+          "points": 10
+        },
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 10",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 10",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 10",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -44545,7 +46207,28 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "AP",
+          "weapon_name": "AC/20",
+          "points": 10
+        },
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 10",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 10",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 10",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -44610,7 +46293,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 10",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 10",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 10",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -44760,7 +46459,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 15",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 15",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -44843,7 +46558,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno",
+          "weapon_name": "SRM 6",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -46092,7 +47813,23 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 10",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 10",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 10",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -46406,7 +48143,13 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "AP",
+          "weapon_name": "AC/20",
+          "points": 10
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
@@ -46480,7 +48223,28 @@
       }
     ],
     "upgrade_options": {
-      "special_ammo": [],
+      "special_ammo": [
+        {
+          "ammo_name": "AP",
+          "weapon_name": "AC/2",
+          "points": 10
+        },
+        {
+          "ammo_name": "Inferno-IV",
+          "weapon_name": "LRM 10",
+          "points": 5
+        },
+        {
+          "ammo_name": "Swarm",
+          "weapon_name": "LRM 10",
+          "points": 5
+        },
+        {
+          "ammo_name": "Semi-Guided",
+          "weapon_name": "LRM 10",
+          "points": 5
+        }
+      ],
       "detachment_size": [
         {
           "add": 1,
